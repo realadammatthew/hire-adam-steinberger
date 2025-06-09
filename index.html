@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adam Matthew Steinberger | Senior Software Engineering Consultant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f9f9fb;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #111827;
+      color: white;
+      padding: 0;
+      text-align: center;
+      position: relative;
+      min-height: 0;
+    }
+    header img.banner {
+      width: 100%;
+      aspect-ratio: unset;
+      min-height: 340px;
+      max-height: none;
+      height: 420px;
+      object-fit: cover;
+      display: block;
+      background: #111827;
+      transition: height 0.2s;
+    }
+    header img.profile {
+      position: absolute;
+      top: 50%;
+      left: 3vw;
+      width: 22vw;
+      height: 22vw;
+      min-width: 90px;
+      min-height: 90px;
+      max-width: 210px;
+      max-height: 210px;
+      border-radius: 50%;
+      border: 7px solid #fff;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+      background: #fff;
+      object-fit: cover;
+      z-index: 2;
+      transition: width 0.2s, height 0.2s, left 0.2s;
+      transform: translateY(-50%);
+    }
+    @media (max-width: 900px) {
+      header img.banner {
+        height: 38vw;
+        min-height: 130px;
+        max-height: 180px;
+      }
+      header img.profile {
+        width: 14vw;
+        height: 14vw;
+        min-width: 70px;
+        min-height: 70px;
+        max-width: 130px;
+        max-height: 130px;
+        border-width: 4px;
+        left: 2vw;
+      }
+    }
+    @media (max-width: 600px) {
+      header img.banner {
+        height: 44vw;
+        min-height: 90px;
+        max-height: 120px;
+      }
+      header img.profile {
+        width: 22vw;
+        height: 22vw;
+        min-width: 90px;
+        min-height: 90px;
+        max-width: 140px;
+        max-height: 140px;
+        border-width: 3px;
+        top: 10px;
+        left: 10px;
+        transform: none;
+      }
+    }
+    .intro {
+      text-align: center;
+      padding: 2rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2 {
+      margin-bottom: 0.5rem;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #f3f4f6;
+      font-size: 0.9rem;
+    }
+    form input, form textarea {
+      display: block;
+      width: 100%;
+      margin: 0.5rem 0;
+      padding: 0.75rem;
+      font-size: 1rem;
+    }
+    form button {
+      background: #111827;
+      color: white;
+      padding: 0.75rem 1.25rem;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="./banner.png" alt="Professional Banner" class="banner" />
+    <img src="./profile-picture.jpg" alt="Adam Steinberger" class="profile" />
+  </header>
+
+  <div class="intro">
+    <h1>Adam Matthew Steinberger</h1>
+    <h2>Senior Software Engineering Consultant</h2>
+    <h3>Backend, Cloud & AI Development</h3>
+    <a class="cta" href="mailto:adam@matthewsteinberger.com">Let's Talk</a>
+  </div>
+
+  <section>
+    <h2>What I Do</h2>
+    <ul>
+      <li>✅ Custom AI integrations (LLMs, RAG, automation)</li>
+      <li>✅ Backend APIs & serverless architectures</li>
+      <li>✅ Infrastructure, privacy-first systems, blockchain nodes</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Sample Work</h2>
+    <p>Try my AI chatbot demo: <a href="https://chat.adam.matthewsteinberger.com" target="_blank">chat.adam.matthewsteinberger.com</a></p>
+  </section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <form name="contact" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="What do you need help with?" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    © Copyright 2025 <a href="https://hire.adam.matthewsteinberger.com">Adam Matthew Steinberger LLC</a>. All Rights Reserved.
+  </footer>
+</body>
+</html>
