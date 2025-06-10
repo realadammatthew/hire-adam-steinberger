@@ -412,7 +412,11 @@ footer {
     background: #10141a !important;
     color: #e5e7eb !important;
   }
-  .container, .header-intro-bg, .alert, .card, .shadow-lg {
+  .container, .header-intro-bg {
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+  .alert, .card, .shadow-lg {
     background: #181e28 !important;
     color: #e5e7eb !important;
     box-shadow: 0 0 24px 4px #0a0f18, 0 0 8px 2px #222a36 !important;
