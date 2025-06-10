@@ -404,6 +404,9 @@ footer {
     background: #222c37 !important; /* Use a dark background for mobile header */
     color: #fff !important;
   }
+  .header-contact-block {
+    display: none !important;
+  }
 }
 
 /* Dark mode styles */
