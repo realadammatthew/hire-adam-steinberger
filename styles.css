@@ -152,6 +152,7 @@ header {
     header {
     min-height: 0 !important;
     height: auto !important;
+    padding-top: 0 !important;
     }
     .banner {
     display: none !important;
@@ -323,5 +324,71 @@ footer {
   .header-contact-block .d-flex {
     flex-direction: row !important;
     gap: 0.5rem !important;
+  }
+}
+/* --- MOBILE FIX: unify breakpoints, remove conflicting .profile margin, ensure compact header --- */
+@media (max-width: 768px), (max-width: 767.98px) {
+  header {
+    min-height: 0 !important;
+    height: auto !important;
+    padding-top: 0 !important;
+  }
+  .banner {
+    display: none !important;
+  }
+  .header-intro-bg {
+    position: static !important;
+    width: 100vw !important;
+    height: auto !important;
+    min-width: 0 !important;
+    max-width: 100vw !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    padding: 1rem 0.5rem 0.5rem 0.5rem !important;
+    box-sizing: border-box;
+    display: block !important;
+    background: #fff !important;
+    box-shadow: none !important;
+    color: #222 !important;
+  }
+  .profile {
+    width: 120px !important;
+    height: 120px !important;
+    margin: 0.5rem auto 1rem auto !important;
+    display: block !important;
+    float: none !important;
+    border: 4px solid #fff !important;
+    background: #fff !important;
+  }
+  .header-contact-block .btn {
+    width: 100% !important;
+    text-align: left !important;
+    font-size: 1.08rem !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+  }
+  .header-contact-block .d-flex {
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+  }
+}
+@media (max-width: 480px) {
+  .header-intro-bg {
+    padding: 0.7rem 0.1rem !important;
+  }
+  .profile {
+    width: 90px !important;
+    height: 90px !important;
+  }
+  .header-contact-block .btn[title="Email"] {
+    font-size: 0.8rem !important;
+  }
+}
+@media (max-width: 768px), (max-width: 767.98px) {
+  .header-intro-bg {
+    background: #222c37 !important; /* Use a dark background for mobile header */
+    color: #fff !important;
   }
 }
