@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Adam Matthew Steinberger | Senior Software Engineering Consultant</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="header.css" rel="stylesheet">
   <style>
     body {
       font-family: 'Inter', sans-serif;
@@ -33,9 +34,9 @@
       transition: height 0.2s;
     }
     header img.profile {
-      position: absolute;
-      top: 50%;
-      left: 3vw;
+      position: static;
+      top: unset;
+      left: unset;
       width: 22vw;
       height: 22vw;
       min-width: 90px;
@@ -49,7 +50,7 @@
       object-fit: cover;
       z-index: 2;
       transition: width 0.2s, height 0.2s, left 0.2s;
-      transform: translateY(-50%);
+      transform: none;
     }
     @media (max-width: 900px) {
       header img.banner {
@@ -87,9 +88,57 @@
         transform: none;
       }
     }
-    .intro {
-      text-align: center;
+    .header-content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
       padding: 2rem;
+    }
+    .header-profile {
+      margin-right: 2rem;
+    }
+    .header-intro {
+      text-align: left;
+    }
+    .header-contact-block {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+    .header-contact-main {
+      margin-bottom: 0.5rem;
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 0.5rem;
+      align-items: center;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    .header-contact-links {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 0.5rem;
+      align-items: center;
+      margin-top: 0.2rem;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    .contact-btn {
+      background: #2563eb;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 0.375rem;
+      cursor: pointer;
+      font-size: 0.9rem;
+      display: inline-flex;
+      align-items: center;
+      transition: background 0.2s;
+      min-width: 0;
+    }
+    .contact-btn:hover {
+      background: #3b82f6;
     }
     section {
       padding: 2rem;
@@ -135,15 +184,29 @@
 <body>
   <header>
     <img src="./banner.png" alt="Professional Banner" class="banner" />
-    <img src="./profile-picture.jpg" alt="Adam Steinberger" class="profile" />
+    <div class="header-content">
+      <div class="header-profile">
+        <img src="./profile-picture.jpg" alt="Adam Steinberger" class="profile" />
+      </div>
+      <div class="header-intro">
+        <h1>Adam Matthew Steinberger</h1>
+        <h2>Senior Software Engineering Consultant</h2>
+        <h3>Backend, Cloud & AI Software Architecture and Development</h3>
+        <div class="header-contact-block">
+          <div class="header-contact-main">
+            <button onclick="window.open('https://www.google.com/maps/place/City+of+Wake+Forest,+NC,+USA','_blank')" class="contact-btn" title="Map">📍 Wake Forest, NC USA</button>
+            <button onclick="window.open('tel:+18645174117')" class="contact-btn" title="Call">📱 +1-864-517-4117</button>
+            <button onclick="window.open('mailto:adam@matthewsteinberger.com')" class="contact-btn" title="Email">📪 adam@matthewsteinberger.com</button>
+          </div>
+          <div class="header-contact-links">
+            <button onclick="window.open('https://github.com/realadammatthew','_blank')" class="contact-btn" title="GitHub"><span style="display:inline-flex;align-items:center;"><img src="https://myoctocat.com/assets/images/GitHub-logo.svg" style="height:1.2em;width:1.2em;vertical-align:middle;margin-right:0.3em;" alt="GitHub logo"/></span>@realadammatthew</button>
+            <button onclick="window.open('https://x.com/realadammatthew','_blank')" class="contact-btn" title="X">𝕏 @realadammatthew</button>
+            <button onclick="window.open('https://coff.ee/realadammatthew','_blank')" class="contact-btn" title="Buy Me a Coffee">☕ @realadammatthew</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
-
-  <div class="intro">
-    <h1>Adam Matthew Steinberger</h1>
-    <h2>Senior Software Engineering Consultant</h2>
-    <h3>Backend, Cloud & AI Development</h3>
-    <a class="cta" href="mailto:adam@matthewsteinberger.com">Let's Talk</a>
-  </div>
 
   <section>
     <h2>What I Do</h2>
