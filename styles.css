@@ -352,13 +352,23 @@ footer {
     color: #222 !important;
   }
   .profile {
-    width: 120px !important;
-    height: 120px !important;
-    margin: 0.5rem auto 1rem auto !important;
+    width: 260px !important;
+    height: 260px !important;
+    margin: 0 auto 0 !important;
     display: block !important;
-    float: none !important;
-    border: 4px solid #fff !important;
-    background: #fff !important;
+  }
+  .header-intro-bg {
+    text-align: center !important;
+  }
+  .header-intro-bg .container, .header-intro-bg .row, .header-intro-bg .col {
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+  .header-intro-bg h1, .header-intro-bg h2, .header-intro-bg h3, .header-intro-bg p {
+    text-align: center !important;
+    margin-top: 0 !important;
+    margin-bottom: 0.5rem !important;
   }
   .header-contact-block .btn {
     width: 100% !important;
@@ -387,6 +397,9 @@ footer {
   }
 }
 @media (max-width: 768px), (max-width: 767.98px) {
+  .header-contact-block .btn[title="Email"] {
+    font-size: 1.08rem !important;
+  }
   .header-intro-bg {
     background: #222c37 !important; /* Use a dark background for mobile header */
     color: #fff !important;
