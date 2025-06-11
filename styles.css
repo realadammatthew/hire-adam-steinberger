@@ -470,9 +470,11 @@ footer {
   /* Gold CTA button in dark mode */
   .btn[style*="FFD700"], .btn[style*="FFA500"] {
     background: linear-gradient(90deg, #FFD700 0%, #FFA500 100%) !important;
-    color: #b45309 !important;
-    box-shadow: 0 0 32px 8px #FFD700, 0 0 12px 2px #181e28 !important;
-    text-shadow: 0 2px 8px #181e28, 0 0 2px #FFA500 !important;
+    color: #2d1a00 !important; /* nearly black for max contrast */
+    font-weight: 900 !important;
+    text-shadow: none !important;
+    letter-spacing: 0.01em;
+    filter: none !important;
   }
   .text-secondary {
     color: #a3a3a3 !important;
