@@ -552,6 +552,31 @@ footer {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-weight: 900;
+  font-size: 3rem;
+  letter-spacing: -0.01em;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.25em;
+}
+.headline-gradient::after {
+  content: '';
+  display: block;
+  width: 60%;
+  height: 5px;
+  margin: 0.25em auto 0 auto;
+  background: linear-gradient(90deg, #FFD700 0%, #FFA500 100%);
+  border-radius: 2px;
+  opacity: 0.85;
+}
+@media (max-width: 768px) {
+  .headline-gradient {
+    font-size: 2rem !important;
+  }
+  .headline-gradient::after {
+    height: 3px;
+    width: 70%;
+  }
 }
 
 /* Custom alert box */
