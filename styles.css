@@ -406,7 +406,6 @@ footer {
     display: none !important;
   }
 }
-
 @media (prefers-color-scheme: dark) {
   body {
     background: #10141a !important;
@@ -476,7 +475,6 @@ footer {
     color: #a3a3a3 !important;
   }
 }
-
 .headline-gradient {
   background: none;
   color: #ffe600;
@@ -494,4 +492,58 @@ footer {
   text-shadow:
     0 4px 16px #fff,
     0 2px 8px #ffe600cc;
+}
+a.btn[style*="background: linear-gradient(90deg, #FFD700 0%, #FFA500 100%)"] {
+  transition: transform 0.18s cubic-bezier(.4,2,.6,1), box-shadow 0.18s cubic-bezier(.4,2,.6,1);
+  will-change: transform, box-shadow;
+}
+a.btn[style*="background: linear-gradient(90deg, #FFD700 0%, #FFA500 100%)"]:hover,
+a.btn[style*="background: linear-gradient(90deg, #FFD700 0%, #FFA500 100%)"]:focus {
+  transform: scale(1.06) rotate(-1deg);
+  box-shadow: 0 0 48px 16px #FFD700, 0 0 24px 4px #FFA500, 0 0 16px 2px #fff;
+  text-shadow: 0 4px 16px #fff, 0 0 4px #FFD700;
+  z-index: 2;
+}
+h2.fw-bold.headline-gradient {
+  background: linear-gradient(90deg, #fffbe6 0%, #ffe066 20%, #FFD700 40%, #FFA500 60%, #FFD700 80%, #fffbe6 100%);
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-shadow: none !important;
+  filter: none !important;
+  transition: transform 0.22s cubic-bezier(.4,2,.6,1), background-position 1.2s cubic-bezier(.4,2,.6,1);
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+h2.fw-bold.headline-gradient:hover, h2.fw-bold.headline-gradient:focus {
+  background-position: 100% 0;
+  transform: scale(1.08) rotate(-1deg);
+}
+h2.fw-bold.headline-gradient::after {
+  content: '';
+  position: absolute;
+  left: -30%;
+  top: 0;
+  width: 60%;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(120deg, transparent 0%, #fffbe6 40%, #FFD700 50%, #fffbe6 60%, transparent 100%);
+  opacity: 0;
+  transition: opacity 0.3s, left 0.7s;
+  z-index: 2;
+}
+h2.fw-bold.headline-gradient:hover::after, h2.fw-bold.headline-gradient:focus::after {
+  opacity: 0.7;
+  left: 100%;
+  transition: opacity 0.2s, left 0.7s;
+}
+@media (max-width: 991.98px) {
+  .header-contact-block {
+    display: none !important;
+  }
 }
