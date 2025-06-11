@@ -1,4 +1,3 @@
-/* Cleaned up for Bootstrap layout */
 body {
   font-family: 'Inter', sans-serif;
   background: #f9f9fb;
@@ -115,49 +114,49 @@ footer {
   font-size: 0.9rem;
 }
 body {
-    font-family: 'Inter', sans-serif;
-    background: #f9f9fb;
-    color: #333;
+  font-family: 'Inter', sans-serif;
+  background: #f9f9fb;
+  color: #333;
 }
 header {
-    background: #111827;
-    color: white;
-    position: relative;
-    overflow: hidden;
-    padding: 0;
+  background: #111827;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
 }
 .banner {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    min-height: 340px;
-    max-height: 420px;
-    z-index: 1;
-    display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  min-height: 340px;
+  max-height: 420px;
+  z-index: 1;
+  display: block;
 }
 .profile {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 4px solid #fff;
-    background: #fff;
-    margin-top: -60px;
-    margin-bottom: 1rem;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  background: #fff;
+  margin-top: -60px;
+  margin-bottom: 1rem;
 }
 @media (max-width: 768px) {
-    header {
+  header {
     min-height: 0 !important;
     height: auto !important;
     padding-top: 0 !important;
-    }
-    .banner {
+  }
+  .banner {
     display: none !important;
-    }
-    .header-intro-bg {
+  }
+  .header-intro-bg {
     position: static !important;
     width: 100vw !important;
     height: auto !important;
@@ -168,8 +167,8 @@ header {
     padding: 1.2rem 0.5rem !important;
     box-sizing: border-box;
     display: block !important;
-    }
-    .header-float, .header-intro-bg.d-flex {
+  }
+  .header-float, .header-intro-bg.d-flex {
     display: block !important;
     position: static !important;
     top: unset !important;
@@ -178,20 +177,20 @@ header {
     width: 100vw !important;
     margin: 0 !important;
     z-index: 2 !important;
-    }
-    .profile {
+  }
+  .profile {
     width: 130px !important;
     height: 130px !important;
     margin: 0.5rem auto 1rem auto !important;
     display: block !important;
     float: none !important;
-    }
-    .container.position-relative {
+  }
+  .container.position-relative {
     padding: 0 !important;
     margin: 0 !important;
     max-width: 100vw !important;
-    }
-    .header-contact-block .btn {
+  }
+  .header-contact-block .btn {
     max-width: 100vw;
     overflow-x: visible;
     text-overflow: unset;
@@ -202,50 +201,50 @@ header {
     margin-left: 0;
     margin-right: 0;
     font-size: 0.93rem;
-    }
-    .header-contact-block .btn[title="Email"] {
+  }
+  .header-contact-block .btn[title="Email"] {
     font-size: 0.85rem;
-    }
-    .header-contact-block .d-flex {
+  }
+  .header-contact-block .d-flex {
     flex-direction: column !important;
     gap: 0.5rem !important;
-    }
-    header > .header-intro-bg + .banner + div[style*="height"] {
+  }
+  header > .header-intro-bg + .banner + div[style*="height"] {
     display: none !important;
-    }
+  }
 }
 @media (max-width: 480px) {
-    .header-intro-bg {
+  .header-intro-bg {
     padding: 0.7rem 0.1rem !important;
-    }
-    .profile {
+  }
+  .profile {
     width: 100px !important;
     height: 100px !important;
-    }
-    .header-contact-block .btn[title="Email"] {
+  }
+  .header-contact-block .btn[title="Email"] {
     font-size: 0.8rem;
-    }
+  }
 }
 .header-intro-bg {
-    background: rgba(17,24,39,0.82);
-    border-radius: 1rem;
-    padding: 2rem 2.5rem;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
-    color: #fff;
+  background: rgba(17,24,39,0.82);
+  border-radius: 1rem;
+  padding: 2rem 2.5rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+  color: #fff;
 }
 .header-contact-block .btn {
-    margin: 0.25rem 0.25rem 0.25rem 0;
-    font-size: 1rem;
-    border-radius: 2em;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4em;
-    white-space: nowrap;
-    overflow-x: auto;
-    max-width: 100%;
+  margin: 0.25rem 0.25rem 0.25rem 0;
+  font-size: 1rem;
+  border-radius: 2em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  white-space: nowrap;
+  overflow-x: auto;
+  max-width: 100%;
 }
 @media (max-width: 768px) {
-    .header-contact-block .btn {
+  .header-contact-block .btn {
     font-size: 0.98rem;
     padding-left: 1.1em;
     padding-right: 1.1em;
@@ -253,33 +252,33 @@ header {
     max-width: 100vw;
     overflow-x: auto;
     text-overflow: ellipsis;
-    }
+  }
 }
 .header-contact-block img {
-    height: 1.2em;
-    width: 1.2em;
-    margin-right: 0.3em;
-    vertical-align: middle;
+  height: 1.2em;
+  width: 1.2em;
+  margin-right: 0.3em;
+  vertical-align: middle;
 }
 section {
-    padding: 2rem 0;
-    max-width: 800px;
-    margin: auto;
+  padding: 2rem 0;
+  max-width: 800px;
+  margin: auto;
 }
 .cta {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.75rem 1.5rem;
-    background: #2563eb;
-    color: white;
-    text-decoration: none;
-    border-radius: 0.5rem;
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
 }
 footer {
-    text-align: center;
-    padding: 2rem 0;
-    background: #f3f4f6;
-    font-size: 0.9rem;
+  text-align: center;
+  padding: 2rem 0;
+  background: #f3f4f6;
+  font-size: 0.9rem;
 }
 @media (min-width: 769px) {
   header {
@@ -326,7 +325,6 @@ footer {
     gap: 0.5rem !important;
   }
 }
-/* --- MOBILE FIX: unify breakpoints, remove conflicting .profile margin, ensure compact header --- */
 @media (max-width: 768px), (max-width: 767.98px) {
   header {
     min-height: 0 !important;
@@ -401,7 +399,7 @@ footer {
     font-size: 1.08rem !important;
   }
   .header-intro-bg {
-    background: #222c37 !important; /* Use a dark background for mobile header */
+    background: #222c37 !important;
     color: #fff !important;
   }
   .header-contact-block {
@@ -409,7 +407,6 @@ footer {
   }
 }
 
-/* Dark mode styles */
 @media (prefers-color-scheme: dark) {
   body {
     background: #10141a !important;
@@ -467,10 +464,9 @@ footer {
     color: #b9fbc0 !important;
     border-top: 1px solid #222a36 !important;
   }
-  /* Gold CTA button in dark mode */
   .btn[style*="FFD700"], .btn[style*="FFA500"] {
     background: linear-gradient(90deg, #FFD700 0%, #FFA500 100%) !important;
-    color: #2d1a00 !important; /* nearly black for max contrast */
+    color: #2d1a00 !important;
     font-weight: 900 !important;
     text-shadow: none !important;
     letter-spacing: 0.01em;
@@ -479,4 +475,23 @@ footer {
   .text-secondary {
     color: #a3a3a3 !important;
   }
+}
+
+.headline-gradient {
+  background: none;
+  color: #ffe600;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+  text-shadow:
+    0 2px 8px #fff,
+    0 1px 2px #ffe60099;
+  -webkit-text-fill-color: #ffe600;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  transition: text-shadow 0.2s;
+}
+.headline-gradient:hover {
+  text-shadow:
+    0 4px 16px #fff,
+    0 2px 8px #ffe600cc;
 }
