@@ -548,10 +548,8 @@ footer {
 
 /* Headline gradient */
 .headline-gradient {
-  background: linear-gradient(90deg, #FFD700 0%, #FFA500 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  background: none !important;
+  color: #fff !important;
   font-weight: 900;
   font-size: 3rem;
   letter-spacing: -0.01em;
@@ -588,6 +586,11 @@ footer {
     height: 3px;
     width: 70%;
   }
+}
+
+.section-headline-blue {
+  font-size: 1.25rem;
+  color: #fff !important;
 }
 
 /* Custom alert box */
@@ -686,5 +689,11 @@ footer {
   }
   .headline-gradient {
     font-size: 2rem !important;
+  }
+}
+
+@media (max-width: 1000px) and (orientation: landscape) {
+  .header-contact-block {
+    display: none !important;
   }
 }
