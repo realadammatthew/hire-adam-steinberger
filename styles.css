@@ -73,13 +73,13 @@ header {
   opacity: 0.85;
 }
 .header-intro-bg {
-  position: relative;
+  position: absolute;
   z-index: 5;
-  margin: 2rem auto;
-  max-width: calc(100% - 4rem);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: rgba(0, 0, 0, 0.75);
-  border-radius: 1.5rem;
-  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.25);
 }
 @media (max-width: 767.98px) {
   .banner {
@@ -101,8 +101,12 @@ header {
   z-index: 2;
   padding: 2rem;
   overflow: visible !important;
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .profile {
   width: 120px;
@@ -1232,4 +1236,27 @@ body {
 
 .header-intro-bg .container > *:last-child {
   margin-bottom: 0;
+}
+
+/* Ensure proper centering and full-width overlay */
+.header-intro-bg .row {
+  width: 100%;
+  margin: 0;
+}
+
+.header-intro-bg .col-auto {
+  flex: 0 1 auto;
+  max-width: 100%;
+}
+
+.header-intro-bg .d-flex.gap-4 {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .header-intro-bg .d-flex.gap-4 {
+    justify-content: flex-start;
+  }
 }
