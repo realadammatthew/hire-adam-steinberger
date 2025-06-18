@@ -716,3 +716,137 @@ h4.section-headline-green::after {
     vertical-align: middle;
     display: inline-block;
 }
+
+.credential-card {
+  background: rgba(34, 42, 54, 0.7);
+  border: 1px solid #2c3b52;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.credential-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.credential-card i {
+  color: #60a5fa;
+  margin-bottom: 1rem;
+}
+
+.credential-card h5 {
+  color: #FFD700 !important;
+  margin-bottom: 1rem;
+}
+
+.knowledge-card {
+  background: rgba(34, 42, 54, 0.7);
+  border: 1px solid #2c3b52;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.knowledge-card h5 {
+  color: #b9fbc0 !important;
+}
+
+.knowledge-card i {
+  color: #FFD700;
+  margin-right: 0.5rem;
+}
+
+.knowledge-card ul {
+  list-style-type: none;
+  padding-left: 1.5rem;
+}
+
+.knowledge-card ul li {
+  position: relative;
+  margin-bottom: 0.75rem;
+  color: #e5e7eb;
+}
+
+.knowledge-card ul li:before {
+  content: "✓";
+  position: absolute;
+  left: -1.5rem;
+  color: #60a5fa;
+}
+
+.solution-card {
+  background: rgba(34, 42, 54, 0.7);
+  border: 1px solid #2c3b52;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.solution-card:hover {
+  transform: translateY(-3px);
+}
+
+.solution-card h5 {
+  color: #b9fbc0 !important;
+  margin-bottom: 1rem;
+}
+
+.solution-card i {
+  color: #60a5fa;
+  margin-right: 0.5rem;
+}
+
+.demo-btn {
+  background: linear-gradient(90deg, #2563eb 0%, #1d4ed8 100%) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.demo-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 40px 10px rgba(37, 99, 235, 0.3) !important;
+}
+
+.consultation-btn {
+  background: linear-gradient(90deg, #059669 0%, #047857 100%) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.consultation-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 40px 10px rgba(5, 150, 105, 0.3) !important;
+}
+
+section {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+section:nth-child(1) { animation-delay: 0.2s; }
+section:nth-child(2) { animation-delay: 0.4s; }
+section:nth-child(3) { animation-delay: 0.6s; }
+section:nth-child(4) { animation-delay: 0.8s; }
+section:nth-child(5) { animation-delay: 1s; }
+section:nth-child(6) { animation-delay: 1.2s; }
+
+.headline-gradient {
+  background: linear-gradient(45deg, #60a5fa, #b9fbc0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
