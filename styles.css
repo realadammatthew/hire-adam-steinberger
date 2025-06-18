@@ -71,7 +71,10 @@ header {
   object-fit: cover;
   z-index: 1;
   opacity: 0.85;
+  filter: blur(8px) brightness(0.7) contrast(1.1) saturate(1.2);
+  transform: scale(1.1);  /* Prevent blur from showing edges */
 }
+
 .header-intro-bg {
   position: absolute;
   z-index: 5;
@@ -79,8 +82,18 @@ header {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(4px);
 }
+.header-intro-bg h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) !important;
+}
+
+.header-intro-bg h2,
+.header-intro-bg h3 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4) !important;
+}
+
 @media (max-width: 767.98px) {
   .banner {
     display: none !important;
