@@ -800,23 +800,29 @@ h4.section-headline-green::after {
 }
 
 .demo-btn {
-  background: linear-gradient(90deg, #2563eb 0%, #1d4ed8 100%) !important;
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%) !important;
+  color: #000 !important;
+  text-shadow: none !important;
   transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  font-weight: 600 !important;
 }
 
 .demo-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 0 40px 10px rgba(37, 99, 235, 0.3) !important;
+  background: linear-gradient(135deg, #FFE666 0%, #FFB733 100%) !important;
+  box-shadow: 0 0 40px 10px rgba(255, 215, 0, 0.3) !important;
 }
 
 .consultation-btn {
-  background: linear-gradient(90deg, #059669 0%, #047857 100%) !important;
+  background: linear-gradient(135deg, #8B5CF6 0%, #6366F1 100%) !important;
   transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  border: none !important;
 }
 
 .consultation-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 0 40px 10px rgba(5, 150, 105, 0.3) !important;
+  background: linear-gradient(135deg, #A78BFA 0%, #818CF8 100%) !important;
+  box-shadow: 0 0 40px 10px rgba(139, 92, 246, 0.3) !important;
 }
 
 section {
