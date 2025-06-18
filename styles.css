@@ -36,7 +36,7 @@ a, .btn-link {
   border-color: #facc15 !important;
 }
 .banner {
-  filter: brightness(0.5) contrast(1.1) saturate(1.2);
+  filter: contrast(1.1) saturate(1.2);
 }
 hr {
   border-top: 2px solid #222a36 !important;
@@ -90,8 +90,7 @@ header {
   position: relative;
   z-index: 10;
   margin: 10px;
-  pointer-events: none;
-  background: rgba(0,0,0,0.55);
+  background: rgba(0,0,0,0.35);
   border-radius: 1.5rem;
   box-shadow: 0 4px 32px rgba(0,0,0,0.18);
 }
@@ -1259,4 +1258,8 @@ body {
   .header-intro-bg .d-flex.gap-4 {
     justify-content: flex-start;
   }
+}
+
+#img-banner-bg {
+  z-index: -9999;
 }
