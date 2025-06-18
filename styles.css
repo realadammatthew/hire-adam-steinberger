@@ -56,25 +56,30 @@ body {
   color: #333;
 }
 header {
-  background: #111827;
-  color: white;
   position: relative;
-  overflow: hidden;
-  padding: 0;
+  background: #111827;
   min-height: 340px;
   height: 420px;
+  overflow: hidden;
 }
 .banner {
-  width: 100%;
-  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  min-height: 340px;
-  max-height: 420px;
   z-index: 1;
-  display: block;
+  opacity: 0.85;
+}
+.header-intro-bg {
+  position: relative;
+  z-index: 5;
+  margin: 2rem auto;
+  max-width: calc(100% - 4rem);
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.25);
 }
 @media (max-width: 767.98px) {
   .banner {
@@ -82,16 +87,22 @@ header {
   }
 }
 .header-intro-bg {
-  z-index: 2;
+  position: relative;
+  z-index: 10;
   margin: 10px;
   pointer-events: none;
+  background: rgba(0,0,0,0.55);
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.18);
 }
 .header-intro-bg .container {
   pointer-events: auto;
   position: relative;
   z-index: 2;
-  padding: 1rem;
+  padding: 2rem;
   overflow: visible !important;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 .profile {
   width: 120px;
@@ -231,33 +242,29 @@ body {
   color: #333;
 }
 header {
-  background: #111827;
-  color: white;
   position: relative;
+  background: #111827;
+  min-height: 340px;
+  height: 420px;
   overflow: hidden;
-  padding: 0;
 }
 .banner {
-  width: 100%;
-  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  min-height: 340px;
-  max-height: 420px;
   z-index: 1;
-  display: block;
+  opacity: 0.85;
 }
 .profile {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   object-fit: cover;
   border-radius: 50%;
   border: 4px solid #fff;
   background: #fff;
-  margin-top: -60px;
-  margin-bottom: 1rem;
 }
 @media (max-width: 768px) {
   header {
