@@ -99,6 +99,10 @@ header {
   .header-contact-block .d-flex {
     justify-content: center !important;
   }
+
+  .headline-gradient {
+    font-size: 2rem !important;
+  }
 }
 
 .header-intro-bg {
