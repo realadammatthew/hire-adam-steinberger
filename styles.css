@@ -85,7 +85,26 @@ header {
   .banner {
     display: none !important;
   }
+  
+  .header-intro-bg .col-auto .d-flex.gap-4 {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+  
+  .header-intro-bg .flex-grow-1 {
+    padding: 1rem 0 !important;
+  }
+  
+  .header-contact-block .d-flex {
+    justify-content: center !important;
+  }
+
+  .headline-gradient {
+    font-size: 2rem !important;
+  }
 }
+
 .header-intro-bg {
   position: relative;
   z-index: 10;
