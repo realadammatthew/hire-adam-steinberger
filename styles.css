@@ -856,3 +856,190 @@ section:nth-child(6) { animation-delay: 1.2s; }
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
+
+/* Fix for expertise cards to maintain equal height */
+.credential-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.credential-card i {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.credential-card h5 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.credential-card p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Portrait iPad and Landscape iPhone fixes */
+@media (max-width: 1024px) and (orientation: portrait), 
+       (max-width: 926px) and (orientation: landscape) {
+  header {
+    height: auto !important;
+    min-height: auto !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .header-intro-bg {
+    position: relative !important;
+    margin: 0 !important;
+    padding: 2rem 1rem !important;
+    height: auto !important;
+    min-height: 0 !important;
+    background: rgba(17,24,39,0.95) !important;
+  }
+
+  .banner {
+    position: absolute;
+    height: 100%;
+    min-height: 100%;
+  }
+
+  .profile {
+    width: 100px !important;
+    height: 100px !important;
+    margin-bottom: 1rem !important;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+    line-height: 1.2 !important;
+  }
+
+  h2 {
+    font-size: 1.25rem !important;
+    line-height: 1.3 !important;
+  }
+
+  h3 {
+    font-size: 1rem !important;
+    line-height: 1.4 !important;
+  }
+
+  .header-contact-block .btn {
+    font-size: 0.9rem !important;
+    padding: 0.6rem 1rem !important;
+    margin: 0.25rem !important;
+    width: auto !important;
+    display: inline-flex !important;
+    align-items: center;
+  }
+
+  .header-contact-block .d-flex {
+    justify-content: center !important;
+    gap: 0.5rem !important;
+  }
+}
+
+/* Additional iPhone landscape specific fixes */
+@media (max-width: 926px) and (orientation: landscape) {
+  .header-intro-bg {
+    padding: 1rem !important;
+  }
+
+  .header-contact-block .d-flex {
+    flex-wrap: wrap !important;
+  }
+
+  .header-contact-block .btn {
+    font-size: 0.85rem !important;
+    padding: 0.5rem 0.8rem !important;
+  }
+}
+
+/* Row fix for expertise cards on mobile/tablet */
+@media (max-width: 1024px) {
+  .row.justify-content-center {
+    margin: 0 -0.5rem;
+  }
+
+  .col-md-4 {
+    padding: 0.5rem;
+  }
+
+  .credential-card {
+    margin-bottom: 0 !important;
+  }
+}
+
+/* Button text hiding for compact views */
+@media (max-width: 1024px) and (orientation: portrait), 
+       (max-width: 926px) and (orientation: landscape) {
+  .header-contact-block .btn {
+    width: auto !important;
+    padding: 0.7rem !important;
+    aspect-ratio: 1;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem !important;
+  }
+
+  .header-contact-block .btn i {
+    margin: 0 !important;
+  }
+
+  .header-contact-block .btn span {
+    display: none;
+  }
+
+  /* Add button text to title attribute for tooltip */
+  .header-contact-block .btn[title]::after {
+    content: attr(title);
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+  }
+
+  .header-contact-block .btn[title]:hover::after {
+    opacity: 1;
+  }
+
+  /* Adjust layout for icon-only buttons */
+  .header-contact-block .d-flex {
+    justify-content: center !important;
+    gap: 0.5rem !important;
+  }
+
+  /* Make sure flex-wrap works properly */
+  .header-contact-block .d-flex.flex-wrap {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  /* Adjust spacing between button rows */
+  .header-contact-block .d-flex.mb-2 {
+    margin-bottom: 0.5rem !important;
+  }
+}
+
+/* Special handling for extremely narrow screens */
+@media (max-width: 360px) {
+  .header-contact-block .btn {
+    padding: 0.5rem !important;
+    font-size: 1rem !important;
+  }
+}
