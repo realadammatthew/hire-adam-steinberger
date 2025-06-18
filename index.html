@@ -257,16 +257,14 @@
               <h1 class="fw-bold mb-1 text-light">Adam Matthew Steinberger</h1>
               <h2 class="h5 mb-1">Senior Software Engineering Consultant</h2>
               <h3 class="h6 mb-3">Backend, Cloud &amp; AI Software Architecture and Development</h3>
-              <div class="header-contact-block mb-2">
-                <div class="d-flex flex-wrap gap-2 mb-2">
-                  <a href="https://www.google.com/maps/place/City+of+Wake+Forest,+NC,+USA" target="_blank" rel="noopener noreferrer" class="btn btn-light" title="Wake Forest, NC USA"><i class="fas fa-map-marker-alt"></i><span> Wake Forest, NC USA</span></a>
-                  <a href="tel:+18645174117" class="btn btn-light" title="+1-864-517-4117"><i class="fas fa-phone"></i><span> +1-864-517-4117</span></a>
-                  <a href="mailto:adam@matthewsteinberger.com" class="btn btn-light" title="adam@matthewsteinberger.com"><i class="fas fa-envelope"></i><span> adam@matthewsteinberger.com</span></a>
-                </div>
+              <div class="header-contact-block">
                 <div class="d-flex flex-wrap gap-2">
-                  <a href="https://github.com/realadammatthew" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light" title="GitHub"><i class="fab fa-github"></i><span> @realadammatthew</span></a>
-                  <a href="https://x.com/realadammatthew" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light" title="X (Twitter)"><i class="fab fa-x-twitter"></i><span> @realadammatthew</span></a>
-                  <a href="https://coff.ee/realadammatthew" target="_blank" rel="noopener noreferrer" class="btn btn-outline-warning" title="Buy Me a Coffee"><i class="fas fa-coffee"></i><span> @realadammatthew</span></a>
+                  <a href="https://www.google.com/maps/place/City+of+Wake+Forest,+NC,+USA" target="_blank" rel="noopener noreferrer" class="btn btn-light" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Wake Forest, NC USA"><i class="fas fa-map-marker-alt"></i></a>
+                  <a href="tel:+18645174117" class="btn btn-light" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="+1-864-517-4117"><i class="fas fa-phone"></i></a>
+                  <a href="mailto:adam@matthewsteinberger.com" class="btn btn-light" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="adam@matthewsteinberger.com"><i class="fas fa-envelope"></i></a>
+                  <a href="https://github.com/realadammatthew" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="GitHub"><i class="fab fa-github"></i></a>
+                  <a href="https://x.com/realadammatthew" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+                  <a href="https://coff.ee/realadammatthew" target="_blank" rel="noopener noreferrer" class="btn btn-outline-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Buy Me a Coffee"><i class="fas fa-coffee"></i></a>
                 </div>
               </div>
             </div>
@@ -416,5 +414,14 @@
       </div>
     </div>
   </footer>
+
+  <!-- Initialize Bootstrap Tooltips -->
+    <script src="bootstrap.bundle.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+      });
+    </script>
 </body>
 </html>

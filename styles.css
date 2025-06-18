@@ -88,6 +88,10 @@ header {
 }
 .header-intro-bg .container {
   pointer-events: auto;
+  position: relative;
+  z-index: 2;
+  padding: 1rem;
+  overflow: visible !important;
 }
 .profile {
   width: 120px;
@@ -124,29 +128,81 @@ header {
     box-shadow: none;
   }
 }
+.header-contact-block {
+  margin: 0.5rem 0;
+  width: 100%;
+  display: block;
+}
+
+.header-contact-block > div {
+  display: flex !important;
+  gap: 0.5rem !important;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
 .header-contact-block .btn {
-  margin-bottom: 0.25rem;
-  font-size: 1rem;
-  padding: 0.5rem 1.1rem;
-  border-radius: 2rem;
-  min-width: 0;
-  white-space: nowrap;
+  width: 38px !important;
+  height: 38px !important;
+  min-width: 38px !important;
+  max-width: 38px !important;
+  padding: 0 !important;
+  border-radius: 50% !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  font-size: 1.1rem !important;
+  position: relative;
+  flex: 0 0 auto;
+  margin: 0 !important;
 }
-.header-contact-block .btn img {
-  height: 1.2em;
-  margin-right: 0.4em;
-  vertical-align: middle;
+
+/* Fix for any potential container overflow */
+.header-intro-bg .container,
+.header-intro-bg .row,
+.header-intro-bg .col-md-8,
+.header-intro-bg .p-4,
+.header-contact-block {
+  overflow: visible !important;
+  max-width: 100% !important;
 }
-@media (max-width: 767.98px) {
-  .header-contact-block .d-flex {
-    flex-direction: column !important;
-    gap: 0.5rem !important;
+
+.header-contact-block .btn i {
+  margin: 0 !important;
+}
+
+.header-contact-block .btn span {
+  display: none;
+}
+
+/* Tooltip style for all screen sizes */
+/* Remove custom tooltip styles as we're using Bootstrap tooltips */
+
+/* Simple button container styling */
+.header-contact-block {
+  position: relative;
+  margin: 0.5rem 0;
+}
+
+.header-contact-block > div {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+/* Make tooltips more touch-friendly on mobile */
+@media (max-width: 768px) {
+  .header-contact-block .btn[title]::after {
+    display: none;
   }
-  .header-contact-block .btn {
-    width: 100%;
-    text-align: left;
-    font-size: 1.08rem;
-  }
+}
+
+/* Hover effects */
+.header-contact-block .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 section {
   padding: 2rem 0;
@@ -451,6 +507,48 @@ footer {
     font-size: 0.8rem !important;
   }
 }
+
+/* Responsive adjustments for icon buttons */
+@media (max-width: 480px) {
+  .header-contact-block .btn {
+    width: 36px !important;
+    height: 36px !important;
+    font-size: 1rem !important;
+  }
+}
+
+/* Add some breathing room around the buttons container */
+@media (min-width: 768px) {
+  .header-contact-block {
+    margin: 1rem 0;
+  }
+}
+
+/* Ensure proper spacing in the header */
+.header-intro-bg {
+  padding: 1.5rem !important;
+}
+
+.header-intro-bg h1, 
+.header-intro-bg h2, 
+.header-intro-bg h3 {
+  margin-bottom: 0.5rem !important;
+}
+
+.header-contact-block {
+  margin-top: 1rem !important;
+}
+
+/* Remove any unwanted scrollbars */
+.header-contact-block,
+.header-contact-block > div,
+.header-intro-bg,
+.container,
+.row,
+.col {
+  overflow: visible !important;
+}
+
 /* Button and interactive element animations */
 .btn {
   transition: all 0.3s ease-in-out !important;
@@ -999,11 +1097,11 @@ section:nth-child(6) { animation-delay: 1.2s; }
   /* Add button text to title attribute for tooltip */
   .header-contact-block .btn[title]::after {
     content: attr(title);
-    position: absolute;
-    bottom: -25px;
+    position: fixed;
+    bottom: auto;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.9);
     color: white;
     padding: 4px 8px;
     border-radius: 4px;
@@ -1012,27 +1110,51 @@ section:nth-child(6) { animation-delay: 1.2s; }
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.2s;
+    z-index: 1050;
   }
 
   .header-contact-block .btn[title]:hover::after {
     opacity: 1;
+    margin-top: 40px;
   }
 
-  /* Adjust layout for icon-only buttons */
-  .header-contact-block .d-flex {
-    justify-content: center !important;
+  /* Combine all buttons into a single row */
+  .header-contact-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-contact-block > div {
+    display: inline-flex !important;
+    margin: 0 !important;
     gap: 0.5rem !important;
   }
 
-  /* Make sure flex-wrap works properly */
-  .header-contact-block .d-flex.flex-wrap {
-    max-width: 100%;
-    margin: 0 auto;
+  .header-contact-block .d-flex.mb-2 {
+    margin-bottom: 0 !important;
   }
 
-  /* Adjust spacing between button rows */
-  .header-contact-block .d-flex.mb-2 {
+  /* Fix header spacing */
+  .header-intro-bg {
+    padding: 1.5rem 1rem !important;
+  }
+
+  header {
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+  .p-4 {
+    padding: 1rem !important;
+  }
+
+  h1, h2, h3 {
     margin-bottom: 0.5rem !important;
+  }
+
+  .mb-3 {
+    margin-bottom: 1rem !important;
   }
 }
 
@@ -1042,4 +1164,65 @@ section:nth-child(6) { animation-delay: 1.2s; }
     padding: 0.5rem !important;
     font-size: 1rem !important;
   }
+}
+
+/* Fix container padding and overflow issues */
+.p-4.bg-transparent {
+  padding: 1rem 0 !important;
+}
+
+/* Ensure proper text wrapping for headings */
+.header-intro-bg h1,
+.header-intro-bg h2,
+.header-intro-bg h3 {
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Fix body overflow */
+body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+}
+
+/* Container fixes */
+.container {
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  width: 100% !important;
+  max-width: 1200px !important;
+}
+
+/* Button hover state adjustments */
+.header-contact-block .btn:hover {
+  transform: translateY(-2px);
+  z-index: 1;
+}
+
+/* Improve layout containment */
+.header-intro-bg .row {
+  position: relative;
+  margin: 0;
+  width: 100%;
+}
+
+.header-intro-bg .col-md-8 {
+  position: relative;
+}
+
+/* Ensure tooltips don't cause layout shifts */
+.header-contact-block .btn {
+  contain: layout;
+  contain-intrinsic-size: 38px;
+  will-change: transform;
+}
+
+/* Prevent any unwanted margin collapse */
+.header-intro-bg .container > *:first-child {
+  margin-top: 0;
+}
+
+.header-intro-bg .container > *:last-child {
+  margin-bottom: 0;
 }
