@@ -720,6 +720,279 @@ section {
   transform: translateY(-5px) scale(1.02);
 }
 
+/* New Card Types for Sales Funnel */
+.red-box {
+  background: linear-gradient(135deg, #DC2626 0%, #B91C1C 100%);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 32px rgba(220, 38, 38, 0.2);
+  animation: glowRed 3s infinite alternate;
+}
+
+.green-box {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 32px rgba(5, 150, 105, 0.2);
+  animation: glowGreen 3s infinite alternate;
+}
+
+.blue-box {
+  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.2);
+  animation: glowBlue 3s infinite alternate;
+}
+
+@keyframes glowRed {
+  from {
+    box-shadow: 0 0 20px rgba(220, 38, 38, 0.5);
+  }
+  to {
+    box-shadow: 0 0 40px rgba(220, 38, 38, 0.8);
+  }
+}
+
+@keyframes glowGreen {
+  from {
+    box-shadow: 0 0 20px rgba(5, 150, 105, 0.5);
+  }
+  to {
+    box-shadow: 0 0 40px rgba(5, 150, 105, 0.8);
+  }
+}
+
+@keyframes glowBlue {
+  from {
+    box-shadow: 0 0 20px rgba(37, 99, 235, 0.5);
+  }
+  to {
+    box-shadow: 0 0 40px rgba(37, 99, 235, 0.8);
+  }
+}
+
+/* Problem Cards */
+.problem-card {
+  border-left: 4px solid #DC2626;
+  background: linear-gradient(135deg, rgba(220, 38, 38, 0.1), rgba(185, 28, 28, 0.1)) !important;
+}
+
+.problem-card i {
+  color: #DC2626;
+}
+
+/* Solution Framework Cards */
+.solution-framework-card {
+  border-left: 4px solid #059669;
+  background: linear-gradient(135deg, rgba(5, 150, 105, 0.1), rgba(4, 120, 87, 0.1)) !important;
+}
+
+.solution-framework-card i {
+  color: #059669;
+}
+
+/* Technical Cards */
+.technical-card {
+  border-left: 4px solid #2563EB;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(29, 78, 216, 0.1)) !important;
+}
+
+.technical-card i {
+  color: #2563EB;
+}
+
+.technical-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.technical-card ul li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(37, 99, 235, 0.2);
+}
+
+.technical-card ul li:last-child {
+  border-bottom: none;
+}
+
+/* Case Study Cards */
+.case-study-card {
+  border-left: 4px solid #FFD700;
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.1), rgba(255, 165, 0, 0.1)) !important;
+}
+
+.case-study-card i {
+  color: #FFD700;
+}
+
+/* ROI Cards */
+.roi-card {
+  border-left: 4px solid #059669;
+  background: linear-gradient(135deg, rgba(5, 150, 105, 0.1), rgba(4, 120, 87, 0.1)) !important;
+}
+
+.roi-card i {
+  color: #059669;
+}
+
+/* Comparison Cards */
+.comparison-card {
+  border-left: 4px solid #9333EA;
+  background: linear-gradient(135deg, rgba(147, 51, 234, 0.1), rgba(107, 70, 193, 0.1)) !important;
+}
+
+.comparison-card i {
+  color: #9333EA;
+}
+
+.comparison-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.comparison-card ul li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(147, 51, 234, 0.2);
+}
+
+.comparison-card ul li:last-child {
+  border-bottom: none;
+}
+
+/* Pricing Cards */
+.pricing-card {
+  border-left: 4px solid #9333EA;
+  background: linear-gradient(135deg, rgba(147, 51, 234, 0.1), rgba(107, 70, 193, 0.1)) !important;
+}
+
+.pricing-card i {
+  color: #9333EA;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pricing-card ul li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(147, 51, 234, 0.2);
+}
+
+.pricing-card ul li:last-child {
+  border-bottom: none;
+}
+
+/* Risk Cards */
+.risk-card {
+  border-left: 4px solid #059669;
+  background: linear-gradient(135deg, rgba(5, 150, 105, 0.1), rgba(4, 120, 87, 0.1)) !important;
+}
+
+.risk-card i {
+  color: #059669;
+}
+
+/* Employer Cards */
+.employer-card {
+  border-left: 4px solid #9333EA;
+  background: linear-gradient(135deg, rgba(147, 51, 234, 0.1), rgba(107, 70, 193, 0.1)) !important;
+}
+
+.employer-card i {
+  color: #9333EA;
+}
+
+.employer-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.employer-card ul li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(147, 51, 234, 0.2);
+}
+
+.employer-card ul li:last-child {
+  border-bottom: none;
+}
+
+/* Trust Cards */
+.trust-card {
+  border-left: 4px solid #FFD700;
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.1), rgba(255, 165, 0, 0.1)) !important;
+}
+
+.trust-card i {
+  color: #FFD700;
+}
+
+/* Section Headlines */
+.section-headline-red {
+  background: linear-gradient(135deg, #DC2626, #B91C1C);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+  text-shadow: 0 2px 10px rgba(220, 38, 38, 0.2) !important;
+}
+
+.section-headline-green {
+  background: linear-gradient(135deg, #059669, #047857);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+  text-shadow: 0 2px 10px rgba(5, 150, 105, 0.2) !important;
+}
+
+.section-headline-blue {
+  background: linear-gradient(135deg, #2563EB, #1D4ED8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+  text-shadow: 0 2px 10px rgba(37, 99, 235, 0.2) !important;
+}
+
+.section-headline-purple {
+  background: linear-gradient(135deg, #9333EA, #6B46C1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+  text-shadow: 0 2px 10px rgba(147, 51, 234, 0.2) !important;
+}
+
+/* Button Variations */
+.consultation-btn {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
+  box-shadow: 0 4px 15px rgba(5, 150, 105, 0.2) !important;
+}
+
+.consultation-btn:hover {
+  box-shadow: 0 8px 25px rgba(5, 150, 105, 0.3) !important;
+}
+
+.employer-btn {
+  background: linear-gradient(135deg, #9333EA 0%, #6B46C1 100%) !important;
+  box-shadow: 0 4px 15px rgba(147, 51, 234, 0.2) !important;
+}
+
+.employer-btn:hover {
+  box-shadow: 0 8px 25px rgba(147, 51, 234, 0.3) !important;
+}
+
+.demo-btn {
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%) !important;
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.2) !important;
+  color: #1F2937 !important;
+}
+
+.demo-btn:hover {
+  box-shadow: 0 8px 25px rgba(255, 215, 0, 0.3) !important;
+}
+
 /* Glowing text effect for headings */
 h1, h2, h3 {
   position: relative;
