@@ -495,4 +495,10 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/can-chatbots-streamline-lead-generation-or-customer-onboarding.html</loc>
+        <lastmod>2025-01-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
