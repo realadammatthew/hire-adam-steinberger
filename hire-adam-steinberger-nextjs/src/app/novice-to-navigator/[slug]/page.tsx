@@ -4,6 +4,7 @@ import { getArticleBySlug } from '@/lib/markdownUtils';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
+import Link from 'next/link';
 
 interface ArticlePageProps {
   params: {
@@ -12,7 +13,8 @@ interface ArticlePageProps {
 }
 
 export default function ArticlePage({ params }: ArticlePageProps) {
-  const article = articles.find(a => a.slug === params.slug);
+  const articleIndex = articles.findIndex(a => a.slug === params.slug);
+  const article = articles[articleIndex];
   
   if (!article) {
     notFound();
@@ -24,6 +26,10 @@ export default function ArticlePage({ params }: ArticlePageProps) {
   if (!articleContent) {
     notFound();
   }
+
+  // Previous and next articles
+  const prevArticle = articleIndex > 0 ? articles[articleIndex - 1] : null;
+  const nextArticle = articleIndex < articles.length - 1 ? articles[articleIndex + 1] : null;
 
   return (
     <div className="container-fluid">
@@ -48,13 +54,26 @@ export default function ArticlePage({ params }: ArticlePageProps) {
               </div>
             )}
 
-            <div className="article-body">
+            <div className="article-body mb-5">
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
                 rehypePlugins={[rehypeHighlight]}
               >
                 {articleContent.content}
               </ReactMarkdown>
+            </div>
+
+            <div className="d-flex justify-content-between border-top pt-4 mt-5">
+              {prevArticle ? (
+                <Link href={`/novice-to-navigator/${prevArticle.slug}`} className="btn btn-outline-primary">
+                  ← {prevArticle.title}
+                </Link>
+              ) : <span />}
+              {nextArticle ? (
+                <Link href={`/novice-to-navigator/${nextArticle.slug}`} className="btn btn-outline-primary ms-auto">
+                  {nextArticle.title} →
+                </Link>
+              ) : <span />}
             </div>
           </div>
         </div>
