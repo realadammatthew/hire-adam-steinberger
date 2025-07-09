@@ -8,7 +8,6 @@ export interface Article {
 }
 
 export const articles: Article[] = [
-  // Section 1: Understanding the Basics of AI
   {
     slug: 'what-is-ai-really',
     title: 'What is AI, really?',
@@ -49,8 +48,6 @@ export const articles: Article[] = [
     sectionDescription: 'Goal: Demystify AI and establish foundational knowledge to evaluate AI solutions confidently.',
     order: 5
   },
-
-  // Section 2: Understanding Chatbots
   {
     slug: 'what-is-a-chatbot-and-how-does-it-work',
     title: 'What is a chatbot and how does it work?',
@@ -91,8 +88,6 @@ export const articles: Article[] = [
     sectionDescription: 'Goal: Understand what chatbots are and how they function in business contexts.',
     order: 10
   },
-
-  // Section 3: Advanced AI Concepts
   {
     slug: 'what-is-retrieval-augmented-generation-rag',
     title: 'What is Retrieval Augmented Generation (RAG)?',
@@ -133,8 +128,6 @@ export const articles: Article[] = [
     sectionDescription: 'Goal: Understand advanced AI technologies that power modern business chatbots.',
     order: 15
   },
-
-  // Section 4: Building Custom Solutions
   {
     slug: 'how-do-you-start-building-a-custom-ai-chatbot',
     title: 'How do you start building a custom AI chatbot?',
@@ -175,8 +168,6 @@ export const articles: Article[] = [
     sectionDescription: 'Goal: Understand the process of creating custom AI solutions for your business.',
     order: 20
   },
-
-  // Section 5: Quality and Safety
   {
     slug: 'can-ai-chatbots-give-incorrect-or-made-up-answers',
     title: 'Can AI chatbots give incorrect or made-up answers?',
@@ -217,8 +208,6 @@ export const articles: Article[] = [
     sectionDescription: 'Goal: Understand how to evaluate and ensure quality in AI chatbot solutions.',
     order: 25
   },
-
-  // Section 6: Business Applications
   {
     slug: 'what-industries-are-using-ai-chatbots-effectively',
     title: 'What industries are using AI chatbots effectively?',
@@ -244,23 +233,21 @@ export const articles: Article[] = [
     order: 28
   },
   {
-    slug: 'what-if-my-business-has-limited-content-or-data',
-    title: 'What if my business has limited content or data?',
-    description: 'Address common concerns about data requirements and content creation.',
-    section: 'Business Applications',
-    sectionDescription: 'Goal: See real-world applications and understand industry-specific use cases.',
-    order: 29
-  },
-  {
     slug: 'is-my-business-ready-for-an-ai-chatbot',
     title: 'Is my business ready for an AI chatbot?',
     description: 'Help readers assess their readiness and identify prerequisites.',
     section: 'Business Applications',
     sectionDescription: 'Goal: See real-world applications and understand industry-specific use cases.',
+    order: 29
+  },
+  {
+    slug: 'what-if-my-business-has-limited-content-or-data',
+    title: 'What if my business has limited content or data?',
+    description: 'Address common concerns about data requirements and content creation.',
+    section: 'Business Applications',
+    sectionDescription: 'Goal: See real-world applications and understand industry-specific use cases.',
     order: 30
   },
-
-  // Section 7: Working with Experts
   {
     slug: 'what-should-i-consider-before-investing-in-a-custom-chatbot',
     title: 'What should I consider before investing in a custom chatbot?',
