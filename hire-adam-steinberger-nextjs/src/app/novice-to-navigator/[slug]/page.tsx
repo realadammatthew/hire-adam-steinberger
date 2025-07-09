@@ -143,9 +143,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '19-can-a-chatbot-integrate-with-my-existing-systems.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 4: Building Custom Solutions',
+      readTime: '8 min read'
     }
   },
   'can-ai-chatbots-give-incorrect-or-made-up-answers': {
@@ -202,9 +202,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '21-can-ai-chatbots-give-incorrect-or-made-up-answers.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 5: Quality and Safety',
+      readTime: '6 min read'
     }
   },
   'can-chatbots-replace-human-roles-in-certain-tasks': {
@@ -447,9 +447,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '10-can-chatbots-replace-human-roles-in-certain-tasks.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 2: Understanding Chatbots',
+      readTime: '7 min read'
     }
   },
   'can-chatbots-streamline-lead-generation-or-customer-onboarding': {
@@ -570,9 +570,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '28-can-chatbots-streamline-lead-generation-or-customer-onboarding.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 6: Business Applications',
+      readTime: '6 min read'
     }
   },
   'can-competitors-exploit-my-chatbots-knowledge-base': {
@@ -629,9 +629,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '24-can-competitors-exploit-my-chatbots-knowledge-base.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 5: Quality and Safety',
+      readTime: '5 min read'
     }
   },
   'how-can-a-chatbot-increase-revenue-or-reduce-costs': {
@@ -765,9 +765,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '27-how-can-a-chatbot-increase-revenue-or-reduce-costs.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 6: Business Applications',
+      readTime: '8 min read'
     }
   },
   'how-do-chatbots-understand-human-language': {
@@ -1014,9 +1014,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '07-how-do-chatbots-understand-human-language.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 2: Understanding Chatbots',
+      readTime: '7 min read'
     }
   },
   'how-do-i-get-my-own-custom-ai-chatbot': {
@@ -1138,9 +1138,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '33-how-do-i-get-my-own-custom-ai-chatbot.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 7: Working with Experts',
+      readTime: '6 min read'
     }
   },
   'how-do-you-ensure-a-chatbot-gives-accurate-and-relevant-answers': {
@@ -1245,9 +1245,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '18-how-do-you-ensure-a-chatbot-gives-accurate-and-relevant-answers.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 4: Building Custom Solutions',
+      readTime: '7 min read'
     }
   },
   'how-do-you-evaluate-a-chatbots-performance': {
@@ -1403,9 +1403,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '25-how-do-you-evaluate-a-chatbots-performance.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 5: Quality and Safety',
+      readTime: '6 min read'
     }
   },
   'how-do-you-prevent-a-chatbot-from-giving-harmful-or-off-brand-responses': {
@@ -1507,9 +1507,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '22-how-do-you-prevent-a-chatbot-from-giving-harmful-or-off-brand-responses.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 5: Quality and Safety',
+      readTime: '6 min read'
     }
   },
   'how-do-you-start-building-a-custom-ai-chatbot': {
@@ -1671,9 +1671,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '16-how-do-you-start-building-a-custom-ai-chatbot.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 4: Building Custom Solutions',
+      readTime: '8 min read'
     }
   },
   'how-does-a-rag-chatbot-use-my-specific-data': {
@@ -1724,9 +1724,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '13-how-does-a-rag-chatbot-use-my-specific-data.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 3: Advanced AI Concepts',
+      readTime: '7 min read'
     }
   },
   'how-does-ai-learn-from-data': {
@@ -1907,9 +1907,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '04-how-does-ai-learn-from-data.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 1: Understanding the Basics of AI',
+      readTime: '6 min read'
     }
   },
   'is-building-a-custom-chatbot-expensive-or-time-intensive': {
@@ -2062,9 +2062,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '20-is-building-a-custom-chatbot-expensive-or-time-intensive.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 4: Building Custom Solutions',
+      readTime: '5 min read'
     }
   },
   'is-my-business-data-safe-when-using-a-chatbot': {
@@ -2174,9 +2174,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '23-is-my-business-data-safe-when-using-a-chatbot.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 5: Quality and Safety',
+      readTime: '6 min read'
     }
   },
   'is-my-business-ready-for-an-ai-chatbot': {
@@ -2367,9 +2367,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '29-is-my-business-ready-for-an-ai-chatbot.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 6: Business Applications',
+      readTime: '7 min read'
     }
   },
   'what-are-embeddings-and-how-do-they-help-chatbots': {
@@ -2502,9 +2502,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '15-what-are-embeddings-and-how-do-they-help-chatbots.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 3: Advanced AI Concepts',
+      readTime: '6 min read'
     }
   },
   'what-are-the-different-types-of-ai-systems': {
@@ -2726,9 +2726,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '02-what-are-the-different-types-of-ai-systems.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 1: Understanding the Basics of AI',
+      readTime: '7 min read'
     }
   },
   'what-if-my-business-has-limited-content-or-data': {
@@ -2882,9 +2882,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '02-what-are-the-different-types-of-ai-systems.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 6: Business Applications',
+      readTime: '5 min read'
     }
   },
   'what-industries-are-using-ai-chatbots-effectively': {
@@ -3026,9 +3026,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '26-what-industries-are-using-ai-chatbots-effectively.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 6: Business Applications',
+      readTime: '8 min read'
     }
   },
   'what-is-a-chatbot-and-how-does-it-work': {
@@ -3258,9 +3258,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '06-what-is-a-chatbot.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 2: Understanding Chatbots',
+      readTime: '6 min read'
     }
   },
   'what-is-a-vector-database-and-why-is-it-used-in-rag': {
@@ -3374,9 +3374,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '14-what-is-a-vector-database-and-why-is-it-used-in-rag.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 3: Advanced AI Concepts',
+      readTime: '7 min read'
     }
   },
   'what-is-ai-really': {
@@ -3752,9 +3752,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '05-prompt-engineering.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 1: Understanding the Basics of AI',
+      readTime: '6 min read'
     }
   },
   'what-is-retrieval-augmented-generation-rag': {
@@ -3964,9 +3964,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '11-what-is-retrieval-augmented-generation-rag.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 3: Advanced AI Concepts',
+      readTime: '7 min read'
     }
   },
   'what-makes-a-chatbot-valuable-for-businesses': {
@@ -4198,9 +4198,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '09-what-makes-a-chatbot-valuable-for-businesses.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 2: Understanding Chatbots',
+      readTime: '6 min read'
     }
   },
   'what-should-i-consider-before-investing-in-a-custom-chatbot': {
@@ -4331,9 +4331,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '31-what-should-i-consider-before-investing-in-a-custom-chatbot.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 7: Working with Experts',
+      readTime: '7 min read'
     }
   },
   'what-technologies-power-a-rag-chatbot': {
@@ -4532,9 +4532,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '17-what-technologies-power-a-rag-chatbot.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 4: Building Custom Solutions',
+      readTime: '8 min read'
     }
   },
   'whats-involved-in-working-with-an-expert-to-build-a-chatbot': {
@@ -4657,9 +4657,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '32-whats-involved-in-working-with-an-expert-to-build-a-chatbot.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 7: Working with Experts',
+      readTime: '7 min read'
     }
   },
   'whats-the-difference-between-ai-machine-learning-and-deep-learning': {
@@ -4840,9 +4840,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '03-whats-the-difference-between-ai-machine-learning-and-deep-learning.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 1: Understanding the Basics of AI',
+      readTime: '6 min read'
     }
   },
   'why-do-some-chatbots-perform-better-than-others': {
@@ -5041,9 +5041,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '08-why-do-some-chatbots-perform-better-than-others.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 2: Understanding Chatbots',
+      readTime: '7 min read'
     }
   },
   'why-doesnt-ai-just-know-everything': {
@@ -5216,14 +5216,14 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           `,
     audioFile: '12-why-doesnt-ai-just-know-everything.wav',
     meta: {
-      date: '',
-      section: '',
-      readTime: ''
+      date: 'July 4, 2025',
+      section: 'Section 3: Advanced AI Concepts',
+      readTime: '6 min read'
     }
   }
   };
 
-  const articleContent = articlesData[params.slug];
+  const articleContent = articlesData[params.slug as keyof typeof articlesData];
 
   if (!articleContent) {
     return (
