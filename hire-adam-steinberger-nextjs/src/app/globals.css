@@ -334,6 +334,80 @@ body {
   background-color: transparent !important;
 }
 
+/* Service page specific styles */
+.solution-card {
+  background: #181c23;
+  border: 1px solid #23272f;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.solution-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(255, 224, 102, 0.1);
+}
+
+.credential-card {
+  background: #181c23;
+  border: 1px solid #23272f;
+  border-radius: 12px;
+  text-align: center;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.credential-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(255, 224, 102, 0.1);
+}
+
+.knowledge-card {
+  background: #181c23;
+  border: 1px solid #23272f;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.golden-box {
+  border-left: 4px solid #ffe066;
+}
+
+.purple-box {
+  border-left: 4px solid #8b5cf6;
+}
+
+.custom-alert {
+  background: linear-gradient(135deg, #23274d 60%, #23272f 100%);
+  color: #f3f4f6;
+  border: none;
+  border-radius: 12px;
+}
+
+.btn-custom {
+  background: #ffe066;
+  color: #23272f;
+  border: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background: #fffbe7;
+  color: #181c23;
+  transform: translateY(-1px);
+}
+
+.demo-btn {
+  background: linear-gradient(135deg, #ffe066 0%, #f87171 100%);
+  color: #23272f;
+}
+
+.consultation-btn {
+  background: linear-gradient(135deg, #60a5fa 0%, #8b5cf6 100%);
+  color: #f3f4f6;
+}
+
 /* Breadcrumb styles */
 .breadcrumb {
   background: transparent;
