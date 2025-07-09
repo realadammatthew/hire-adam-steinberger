@@ -1,6 +1,9 @@
 import { notFound } from 'next/navigation';
 import { articles } from '@/data/articles';
 import { getArticleBySlug } from '@/lib/markdownUtils';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import rehypeHighlight from 'rehype-highlight';
 
 interface ArticlePageProps {
   params: {
@@ -45,10 +48,14 @@ export default function ArticlePage({ params }: ArticlePageProps) {
               </div>
             )}
 
-            <div 
-              className="article-body"
-              dangerouslySetInnerHTML={{ __html: articleContent.content }}
-            />
+            <div className="article-body">
+              <ReactMarkdown
+                remarkPlugins={[remarkGfm]}
+                rehypePlugins={[rehypeHighlight]}
+              >
+                {articleContent.content}
+              </ReactMarkdown>
+            </div>
           </div>
         </div>
       </div>
