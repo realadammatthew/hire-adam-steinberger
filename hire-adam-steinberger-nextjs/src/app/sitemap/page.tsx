@@ -69,6 +69,20 @@ export default function SitemapPage() {
               <Link href="/services/ai-cary" className="btn btn-outline-light mt-3">Explore Cary Services</Link>
             </div>
           </div>
+          <div className="col-md-6">
+            <div className="card green-box solution-card">
+              <h5><i className="fas fa-triangle"></i> Triangle AI Developer</h5>
+              <p>Comprehensive AI services for the entire Triangle area</p>
+              <Link href="/services/triangle-ai-developer" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-map-marker-alt"></i> AI Developer Near Me</h5>
+              <p>Local AI development services</p>
+              <Link href="/services/ai-developer-near-me" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -144,13 +158,6 @@ export default function SitemapPage() {
               <h5><i className="fas fa-gem"></i> Gemini AI Services</h5>
               <p>Google Gemini AI integration and development</p>
               <Link href="/services/gemini-ai" className="btn btn-outline-light mt-3">Learn More</Link>
-            </div>
-          </div>
-          <div className="col-md-6">
-            <div className="card green-box solution-card">
-              <h5><i className="fas fa-triangle"></i> Triangle AI Developer</h5>
-              <p>Comprehensive AI services for the entire Triangle area</p>
-              <Link href="/services/triangle-ai-developer" className="btn btn-outline-light mt-3">Learn More</Link>
             </div>
           </div>
         </div>
@@ -403,13 +410,6 @@ export default function SitemapPage() {
               <h5><i className="fas fa-tools"></i> AI Services</h5>
               <p>Complete AI development services</p>
               <Link href="/services/ai-services" className="btn btn-outline-light mt-3">Learn More</Link>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="card golden-box solution-card">
-              <h5><i className="fas fa-map-marker-alt"></i> AI Developer Near Me</h5>
-              <p>Local AI development services</p>
-              <Link href="/services/ai-developer-near-me" className="btn btn-outline-light mt-3">Learn More</Link>
             </div>
           </div>
         </div>

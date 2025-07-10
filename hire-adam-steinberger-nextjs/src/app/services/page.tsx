@@ -9,7 +9,9 @@ export default function ServicesPage() {
         { name: 'Raleigh AI Developer', slug: 'ai-raleigh', description: 'Custom chatbots and LLM solutions for Raleigh businesses' },
         { name: 'Durham AI Developer', slug: 'ai-durham', description: 'AI development services for Durham companies' },
         { name: 'Cary AI Developer', slug: 'ai-cary', description: 'Custom AI solutions for Cary businesses' },
-        { name: 'Wake Forest AI Developer', slug: 'ai-wake-forest', description: 'AI development services for Wake Forest companies' }
+        { name: 'Wake Forest AI Developer', slug: 'ai-wake-forest', description: 'AI development services for Wake Forest companies' },
+        { name: 'Triangle AI Developer', slug: 'triangle-ai-developer', description: 'Triangle area AI development services' },
+        { name: 'AI Developer Near Me', slug: 'ai-developer-near-me', description: 'Local AI development services' }
       ]
     },
     {
@@ -68,8 +70,6 @@ export default function ServicesPage() {
         { name: 'AI Strategy', slug: 'ai-strategy', description: 'AI strategy development and planning' },
         { name: 'AI Training', slug: 'ai-training', description: 'AI training and education services' },
         { name: 'AI Services', slug: 'ai-services', description: 'Complete AI development services' },
-        { name: 'Triangle AI Developer', slug: 'triangle-ai-developer', description: 'Triangle area AI development services' },
-        { name: 'AI Developer Near Me', slug: 'ai-developer-near-me', description: 'Local AI development services' }
       ]
     }
   ];
