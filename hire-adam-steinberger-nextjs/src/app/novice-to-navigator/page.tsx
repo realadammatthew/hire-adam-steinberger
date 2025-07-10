@@ -87,6 +87,23 @@ export default function NoviceToNavigator() {
           </Link>
           <p className="mt-3 text-secondary">Begin your journey from novice to navigator</p>
         </div>
+        <br />
+        <div className="row justify-content-center">
+          <div className="col-md-6 mb-3">
+            <a href="https://tidycal.com/realadammatthew" target="_blank" rel="noopener noreferrer"
+              className="btn-custom btn btn-lg fw-bold shadow-lg px-4 py-3 consultation-btn w-100">
+              <i className="fas fa-calendar"></i> Schedule Your Free Consultation Today!
+            </a>
+            <p className="mt-2 text-secondary">For businesses ready to start using AI</p>
+          </div>
+          <div className="col-md-6 mb-3">
+            <a href="mailto:adam@matthewsteinberger.com" 
+              className="btn-custom btn btn-lg fw-bold shadow-lg px-4 py-3 employer-btn w-100">
+              <i className="fas fa-envelope"></i> Contact Me for Employment!
+            </a>
+            <p className="mt-2 text-secondary">For employers looking to hire their newest Senior AI Developer</p>
+          </div>
+        </div>
       </section>
     </main>
   );
