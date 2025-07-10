@@ -106,7 +106,7 @@ export default function StartupsAIPage() {
                     <li><strong>Cost Efficiency:</strong> 40% reduction in development costs through AI automation</li>
                     <li><strong>Investor Appeal:</strong> 45% improvement in investor appeal with AI-powered insights</li>
                     <li><strong>Competitive Advantage:</strong> 65% improvement in competitive positioning with AI innovation</li>
-                    <li><strong>Growth Acceleration:</strong> AI systems that scale with your startup's growth trajectory</li>
+                    <li><strong>Growth Acceleration:</strong> AI systems that scale with your startup&apos;s growth trajectory</li>
                   </ul>
                   <p>All startup AI solutions include comprehensive training, support, and growth optimization.</p>
                 </div>

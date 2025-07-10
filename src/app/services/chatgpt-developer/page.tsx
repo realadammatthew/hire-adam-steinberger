@@ -5,14 +5,14 @@ export default function ChatGPTDeveloperPage() {
         <div className="col-lg-10">
           {/* Hero Section */}
           <section className="text-center mb-5">
-            <h1 className="fw-bold headline-gradient" style={{fontSize: 'apos;2.7rem'apos;}}>
+            <h1 className="fw-bold headline-gradient" style={{fontSize: '2.7rem'}}>
               Expert ChatGPT Developer
             </h1>
             <br />
-            <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: 'apos;1.35rem'apos;}}>
+            <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
               Custom GPT Integration & OpenAI API Development
             </h2>
-            <div className="mx-auto mb-4" style={{maxWidth: 'apos;700px'apos;}}>
+            <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
               <div className="alert custom-alert p-4 mb-4 shadow-lg">
                 Transform your business with custom ChatGPT solutions. From OpenAI API integration to custom GPTs trained on your data, I help Triangle area businesses leverage ChatGPT technology effectively.
               </div>
@@ -162,7 +162,7 @@ export default function ChatGPTDeveloperPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready to Build Your ChatGPT Solution?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let'apos;s discuss your specific ChatGPT needs and explore how custom GPT integration can transform your business operations.</p>
+                <p className="mb-4">Let&apos;s discuss your specific ChatGPT needs and explore how custom GPT integration can transform your business operations.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 

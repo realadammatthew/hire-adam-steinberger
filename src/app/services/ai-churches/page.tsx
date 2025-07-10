@@ -135,8 +135,8 @@ export default function AIChurchesPage() {
           </div>
           <div className="col-md-4">
             <div className="card purple-box solution-card">
-              <h5><i className="fas fa-child"></i> Children's Ministry</h5>
-              <p>Children's ministry coordination, safety tracking, and parent communication.</p>
+              <h5><i className="fas fa-child"></i> Children&apos;s Ministry</h5>
+              <p>Children&apos;s ministry coordination, safety tracking, and parent communication.</p>
             </div>
           </div>
           <div className="col-md-4">

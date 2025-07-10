@@ -5,15 +5,15 @@ export default function LLMDevelopmentPage() {
         <div className="col-lg-10">
           {/* Hero Section */}
           <section className="text-center mb-5">
-            <h1 className="fw-bold headline-gradient" style={{fontSize: 'apos;2.7rem'apos;}}>
-              Expert LLM Development
+            <h1 className="fw-bold headline-gradient" style={{fontSize: '2.7rem'}}>
+              LLM Development
             </h1>
-            <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: 'apos;1.35rem'apos;}}>
-              Custom Language Model Solutions for Triangle Area Businesses
+            <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
+              Custom Large Language Model Solutions
             </h2>
-            <div className="mx-auto mb-4" style={{maxWidth: 'apos;700px'apos;}}>
+            <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
               <div className="alert custom-alert p-4 mb-4 shadow-lg">
-                Build intelligent applications with custom LLM development. I specialize in ChatGPT, Claude, Gemini, and Mistral integration for secure, branded AI solutions that understand your business.
+                I build, fine-tune, and deploy custom large language models (LLMs) for your business needs. From GPT to open-source models, get expert LLM development and integration.
               </div>
             </div>
           </section>
@@ -160,7 +160,7 @@ export default function LLMDevelopmentPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready for Custom LLM Development?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let'apos;s discuss your LLM development needs and explore how custom language models can enhance your business applications.</p>
+                <p className="mb-4">Let&apos;s discuss your LLM project and build a custom solution for your business.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 
