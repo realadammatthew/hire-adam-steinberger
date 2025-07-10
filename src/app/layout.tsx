@@ -100,7 +100,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <script src="/bootstrap.bundle.min.js"></script>
+        <script src="/bootstrap.bundle.min.js" defer></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
