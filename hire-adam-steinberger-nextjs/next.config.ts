@@ -23,7 +23,6 @@ const nextConfig: NextConfig = {
         destination: '/services/ai-wake-forest',
         permanent: true,
       },
-      // Industry-specific redirects
       {
         source: '/ai-financial-services',
         destination: '/services/ai-financial-services',
