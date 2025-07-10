@@ -5,16 +5,15 @@ export default function GeminiAIPage() {
         <div className="col-lg-10">
           {/* Hero Section */}
           <section className="text-center mb-5">
-            <h1 className="fw-bold headline-gradient" style={{fontSize: 'apos;2.7rem'apos;}}>
-              Expert Gemini AI Development
+            <h1 className="fw-bold headline-gradient" style={{fontSize: '2.7rem'}}>
+              Gemini AI Developer
             </h1>
-            <br />
-            <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: 'apos;1.35rem'apos;}}>
-              Custom Gemini AI Solutions for Triangle Area Businesses
+            <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
+              Custom Gemini Integrations &amp; Solutions
             </h2>
-            <div className="mx-auto mb-4" style={{maxWidth: 'apos;700px'apos;}}>
+            <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
               <div className="alert custom-alert p-4 mb-4 shadow-lg">
-                Harness the power of Google'apos;s Gemini AI for your business. I provide expert Gemini AI development, integration, and implementation services that deliver multimodal capabilities, advanced reasoning, and enterprise-grade AI solutions for Triangle area companies.
+                Expert Gemini AI developer for custom Gemini integrations, API solutions, and advanced chatbot development. I help businesses leverage Google&apos;s Gemini models for automation, customer service, and more.
               </div>
             </div>
           </section>
@@ -27,7 +26,7 @@ export default function GeminiAIPage() {
                 <div className="card golden-box credential-card">
                   <i className="fas fa-code fa-2x mb-3"></i>
                   <h5>Gemini AI Development</h5>
-                  <p>Custom Gemini AI application development using Google'apos;s Gemini API for multimodal and advanced AI capabilities</p>
+                  <p>Custom Gemini AI application development using Google&apos;s Gemini API for multimodal and advanced AI capabilities</p>
                 </div>
               </div>
               <div className="col-md-4 mb-4">
@@ -103,10 +102,10 @@ export default function GeminiAIPage() {
                     <li><strong>Advanced Reasoning:</strong> Superior reasoning capabilities for complex problem-solving and analysis</li>
                     <li><strong>Visual Understanding:</strong> Deep understanding of visual content for document processing and image analysis</li>
                     <li><strong>Scalable Performance:</strong> High-performance AI solutions that scale with your business needs</li>
-                    <li><strong>Google Integration:</strong> Seamless integration with Google'apos;s ecosystem and enterprise tools</li>
+                    <li><strong>Google Integration:</strong> Seamless integration with Google&apos;s ecosystem and enterprise tools</li>
                     <li><strong>Enterprise Ready:</strong> Professional-grade Gemini AI solutions with security and compliance</li>
                   </ul>
-                  <p>My Gemini AI development approach ensures your applications leverage the full power of Google'apos;s advanced multimodal AI technology.</p>
+                  <p>My Gemini AI development approach ensures your applications leverage the full power of Google&apos;s advanced multimodal AI technology.</p>
                 </div>
               </div>
             </div>
@@ -173,7 +172,7 @@ export default function GeminiAIPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready for Gemini AI?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let'apos;s discuss your Gemini AI needs and explore how advanced multimodal AI can transform your business.</p>
+                <p className="mb-4">Let&apos;s discuss your Gemini AI project and build a custom solution for your business.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 

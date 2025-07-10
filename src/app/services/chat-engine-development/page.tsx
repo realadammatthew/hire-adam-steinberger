@@ -5,16 +5,15 @@ export default function ChatEngineDevelopmentPage() {
         <div className="col-lg-10">
           {/* Hero Section */}
           <section className="text-center mb-5">
-            <h1 className="fw-bold headline-gradient" style={{fontSize: 'apos;2.7rem'apos;}}>
-              Expert Chat Engine Development
+            <h1 className="fw-bold headline-gradient" style={{fontSize: '2.7rem'}}>
+              Chat Engine Development
             </h1>
-            <br />
-            <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: 'apos;1.35rem'apos;}}>
-              Fully-Featured Chat Systems & Real-Time Infrastructure
+            <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
+              Custom Chatbot Platforms &amp; Conversational AI
             </h2>
-            <div className="mx-auto mb-4" style={{maxWidth: 'apos;700px'apos;}}>
+            <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
               <div className="alert custom-alert p-4 mb-4 shadow-lg">
-                Specialized chat engine development engineer with expertise in fully-featured chat systems, conversation management, and real-time chat infrastructure. I build production chat engines with advanced features, streaming, and enterprise scalability for complex conversational applications.
+                Build your own chat engine or conversational AI platform. I design and develop custom chat engines, messaging platforms, and conversational AI systems for businesses and startups.
               </div>
             </div>
           </section>
@@ -200,7 +199,7 @@ export default function ChatEngineDevelopmentPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready for Advanced Chat Engine Development?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let'apos;s discuss your chat engine needs and explore how fully-featured chat systems can enhance your applications.</p>
+                <p className="mb-4">Let&apos;s discuss your chat engine or conversational AI project and build something amazing together.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 

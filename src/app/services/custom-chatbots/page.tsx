@@ -5,15 +5,15 @@ export default function CustomChatbotsPage() {
         <div className="col-lg-10">
           {/* Hero Section */}
           <section className="text-center mb-5">
-            <h1 className="fw-bold headline-gradient" style={{fontSize: 'apos;2.7rem'apos;}}>
-              Custom AI Chatbots
+            <h1 className="fw-bold headline-gradient" style={{fontSize: '2.7rem'}}>
+              Custom Chatbots
             </h1>
-            <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: 'apos;1.35rem'apos;}}>
-              Branded, Intelligent Chatbots Trained on Your Business Data
+            <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
+              Bespoke AI Chatbot Development
             </h2>
-            <div className="mx-auto mb-4" style={{maxWidth: 'apos;700px'apos;}}>
+            <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
               <div className="alert custom-alert p-4 mb-4 shadow-lg">
-                Transform your customer service with custom AI chatbots that understand your business, speak your brand voice, and provide accurate, helpful responses 24/7.
+                I build custom chatbots tailored to your business needs. From customer support to lead generation, my chatbots are designed for your brand, data, and workflows.
               </div>
             </div>
           </section>
@@ -125,7 +125,7 @@ export default function CustomChatbotsPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready to Build Your Custom Chatbot?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let'apos;s discuss your chatbot needs and explore how custom AI can enhance your customer service.</p>
+                <p className="mb-4">Let&apos;s discuss your custom chatbot project and build a solution that fits your business.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 
