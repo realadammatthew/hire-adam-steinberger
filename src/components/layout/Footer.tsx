@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Footer() {
   return (
     <footer className="mt-5">
@@ -24,7 +26,7 @@ export default function Footer() {
             &nbsp;|&nbsp;
             <a href="https://chat.adam.matthewsteinberger.com" className="fw-bold">Try the Chatbot Demo</a>
             &nbsp;|&nbsp;
-            <a href="/novice-to-navigator" className="fw-bold">Learn about AI</a>
+            <Link href="/novice-to-navigator" className="fw-bold">Learn about AI</Link>
             &nbsp;|&nbsp;
             <a href="/sitemap" className="fw-bold">View the Sitemap</a>
           </div>
@@ -39,7 +41,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-3">
-          © Copyright {new Date().getFullYear()} <a href="/">Adam Matthew Steinberger LLC</a>. All Rights Reserved.
+          © Copyright {new Date().getFullYear()} <Link href="/">Adam Matthew Steinberger LLC</Link>. All Rights Reserved.
         </div>
         <div className="row justify-content-center">
           <div className="col-auto">

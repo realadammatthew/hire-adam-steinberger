@@ -37,7 +37,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
       <div className="row">
         <div className="col-12">
           <div className="article-content">
-            <a href="/novice-to-navigator" className="fw-bold">Novice to Navigator</a>
+            <Link href="/novice-to-navigator" className="fw-bold">Novice to Navigator</Link>
             
             <h1 className="article-title">{articleContent.title}</h1>
             <br />

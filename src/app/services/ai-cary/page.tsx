@@ -6,10 +6,10 @@ export default function CaryAIPage() {
           {/* Hero Section */}
           <section className="text-center mb-5">
             <h1 className="fw-bold headline-gradient" style={{fontSize: '2.7rem'}}>
-              Cary's Premier AI Developer
+              Cary&apos;s Premier AI Developer
             </h1>
             <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
-              Custom Chatbots & AI Solutions for Triangle Area Businesses
+              Custom Chatbots &amp; AI Solutions for Triangle Area Businesses
             </h2>
             <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
               <div className="alert custom-alert p-4 mb-4 shadow-lg">
@@ -26,7 +26,7 @@ export default function CaryAIPage() {
                 <div className="card golden-box credential-card">
                   <i className="fas fa-map-marker-alt fa-2x mb-3"></i>
                   <h5>Triangle Area Expert</h5>
-                  <p>Deep understanding of Cary's tech ecosystem and business landscape, serving the entire Triangle area</p>
+                  <p>Deep understanding of Cary&apos;s tech ecosystem and business landscape, serving the entire Triangle area</p>
                 </div>
               </div>
               <div className="col-md-4 mb-4">
@@ -70,7 +70,7 @@ export default function CaryAIPage() {
               </div>
               <div className="col-md-6">
                 <div className="card golden-box solution-card">
-                  <h5><i className="fas fa-graduation-cap"></i> Training & Support</h5>
+                  <h5><i className="fas fa-graduation-cap"></i> Training &amp; Support</h5>
                   <p>Comprehensive training for your team and ongoing support to ensure successful AI implementation and adoption.</p>
                 </div>
               </div>
@@ -79,7 +79,7 @@ export default function CaryAIPage() {
 
           {/* Local Success Stories */}
           <section className="mb-5">
-            <h3 className="fw-bold mb-4 section-headline-blue text-center">Serving Cary & Triangle Area</h3>
+            <h3 className="fw-bold mb-4 section-headline-blue text-center">Serving Cary &amp; Triangle Area</h3>
             <div className="row justify-content-center">
               <div className="col-md-8">
                 <div className="card purple-box knowledge-card mb-4">
@@ -88,10 +88,10 @@ export default function CaryAIPage() {
                   <ul className="mb-4">
                     <li>Compliance with North Carolina business regulations</li>
                     <li>Integration with popular Triangle area business tools</li>
-                    <li>Understanding of Cary's tech ecosystem and market dynamics</li>
+                    <li>Understanding of Cary&apos;s tech ecosystem and market dynamics</li>
                     <li>Personal, hands-on support and consultation</li>
                   </ul>
-                  <p>Whether you're in Cary, Raleigh, Durham, or Wake Forest, I provide the same high-quality AI development services with local expertise.</p>
+                  <p>Whether you&apos;re in Cary, Raleigh, Durham, or Wake Forest, I provide the same high-quality AI development services with local expertise.</p>
                 </div>
               </div>
             </div>
@@ -113,7 +113,7 @@ export default function CaryAIPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready to Get Started?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let's discuss how AI can transform your Cary business. Schedule a free consultation to explore your options.</p>
+                <p className="mb-4">Let&apos;s discuss how AI can transform your Cary business. Schedule a free consultation to explore your options.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 

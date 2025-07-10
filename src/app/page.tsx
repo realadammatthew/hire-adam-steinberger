@@ -10,11 +10,11 @@ export default function Home() {
         </h2>
         <br />
         <h3 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
-          And How I'm Solving It for Triangle Area Businesses
+          And How I&apos;m Solving It for Triangle Area Businesses
         </h3>
         <div className="mx-auto mb-4" style={{maxWidth: '800px'}}>
           <div className="alert custom-alert p-4 mb-4 shadow-lg">
-            <strong>Reality Check:</strong> Most businesses are losing money on AI. They're either stuck with generic chatbots that don't understand their business, or they're paralyzed by security concerns and technical complexity. Meanwhile, their competitors are gaining massive advantages through custom AI solutions.
+            <strong>Reality Check:</strong> Most businesses are losing money on AI. They&apos;re either stuck with generic chatbots that don&apos;t understand their business, or they&apos;re paralyzed by security concerns and technical complexity. Meanwhile, their competitors are gaining massive advantages through custom AI solutions.
           </div>
         </div>
       </section>
@@ -26,29 +26,29 @@ export default function Home() {
           <div className="col-md-6 mb-4">
             <div className="card blue-box problem-card">
               <i className="fas fa-exclamation-triangle fa-2x mb-3"></i>
-              <h5>Generic Chatbots That Don't Work</h5>
-              <p>Off-the-shelf solutions that can't handle your specific business processes, leading to frustrated customers and wasted resources.</p>
+              <h5>Generic Chatbots That Don&apos;t Work</h5>
+              <p>Off-the-shelf solutions that can&apos;t handle your specific business processes, leading to frustrated customers and wasted resources.</p>
             </div>
           </div>
           <div className="col-md-6 mb-4">
             <div className="card blue-box problem-card">
               <i className="fas fa-shield-alt fa-2x mb-3"></i>
-              <h5>Security & Compliance Concerns</h5>
+              <h5>Security &amp; Compliance Concerns</h5>
               <p>Uncertainty about data protection, HIPAA compliance, and intellectual property security slowing AI adoption.</p>
             </div>
           </div>
           <div className="col-md-6 mb-4">
             <div className="card blue-box problem-card">
               <i className="fas fa-dollar-sign fa-2x mb-3"></i>
-              <h5>Hidden Costs & Poor ROI</h5>
+              <h5>Hidden Costs &amp; Poor ROI</h5>
               <p>Projects that start small but balloon into expensive, ongoing maintenance challenges with unclear returns.</p>
             </div>
           </div>
           <div className="col-md-6 mb-4">
             <div className="card blue-box problem-card">
               <i className="fas fa-users fa-2x mb-3"></i>
-              <h5>Team Resistance & Poor Adoption</h5>
-              <p>AI solutions that don't integrate with existing workflows, leading to low adoption rates and wasted investments.</p>
+              <h5>Team Resistance &amp; Poor Adoption</h5>
+              <p>AI solutions that don&apos;t integrate with existing workflows, leading to low adoption rates and wasted investments.</p>
             </div>
           </div>
           <div className="col-md-12 mb-4">
@@ -127,20 +127,20 @@ export default function Home() {
             <div className="card blue-box technical-card">
               <h5><i className="fas fa-brain"></i> LLM Technologies</h5>
               <ul>
-                <li>ChatGPT API & Custom GPTs</li>
+                <li>ChatGPT API &amp; Custom GPTs</li>
                 <li>Claude AI (Anthropic)</li>
                 <li>Gemini (Google)</li>
-                <li>Mistral AI & Open Source</li>
+                <li>Mistral AI &amp; Open Source</li>
                 <li>Custom Fine-tuning</li>
               </ul>
             </div>
           </div>
           <div className="col-md-6 mb-4">
             <div className="card purple-box technical-card">
-              <h5><i className="fas fa-database"></i> RAG & Vector Systems</h5>
+              <h5><i className="fas fa-database"></i> RAG &amp; Vector Systems</h5>
               <ul>
                 <li>Pinecone Vector Database</li>
-                <li>Weaviate & Chroma</li>
+                <li>Weaviate &amp; Chroma</li>
                 <li>Custom Embeddings</li>
                 <li>Semantic Search</li>
                 <li>Context Engineering</li>
@@ -149,10 +149,10 @@ export default function Home() {
           </div>
           <div className="col-md-6 mb-4">
             <div className="card golden-box technical-card">
-              <h5><i className="fas fa-cloud"></i> Infrastructure & Security</h5>
+              <h5><i className="fas fa-cloud"></i> Infrastructure &amp; Security</h5>
               <ul>
                 <li>AWS, Azure, GCP</li>
-                <li>Docker & Kubernetes</li>
+                <li>Docker &amp; Kubernetes</li>
                 <li>HIPAA Compliance</li>
                 <li>SOC2 Security</li>
                 <li>Self-Hosted Options</li>
@@ -161,11 +161,11 @@ export default function Home() {
           </div>
           <div className="col-md-6 mb-4">
             <div className="card green-box technical-card">
-              <h5><i className="fas fa-cogs"></i> Integration & Automation</h5>
+              <h5><i className="fas fa-cogs"></i> Integration &amp; Automation</h5>
               <ul>
                 <li>Slack, Discord, Teams</li>
                 <li>HubSpot, Salesforce</li>
-                <li>Zapier & Webhooks</li>
+                <li>Zapier &amp; Webhooks</li>
                 <li>Custom APIs</li>
                 <li>Workflow Automation</li>
               </ul>
@@ -253,7 +253,7 @@ export default function Home() {
               <h5><i className="fas fa-times-circle text-danger"></i> Generic AI Platforms</h5>
               <ul>
                 <li>❌ No custom training on your data</li>
-                <li>❌ Generic responses that don't match your brand</li>
+                <li>❌ Generic responses that don&apos;t match your brand</li>
                 <li>❌ Limited integration options</li>
                 <li>❌ No local support or training</li>
                 <li>❌ Hidden costs and usage limits</li>
@@ -289,7 +289,7 @@ export default function Home() {
 
       {/* Investment & Pricing Transparency */}
       <section className="container my-5">
-        <h4 className="fw-bold mb-4 section-headline-blue text-center">Transparent Investment & Timeline</h4>
+        <h4 className="fw-bold mb-4 section-headline-blue text-center">Transparent Investment &amp; Timeline</h4>
         <div className="row justify-content-center">
           <div className="col-md-8">
             <div className="card purple-box pricing-card mb-4">
@@ -337,7 +337,7 @@ export default function Home() {
             <div className="card green-box risk-card">
               <i className="fas fa-handshake fa-2x mb-3"></i>
               <h5>Performance Guarantee</h5>
-              <p>If your AI solution doesn't meet agreed performance metrics, I'll optimize it at no additional cost.</p>
+              <p>If your AI solution doesn&apos;t meet agreed performance metrics, I&apos;ll optimize it at no additional cost.</p>
             </div>
           </div>
           <div className="col-md-4 mb-4">
@@ -363,7 +363,7 @@ export default function Home() {
                   <h6><strong>Technical Skills</strong></h6>
                   <ul>
                     <li>Production RAG systems</li>
-                    <li>LLM integration & fine-tuning</li>
+                    <li>LLM integration &amp; fine-tuning</li>
                     <li>Vector database architecture</li>
                     <li>AI/ML pipeline development</li>
                     <li>Cloud infrastructure (AWS/Azure/GCP)</li>
@@ -380,7 +380,7 @@ export default function Home() {
                   </ul>
                 </div>
               </div>
-              <p className="mt-3"><strong>Interested in hiring?</strong> Let's discuss how my AI expertise can accelerate your team's capabilities.</p>
+              <p className="mt-3"><strong>Interested in hiring?</strong> Let&apos;s discuss how my AI expertise can accelerate your team&apos;s capabilities.</p>
             </div>
           </div>
         </div>
@@ -454,7 +454,7 @@ export default function Home() {
             <div className="card golden-box trust-card text-center">
               <i className="fas fa-map-marker-alt fa-2x mb-3"></i>
               <h5>Local Support</h5>
-              <p>Triangle area expertise & availability</p>
+              <p>Triangle area expertise &amp; availability</p>
             </div>
           </div>
           <div className="col-md-3 mb-4">

@@ -1,5 +1,4 @@
 import fs from 'fs';
-import path from 'path';
 
 export interface ArticleContent {
   title: string;
@@ -16,10 +15,6 @@ export function extractArticleContent(htmlContent: string): ArticleContent {
   // Extract title from the HTML
   const titleMatch = htmlContent.match(/<title>(.*?)<\/title>/);
   const title = titleMatch ? titleMatch[1].replace(' | Novice to Navigator Series | Adam Matthew Steinberger', '') : '';
-
-  // Extract meta description
-  const descriptionMatch = htmlContent.match(/<meta name="description" content="(.*?)"/);
-  const description = descriptionMatch ? descriptionMatch[1] : '';
 
   // Extract audio file
   const audioMatch = htmlContent.match(/<source src="\.\.\/audio\/(.*?)" type="audio\/wav">/);

@@ -10,7 +10,7 @@ export default function Header() {
             <div className="col-auto d-flex align-items-center">
               <div className="d-flex gap-4">
                 <div className="text-center">
-                  <a href="/">
+                  <Link href="/">
                     <Image
                       src="/profile-picture.jpg"
                       alt="Adam Matthew Steinberger - Senior Software Engineering Consultant specializing in AI and Cloud Development"
@@ -19,7 +19,7 @@ export default function Header() {
                       className="profile shadow"
                       priority
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="flex-grow-1">
                   <div className="p-4 bg-transparent">
