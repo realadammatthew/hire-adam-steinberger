@@ -422,7 +422,7 @@ export default function SitemapPage() {
           <div className="col-md-8 text-center">
             <p className="mb-4">Choose your next step based on your needs:</p>
             <div className="row">
-              <div className="col-md-4 mb-3">
+              <div className="col-md-6 mb-3">
                 <a href="https://tidycal.com/realadammatthew" target="_blank" rel="noopener noreferrer"
                    className="btn-custom btn btn-lg fw-bold shadow-lg px-4 py-3 consultation-btn w-100">
                   <i className="fas fa-calendar"></i> Schedule Free Consultation

@@ -97,10 +97,10 @@ export default function NoviceToNavigator() {
             <p className="mt-2 text-secondary">For businesses ready to start using AI</p>
           </div>
           <div className="col-md-6 mb-3">
-            <a href="mailto:adam@matthewsteinberger.com" 
+            <Link href="/contact" 
               className="btn-custom btn btn-lg fw-bold shadow-lg px-4 py-3 employer-btn w-100">
               <i className="fas fa-envelope"></i> Contact Me for Employment!
-            </a>
+            </Link>
             <p className="mt-2 text-secondary">For employers looking to hire their newest Senior AI Developer</p>
           </div>
         </div>
