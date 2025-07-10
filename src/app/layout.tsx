@@ -76,6 +76,10 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.google-analytics.com" />
+        <link rel="stylesheet" href="/bootstrap.min.css" />
+        <link rel="stylesheet" href="/font-awesome.min.css" />
+        <link rel="stylesheet" href="/fonts.css" />
+        <link rel="stylesheet" href="/styles.css" />
       </head>
       <body className={inter.className}>
         <Script
