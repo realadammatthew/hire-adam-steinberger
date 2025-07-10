@@ -5,529 +5,1058 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/</loc>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <!-- Service pages: both new and old links -->
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-wake-forest/</loc>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-wake-forest.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-raleigh/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-raleigh.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/custom-chatbots/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/custom-chatbots.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-developer-near-me/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-developer-near-me.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/chatgpt-developer/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/chatgpt-developer.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-cary/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-cary.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-consultant/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-consultant.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-automation/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-automation.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/llm-development/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/llm-development.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-durham/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-durham.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/triangle-ai-developer/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/triangle-ai-developer.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-integration/</loc>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-integration.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-training/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-training.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-solutions/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-solutions.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-expert/</loc>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-expert.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-services/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-services.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-strategy/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-strategy.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-implementation/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-implementation.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-business/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-business.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-marketing/</loc>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-marketing.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/claude-ai/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/claude-ai.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/gemini-ai/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/gemini-ai.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-consulting/</loc>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-consulting.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/rag-development/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/rag-development.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/lora-fine-tuning/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/lora-fine-tuning.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-agents/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-agents.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/vllm-api-development/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/vllm-api-development.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/prompt-engineering/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/prompt-engineering.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/context-engineering/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/context-engineering.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/chat-engine-development/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/chat-engine-development.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-law-firms/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-law-firms.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-nonprofits/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-nonprofits.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-boutiques/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-boutiques.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-restaurants/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-restaurants.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-healthcare/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-healthcare.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-churches/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-churches.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-ministries/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-ministries.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-missionaries/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-missionaries.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-christian-counseling/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-christian-counseling.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-christian-education/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-christian-education.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-marketing-agencies/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-marketing-agencies.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-sales-teams/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-sales-teams.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-copywriting/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-copywriting.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-helpdesk/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-helpdesk.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-tutoring/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-tutoring.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-real-estate/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-real-estate.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-financial-services/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-financial-services.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-manufacturing/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-manufacturing.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-startups/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-startups.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-enterprise/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-enterprise.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-vibe-coding/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-vibe-coding.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-privacy-tech/</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/ai-privacy-tech.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/sitemap/</loc>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/sitemap.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator.html</loc>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-is-ai-really</loc>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-is-ai-really.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-are-the-different-types-of-ai-systems</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-are-the-different-types-of-ai-systems.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/whats-the-difference-between-ai-machine-learning-and-deep-learning</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/whats-the-difference-between-ai-machine-learning-and-deep-learning.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/how-does-ai-learn-from-data</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/how-does-ai-learn-from-data.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-is-prompt-engineering-and-why-is-it-important</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-is-prompt-engineering-and-why-is-it-important.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-is-a-chatbot-and-how-does-it-work</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-is-a-chatbot-and-how-does-it-work.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/how-do-chatbots-understand-human-language</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/how-do-chatbots-understand-human-language.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/why-do-some-chatbots-perform-better-than-others</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/why-do-some-chatbots-perform-better-than-others.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-makes-a-chatbot-valuable-for-businesses</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-makes-a-chatbot-valuable-for-businesses.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/can-chatbots-replace-human-roles-in-certain-tasks</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/can-chatbots-replace-human-roles-in-certain-tasks.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-is-retrieval-augmented-generation-rag</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-is-retrieval-augmented-generation-rag.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/why-doesnt-ai-just-know-everything</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/why-doesnt-ai-just-know-everything.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/how-does-a-rag-chatbot-use-my-specific-data</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/how-does-a-rag-chatbot-use-my-specific-data.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-is-a-vector-database-and-why-is-it-used-in-rag</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-is-a-vector-database-and-why-is-it-used-in-rag.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-are-embeddings-and-how-do-they-help-chatbots</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-are-embeddings-and-how-do-they-help-chatbots.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/how-do-you-start-building-a-custom-ai-chatbot</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/how-do-you-start-building-a-custom-ai-chatbot.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-technologies-power-a-rag-chatbot</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-technologies-power-a-rag-chatbot.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/how-do-you-ensure-a-chatbot-gives-accurate-and-relevant-answers</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/how-do-you-ensure-a-chatbot-gives-accurate-and-relevant-answers.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/can-a-chatbot-integrate-with-my-existing-systems</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/can-a-chatbot-integrate-with-my-existing-systems.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/is-building-a-custom-chatbot-expensive-or-time-intensive</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/is-building-a-custom-chatbot-expensive-or-time-intensive.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/can-ai-chatbots-give-incorrect-or-made-up-answers</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/can-ai-chatbots-give-incorrect-or-made-up-answers.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/how-do-you-prevent-a-chatbot-from-giving-harmful-or-off-brand-responses</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/how-do-you-prevent-a-chatbot-from-giving-harmful-or-off-brand-responses.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/is-my-business-data-safe-when-using-a-chatbot</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/is-my-business-data-safe-when-using-a-chatbot.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/can-competitors-exploit-my-chatbots-knowledge-base</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/can-competitors-exploit-my-chatbots-knowledge-base.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/how-do-you-evaluate-a-chatbots-performance</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/how-do-you-evaluate-a-chatbots-performance.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-industries-are-using-ai-chatbots-effectively</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-industries-are-using-ai-chatbots-effectively.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/how-can-a-chatbot-increase-revenue-or-reduce-costs</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/how-can-a-chatbot-increase-revenue-or-reduce-costs.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/can-chatbots-streamline-lead-generation-or-customer-onboarding</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/can-chatbots-streamline-lead-generation-or-customer-onboarding.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/is-my-business-ready-for-an-ai-chatbot</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/is-my-business-ready-for-an-ai-chatbot.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-if-my-business-has-limited-content-or-data</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-if-my-business-has-limited-content-or-data.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-should-i-consider-before-investing-in-a-custom-chatbot</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/what-should-i-consider-before-investing-in-a-custom-chatbot.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/whats-involved-in-working-with-an-expert-to-build-a-chatbot</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/whats-involved-in-working-with-an-expert-to-build-a-chatbot.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/how-do-i-get-my-own-custom-ai-chatbot</loc>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/novice-to-navigator/how-do-i-get-my-own-custom-ai-chatbot.html</loc>
-        <lastmod>2025-07-04</lastmod>
+        <lastmod>2025-07-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
