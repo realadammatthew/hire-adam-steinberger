@@ -39,7 +39,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-3">
-          © Copyright 2025 <a href="/">Adam Matthew Steinberger LLC</a>. All Rights Reserved.
+          © Copyright {new Date().getFullYear()} <a href="/">Adam Matthew Steinberger LLC</a>. All Rights Reserved.
         </div>
         <div className="row justify-content-center">
           <div className="col-auto">

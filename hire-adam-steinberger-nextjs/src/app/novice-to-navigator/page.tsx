@@ -83,7 +83,7 @@ export default function NoviceToNavigator() {
         <div className="text-center my-4">
           <p className="mb-4">Begin with the first article and work your way through the series. Each article builds on the previous one, ensuring you have a solid foundation for making informed AI decisions.</p>
           <Link href="/novice-to-navigator/what-is-ai-really" className="btn-custom btn btn-lg fw-bold shadow-lg px-5 py-3 demo-btn">
-            <i className="fas fa-play"></i> Start with Article 1
+            <i className="fas fa-play"></i> Start with my First Article: "What is AI Really?"
           </Link>
           <p className="mt-3 text-secondary">Begin your journey from novice to navigator</p>
         </div>
