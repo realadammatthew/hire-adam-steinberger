@@ -36,8 +36,10 @@ export default function ArticlePage({ params }: ArticlePageProps) {
       <div className="row">
         <div className="col-12">
           <div className="article-content">
-            <h1 className="article-title">{articleContent.title}</h1>
+            <a href="/novice-to-navigator" className="fw-bold">Novice to Navigator</a>
             
+            <h1 className="article-title">{articleContent.title}</h1>
+            <br />
             <div className="article-meta mb-4">
               <span className="badge bg-primary me-2">{articleContent.meta.section}</span>
               <span className="text-muted">{articleContent.meta.date}</span>
@@ -67,21 +69,22 @@ export default function ArticlePage({ params }: ArticlePageProps) {
             <section className="container my-5">
               <h4 className="fw-bold section-headline-blue text-center">Ready to Get Started with AI for your Business?</h4>
               <div className="row justify-content-center">
-                <div className="col-md-8 text-center">
-                  <p className="mb-4">Try the AI Chatbot Demo First, or schedule a free consultation to learn more about how AI can help your business.</p>
+                <div className="col-md-12 text-center">
+                  <p className="mb-4">Schedule a free consultation to learn more about how AI can help your business, or contact me for employment.</p>
                   <div className="row">
-                    <div className="col-md-6 mb-3">
-                      <a href="https://chat.adam.matthewsteinberger.com" target="_blank" className="btn btn-outline-primary btn-lg w-100">
-                        <i className="fas fa-play"></i> Try the AI Chatbot Demo First
-                      </a>
-                      <p className="mt-2 text-secondary">Give it a try before you commit</p>
-                    </div>
-                    <div className="col-md-6 mb-3">
+                    <div className="col-md-12 mb-3">
                       <a href="https://tidycal.com/realadammatthew" target="_blank" rel="noopener noreferrer"
                         className="btn-custom btn btn-lg fw-bold shadow-lg px-4 py-3 consultation-btn w-100">
-                        <i className="fas fa-calendar"></i> Schedule Free Consultation
+                        <i className="fas fa-calendar"></i> Schedule Your Free Consultation Today!
                       </a>
-                      <p className="mt-2 text-secondary">For businesses ready to explore AI solutions</p>
+                      <p className="mt-2 text-secondary">For businesses ready to start using AI</p>
+                    </div>
+                    <div className="col-md-12 mb-3">
+                      <a href="mailto:adam@matthewsteinberger.com" 
+                        className="btn-custom btn btn-lg fw-bold shadow-lg px-4 py-3 employer-btn w-100">
+                        <i className="fas fa-envelope"></i> Contact Me for Employment!
+                      </a>
+                      <p className="mt-2 text-secondary">For employers looking to hire their newest Senior AI Developer</p>
                     </div>
                   </div>
                 </div>

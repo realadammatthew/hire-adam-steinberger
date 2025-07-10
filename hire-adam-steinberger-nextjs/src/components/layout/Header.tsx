@@ -10,14 +10,16 @@ export default function Header() {
             <div className="col-auto d-flex align-items-center">
               <div className="d-flex gap-4">
                 <div className="text-center">
-                  <Image
-                    src="/profile-picture.jpg"
-                    alt="Adam Matthew Steinberger - Senior Software Engineering Consultant specializing in AI and Cloud Development"
-                    width={120}
-                    height={120}
-                    className="profile shadow"
-                    priority
-                  />
+                  <a href="/">
+                    <Image
+                      src="/profile-picture.jpg"
+                      alt="Adam Matthew Steinberger - Senior Software Engineering Consultant specializing in AI and Cloud Development"
+                      width={120}
+                      height={120}
+                      className="profile shadow"
+                      priority
+                    />
+                  </a>
                 </div>
                 <div className="flex-grow-1">
                   <div className="p-4 bg-transparent">
@@ -54,6 +56,17 @@ export default function Header() {
                           data-bs-title="adam@matthewsteinberger.com"
                         >
                           <i className="fas fa-envelope"></i>
+                        </a>
+                        <a 
+                          href="https://www.linkedin.com/in/realadammatthew/" 
+                          target="_blank" 
+                          rel="noopener noreferrer" 
+                          className="btn btn-outline-light" 
+                          data-bs-toggle="tooltip" 
+                          data-bs-placement="bottom" 
+                          data-bs-title="LinkedIn"
+                        >
+                          <i className="fab fa-linkedin"></i>
                         </a>
                         <a 
                           href="https://github.com/realadammatthew" 
