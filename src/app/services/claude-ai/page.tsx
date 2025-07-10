@@ -5,16 +5,16 @@ export default function ClaudeAIPage() {
         <div className="col-lg-10">
           {/* Hero Section */}
           <section className="text-center mb-5">
-            <h1 className="fw-bold headline-gradient" style={{fontSize: '2.7rem'}}>
+            <h1 className="fw-bold headline-gradient" style={{fontSize: 'apos;2.7rem'apos;}}>
               Expert Claude AI Development
             </h1>
             <br />
-            <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
+            <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: 'apos;1.35rem'apos;}}>
               Custom Claude AI Solutions for Triangle Area Businesses
             </h2>
-            <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
+            <div className="mx-auto mb-4" style={{maxWidth: 'apos;700px'apos;}}>
               <div className="alert custom-alert p-4 mb-4 shadow-lg">
-                Leverage the power of Anthropic's Claude AI for your business. I provide expert Claude AI development, integration, and implementation services that deliver advanced reasoning, analysis, and safety-focused AI solutions for Triangle area companies.
+                Leverage the power of Anthropic'apos;s Claude AI for your business. I provide expert Claude AI development, integration, and implementation services that deliver advanced reasoning, analysis, and safety-focused AI solutions for Triangle area companies.
               </div>
             </div>
           </section>
@@ -27,7 +27,7 @@ export default function ClaudeAIPage() {
                 <div className="card golden-box credential-card">
                   <i className="fas fa-code fa-2x mb-3"></i>
                   <h5>Claude AI Development</h5>
-                  <p>Custom Claude AI application development using Anthropic's Claude API for advanced reasoning and analysis</p>
+                  <p>Custom Claude AI application development using Anthropic'apos;s Claude API for advanced reasoning and analysis</p>
                 </div>
               </div>
               <div className="col-md-4 mb-4">
@@ -106,7 +106,7 @@ export default function ClaudeAIPage() {
                     <li><strong>Scalable Solutions:</strong> Claude AI applications that scale with your business needs</li>
                     <li><strong>Enterprise Ready:</strong> Professional-grade Claude AI solutions with security and compliance</li>
                   </ul>
-                  <p>My Claude AI development approach ensures your applications leverage the full power of Anthropic's advanced AI technology.</p>
+                  <p>My Claude AI development approach ensures your applications leverage the full power of Anthropic'apos;s advanced AI technology.</p>
                 </div>
               </div>
             </div>
@@ -173,7 +173,7 @@ export default function ClaudeAIPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready for Claude AI?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let's discuss your Claude AI needs and explore how advanced AI reasoning can transform your business.</p>
+                <p className="mb-4">Let'apos;s discuss your Claude AI needs and explore how advanced AI reasoning can transform your business.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 

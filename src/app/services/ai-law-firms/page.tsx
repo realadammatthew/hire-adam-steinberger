@@ -10,11 +10,11 @@ export default function LawFirmsAIPage() {
             </h1>
             <br />
             <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
-              Legal Practice Automation & Compliance-Focused AI Systems
+              Legal Automation &amp; Client Service
             </h2>
             <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
               <div className="alert custom-alert p-4 mb-4 shadow-lg">
-                Specialized AI solutions for law firms in the Triangle area. From document analysis and legal research automation to client intake chatbots and compliance-focused AI systems. Built with legal industry expertise and security standards.
+                Specialized AI solutions for law firms in the Triangle area. From document automation and case management to client intake and compliance. Built for legal practices and attorneys.
               </div>
             </div>
           </section>
@@ -194,7 +194,7 @@ export default function LawFirmsAIPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready to Transform Your Legal Practice?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let's discuss how AI can enhance your legal practice and improve client service. Schedule a free consultation to explore your options.</p>
+                <p className="mb-4">Let&apos;s discuss your law firm&apos;s AI needs and explore how automation can enhance your legal practice.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 

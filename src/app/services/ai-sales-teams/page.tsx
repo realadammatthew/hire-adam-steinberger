@@ -10,11 +10,11 @@ export default function AISalesTeamsPage() {
             </h1>
             <br />
             <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
-              Lead Management & Sales Process Automation
+              Sales Automation &amp; Lead Management
             </h2>
             <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
               <div className="alert custom-alert p-4 mb-4 shadow-lg">
-                Specialized AI solutions for sales teams in the Triangle area. From lead management and sales automation to customer relationship management and sales analytics. Built for sales efficiency and revenue growth.
+                Specialized AI solutions for sales teams in the Triangle area. From lead generation and pipeline automation to customer engagement and sales analytics. Built for sales professionals and business development teams.
               </div>
             </div>
           </section>
@@ -195,7 +195,7 @@ export default function AISalesTeamsPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready to Transform Your Sales Team?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let's discuss your sales team AI needs and explore how automation can enhance your sales performance.</p>
+                <p className="mb-4">Let&apos;s discuss your sales team&apos;s AI needs and explore how automation can drive your revenue growth.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 

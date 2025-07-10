@@ -10,11 +10,11 @@ export default function ManufacturingAIPage() {
             </h1>
             <br />
             <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
-              Industry 4.0 & Smart Manufacturing Automation
+              Automation &amp; Process Optimization
             </h2>
             <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
               <div className="alert custom-alert p-4 mb-4 shadow-lg">
-                Specialized AI solutions for manufacturing companies in the Triangle area. From predictive maintenance and quality control to supply chain optimization and Industry 4.0 automation. Built for manufacturing efficiency and operational excellence.
+                Specialized AI solutions for manufacturing companies in the Triangle area. From process automation and predictive maintenance to supply chain optimization and quality control. Built for manufacturers and industrial firms.
               </div>
             </div>
           </section>
@@ -194,7 +194,7 @@ export default function ManufacturingAIPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready to Transform Your Manufacturing?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let's discuss how AI can enhance your manufacturing operations and improve efficiency. Schedule a free consultation to explore your options.</p>
+                <p className="mb-4">Let&apos;s discuss your manufacturing AI needs and explore how automation can optimize your operations.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 

@@ -1,14 +1,18 @@
 
-export default function AIWakeForestPage() {
+export default function WakeForestAIPage() {
   return (
     <div className="min-h-screen bg-dark text-light">
       {/* Hero Section */}
       <section className="container text-center my-5" style={{marginTop: '0 !important', paddingTop: '0 !important'}}>
-        <h2 className="fw-bold headline-gradient" style={{fontSize: '2.7rem'}}>Wake Forest's Premier AI Developer</h2>
-        <h3 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>Custom Chatbots & LLM Solutions for Triangle Area Businesses</h3>
+        <h1 className="fw-bold headline-gradient" style={{fontSize: '2.7rem'}}>
+          Wake Forest&apos;s Premier AI Developer
+        </h1>
+        <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
+          Custom Chatbots &amp; AI Solutions for Triangle Area Businesses
+        </h2>
         <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
           <div className="alert custom-alert p-4 mb-4 shadow-lg">
-            Serving Wake Forest and the Triangle area with secure, branded AI solutions. From custom chatbots to enterprise LLM integration, I help local businesses leverage AI technology effectively.
+            Serving Wake Forest and the Triangle area with secure, branded AI solutions. From custom chatbots to enterprise AI integration, I help local businesses leverage AI technology effectively.
           </div>
         </div>
       </section>
@@ -86,7 +90,7 @@ export default function AIWakeForestPage() {
                 <li>Understanding of local market dynamics and customer expectations</li>
                 <li>Personal, hands-on support and consultation</li>
               </ul>
-              <p>Whether you're in Wake Forest, Raleigh, Durham, or Cary, I provide the same high-quality AI development services with local expertise.</p>
+              <p>Whether you&apos;re in Wake Forest, Raleigh, Durham, or Cary, I provide the same high-quality AI development services with local expertise.</p>
             </div>
           </div>
         </div>
@@ -108,7 +112,7 @@ export default function AIWakeForestPage() {
         <h4 className="fw-bold section-headline-blue text-center">Ready to Get Started?</h4>
         <div className="row justify-content-center">
           <div className="col-md-8 text-center">
-            <p className="mb-4">Let's discuss how AI can transform your Wake Forest business. Schedule a free consultation to explore your options.</p>
+            <p className="mb-4">Let&apos;s discuss how AI can transform your Wake Forest business. Schedule a free consultation to explore your options.</p>
             <a href="https://tidycal.com/realadammatthew" target="_blank" rel="noopener noreferrer"
                className="btn-custom btn btn-lg fw-bold shadow-lg px-5 py-3 consultation-btn">
               Schedule Free Consultation

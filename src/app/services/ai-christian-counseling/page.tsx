@@ -195,7 +195,7 @@ export default function AIChristianCounselingPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready to Enhance Your Christian Counseling?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let's discuss your Christian counseling AI needs and explore how automation can enhance your mental health mission.</p>
+                <p className="mb-4">Let&apos;s discuss your Christian counseling AI needs and explore how automation can enhance your mental health mission.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 

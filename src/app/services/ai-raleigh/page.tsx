@@ -1,14 +1,18 @@
 
-export default function AIRaleighPage() {
+export default function RaleighAIPage() {
   return (
     <div className="min-h-screen bg-dark text-light">
       {/* Hero Section */}
       <section className="container text-center my-5" style={{marginTop: '0 !important', paddingTop: '0 !important'}}>
-        <h2 className="fw-bold headline-gradient" style={{fontSize: '2.7rem'}}>Raleigh's Premier AI Developer</h2>
-        <h3 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>Custom Chatbots & LLM Solutions for Triangle Area Businesses</h3>
+        <h1 className="fw-bold headline-gradient" style={{fontSize: '2.7rem'}}>
+          Raleigh&apos;s Premier AI Developer
+        </h1>
+        <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
+          Custom Chatbots &amp; AI Solutions for Triangle Area Businesses
+        </h2>
         <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
           <div className="alert custom-alert p-4 mb-4 shadow-lg">
-            Serving Raleigh and the Triangle area with secure, branded AI solutions. From custom chatbots to enterprise LLM integration, I help local businesses leverage AI technology effectively.
+            Serving Raleigh and the Triangle area with secure, branded AI solutions. From custom chatbots to enterprise AI integration, I help local businesses leverage AI technology effectively.
           </div>
         </div>
       </section>
@@ -21,7 +25,7 @@ export default function AIRaleighPage() {
             <div className="card golden-box credential-card">
               <i className="fas fa-map-marker-alt fa-2x mb-3"></i>
               <h5>Triangle Area Expert</h5>
-              <p>Deep understanding of Raleigh's tech ecosystem and business landscape, serving the entire Triangle area</p>
+              <p>Deep understanding of Raleigh&apos;s tech ecosystem and business landscape, serving the entire Triangle area</p>
             </div>
           </div>
           <div className="col-md-4 mb-4">
@@ -83,10 +87,10 @@ export default function AIRaleighPage() {
               <ul className="mb-4">
                 <li>Compliance with North Carolina business regulations</li>
                 <li>Integration with popular Triangle area business tools</li>
-                <li>Understanding of Raleigh's tech ecosystem and market dynamics</li>
+                <li>Understanding of Raleigh&apos;s tech ecosystem and market dynamics</li>
                 <li>Personal, hands-on support and consultation</li>
               </ul>
-              <p>Whether you're in Raleigh, Durham, Cary, or Wake Forest, I provide the same high-quality AI development services with local expertise.</p>
+              <p>Whether you&apos;re in Raleigh, Durham, Cary, or Wake Forest, I provide the same high-quality AI development services with local expertise.</p>
             </div>
           </div>
         </div>
@@ -108,7 +112,7 @@ export default function AIRaleighPage() {
         <h4 className="fw-bold section-headline-blue text-center">Ready to Get Started?</h4>
         <div className="row justify-content-center">
           <div className="col-md-8 text-center">
-            <p className="mb-4">Let's discuss how AI can transform your Raleigh business. Schedule a free consultation to explore your options.</p>
+            <p className="mb-4">Let&apos;s discuss how AI can transform your Raleigh business. Schedule a free consultation to explore your options.</p>
             <a href="https://tidycal.com/realadammatthew" target="_blank" rel="noopener noreferrer"
                className="btn-custom btn btn-lg fw-bold shadow-lg px-5 py-3 consultation-btn">
               Schedule Free Consultation

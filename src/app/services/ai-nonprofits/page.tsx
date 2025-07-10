@@ -10,11 +10,11 @@ export default function AINonprofitsPage() {
             </h1>
             <br />
             <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
-              Affordable AI for Mission-Driven Organizations
+              Nonprofit Automation &amp; Donor Engagement
             </h2>
             <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
               <div className="alert custom-alert p-4 mb-4 shadow-lg">
-                Specialized AI solutions for nonprofits in the Triangle area. From donor management and volunteer coordination to grant writing assistance and mission-focused AI systems. Built with nonprofit budgets and impact goals in mind.
+                Specialized AI solutions for nonprofits in the Triangle area. From donor management and fundraising automation to volunteer coordination and impact reporting. Built for nonprofit growth and mission success.
               </div>
             </div>
           </section>
@@ -195,7 +195,7 @@ export default function AINonprofitsPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready to Amplify Your Mission?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let's discuss your nonprofit AI needs and explore how automation can enhance your mission impact.</p>
+                <p className="mb-4">Let&apos;s discuss your nonprofit&apos;s AI needs and explore how automation can drive your mission forward.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 

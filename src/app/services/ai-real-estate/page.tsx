@@ -10,11 +10,11 @@ export default function RealEstateAIPage() {
             </h1>
             <br />
             <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
-              Lead Management & Property Analysis Automation
+              Real Estate Automation &amp; Client Engagement
             </h2>
             <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
               <div className="alert custom-alert p-4 mb-4 shadow-lg">
-                Specialized AI solutions for real estate professionals in the Triangle area. From lead management and property analysis to client communication and market insights. Built for real estate efficiency and client satisfaction.
+                Specialized AI solutions for real estate in the Triangle area. From lead generation and client management to property search automation and transaction coordination. Built for realtors, brokers, and property managers.
               </div>
             </div>
           </section>
@@ -194,7 +194,7 @@ export default function RealEstateAIPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready to Transform Your Real Estate Business?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let's discuss how AI can enhance your real estate business and improve client satisfaction. Schedule a free consultation to explore your options.</p>
+                <p className="mb-4">Let&apos;s discuss your real estate AI needs and explore how automation can drive your business forward.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 

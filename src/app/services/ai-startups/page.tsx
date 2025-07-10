@@ -10,11 +10,11 @@ export default function StartupsAIPage() {
             </h1>
             <br />
             <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
-              MVP Development & Growth Automation
+              Startup Automation &amp; Growth Acceleration
             </h2>
             <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
               <div className="alert custom-alert p-4 mb-4 shadow-lg">
-                Specialized AI solutions for startups in the Triangle area. From MVP development and rapid prototyping to product-market fit analysis and growth automation. Built for startup speed and innovation.
+                Specialized AI solutions for startups in the Triangle area. From MVP automation and product analytics to customer onboarding and growth hacking. Built for founders, entrepreneurs, and high-growth teams.
               </div>
             </div>
           </section>
@@ -194,7 +194,7 @@ export default function StartupsAIPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready to Accelerate Your Startup?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let's discuss how AI can accelerate your startup's growth and innovation. Schedule a free consultation to explore your options.</p>
+                <p className="mb-4">Let&apos;s discuss your startup&apos;s AI needs and explore how automation can accelerate your growth.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 

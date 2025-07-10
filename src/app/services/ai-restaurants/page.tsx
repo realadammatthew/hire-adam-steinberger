@@ -10,11 +10,11 @@ export default function RestaurantAIPage() {
             </h1>
             <br />
             <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
-              Hospitality Automation & Customer Experience Enhancement
+              Restaurant Automation &amp; Guest Experience
             </h2>
             <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
               <div className="alert custom-alert p-4 mb-4 shadow-lg">
-                Specialized AI solutions for restaurants in the Triangle area. From order management and customer service chatbots to menu optimization and hospitality automation. Built for restaurant efficiency and guest satisfaction.
+                Specialized AI solutions for restaurants in the Triangle area. From guest management and order automation to loyalty programs and personalized marketing. Built for restaurants, cafes, and hospitality businesses.
               </div>
             </div>
           </section>
@@ -194,7 +194,7 @@ export default function RestaurantAIPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready to Transform Your Restaurant?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let's discuss how AI can enhance your restaurant operations and improve guest satisfaction. Schedule a free consultation to explore your options.</p>
+                <p className="mb-4">Let&apos;s discuss your restaurant&apos;s AI needs and explore how automation can enhance your guest experience.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 

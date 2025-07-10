@@ -10,11 +10,11 @@ export default function AIChristianEducationPage() {
             </h1>
             <br />
             <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
-              Educational Automation & Learning Enhancement
+              Personalized Learning &amp; Student Success
             </h2>
             <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
               <div className="alert custom-alert p-4 mb-4 shadow-lg">
-                Specialized AI solutions for Christian education organizations in the Triangle area. From student management and curriculum development to parent communication and educational automation. Built for Christian learning and academic excellence.
+                Specialized AI solutions for Christian education organizations in the Triangle area. From personalized learning and curriculum automation to student engagement and assessment. Built for faith-based schools and educational ministries.
               </div>
             </div>
           </section>
@@ -195,7 +195,7 @@ export default function AIChristianEducationPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready to Enhance Your Christian Education?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let's discuss your Christian education AI needs and explore how automation can enhance your academic mission.</p>
+                <p className="mb-4">Let&apos;s discuss your Christian education AI needs and explore how automation can enhance your mission.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 

@@ -4,7 +4,9 @@ export default function AIChurchesPage() {
     <div className="min-h-screen bg-dark text-light">
       {/* Hero Section */}
       <section className="container text-center my-5" style={{marginTop: '0 !important', paddingTop: '0 !important'}}>
-        <h2 className="fw-bold headline-gradient" style={{fontSize: '2.7rem'}}>AI Solutions for Churches</h2>
+        <h2 className="fw-bold headline-gradient" style={{fontSize: '2.7rem'}}>
+          AI Solutions for Churches
+        </h2>
         <br />
         <h3 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>Ministry Automation & Member Engagement Enhancement</h3>
         <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
@@ -188,7 +190,7 @@ export default function AIChurchesPage() {
       <section className="container my-5">
         <div className="text-center">
           <h4 className="fw-bold mb-4 section-headline-gold">Ready to Transform Your Church?</h4>
-          <p className="mb-4">Let&apos;s discuss how AI can enhance your church and ministry operations.</p>
+          <p className="mb-4">Let&apos;s discuss your church&apos;s AI needs and explore how automation can enhance your ministry.</p>
           <div className="d-flex justify-content-center gap-3 flex-wrap">
             <a href="mailto:adam@matthewsteinberger.com" className="btn-custom btn btn-lg fw-bold shadow-lg px-5 py-3">
               Get Started Today

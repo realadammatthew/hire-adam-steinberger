@@ -5,13 +5,13 @@ export default function CustomChatbotsPage() {
         <div className="col-lg-10">
           {/* Hero Section */}
           <section className="text-center mb-5">
-            <h1 className="fw-bold headline-gradient" style={{fontSize: '2.7rem'}}>
+            <h1 className="fw-bold headline-gradient" style={{fontSize: 'apos;2.7rem'apos;}}>
               Custom AI Chatbots
             </h1>
-            <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
+            <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: 'apos;1.35rem'apos;}}>
               Branded, Intelligent Chatbots Trained on Your Business Data
             </h2>
-            <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
+            <div className="mx-auto mb-4" style={{maxWidth: 'apos;700px'apos;}}>
               <div className="alert custom-alert p-4 mb-4 shadow-lg">
                 Transform your customer service with custom AI chatbots that understand your business, speak your brand voice, and provide accurate, helpful responses 24/7.
               </div>
@@ -125,7 +125,7 @@ export default function CustomChatbotsPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready to Build Your Custom Chatbot?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let's discuss your chatbot needs and explore how custom AI can enhance your customer service.</p>
+                <p className="mb-4">Let'apos;s discuss your chatbot needs and explore how custom AI can enhance your customer service.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 

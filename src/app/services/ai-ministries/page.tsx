@@ -10,11 +10,11 @@ export default function AIMinistriesPage() {
             </h1>
             <br />
             <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
-              Christian Organization Automation & Outreach Enhancement
+              Ministry Automation &amp; Community Engagement
             </h2>
             <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
               <div className="alert custom-alert p-4 mb-4 shadow-lg">
-                Specialized AI solutions for ministries and Christian organizations in the Triangle area. From outreach automation and donor management to volunteer coordination and ministry effectiveness. Built for Christian mission and community impact.
+                Specialized AI solutions for ministries in the Triangle area. From member engagement and event management to prayer request tracking and ministry automation. Built for ministry growth and community building.
               </div>
             </div>
           </section>
@@ -195,7 +195,7 @@ export default function AIMinistriesPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready to Amplify Your Ministry?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let's discuss your ministry AI needs and explore how automation can enhance your Christian mission.</p>
+                <p className="mb-4">Let&apos;s discuss your ministry&apos;s AI needs and explore how automation can enhance your mission.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 

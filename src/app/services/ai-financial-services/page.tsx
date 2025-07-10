@@ -10,11 +10,11 @@ export default function FinancialServicesAIPage() {
             </h1>
             <br />
             <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
-              Risk Assessment & Compliance Automation
+              Secure Automation &amp; Client Engagement
             </h2>
             <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
               <div className="alert custom-alert p-4 mb-4 shadow-lg">
-                Specialized AI solutions for financial services in the Triangle area. From risk assessment and fraud detection to customer service and compliance automation. Built for financial security and regulatory compliance.
+                Specialized AI solutions for financial services in the Triangle area. From secure client onboarding and compliance automation to fraud detection and personalized financial advice. Built for banks, credit unions, and financial advisors.
               </div>
             </div>
           </section>
@@ -194,7 +194,7 @@ export default function FinancialServicesAIPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready to Transform Your Financial Services?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let's discuss how AI can enhance your financial services while maintaining security and compliance. Schedule a free consultation to explore your options.</p>
+                <p className="mb-4">Let&apos;s discuss your financial services AI needs and explore how automation can drive your business forward.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 

@@ -1,4 +1,4 @@
-
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -416,15 +416,15 @@ export default function Home() {
                 <p className="mt-2 text-secondary">Experience the technology</p>
               </div>
               <div className="col-md-4 mb-3">
-                <a href="/novice-to-navigator" className="btn btn-outline-success btn-lg w-100">
+                <Link href="/novice-to-navigator" className="btn btn-outline-success btn-lg w-100">
                   <i className="fas fa-graduation-cap"></i> Learn about AI
-                </a>
+                </Link>
                 <p className="mt-2 text-secondary">33-article education series</p>
               </div>
               <div className="col-md-4 mb-3">
-                <a href="/sitemap" className="btn btn-outline-info btn-lg w-100">
+                <Link href="/sitemap" className="btn btn-outline-info btn-lg w-100">
                   <i className="fas fa-sitemap"></i> View our Sitemap
-                </a>
+                </Link>
                 <p className="mt-2 text-secondary">Browse all pages and services</p>
               </div>
             </div>

@@ -5,14 +5,14 @@ export default function PromptEngineeringPage() {
         <div className="col-lg-10">
           {/* Hero Section */}
           <section className="text-center mb-5">
-            <h1 className="fw-bold headline-gradient" style={{fontSize: '2.7rem'}}>
+            <h1 className="fw-bold headline-gradient" style={{fontSize: 'apos;2.7rem'apos;}}>
               Expert Prompt Engineering
             </h1>
             <br />
-            <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
+            <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: 'apos;1.35rem'apos;}}>
               Advanced Prompt Design & Systematic Optimization
             </h2>
-            <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
+            <div className="mx-auto mb-4" style={{maxWidth: 'apos;700px'apos;}}>
               <div className="alert custom-alert p-4 mb-4 shadow-lg">
                 Specialized prompt engineering specialist with expertise in advanced prompt design, few-shot learning, chain-of-thought prompting, and systematic prompt optimization. I build production prompt engineering systems for reliable, consistent AI interactions across complex use cases.
               </div>
@@ -200,7 +200,7 @@ export default function PromptEngineeringPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready for Advanced Prompt Engineering?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let's discuss your prompt engineering needs and explore how advanced prompt design can optimize your AI interactions.</p>
+                <p className="mb-4">Let'apos;s discuss your prompt engineering needs and explore how advanced prompt design can optimize your AI interactions.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 

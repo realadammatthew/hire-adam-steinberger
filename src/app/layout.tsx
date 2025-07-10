@@ -76,13 +76,6 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.google-analytics.com" />
-        <link rel="preload" href="/fonts.css" as="style" />
-        <link rel="preload" href="/styles.css" as="style" />
-        <link rel="preload" href="/bootstrap.min.css" as="style" />
-        <link href="/fonts.css" rel="stylesheet" />
-        <link href="/bootstrap.min.css" rel="stylesheet" />
-        <link href="/styles.css" rel="stylesheet" />
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
       </head>
       <body className={inter.className}>
         <Script

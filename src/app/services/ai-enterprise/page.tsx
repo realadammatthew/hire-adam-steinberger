@@ -6,15 +6,14 @@ export default function EnterpriseAIPage() {
           {/* Hero Section */}
           <section className="text-center mb-5">
             <h1 className="fw-bold headline-gradient" style={{fontSize: '2.7rem'}}>
-              AI Solutions for Enterprise
+              Enterprise AI Solutions
             </h1>
-            <br />
             <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
-              Scalable AI Platforms & Enterprise Integration
+              Custom AI for Large Organizations &amp; Enterprises
             </h2>
             <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
               <div className="alert custom-alert p-4 mb-4 shadow-lg">
-                Specialized AI solutions for enterprise organizations in the Triangle area. From scalable AI platforms and enterprise integration to governance and compliance automation. Built for enterprise scale and operational excellence.
+                Enterprise-grade AI solutions for large organizations in the Triangle area. From secure chatbot development to advanced workflow automation, I help enterprises leverage AI for efficiency, compliance, and innovation.
               </div>
             </div>
           </section>
@@ -194,7 +193,7 @@ export default function EnterpriseAIPage() {
             <h3 className="fw-bold section-headline-blue text-center">Ready for Enterprise AI?</h3>
             <div className="row justify-content-center">
               <div className="col-md-8 text-center">
-                <p className="mb-4">Let's discuss how AI can transform your enterprise operations and drive business growth. Schedule a free consultation to explore your options.</p>
+                <p className="mb-4">Let&apos;s discuss your enterprise AI needs and explore how automation can drive your business forward.</p>
                 <a 
                   href="https://tidycal.com/realadammatthew" 
                   target="_blank" 
