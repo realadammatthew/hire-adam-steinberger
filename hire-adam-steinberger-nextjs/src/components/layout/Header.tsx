@@ -90,17 +90,6 @@ export default function Header() {
                         >
                           <i className="fab fa-x-twitter"></i>
                         </a>
-                        <a 
-                          href="https://coff.ee/realadammatthew" 
-                          target="_blank" 
-                          rel="noopener noreferrer" 
-                          className="btn btn-outline-warning" 
-                          data-bs-toggle="tooltip" 
-                          data-bs-placement="bottom" 
-                          data-bs-title="Buy Me a Coffee"
-                        >
-                          <i className="fas fa-coffee"></i>
-                        </a>
                       </div>
                     </div>
                   </div>

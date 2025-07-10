@@ -7,13 +7,14 @@ import rehypeHighlight from 'rehype-highlight';
 import Link from 'next/link';
 
 interface ArticlePageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
-export default function ArticlePage({ params }: ArticlePageProps) {
-  const articleIndex = articles.findIndex(a => a.slug === params.slug);
+export default async function ArticlePage({ params }: ArticlePageProps) {
+  const { slug } = await params;
+  const articleIndex = articles.findIndex(a => a.slug === slug);
   const article = articles[articleIndex];
   
   if (!article) {
@@ -21,7 +22,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
   }
 
   // Get article content from Markdown file
-  const articleContent = getArticleBySlug(params.slug);
+  const articleContent = getArticleBySlug(slug);
   
   if (!articleContent) {
     notFound();
