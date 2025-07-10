@@ -169,23 +169,9 @@ export default function SitemapPage() {
           </div>
           <div className="col-md-4">
             <div className="card purple-box solution-card">
-              <h5><i className="fas fa-church"></i> Ministry AI</h5>
-              <p>AI solutions for churches and religious organizations</p>
-              <Link href="/services/ai-ministries" className="btn btn-outline-light mt-3">Learn More</Link>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="card golden-box solution-card">
-              <h5><i className="fas fa-store"></i> Restaurant AI</h5>
-              <p>AI solutions for restaurants and food service</p>
-              <Link href="/services/ai-restaurants" className="btn btn-outline-light mt-3">Learn More</Link>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="card purple-box solution-card">
-              <h5><i className="fas fa-building"></i> Manufacturing AI</h5>
-              <p>AI solutions for manufacturing and industrial companies</p>
-              <Link href="/services/ai-manufacturing" className="btn btn-outline-light mt-3">Learn More</Link>
+              <h5><i className="fas fa-chart-line"></i> Financial Services AI</h5>
+              <p>AI solutions for banks, credit unions, and financial advisors</p>
+              <Link href="/services/ai-financial-services" className="btn btn-outline-light mt-3">Learn More</Link>
             </div>
           </div>
           <div className="col-md-4">
@@ -197,9 +183,233 @@ export default function SitemapPage() {
           </div>
           <div className="col-md-4">
             <div className="card purple-box solution-card">
-              <h5><i className="fas fa-graduation-cap"></i> Education AI</h5>
-              <p>AI solutions for educational institutions</p>
+              <h5><i className="fas fa-store"></i> Restaurant AI</h5>
+              <p>AI solutions for restaurants and food service</p>
+              <Link href="/services/ai-restaurants" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-gavel"></i> Law Firm AI</h5>
+              <p>AI solutions for legal practices and law firms</p>
+              <Link href="/services/ai-law-firms" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-building"></i> Manufacturing AI</h5>
+              <p>AI solutions for manufacturing and industrial companies</p>
+              <Link href="/services/ai-manufacturing" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-bullhorn"></i> Marketing Agency AI</h5>
+              <p>AI solutions for marketing agencies and professionals</p>
+              <Link href="/services/ai-marketing-agencies" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-users"></i> Sales Team AI</h5>
+              <p>AI solutions for sales teams and professionals</p>
+              <Link href="/services/ai-sales-teams" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-heart"></i> Nonprofit AI</h5>
+              <p>AI solutions for nonprofit organizations</p>
+              <Link href="/services/ai-nonprofits" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-rocket"></i> Startup AI</h5>
+              <p>AI solutions for startups and emerging companies</p>
+              <Link href="/services/ai-startups" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-building"></i> Enterprise AI</h5>
+              <p>Enterprise-grade AI solutions for large organizations</p>
+              <Link href="/services/ai-enterprise" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-church"></i> Ministry AI</h5>
+              <p>AI solutions for churches and religious organizations</p>
+              <Link href="/services/ai-ministries" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-graduation-cap"></i> Christian Education AI</h5>
+              <p>AI solutions for Christian schools and educational institutions</p>
               <Link href="/services/ai-christian-education" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-hands-helping"></i> Christian Counseling AI</h5>
+              <p>AI solutions for Christian counseling practices</p>
+              <Link href="/services/ai-christian-counseling" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-globe"></i> Missionaries AI</h5>
+              <p>AI solutions for missionary organizations and workers</p>
+              <Link href="/services/ai-missionaries" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-shopping-bag"></i> Boutiques AI</h5>
+              <p>AI solutions for boutique retail businesses</p>
+              <Link href="/services/ai-boutiques" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-shield-alt"></i> Privacy Tech AI</h5>
+              <p>Privacy-focused AI solutions for tech companies</p>
+              <Link href="/services/ai-privacy-tech" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-headset"></i> Helpdesk AI</h5>
+              <p>AI-powered helpdesk and customer support solutions</p>
+              <Link href="/services/ai-helpdesk" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-edit"></i> Copywriting AI</h5>
+              <p>AI solutions for copywriters and content creators</p>
+              <Link href="/services/ai-copywriting" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-chalkboard-teacher"></i> Tutoring AI</h5>
+              <p>AI solutions for tutoring services and educational support</p>
+              <Link href="/services/ai-tutoring" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-code"></i> Vibe Coding AI</h5>
+              <p>AI development with a focus on creative coding solutions</p>
+              <Link href="/services/ai-vibe-coding" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Additional Technical Services */}
+      <section className="container my-5">
+        <h4 className="fw-bold mb-4 section-headline-purple text-center">Additional Technical AI Services</h4>
+        <div className="row justify-content-center g-4">
+          <div className="col-md-4">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-robot"></i> AI Agents</h5>
+              <p>Autonomous AI agent development and deployment</p>
+              <Link href="/services/ai-agents" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-cogs"></i> AI Automation</h5>
+              <p>AI-powered workflow automation solutions</p>
+              <Link href="/services/ai-automation" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-briefcase"></i> AI Business Solutions</h5>
+              <p>Comprehensive AI business solutions and consulting</p>
+              <Link href="/services/ai-business" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-comments"></i> AI Consulting</h5>
+              <p>AI strategy consulting and advisory services</p>
+              <Link href="/services/ai-consulting" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-user-tie"></i> AI Consultant</h5>
+              <p>Expert AI consulting services and guidance</p>
+              <Link href="/services/ai-consultant" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-star"></i> AI Expert</h5>
+              <p>Expert AI development and consulting services</p>
+              <Link href="/services/ai-expert" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-rocket"></i> AI Implementation</h5>
+              <p>AI implementation and deployment services</p>
+              <Link href="/services/ai-implementation" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-plug"></i> AI Integration</h5>
+              <p>AI system integration services</p>
+              <Link href="/services/ai-integration" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-bullhorn"></i> AI Marketing</h5>
+              <p>AI-powered marketing solutions</p>
+              <Link href="/services/ai-marketing" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-puzzle-piece"></i> AI Solutions</h5>
+              <p>Comprehensive AI solutions for businesses</p>
+              <Link href="/services/ai-solutions" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-chess"></i> AI Strategy</h5>
+              <p>AI strategy development and planning</p>
+              <Link href="/services/ai-strategy" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-graduation-cap"></i> AI Training</h5>
+              <p>AI training and education services</p>
+              <Link href="/services/ai-training" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-tools"></i> AI Services</h5>
+              <p>Complete AI development services</p>
+              <Link href="/services/ai-services" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-map-marker-alt"></i> AI Developer Near Me</h5>
+              <p>Local AI development services</p>
+              <Link href="/services/ai-developer-near-me" className="btn btn-outline-light mt-3">Learn More</Link>
             </div>
           </div>
         </div>
