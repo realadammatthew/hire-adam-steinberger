@@ -15,6 +15,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/contact/</loc>
+        <lastmod>2025-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
     <!-- Service pages: both new and old links -->
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/services/ai-wake-forest/</loc>

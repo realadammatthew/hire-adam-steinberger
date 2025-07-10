@@ -22,13 +22,15 @@ export default function Footer() {
           <div className="col-auto">
             <a href="https://tidycal.com/realadammatthew" className="fw-bold">Schedule a Free Consultation</a>
             &nbsp;|&nbsp;
-            <a href="mailto:adam@matthewsteinberger.com" className="fw-bold">Contact Me for Employment</a>
+            <Link href="/contact" className="fw-bold">Contact for Employment</Link>
             &nbsp;|&nbsp;
             <a href="https://chat.adam.matthewsteinberger.com" className="fw-bold">Try the Chatbot Demo</a>
             &nbsp;|&nbsp;
             <Link href="/novice-to-navigator" className="fw-bold">Learn about AI</Link>
             &nbsp;|&nbsp;
-            <a href="/sitemap" className="fw-bold">View the Sitemap</a>
+            <a href="http://eepurl.com/jiYXCQ" className="fw-bold">Get the Newsletter</a>
+            &nbsp;|&nbsp;
+            <Link href="/sitemap" className="fw-bold">View the Sitemap</Link>
           </div>
           <div className="col-auto">
             <a href="https://www.linkedin.com/in/realadammatthew/" className="fw-bold">LinkedIn</a>

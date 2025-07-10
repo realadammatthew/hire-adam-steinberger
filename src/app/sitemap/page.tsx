@@ -422,7 +422,7 @@ export default function SitemapPage() {
           <div className="col-md-8 text-center">
             <p className="mb-4">Choose your next step based on your needs:</p>
             <div className="row">
-              <div className="col-md-6 mb-3">
+              <div className="col-md-4 mb-3">
                 <a href="https://tidycal.com/realadammatthew" target="_blank" rel="noopener noreferrer"
                    className="btn-custom btn btn-lg fw-bold shadow-lg px-4 py-3 consultation-btn w-100">
                   <i className="fas fa-calendar"></i> Schedule Free Consultation
@@ -430,10 +430,10 @@ export default function SitemapPage() {
                 <p className="mt-2 text-secondary">For businesses ready to explore AI solutions</p>
               </div>
               <div className="col-md-6 mb-3">
-                <a href="mailto:adam@matthewsteinberger.com" 
+                <Link href="/contact" 
                    className="btn-custom btn btn-lg fw-bold shadow-lg px-4 py-3 employer-btn w-100">
                   <i className="fas fa-envelope"></i> Contact for Employment
-                </a>
+                </Link>
                 <p className="mt-2 text-secondary">For employers looking to hire AI talent</p>
               </div>
             </div>

@@ -422,3 +422,116 @@ body {
 .breadcrumb-item.active {
   color: #bfc7d5;
 }
+
+/* Contact Form Styles */
+.form-control {
+  background: #23272f !important;
+  border: 1px solid #404040 !important;
+  color: #f3f4f6 !important;
+  border-radius: 8px !important;
+  padding: 0.75rem 1rem !important;
+  font-size: 1rem !important;
+  transition: all 0.3s ease !important;
+  position: relative !important;
+  z-index: 1 !important;
+  pointer-events: auto !important;
+  user-select: text !important;
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+}
+
+.form-control:focus {
+  background: #2a2f38 !important;
+  border-color: #ffe066 !important;
+  color: #f3f4f6 !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 224, 102, 0.25) !important;
+  outline: none !important;
+  z-index: 10 !important;
+}
+
+.form-control::placeholder {
+  color: #9ca3af !important;
+}
+
+/* Ensure form elements are interactive */
+form {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+input, textarea, select {
+  position: relative !important;
+  z-index: 1 !important;
+  pointer-events: auto !important;
+}
+
+/* Override any pointer-events: none for form elements */
+.form-control,
+.form-control:focus,
+.form-control:hover,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+input[type="url"],
+input[type="search"],
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+textarea,
+select {
+  pointer-events: auto !important;
+  user-select: text !important;
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+  cursor: text !important;
+}
+
+.form-label {
+  color: #f3f4f6 !important;
+  font-weight: 600 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.btn-primary {
+  background: #ffe066 !important;
+  border-color: #ffe066 !important;
+  color: #23272f !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+}
+
+.btn-primary:hover {
+  background: #fffbe7 !important;
+  border-color: #fffbe7 !important;
+  color: #181c23 !important;
+}
+
+.btn-primary:disabled {
+  background: #404040 !important;
+  border-color: #404040 !important;
+  color: #9ca3af !important;
+  cursor: not-allowed !important;
+}
+
+.alert-success {
+  background: #1f3a2f !important;
+  border-color: #10b981 !important;
+  color: #d1fae5 !important;
+}
+
+.alert-danger {
+  background: #3a1f1f !important;
+  border-color: #ef4444 !important;
+  color: #fecaca !important;
+}
+
+.text-danger {
+  color: #f87171 !important;
+}
