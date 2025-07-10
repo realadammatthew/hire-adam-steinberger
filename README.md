@@ -1,80 +1,36 @@
-# Adam Matthew Steinberger - AI Development Portfolio
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A professional portfolio website showcasing AI development and engineering services, with a focus on the Triangle area (Wake Forest, NC).
+## Getting Started
 
-## Project Overview
+First, run the development server:
 
-This is a static website built with modern web technologies, designed to showcase professional AI development and consulting services. The site features a clean, professional design with dark theme and responsive layout.
-
-## Technology Stack
-
-- HTML5
-- CSS3 with Bootstrap 5
-- JavaScript (Bootstrap Bundle)
-- Font Awesome for icons
-- Google Fonts (Inter)
-- Custom animations and gradients
-
-## Features
-
-- Responsive design that works on all devices
-- Dark theme with professional aesthetics
-- Performance-optimized assets
-- SEO optimization with structured data
-- Local business schema implementation
-- Integrated booking system via TidyCal
-- Security-focused implementation
-
-## Project Structure
-
-```
-├── index.html              # Main HTML file
-├── styles.css             # Custom CSS styles
-├── bootstrap.min.css      # Bootstrap framework
-├── bootstrap.bundle.min.js # Bootstrap JavaScript
-├── font-awesome.min.css   # Font Awesome icons
-├── fonts.css              # Custom font definitions
-├── images/
-│   ├── profile-picture.jpg
-│   ├── banner.png
-│   ├── social-preview.png
-│   └── favicon assets
-└── site.webmanifest      # PWA manifest file
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## Local Development
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-To run this project locally:
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-1. Clone the repository
-2. Run a local server (recommended using `serve` or similar)
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## SEO Features
+## Learn More
 
-- Structured data for LocalBusiness
-- Professional service schema
-- Comprehensive meta tags
-- Optimized for local search (Triangle area)
-- Included sitemap.xml
+To learn more about Next.js, take a look at the following resources:
 
-## Performance Optimization
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- Optimized image assets
-- Minified CSS and JavaScript
-- Efficient font loading strategy
-- Modern image formats
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Contact Information
+## Deploy on Vercel
 
-- 📧 Email: adam@matthewsteinberger.com
-- 📱 Phone: +1-864-517-4117
-- 📍 Location: Wake Forest, NC
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## License
-
-© Copyright 2025 [Adam Matthew Steinberger LLC](https://hire.adam.matthewsteinberger.com), All Rights Reserved.
-
-## Credits
-Built with Shalom by Adam Matthew Steinberger.
-
-[📪](mailto:adam@matthewsteinberger.com) [:octocat:](https://github.com/realadammatthew) [𝕏](https://x.com/realadammatthew) [☕](https://coff.ee/realadammatthew)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

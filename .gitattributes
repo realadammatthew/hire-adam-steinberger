@@ -1,2 +1,0 @@
-*.mp4 filter=lfs diff=lfs merge=lfs -text
-video/novice-to-navigator.mp4 filter=lfs diff=lfs merge=lfs -text
