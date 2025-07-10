@@ -1,166 +1,205 @@
-export default function HealthcareAIPage() {
+import Link from 'next/link';
+
+export default function AIHealthcarePage() {
   return (
-    <div className="container my-5">
-      <div className="row justify-content-center">
-        <div className="col-lg-10">
-          {/* Hero Section */}
-          <section className="text-center mb-5">
-            <h1 className="fw-bold headline-gradient" style={{fontSize: '2.7rem'}}>
-              Healthcare AI Solutions
-            </h1>
-            <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
-              HIPAA-Compliant AI Solutions for Healthcare Providers
-            </h2>
-            <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
-              <div className="alert custom-alert p-4 mb-4 shadow-lg">
-                Transform healthcare delivery with secure, compliant AI solutions designed specifically for medical practices, clinics, and healthcare organizations.
-              </div>
-            </div>
-          </section>
-
-          {/* Key Benefits Section */}
-          <section className="mb-5">
-            <h3 className="fw-bold mb-4 section-headline-gold text-center">Why AI for Healthcare?</h3>
-            <div className="row justify-content-center">
-              <div className="col-md-4 mb-4">
-                <div className="card golden-box credential-card">
-                  <i className="fas fa-shield-alt fa-2x mb-3"></i>
-                  <h5>HIPAA Compliant</h5>
-                  <p>Built with healthcare-grade security and privacy standards to protect sensitive patient information</p>
-                </div>
-              </div>
-              <div className="col-md-4 mb-4">
-                <div className="card purple-box credential-card">
-                  <i className="fas fa-clock fa-2x mb-3"></i>
-                  <h5>24/7 Patient Support</h5>
-                  <p>Provide round-the-clock patient assistance, appointment scheduling, and basic medical information</p>
-                </div>
-              </div>
-              <div className="col-md-4 mb-4">
-                <div className="card golden-box credential-card">
-                  <i className="fas fa-user-md fa-2x mb-3"></i>
-                  <h5>Staff Efficiency</h5>
-                  <p>Automate routine tasks to free up medical staff for more critical patient care responsibilities</p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Services Section */}
-          <section className="mb-5">
-            <h3 className="fw-bold mb-4 section-headline-green text-center">Healthcare AI Services</h3>
-            <div className="row justify-content-center g-4">
-              <div className="col-md-6">
-                <div className="card purple-box solution-card">
-                  <h5><i className="fas fa-calendar-check"></i> Appointment Scheduling</h5>
-                  <p>Intelligent appointment booking systems that understand medical terminology and scheduling requirements</p>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card golden-box solution-card">
-                  <h5><i className="fas fa-question-circle"></i> Patient FAQs</h5>
-                  <p>AI-powered patient support that answers common questions about procedures, policies, and general health information</p>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card purple-box solution-card">
-                  <h5><i className="fas fa-file-medical"></i> Medical Documentation</h5>
-                  <p>AI assistance for medical documentation, form processing, and administrative tasks</p>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card golden-box solution-card">
-                  <h5><i className="fas fa-bell"></i> Patient Reminders</h5>
-                  <p>Automated appointment reminders, medication alerts, and follow-up care notifications</p>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card purple-box solution-card">
-                  <h5><i className="fas fa-chart-line"></i> Health Analytics</h5>
-                  <p>AI-powered analytics for patient data insights, treatment outcomes, and practice optimization</p>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card golden-box solution-card">
-                  <h5><i className="fas fa-phone"></i> Telemedicine Support</h5>
-                  <p>AI-enhanced telemedicine platforms with intelligent triage and patient screening capabilities</p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Compliance Section */}
-          <section className="mb-5">
-            <h3 className="fw-bold mb-4 section-headline-blue text-center">Healthcare Compliance & Security</h3>
-            <div className="row justify-content-center">
-              <div className="col-md-8">
-                <div className="card purple-box knowledge-card mb-4">
-                  <h5 className="mb-3"><i className="fas fa-certificate"></i> Built for Healthcare Standards</h5>
-                  <p>All healthcare AI solutions are designed with strict compliance requirements in mind:</p>
-                  <ul className="mb-4">
-                    <li>HIPAA-compliant data handling and storage</li>
-                    <li>End-to-end encryption for all patient communications</li>
-                    <li>Audit trails and access logging for compliance reporting</li>
-                    <li>Secure integration with existing EMR/EHR systems</li>
-                    <li>Regular security assessments and updates</li>
-                    <li>Staff training on AI system usage and privacy protocols</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Use Cases Section */}
-          <section className="mb-5">
-            <h3 className="fw-bold mb-4 section-headline-gold text-center">Healthcare Use Cases</h3>
-            <div className="row justify-content-center g-4">
-              <div className="col-md-6">
-                <div className="card golden-box solution-card">
-                  <h5><i className="fas fa-hospital"></i> Medical Practices</h5>
-                  <p>Streamline patient communication, appointment management, and administrative tasks for private practices and clinics</p>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card purple-box solution-card">
-                  <h5><i className="fas fa-stethoscope"></i> Specialists</h5>
-                  <p>Specialized AI solutions for dermatology, cardiology, orthopedics, and other medical specialties</p>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card golden-box solution-card">
-                  <h5><i className="fas fa-tooth"></i> Dental Practices</h5>
-                  <p>AI-powered patient education, appointment scheduling, and treatment plan explanations for dental offices</p>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card purple-box solution-card">
-                  <h5><i className="fas fa-eye"></i> Optometry</h5>
-                  <p>Custom AI solutions for vision care practices, including appointment management and patient education</p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Consultation CTA */}
-          <section className="mb-5">
-            <h3 className="fw-bold section-headline-blue text-center">Ready to Transform Your Healthcare Practice?</h3>
-            <div className="row justify-content-center">
-              <div className="col-md-8 text-center">
-                <p className="mb-4">Let's discuss how AI can enhance your healthcare practice while maintaining the highest standards of patient privacy and care.</p>
-                <a 
-                  href="https://tidycal.com/realadammatthew" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="btn-custom btn btn-lg fw-bold shadow-lg px-5 py-3 consultation-btn"
-                >
-                  Schedule Free Consultation
-                </a>
-                <p className="mt-3 text-secondary">Serving healthcare providers throughout the Triangle area with HIPAA-compliant AI solutions.</p>
-              </div>
-            </div>
-          </section>
+    <div className="min-h-screen bg-dark text-light">
+      {/* Hero Section */}
+      <section className="container text-center my-5" style={{marginTop: '0 !important', paddingTop: '0 !important'}}>
+        <h2 className="fw-bold headline-gradient" style={{fontSize: '2.7rem'}}>AI Solutions for Healthcare</h2>
+        <br />
+        <h3 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>HIPAA-Compliant Healthcare Automation & Patient Care Enhancement</h3>
+        <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
+          <div className="alert custom-alert p-4 mb-4 shadow-lg">
+            Specialized HIPAA-compliant AI solutions for healthcare organizations in the Triangle area. From patient engagement and appointment scheduling to medical documentation and healthcare automation. Built with healthcare security and compliance standards.
+          </div>
         </div>
-      </div>
+      </section>
+
+      {/* Healthcare AI Solutions */}
+      <section className="container my-5">
+        <h4 className="fw-bold mb-4 section-headline-gold text-center">Healthcare AI Solutions</h4>
+        <div className="row justify-content-center">
+          <div className="col-md-4 mb-4">
+            <div className="card golden-box credential-card">
+              <i className="fas fa-user-md fa-2x mb-3"></i>
+              <h5>Patient Engagement</h5>
+              <p>HIPAA-compliant patient communication and engagement automation</p>
+            </div>
+          </div>
+          <div className="col-md-4 mb-4">
+            <div className="card purple-box credential-card">
+              <i className="fas fa-calendar-check fa-2x mb-3"></i>
+              <h5>Appointment Scheduling</h5>
+              <p>Intelligent appointment scheduling and patient management systems</p>
+            </div>
+          </div>
+          <div className="col-md-4 mb-4">
+            <div className="card golden-box credential-card">
+              <i className="fas fa-file-medical fa-2x mb-3"></i>
+              <h5>Medical Documentation</h5>
+              <p>AI-powered medical documentation and clinical note assistance</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Healthcare AI Services */}
+      <section className="container my-5">
+        <h4 className="fw-bold mb-4 section-headline-green text-center">Healthcare AI Services</h4>
+        <div className="row justify-content-center g-4">
+          <div className="col-md-6">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-user-md"></i> Patient Engagement AI</h5>
+              <p>HIPAA-compliant patient communication with appointment reminders and health education.</p>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-calendar-check"></i> Appointment Scheduling</h5>
+              <p>Intelligent appointment scheduling with patient preferences and provider availability.</p>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-file-medical"></i> Medical Documentation</h5>
+              <p>AI-powered medical documentation with clinical note assistance and coding support.</p>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-pills"></i> Medication Management</h5>
+              <p>AI-powered medication tracking, reminders, and drug interaction checking.</p>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-chart-line"></i> Health Analytics</h5>
+              <p>AI-driven health analytics with patient outcome tracking and predictive insights.</p>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-shield-alt"></i> HIPAA Compliance</h5>
+              <p>Comprehensive HIPAA compliance with data encryption and security monitoring.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Healthcare Benefits */}
+      <section className="container my-5">
+        <h4 className="fw-bold mb-4 section-headline-blue text-center">Healthcare Industry Benefits</h4>
+        <div className="row justify-content-center">
+          <div className="col-md-8">
+            <div className="card purple-box knowledge-card mb-4">
+              <h5 className="mb-3"><i className="fas fa-heartbeat"></i> Healthcare Transformation</h5>
+              <p>Comprehensive AI solutions designed specifically for healthcare challenges and patient care:</p>
+              <ul className="mb-4">
+                <li><strong>Patient Experience:</strong> 50% improvement in patient satisfaction with AI-powered engagement</li>
+                <li><strong>Appointment Efficiency:</strong> 40% reduction in no-shows with intelligent scheduling</li>
+                <li><strong>Documentation Time:</strong> 60% reduction in documentation time with AI assistance</li>
+                <li><strong>Care Coordination:</strong> 35% improvement in care coordination with AI automation</li>
+                <li><strong>Medication Safety:</strong> 45% reduction in medication errors with AI checking</li>
+                <li><strong>Operational Efficiency:</strong> 30% reduction in administrative overhead through AI</li>
+                <li><strong>HIPAA Compliance:</strong> 100% HIPAA compliance with comprehensive security measures</li>
+                <li><strong>Scalability:</strong> AI systems that grow with your healthcare organization</li>
+              </ul>
+              <p>All healthcare AI solutions include comprehensive HIPAA compliance and security measures.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Healthcare Use Cases */}
+      <section className="container my-5">
+        <h4 className="fw-bold mb-4 section-headline-gold text-center">Healthcare AI Use Cases</h4>
+        <div className="row justify-content-center g-4">
+          <div className="col-md-4">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-stethoscope"></i> Primary Care</h5>
+              <p>Patient intake automation, appointment scheduling, and preventive care reminders.</p>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-tooth"></i> Dental Practices</h5>
+              <p>Dental appointment management, treatment planning, and patient education.</p>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-eye"></i> Specialty Practices</h5>
+              <p>Specialty-specific patient management, treatment tracking, and outcome monitoring.</p>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-hospital"></i> Hospitals</h5>
+              <p>Patient flow management, bed allocation, and clinical decision support.</p>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card golden-box solution-card">
+              <h5><i className="fas fa-home"></i> Home Health</h5>
+              <p>Remote patient monitoring, care coordination, and medication management.</p>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card purple-box solution-card">
+              <h5><i className="fas fa-brain"></i> Mental Health</h5>
+              <p>Mental health screening, appointment scheduling, and crisis intervention support.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Demo Section */}
+      <section className="container my-5">
+        <h4 className="fw-bold section-headline-gold text-center">See Healthcare AI in Action</h4>
+        <div className="text-center my-4">
+          <p className="mb-4">Experience healthcare AI capabilities in action. Try the live demo to see patient engagement and appointment scheduling.</p>
+          <a href="https://chat.adam.matthewsteinberger.com" target="_blank" className="btn-custom btn btn-lg fw-bold shadow-lg px-5 py-3 demo-btn">
+            Try the Live Demo
+          </a>
+        </div>
+      </section>
+
+      {/* Healthcare Investment */}
+      <section className="container my-5">
+        <h4 className="fw-bold mb-4 section-headline-blue text-center">Healthcare AI Investment</h4>
+        <div className="row justify-content-center">
+          <div className="col-md-8">
+            <div className="card purple-box knowledge-card mb-4">
+              <h5 className="mb-3"><i className="fas fa-chart-line"></i> Healthcare Industry Pricing</h5>
+              <p>Healthcare AI solutions are priced based on practice size and complexity:</p>
+              <ul className="mb-4">
+                <li><strong>Small Practices (1-5 providers):</strong> $15K-35K for essential healthcare AI</li>
+                <li><strong>Medium Practices (6-20 providers):</strong> $35K-75K for comprehensive healthcare AI</li>
+                <li><strong>Large Practices (20+ providers):</strong> $75K-150K+ for enterprise healthcare AI</li>
+                <li><strong>Hospitals & Health Systems:</strong> $100K-300K+ for hospital-wide AI systems</li>
+                <li><strong>Specialized Solutions:</strong> $25K-50K for specific healthcare automation needs</li>
+              </ul>
+              <p>All healthcare AI solutions include comprehensive HIPAA compliance and security measures.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="container my-5">
+        <div className="text-center">
+          <h4 className="fw-bold mb-4 section-headline-gold">Ready to Transform Your Healthcare Organization?</h4>
+          <p className="mb-4">Let&apos;s discuss how AI can enhance your healthcare operations and patient care.</p>
+          <div className="d-flex justify-content-center gap-3 flex-wrap">
+            <a href="mailto:adam@matthewsteinberger.com" className="btn-custom btn btn-lg fw-bold shadow-lg px-5 py-3">
+              Get Started Today
+            </a>
+            <a href="tel:+18645174117" className="btn-custom btn btn-lg fw-bold shadow-lg px-5 py-3">
+              Call Now
+            </a>
+          </div>
+        </div>
+      </section>
     </div>
   );
 } 
