@@ -63,6 +63,31 @@ export default function ArticlePage({ params }: ArticlePageProps) {
               </ReactMarkdown>
             </div>
 
+            {/* Multiple CTAs */}
+            <section className="container my-5">
+              <h4 className="fw-bold section-headline-blue text-center">Ready to Get Started with AI for your Business?</h4>
+              <div className="row justify-content-center">
+                <div className="col-md-8 text-center">
+                  <p className="mb-4">Try the AI Chatbot Demo First, or schedule a free consultation to learn more about how AI can help your business.</p>
+                  <div className="row">
+                    <div className="col-md-6 mb-3">
+                      <a href="https://chat.adam.matthewsteinberger.com" target="_blank" className="btn btn-outline-primary btn-lg w-100">
+                        <i className="fas fa-play"></i> Try the AI Chatbot Demo First
+                      </a>
+                      <p className="mt-2 text-secondary">Give it a try before you commit</p>
+                    </div>
+                    <div className="col-md-6 mb-3">
+                      <a href="https://tidycal.com/realadammatthew" target="_blank" rel="noopener noreferrer"
+                        className="btn-custom btn btn-lg fw-bold shadow-lg px-4 py-3 consultation-btn w-100">
+                        <i className="fas fa-calendar"></i> Schedule Free Consultation
+                      </a>
+                      <p className="mt-2 text-secondary">For businesses ready to explore AI solutions</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
             <div className="d-flex justify-content-between border-top pt-4 mt-5">
               {prevArticle ? (
                 <Link href={`/novice-to-navigator/${prevArticle.slug}`} className="btn btn-outline-primary">
