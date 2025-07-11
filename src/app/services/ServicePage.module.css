@@ -57,6 +57,7 @@
   border-radius: 1.1rem;
   box-shadow: 0 4px 32px 0 rgba(0,0,0,0.18);
   border: none;
+  padding: 1.25rem 1.5rem;
 }
 
 .cardTitle {
