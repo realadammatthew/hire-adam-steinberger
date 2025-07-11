@@ -6,6 +6,7 @@ import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
 import Link from 'next/link';
 import MultipleCTAs from '@/components/MultipleCTAs';
+import styles from '../ServicePage.module.css';
 
 interface ServicePageProps {
   params: Promise<{
@@ -36,14 +37,13 @@ export default async function ServicePage({ params }: ServicePageProps) {
   const nextService = currentIndex < sameCategoryServices.length - 1 ? sameCategoryServices[currentIndex + 1] : null;
 
   return (
-    <div className="min-h-screen bg-dark text-light">
+    <div className={styles.servicePageBg}>
       {/* Hero Section */}
-      <section className="container text-center my-5" style={{marginTop: '0 !important', paddingTop: '0 !important'}}>
-        <h1 className="fw-bold headline-gradient" style={{fontSize: '2.7rem'}}>
+      <section className="container text-center my-5">
+        <h1 className={styles.headline}>
           {serviceContent.heroTitle}
         </h1>
-        <br />
-        <h2 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
+        <h2 className={styles.subheadline}>
           {serviceContent.heroSubtitle}
         </h2>
         <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
@@ -56,14 +56,14 @@ export default async function ServicePage({ params }: ServicePageProps) {
       {/* Benefits Section */}
       {serviceContent.benefits && serviceContent.benefits.length > 0 && (
         <section className="container my-5">
-          <h4 className="fw-bold mb-4 section-headline-gold text-center">Why Choose This Service?</h4>
+          <h4 className={styles.sectionTitle + ' section-headline-gold'}>Why Choose This Service?</h4>
           <div className="row justify-content-center">
             {serviceContent.benefits.map((benefit, index) => (
               <div key={index} className="col-md-4 mb-4">
-                <div className={`card ${index % 2 === 0 ? 'golden-box' : 'purple-box'} credential-card`}>
+                <div className={styles.card + ' card credential-card'}>
                   <i className="fas fa-check-circle fa-2x mb-3"></i>
-                  <h5>{benefit}</h5>
-                  <p>Expert implementation and ongoing support for optimal results.</p>
+                  <h5 className={styles.cardTitle}>{benefit}</h5>
+                  <p className={styles.cardText}>Expert implementation and ongoing support for optimal results.</p>
                 </div>
               </div>
             ))}
@@ -74,13 +74,13 @@ export default async function ServicePage({ params }: ServicePageProps) {
       {/* Features Section */}
       {serviceContent.features && serviceContent.features.length > 0 && (
         <section className="container my-5">
-          <h4 className="fw-bold mb-4 section-headline-green text-center">Service Features</h4>
+          <h4 className={styles.sectionTitle + ' section-headline-green'}>Service Features</h4>
           <div className="row justify-content-center g-4">
             {serviceContent.features.map((feature, index) => (
               <div key={index} className="col-md-6">
-                <div className={`card ${index % 2 === 0 ? 'purple-box' : 'golden-box'} solution-card`}>
-                  <h5><i className="fas fa-cog"></i> {feature}</h5>
-                  <p>Professional implementation and customization for your specific needs.</p>
+                <div className={styles.card + ' card solution-card'}>
+                  <h5 className={styles.cardTitle}><i className="fas fa-cog"></i> {feature}</h5>
+                  <p className={styles.cardText}>Professional implementation and customization for your specific needs.</p>
                 </div>
               </div>
             ))}
@@ -92,7 +92,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
       <section className="container my-5">
         <div className="row justify-content-center">
           <div className="col-lg-10">
-            <div className="article-body mb-5">
+            <div className={styles.articleBody + ' article-body mb-5'}>
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
                 rehypePlugins={[rehypeHighlight]}
