@@ -29,7 +29,7 @@ export default function Header() {
                     <div className="header-contact-block">
                       <div className="d-flex flex-wrap gap-2">
                         <a 
-                          href="https://www.google.com/maps/place/City+of+Wake+Forest,+NC,+USA" 
+                          href="https://www.openstreetmap.org/relation/179707" 
                           target="_blank" 
                           rel="noopener noreferrer" 
                           className="btn btn-light" 
@@ -58,7 +58,7 @@ export default function Header() {
                           <i className="fas fa-envelope"></i>
                         </a>
                         <a 
-                          href="https://www.linkedin.com/in/realadammatthew/" 
+                          href="https://linkedin.com/in/realadammatthew/" 
                           target="_blank" 
                           rel="noopener noreferrer" 
                           className="btn btn-outline-light" 

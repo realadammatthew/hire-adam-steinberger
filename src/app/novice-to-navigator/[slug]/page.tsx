@@ -5,6 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
 import Link from 'next/link';
+import MultipleCTAs from '@/components/MultipleCTAs';
 
 interface ArticlePageProps {
   params: Promise<{
@@ -66,31 +67,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
               </ReactMarkdown>
             </div>
 
-            {/* Multiple CTAs */}
-            <section className="container my-5">
-              <h4 className="fw-bold section-headline-blue text-center">Ready to Get Started with AI for your Business?</h4>
-              <div className="row justify-content-center">
-                <div className="col-md-12 text-center">
-                  <p className="mb-4">Schedule a free consultation to learn more about how AI can help your business, or contact me for employment.</p>
-                  <div className="row">
-                    <div className="col-md-12 mb-3">
-                      <a href="https://tidycal.com/realadammatthew" target="_blank" rel="noopener noreferrer"
-                        className="btn-custom btn btn-lg fw-bold shadow-lg px-4 py-3 consultation-btn w-100">
-                        <i className="fas fa-calendar"></i> Schedule Your Free Consultation Today!
-                      </a>
-                      <p className="mt-2 text-secondary">For businesses ready to start using AI</p>
-                    </div>
-                    <div className="col-md-12 mb-3">
-                      <Link href="/contact" 
-                        className="btn-custom btn btn-lg fw-bold shadow-lg px-4 py-3 employer-btn w-100">
-                        <i className="fas fa-envelope"></i> Contact Me for Employment!
-                      </Link>
-                      <p className="mt-2 text-secondary">For employers looking to hire their newest Senior AI Developer</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
+            <MultipleCTAs />
 
             <div className="d-flex justify-content-between border-top pt-4 mt-5">
               {prevArticle ? (

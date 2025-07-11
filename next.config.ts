@@ -9,7 +9,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/ai-raleigh',
+        destination: '/services/ai-raleigh',
+        permanent: true,
+      },
+      {
         source: '/ai-durham.html',
+        destination: '/services/ai-durham',
+        permanent: true,
+      },
+      {
+        source: '/ai-durham',
         destination: '/services/ai-durham',
         permanent: true,
       },
@@ -19,7 +29,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/ai-cary',
+        destination: '/services/ai-cary',
+        permanent: true,
+      },
+      {
         source: '/ai-wake-forest.html',
+        destination: '/services/ai-wake-forest',
+        permanent: true,
+      },
+      {
+        source: '/ai-wake-forest',
         destination: '/services/ai-wake-forest',
         permanent: true,
       },
@@ -29,7 +49,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/ai-financial-services',
+        destination: '/services/ai-financial-services',
+        permanent: true,
+      },
+      {
         source: '/ai-healthcare.html',
+        destination: '/services/ai-healthcare',
+        permanent: true,
+      },
+      {
+        source: '/ai-healthcare',
         destination: '/services/ai-healthcare',
         permanent: true,
       },
@@ -39,7 +69,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/ai-real-estate',
+        destination: '/services/ai-real-estate',
+        permanent: true,
+      },
+      {
         source: '/ai-restaurants.html',
+        destination: '/services/ai-restaurants',
+        permanent: true,
+      },
+      {
+        source: '/ai-restaurants',
         destination: '/services/ai-restaurants',
         permanent: true,
       },
@@ -49,7 +89,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/ai-law-firms',
+        destination: '/services/ai-law-firms',
+        permanent: true,
+      },
+      {
         source: '/ai-manufacturing.html',
+        destination: '/services/ai-manufacturing',
+        permanent: true,
+      },
+      {
+        source: '/ai-manufacturing',
         destination: '/services/ai-manufacturing',
         permanent: true,
       },
@@ -59,7 +109,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/ai-marketing-agencies',
+        destination: '/services/ai-marketing-agencies',
+        permanent: true,
+      },
+      {
         source: '/ai-sales-teams.html',
+        destination: '/services/ai-sales-teams',
+        permanent: true,
+      },
+      {
+        source: '/ai-sales-teams',
         destination: '/services/ai-sales-teams',
         permanent: true,
       },
@@ -69,7 +129,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/ai-nonprofits',
+        destination: '/services/ai-nonprofits',
+        permanent: true,
+      },
+      {
         source: '/ai-startups.html',
+        destination: '/services/ai-startups',
+        permanent: true,
+      },
+      {
+        source: '/ai-startups',
         destination: '/services/ai-startups',
         permanent: true,
       },
@@ -79,7 +149,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/ai-enterprise',
+        destination: '/services/ai-enterprise',
+        permanent: true,
+      },
+      {
         source: '/ai-churches.html',
+        destination: '/services/ai-churches',
+        permanent: true,
+      },
+      {
+        source: '/ai-churches',
         destination: '/services/ai-churches',
         permanent: true,
       },
@@ -89,7 +169,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/ai-christian-education',
+        destination: '/services/ai-christian-education',
+        permanent: true,
+      },
+      {
         source: '/ai-christian-counseling.html',
+        destination: '/services/ai-christian-counseling',
+        permanent: true,
+      },
+      {
+        source: '/ai-christian-counseling',
         destination: '/services/ai-christian-counseling',
         permanent: true,
       },
@@ -99,7 +189,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/ai-ministries',
+        destination: '/services/ai-ministries',
+        permanent: true,
+      },
+      {
         source: '/ai-missionaries.html',
+        destination: '/services/ai-missionaries',
+        permanent: true,
+      },
+      {
+        source: '/ai-missionaries',
         destination: '/services/ai-missionaries',
         permanent: true,
       },
@@ -109,7 +209,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/ai-boutiques',
+        destination: '/services/ai-boutiques',
+        permanent: true,
+      },
+      {
         source: '/ai-privacy-tech.html',
+        destination: '/services/ai-privacy-tech',
+        permanent: true,
+      },
+      {
+        source: '/ai-privacy-tech',
         destination: '/services/ai-privacy-tech',
         permanent: true,
       },
@@ -119,7 +229,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/ai-helpdesk',
+        destination: '/services/ai-helpdesk',
+        permanent: true,
+      },
+      {
         source: '/ai-copywriting.html',
+        destination: '/services/ai-copywriting',
+        permanent: true,
+      },
+      {
+        source: '/ai-copywriting',
         destination: '/services/ai-copywriting',
         permanent: true,
       },
@@ -129,7 +249,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/ai-tutoring',
+        destination: '/services/ai-tutoring',
+        permanent: true,
+      },
+      {
         source: '/ai-vibe-coding.html',
+        destination: '/services/ai-vibe-coding',
+        permanent: true,
+      },
+      {
+        source: '/ai-vibe-coding',
         destination: '/services/ai-vibe-coding',
         permanent: true,
       },
@@ -139,7 +269,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/custom-chatbots',
+        destination: '/services/custom-chatbots',
+        permanent: true,
+      },
+      {
         source: '/chatgpt-developer.html',
+        destination: '/services/chatgpt-developer',
+        permanent: true,
+      },
+      {
+        source: '/chatgpt-developer',
         destination: '/services/chatgpt-developer',
         permanent: true,
       },
@@ -149,7 +289,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/claude-ai',
+        destination: '/services/claude-ai',
+        permanent: true,
+      },
+      {
         source: '/gemini-ai.html',
+        destination: '/services/gemini-ai',
+        permanent: true,
+      },
+      {
+        source: '/gemini-ai',
         destination: '/services/gemini-ai',
         permanent: true,
       },
@@ -159,7 +309,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/llm-development',
+        destination: '/services/llm-development',
+        permanent: true,
+      },
+      {
         source: '/rag-development.html',
+        destination: '/services/rag-development',
+        permanent: true,
+      },
+      {
+        source: '/rag-development',
         destination: '/services/rag-development',
         permanent: true,
       },
@@ -169,7 +329,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/chat-engine-development',
+        destination: '/services/chat-engine-development',
+        permanent: true,
+      },
+      {
         source: '/context-engineering.html',
+        destination: '/services/context-engineering',
+        permanent: true,
+      },
+      {
+        source: '/context-engineering',
         destination: '/services/context-engineering',
         permanent: true,
       },
@@ -179,7 +349,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/prompt-engineering',
+        destination: '/services/prompt-engineering',
+        permanent: true,
+      },
+      {
         source: '/lora-fine-tuning.html',
+        destination: '/services/lora-fine-tuning',
+        permanent: true,
+      },
+      {
+        source: '/lora-fine-tuning',
         destination: '/services/lora-fine-tuning',
         permanent: true,
       },
@@ -189,7 +369,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/vllm-api-development',
+        destination: '/services/vllm-api-development',
+        permanent: true,
+      },
+      {
         source: '/ai-agents.html',
+        destination: '/services/ai-agents',
+        permanent: true,
+      },
+      {
+        source: '/ai-agents',
         destination: '/services/ai-agents',
         permanent: true,
       },
@@ -199,7 +389,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/ai-automation',
+        destination: '/services/ai-automation',
+        permanent: true,
+      },
+      {
         source: '/ai-business.html',
+        destination: '/services/ai-business',
+        permanent: true,
+      },
+      {
+        source: '/ai-business',
         destination: '/services/ai-business',
         permanent: true,
       },
@@ -209,7 +409,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/ai-consulting',
+        destination: '/services/ai-consulting',
+        permanent: true,
+      },
+      {
         source: '/ai-consultant.html',
+        destination: '/services/ai-consultant',
+        permanent: true,
+      },
+      {
+        source: '/ai-consultant',
         destination: '/services/ai-consultant',
         permanent: true,
       },
@@ -219,7 +429,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/ai-expert',
+        destination: '/services/ai-expert',
+        permanent: true,
+      },
+      {
         source: '/ai-implementation.html',
+        destination: '/services/ai-implementation',
+        permanent: true,
+      },
+      {
+        source: '/ai-implementation',
         destination: '/services/ai-implementation',
         permanent: true,
       },
@@ -229,7 +449,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/ai-integration',
+        destination: '/services/ai-integration',
+        permanent: true,
+      },
+      {
         source: '/ai-marketing.html',
+        destination: '/services/ai-marketing',
+        permanent: true,
+      },
+      {
+        source: '/ai-marketing',
         destination: '/services/ai-marketing',
         permanent: true,
       },
@@ -239,7 +469,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/ai-solutions',
+        destination: '/services/ai-solutions',
+        permanent: true,
+      },
+      {
         source: '/ai-strategy.html',
+        destination: '/services/ai-strategy',
+        permanent: true,
+      },
+      {
+        source: '/ai-strategy',
         destination: '/services/ai-strategy',
         permanent: true,
       },
@@ -249,7 +489,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/ai-training',
+        destination: '/services/ai-training',
+        permanent: true,
+      },
+      {
         source: '/ai-services.html',
+        destination: '/services/ai-services',
+        permanent: true,
+      },
+      {
+        source: '/ai-services',
         destination: '/services/ai-services',
         permanent: true,
       },
@@ -259,11 +509,20 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/triangle-ai-developer',
+        destination: '/services/triangle-ai-developer',
+        permanent: true,
+      },
+      {
         source: '/ai-developer-near-me.html',
         destination: '/services/ai-developer-near-me',
         permanent: true,
       },
-      // Novice-to-Navigator legacy .html redirects
+      {
+        source: '/ai-developer-near-me',
+        destination: '/services/ai-developer-near-me',
+        permanent: true,
+      },
       {
         source: '/novice-to-navigator.html',
         destination: '/novice-to-navigator',
@@ -274,7 +533,6 @@ const nextConfig: NextConfig = {
         destination: '/sitemap',
         permanent: true,
       },
-      // Article redirects
       {
         source: '/novice-to-navigator/what-is-ai-really.html',
         destination: '/novice-to-navigator/what-is-ai-really',

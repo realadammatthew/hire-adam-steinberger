@@ -30,7 +30,9 @@ export default function Footer() {
             &nbsp;|&nbsp;
             <a href="http://eepurl.com/jiYXCQ" className="fw-bold">Get the Newsletter</a>
             &nbsp;|&nbsp;
-            <Link href="/sitemap" className="fw-bold">View the Sitemap</Link>
+            <Link href="/services" className="fw-bold">My Services</Link>
+            &nbsp;|&nbsp;
+            <Link href="/sitemap" className="fw-bold">Sitemap</Link>
           </div>
           <div className="col-auto">
             <a href="https://www.linkedin.com/in/realadammatthew/" className="fw-bold">LinkedIn</a>
