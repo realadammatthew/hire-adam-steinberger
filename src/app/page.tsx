@@ -12,6 +12,10 @@ export default function Home() {
         <h3 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
           And How I&apos;m Solving It for Triangle Area Businesses
         </h3>
+        <video controls>
+          <source src="/video/welcome-to-my-homepage.mp4" type="video/mp4" />
+          Your browser does not support the video element.
+        </video>
         <div className="mx-auto mb-4" style={{maxWidth: '800px'}}>
           <div className="alert custom-alert p-4 mb-4 shadow-lg">
             <strong>Reality Check:</strong> Most businesses are losing money on AI. They&apos;re either stuck with generic chatbots that don&apos;t understand their business, or they&apos;re paralyzed by security concerns and technical complexity. Meanwhile, their competitors are gaining massive advantages through custom AI solutions.
