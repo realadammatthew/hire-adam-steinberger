@@ -35,6 +35,16 @@ export default function SitemapPage() {
             </div>
           </div>
         </div>
+        <div className="row justify-content-center">
+        <div className="col-md-6 mb-4">
+            <div className="card purple-box credential-card">
+              <i className="fas fa-tools fa-2x mb-3"></i>
+              <h5>Services Page</h5>
+              <p>Comprehensive overview of all AI services and expertise</p>
+              <Link href="/services" className="btn btn-outline-light mt-3">Learn More</Link>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Location-Based Services */}
