@@ -5,92 +5,44 @@ description: "Expert AI development and consulting"
 category: "Technical Services"
 heroTitle: "AI Expert"
 heroSubtitle: "AI Expert"
-features:
-  - "Custom AI Solutions"
-  - "Professional Implementation"
-  - "Ongoing Support"
-  - "Expert Consultation"
-benefits:
-  - "Expert Knowledge"
-  - "Custom Solutions"
-  - "Professional Support"
+whyChoose: "Why Choose a Local Wake Forest AI Developer?"
+choice1Icon: "fa-map-marker-alt"
+choice1Title: "Local Presence"
+choice1Description: "Based in Wake Forest, NC with deep understanding of Triangle area business needs and regulations"
+choice2Icon: "fa-handshake"
+choice2Title: "Personal Service"
+choice2Description: "Face-to-face consultations and ongoing support for Wake Forest and surrounding communities"
+choice3Icon: "fa-shield-alt"
+choice3Title: "Security Focus"
+choice3Description: "Privacy-first AI solutions built with enterprise-grade security for sensitive business data"
+featuresOffered: "AI Development Services in Wake Forest"
+feature1Icon: "fa-robot"
+feature1Title: "Custom AI Chatbots"
+feature1Description: "Branded chatbots trained on your business data, customer interactions, and brand voice. Perfect for 24/7 customer support and lead qualification."
+feature2Icon: "fa-brain"
+feature2Title: "LLM Integration"
+feature2Description: "Custom implementations using ChatGPT, Claude, Gemini, and Mistral. Secure, scalable solutions tailored to your specific use cases."
+feature3Icon: "fa-cogs"
+feature3Title: "AI Automation"
+feature3Description: "Workflow automation and AI-powered business processes. Integrate with your existing tools and systems for maximum efficiency."
+feature4Icon: "fa-graduation-cap"
+feature4Title: "Training & Support"
+feature4Description: "Comprehensive training for your team and ongoing support to ensure successful AI implementation and adoption."
+contentTitle: "Serving Wake Forest & Triangle Area"
 ---
 
-# AI Expert
+# Serving Wake Forest & Triangle Area
 
-## AI Expert
+## Local Expertise You Can Trust
 
-Expert AI development and consulting
+As a Wake Forest-based AI developer, I understand the unique challenges and opportunities facing Triangle area businesses. My solutions are designed with local business needs in mind:
 
-## Why Choose This Service?
+- Compliance with North Carolina business regulations
 
-### Expert Knowledge
-Professional AI development with deep understanding of your industry and business needs.
+- Integration with popular Triangle area business tools
 
-### Custom Solutions
-Tailored AI solutions designed specifically for your business requirements and goals.
+- Understanding of local market dynamics and customer expectations
 
-### Professional Support
-Ongoing support and maintenance to ensure your AI solutions perform optimally.
+- Personal, hands-on support and consultation
 
-## Service Features
-
-### Custom AI Solutions
-AI solutions tailored to your specific business needs and industry requirements.
-
-### Professional Implementation
-Expert implementation and integration with your existing systems and workflows.
-
-### Ongoing Support
-Continuous support, updates, and optimization to ensure long-term success.
-
-### Expert Consultation
-Strategic guidance and consultation to maximize the value of your AI investment.
-
-## Real-World Applications
-
-- **Business Automation**: Streamline operations and reduce manual tasks
-- **Customer Service**: Enhance customer experience with intelligent support
-- **Data Analysis**: Extract insights from your business data
-- **Process Optimization**: Improve efficiency and reduce costs
-
-## Technology Stack
-
-Our solutions leverage the latest AI technologies:
-
-- **Large Language Models**: ChatGPT, Claude, Gemini, and custom models
-- **RAG Systems**: Retrieval-Augmented Generation for accurate information
-- **Vector Databases**: Fast, efficient knowledge retrieval
-- **API Integration**: Connect with your existing business systems
-- **Analytics Platform**: Monitor performance and gather insights
-
-## Implementation Process
-
-### 1. Discovery & Planning
-We analyze your business needs and goals to design the perfect AI solution.
-
-### 2. Development & Training
-Build and train your custom AI solution using your business data.
-
-### 3. Testing & Optimization
-Rigorous testing ensures your AI solution provides accurate, helpful results.
-
-### 4. Deployment & Support
-Launch your AI solution and provide ongoing support and optimization.
-
-## Security & Privacy
-
-Your data security is our priority:
-
-- **Data Encryption**: All data encrypted in transit and at rest
-- **Access Controls**: Role-based permissions and authentication
-- **Compliance**: Built to meet industry-specific regulations
-- **Audit Logging**: Complete audit trails for compliance and security
-
-## Ready to Get Started?
-
-Let's discuss how AI can transform your business operations and improve efficiency.
-
-[Schedule Free Consultation](https://tidycal.com/realadammatthew)
-
-Start leveraging AI technology to enhance your business today.
+Whether you're in Wake Forest, Raleigh, Durham, or Cary, I provide the same high-quality AI development services with local expertise.

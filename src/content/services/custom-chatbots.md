@@ -5,120 +5,44 @@ description: "Custom AI chatbot development and implementation"
 category: "Technical Services"
 heroTitle: "Custom Chatbots"
 heroSubtitle: "Custom AI Chatbot Development & Implementation"
-features:
-  - "Branded Chatbots"
-  - "Custom Training"
-  - "Integration Services"
-  - "Ongoing Support"
-benefits:
-  - "24/7 Availability"
-  - "Consistent Service"
-  - "Cost Reduction"
+whyChoose: "Why Choose a Local Wake Forest AI Developer?"
+choice1Icon: "fa-map-marker-alt"
+choice1Title: "Local Presence"
+choice1Description: "Based in Wake Forest, NC with deep understanding of Triangle area business needs and regulations"
+choice2Icon: "fa-handshake"
+choice2Title: "Personal Service"
+choice2Description: "Face-to-face consultations and ongoing support for Wake Forest and surrounding communities"
+choice3Icon: "fa-shield-alt"
+choice3Title: "Security Focus"
+choice3Description: "Privacy-first AI solutions built with enterprise-grade security for sensitive business data"
+featuresOffered: "AI Development Services in Wake Forest"
+feature1Icon: "fa-robot"
+feature1Title: "Custom AI Chatbots"
+feature1Description: "Branded chatbots trained on your business data, customer interactions, and brand voice. Perfect for 24/7 customer support and lead qualification."
+feature2Icon: "fa-brain"
+feature2Title: "LLM Integration"
+feature2Description: "Custom implementations using ChatGPT, Claude, Gemini, and Mistral. Secure, scalable solutions tailored to your specific use cases."
+feature3Icon: "fa-cogs"
+feature3Title: "AI Automation"
+feature3Description: "Workflow automation and AI-powered business processes. Integrate with your existing tools and systems for maximum efficiency."
+feature4Icon: "fa-graduation-cap"
+feature4Title: "Training & Support"
+feature4Description: "Comprehensive training for your team and ongoing support to ensure successful AI implementation and adoption."
+contentTitle: "Serving Wake Forest & Triangle Area"
 ---
 
-# Custom Chatbots
+# Serving Wake Forest & Triangle Area
 
-## Custom AI Chatbot Development & Implementation
+## Local Expertise You Can Trust
 
-Transform your customer service and business operations with custom AI chatbots designed specifically for your brand, industry, and unique requirements.
+As a Wake Forest-based AI developer, I understand the unique challenges and opportunities facing Triangle area businesses. My solutions are designed with local business needs in mind:
 
-## Why Custom Chatbots?
+- Compliance with North Carolina business regulations
 
-### 24/7 Availability
-Your custom chatbot never sleeps, providing instant responses to customer inquiries around the clock.
+- Integration with popular Triangle area business tools
 
-### Consistent Service
-Deliver uniform, high-quality customer service that reflects your brand voice and values.
+- Understanding of local market dynamics and customer expectations
 
-### Cost Reduction
-Automate routine customer interactions while maintaining the personal touch your customers expect.
+- Personal, hands-on support and consultation
 
-## Custom Chatbot Services
-
-### Branded Chatbots
-Chatbots that speak in your brand's voice, trained on your specific business data and customer interactions.
-
-### Custom Training
-AI models trained on your business knowledge, FAQs, and customer service history for accurate, relevant responses.
-
-### Integration Services
-Seamless integration with your existing website, CRM, and business systems for a unified customer experience.
-
-### Ongoing Support
-Continuous monitoring, updates, and optimization to ensure your chatbot performs at its best.
-
-## Custom Chatbot Features
-
-Our custom chatbots are built with your business in mind:
-
-- **Brand Voice**: Chatbots that sound like your team and reflect your brand personality
-- **Industry Knowledge**: Trained on your specific industry terminology and processes
-- **Multi-Channel**: Deploy across website, social media, messaging platforms, and more
-- **Analytics**: Detailed insights into customer interactions and chatbot performance
-- **Scalability**: Handle growing customer volumes without additional staffing costs
-
-## Implementation Process
-
-### 1. Discovery & Planning
-We analyze your business needs, customer interactions, and goals to design the perfect chatbot solution.
-
-### 2. Content Development
-Create comprehensive knowledge bases and training materials specific to your business.
-
-### 3. Development & Training
-Build and train your custom chatbot using your business data and requirements.
-
-### 4. Testing & Optimization
-Rigorous testing ensures your chatbot provides accurate, helpful responses.
-
-### 5. Deployment & Support
-Launch your chatbot and provide ongoing support and optimization.
-
-## Real-World Applications
-
-### Customer Support
-- Answer common questions instantly
-- Route complex issues to human agents
-- Provide 24/7 customer service
-
-### Lead Generation
-- Qualify leads automatically
-- Schedule appointments and consultations
-- Capture contact information
-
-### Sales Support
-- Product recommendations
-- Pricing information
-- Order processing assistance
-
-### Internal Operations
-- Employee onboarding
-- Process automation
-- Knowledge management
-
-## Technology Stack
-
-Our custom chatbots leverage the latest AI technologies:
-
-- **Large Language Models**: ChatGPT, Claude, Gemini, and custom models
-- **RAG Systems**: Retrieval-Augmented Generation for accurate, up-to-date information
-- **Vector Databases**: Fast, efficient knowledge retrieval
-- **API Integration**: Connect with your existing business systems
-- **Analytics Platform**: Monitor performance and gather insights
-
-## Security & Privacy
-
-Your data security is our priority:
-
-- **Data Encryption**: All data encrypted in transit and at rest
-- **Access Controls**: Role-based permissions and authentication
-- **Compliance**: Built to meet industry-specific regulations
-- **Audit Logging**: Complete audit trails for compliance and security
-
-## Ready to Build Your Custom Chatbot?
-
-Let's discuss how a custom chatbot can transform your customer service and business operations.
-
-[Schedule Free Consultation](https://tidycal.com/realadammatthew)
-
-Start building your custom AI chatbot today and provide your customers with instant, intelligent support. 
+Whether you're in Wake Forest, Raleigh, Durham, or Cary, I provide the same high-quality AI development services with local expertise.

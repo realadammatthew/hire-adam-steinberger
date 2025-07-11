@@ -10,8 +10,30 @@ export interface ServiceContent {
   category: string;
   heroTitle: string;
   heroSubtitle: string;
-  features: string[];
-  benefits: string[];
+  whyChoose: string;
+  choice1Title: string;
+  choice1Icon: string;
+  choice1Description: string;
+  choice2Title: string;
+  choice2Icon: string;
+  choice2Description: string;
+  choice3Title: string;
+  choice3Icon: string;
+  choice3Description: string;
+  featuresOffered: string;
+  feature1Icon: string;
+  feature1Title: string;
+  feature1Description: string;
+  feature2Icon: string;
+  feature2Title: string;
+  feature2Description: string;
+  feature3Icon: string;
+  feature3Title: string;
+  feature3Description: string;
+  feature4Icon: string;
+  feature4Title: string;
+  feature4Description: string;
+  contentTitle: string;
   content: string;
 }
 
@@ -35,8 +57,30 @@ export function getServiceBySlug(slug: string): ServiceContent | null {
       category: data.category,
       heroTitle: data.heroTitle,
       heroSubtitle: data.heroSubtitle,
-      features: data.features || [],
-      benefits: data.benefits || [],
+      whyChoose: data.whyChoose,
+      choice1Title: data.choice1Title,
+      choice1Icon: data.choice1Icon,
+      choice1Description: data.choice1Description,
+      choice2Title: data.choice2Title,
+      choice2Icon: data.choice2Icon,
+      choice2Description: data.choice2Description,
+      choice3Title: data.choice3Title,
+      choice3Icon: data.choice3Icon,
+      choice3Description: data.choice3Description,
+      featuresOffered: data.featuresOffered,
+      feature1Icon: data.feature1Icon,
+      feature1Title: data.feature1Title,
+      feature1Description: data.feature1Description,
+      feature2Icon: data.feature2Icon,
+      feature2Title: data.feature2Title,
+      feature2Description: data.feature2Description,
+      feature3Icon: data.feature3Icon, 
+      feature3Title: data.feature3Title,
+      feature3Description: data.feature3Description,
+      feature4Icon: data.feature4Icon,
+      feature4Title: data.feature4Title,
+      feature4Description: data.feature4Description,
+      contentTitle: data.contentTitle,
       content
     };
   } catch (error) {

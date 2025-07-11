@@ -4,7 +4,6 @@ import { getServiceBySlug } from '@/lib/serviceUtils';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
-import Link from 'next/link';
 import MultipleCTAs from '@/components/MultipleCTAs';
 import styles from '../ServicePage.module.css';
 
@@ -23,18 +22,11 @@ export default async function ServicePage({ params }: ServicePageProps) {
     notFound();
   }
 
-  // Get service content from Markdown file
   const serviceContent = getServiceBySlug(slug);
   
   if (!serviceContent) {
     notFound();
   }
-
-  // Previous and next services in the same category
-  const sameCategoryServices = services.filter(s => s.category === service.category);
-  const currentIndex = sameCategoryServices.findIndex(s => s.slug === slug);
-  const prevService = currentIndex > 0 ? sameCategoryServices[currentIndex - 1] : null;
-  const nextService = currentIndex < sameCategoryServices.length - 1 ? sameCategoryServices[currentIndex + 1] : null;
 
   return (
     <div className={styles.servicePageBg}>
@@ -53,46 +45,70 @@ export default async function ServicePage({ params }: ServicePageProps) {
         </div>
       </section>
 
-      {/* Benefits Section */}
-      {serviceContent.benefits && serviceContent.benefits.length > 0 && (
-        <section className="container my-5">
-          <h4 className={styles.sectionTitle + ' section-headline-gold'}>Why Choose This Service?</h4>
-          <div className="row justify-content-center">
-            {serviceContent.benefits.map((benefit, index) => (
-              <div key={index} className="col-md-4 mb-4">
-                <div className={styles.card + ' card credential-card'}>
-                  <i className="fas fa-check-circle fa-2x mb-3"></i>
-                  <h5 className={styles.cardTitle}>{benefit}</h5>
-                  <p className={styles.cardText}>Expert implementation and ongoing support for optimal results.</p>
-                </div>
-              </div>
-            ))}
+      {/* Choice 1, 2, 3 */}
+      <section className="container my-5">
+        <h4 className={styles.sectionTitle + ' section-headline-gold'}>{serviceContent.whyChoose}</h4>
+        <div className="row justify-content-center">
+          <div className="col-md-4 mb-4">
+            <div className={styles.card + ' card credential-card'}>
+              <i className={`fas ${serviceContent.choice1Icon} fa-2x mb-3`}></i>
+              <h5 className={styles.cardTitle}>{serviceContent.choice1Title}</h5>
+              <p className={styles.cardText}>{serviceContent.choice1Description}</p>
+            </div>
           </div>
-        </section>
-      )}
+          <div className="col-md-4 mb-4">
+            <div className={styles.card + ' card credential-card'}>
+              <i className={`fas ${serviceContent.choice2Icon} fa-2x mb-3`}></i>
+              <h5 className={styles.cardTitle}>{serviceContent.choice2Title}</h5>
+              <p className={styles.cardText}>{serviceContent.choice2Description}</p>
+            </div>
+          </div>
+          <div className="col-md-4 mb-4">
+            <div className={styles.card + ' card credential-card'}>
+              <i className={`fas ${serviceContent.choice3Icon} fa-2x mb-3`}></i>
+              <h5 className={styles.cardTitle}>{serviceContent.choice3Title}</h5>
+              <p className={styles.cardText}>{serviceContent.choice3Description}</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Features Section */}
-      {serviceContent.features && serviceContent.features.length > 0 && (
-        <section className="container my-5">
-          <h4 className={styles.sectionTitle + ' section-headline-green'}>Service Features</h4>
-          <div className="row justify-content-center g-4">
-            {serviceContent.features.map((feature, index) => (
-              <div key={index} className="col-md-6">
-                <div className={styles.card + ' card solution-card'}>
-                  <h5 className={styles.cardTitle}><i className="fas fa-cog"></i> {feature}</h5>
-                  <p className={styles.cardText}>Professional implementation and customization for your specific needs.</p>
-                </div>
-              </div>
-            ))}
+      <section className="container my-5">
+        <h4 className={styles.sectionTitle + ' section-headline-green'}>{serviceContent.featuresOffered}</h4>
+        <div className="row justify-content-center g-4">
+          <div className="col-md-6">
+            <div className={styles.card + ' card solution-card'}>
+              <h5 className={styles.cardTitle}><i className={`fas ${serviceContent.feature1Icon}`}></i> {serviceContent.feature1Title}</h5>
+              <p className={styles.cardText}>{serviceContent.feature1Description}</p>
+            </div>
           </div>
-        </section>
-      )}
+          <div className="col-md-6">
+            <div className={styles.card + ' card solution-card'}>
+              <h5 className={styles.cardTitle}><i className={`fas ${serviceContent.feature2Icon}`}></i> {serviceContent.feature2Title}</h5>
+              <p className={styles.cardText}>{serviceContent.feature2Description}</p>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className={styles.card + ' card solution-card'}>
+              <h5 className={styles.cardTitle}><i className={`fas ${serviceContent.feature3Icon}`}></i> {serviceContent.feature3Title}</h5>
+              <p className={styles.cardText}>{serviceContent.feature3Description}</p>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className={styles.card + ' card solution-card'}>
+              <h5 className={styles.cardTitle}><i className={`fas ${serviceContent.feature4Icon}`}></i> {serviceContent.feature4Title}</h5>
+              <p className={styles.cardText}>{serviceContent.feature4Description}</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Content Section */}
       <section className="container my-5">
         <div className="row justify-content-center">
           <div className="col-lg-10">
-            <div className={styles.articleBody + ' article-body mb-5'}>
+            <div className={styles.mainContentCard + ' ' + styles.articleBody + ' article-body mb-5'}>
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
                 rehypePlugins={[rehypeHighlight]}
