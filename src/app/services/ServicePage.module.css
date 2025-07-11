@@ -1,13 +1,34 @@
 .servicePageBg {
-  background: #181a20;
-  color: #f5f6fa;
+  background: var(--dark-bg);
+  color: var(--text-light);
   min-height: 100vh;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding-top: 0.5rem;
+}
+
+.servicePageBg .mt-5 {
+  margin-top: 0 !important;
+}
+
+.servicePageBg footer.mt-5 {
+  margin-top: 0 !important;
+}
+
+.servicePageBg > .container:first-of-type,
+.servicePageBg > section:first-of-type,
+.servicePageBg .container.text-center.my-5 {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 .section {
   margin-bottom: 3rem;
+}
+
+/* Remove margin-bottom from the last section or container to avoid extra space above the footer */
+.servicePageBg > .container > .row > .col-lg-10 > :last-child,
+.servicePageBg > .container > .row > .col-lg-10 > .section:last-child,
+.servicePageBg > .container > .row > .col-lg-10 > section:last-child {
+  margin-bottom: 0 !important;
 }
 
 .headline {
