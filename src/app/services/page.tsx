@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { serviceCategories } from '@/data/services';
+import MultipleCTAs from '@/components/MultipleCTAs';
 
 export default function ServicesPage() {
   return (
@@ -38,27 +39,7 @@ export default function ServicesPage() {
             </div>
           ))}
 
-          <div className="text-center mt-5">
-            <div className="enhanced-cta">
-              <h4>Ready to Get Started?</h4>
-              <p>Schedule a free consultation to discuss your AI development needs.</p>
-              <a 
-                href="https://tidycal.com/realadammatthew" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="btn btn-lg fw-bold shadow-lg"
-              >
-                Schedule Free Consultation
-              </a>
-              &nbsp;
-              <Link
-                href="/contact" 
-                className="btn btn-lg fw-bold shadow-lg"
-              > 
-                Contact for Employment
-              </Link>
-            </div>
-          </div>
+          <MultipleCTAs />
         </div>
       </div>
     </div>

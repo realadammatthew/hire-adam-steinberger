@@ -5,6 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
 import Link from 'next/link';
+import MultipleCTAs from '@/components/MultipleCTAs';
 
 interface ServicePageProps {
   params: Promise<{
@@ -103,34 +104,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
         </div>
       </section>
 
-      {/* Demo Section */}
-      <section className="container my-5">
-        <h4 className="fw-bold section-headline-gold text-center">See AI in Action</h4>
-        <div className="text-center my-4">
-          <p className="mb-4">Experience a live demo of a custom AI assistant. See how businesses can leverage AI technology effectively.</p>
-          <a href="https://chat.adam.matthewsteinberger.com" target="_blank" className="btn-custom btn btn-lg fw-bold shadow-lg px-5 py-3 demo-btn">
-            Try the Live Demo
-          </a>
-        </div>
-      </section>
-
-      {/* Consultation CTA */}
-      <section className="container my-5">
-        <h4 className="fw-bold section-headline-blue text-center">Ready to Get Started?</h4>
-        <div className="row justify-content-center">
-          <div className="col-md-8 text-center">
-            <p className="mb-4">Let&apos;s discuss how AI can transform your business. Schedule a free consultation to explore your options.</p>
-            <a href="https://tidycal.com/realadammatthew" target="_blank" rel="noopener noreferrer"
-               className="btn-custom btn btn-lg fw-bold shadow-lg px-5 py-3 consultation-btn w-100">
-              Schedule Free Consultation
-            </a>
-            <Link href="/contact" className="btn-custom btn btn-lg fw-bold shadow-lg px-4 py-3 employer-btn w-100 mt-3">
-              Contact for Employment
-            </Link>
-            <p className="mt-3 text-secondary">Serving the Triangle area and beyond with expert AI development services.</p>
-          </div>
-        </div>
-      </section>
+      <MultipleCTAs />
     </div>
   );
 }
