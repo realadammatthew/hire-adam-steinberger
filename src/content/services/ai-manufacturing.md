@@ -1,48 +1,94 @@
 ---
-title: "Manufacturing AI"
-subtitle: "Manufacturing AI"
-description: "AI automation for manufacturing and industrial companies"
-category: "Industry-Specific Solutions"
-heroTitle: "Manufacturing AI"
-heroSubtitle: "Manufacturing AI"
-whyChoose: "Why Choose a Local Wake Forest AI Developer?"
-choice1Icon: "fa-map-marker-alt"
-choice1Title: "Local Presence"
-choice1Description: "Based in Wake Forest, NC with deep understanding of Triangle area business needs and regulations"
-choice2Icon: "fa-handshake"
-choice2Title: "Personal Service"
-choice2Description: "Face-to-face consultations and ongoing support for Wake Forest and surrounding communities"
-choice3Icon: "fa-shield-alt"
-choice3Title: "Security Focus"
-choice3Description: "Privacy-first AI solutions built with enterprise-grade security for sensitive business data"
-featuresOffered: "AI Development Services in Wake Forest"
-feature1Icon: "fa-robot"
-feature1Title: "Custom AI Chatbots"
-feature1Description: "Branded chatbots trained on your business data, customer interactions, and brand voice. Perfect for 24/7 customer support and lead qualification."
-feature2Icon: "fa-brain"
-feature2Title: "LLM Integration"
-feature2Description: "Custom implementations using ChatGPT, Claude, Gemini, and Mistral. Secure, scalable solutions tailored to your specific use cases."
-feature3Icon: "fa-cogs"
-feature3Title: "AI Automation"
-feature3Description: "Workflow automation and AI-powered business processes. Integrate with your existing tools and systems for maximum efficiency."
-feature4Icon: "fa-graduation-cap"
-feature4Title: "Training & Support"
-feature4Description: "Comprehensive training for your team and ongoing support to ensure successful AI implementation and adoption."
-contentTitle: "Serving Wake Forest & Triangle Area"
+title: "AI Solutions for Manufacturing"
+subtitle: "Automation & Process Optimization"
+description: "Specialized AI solutions for manufacturing companies in the Triangle area. From process automation and predictive maintenance to supply chain optimization and quality control. Built for manufacturers and industrial firms."
+category: "Manufacturing AI Solutions"
+heroTitle: "AI Solutions for Manufacturing"
+heroSubtitle: "AI-Powered Automation & Optimization for Industrial Operations"
+whyChoose: "Why Choose AI for Manufacturing?"
+choice1Icon: "fa-cogs"
+choice1Title: "Predictive Maintenance"
+choice1Description: "Prevent downtime with AI-powered equipment monitoring and predictive alerts"
+choice2Icon: "fa-check-circle"
+choice2Title: "Quality Assurance"
+choice2Description: "Automated defect detection and inspection to improve product quality"
+choice3Icon: "fa-truck-loading"
+choice3Title: "Supply Chain Optimization"
+choice3Description: "Forecast demand, optimize inventory, and streamline procurement with AI"
+featuresOffered: "Manufacturing AI Services"
+feature1Icon: "fa-tools"
+feature1Title: "Predictive Maintenance"
+feature1Description: "AI-powered monitoring and failure prediction to keep equipment running"
+feature2Icon: "fa-search"
+feature2Title: "Quality Control"
+feature2Description: "Automated inspection and defect detection with computer vision and analytics"
+feature3Icon: "fa-boxes"
+feature3Title: "Supply Chain Optimization"
+feature3Description: "AI-driven demand forecasting, supplier analysis, and inventory planning"
+feature4Icon: "fa-chart-line"
+feature4Title: "Production Analytics"
+feature4Description: "Real-time performance tracking and efficiency reporting for factory operations"
+feature5Icon: "fa-robot"
+feature5Title: "Process Automation"
+feature5Description: "Automate workflows and production steps to increase output and reduce cost"
+feature6Icon: "fa-hard-hat"
+feature6Title: "Safety Monitoring"
+feature6Description: "Hazard detection, compliance automation, and safety rule enforcement with AI"
+contentTitle: "Smarter Manufacturing with AI in the Triangle Area"
 ---
 
-# Serving Wake Forest & Triangle Area
+# Smarter Manufacturing with AI in the Triangle Area
 
-## Local Expertise You Can Trust
+## Built for Industrial Efficiency, Safety & Growth
 
-As a Wake Forest-based AI developer, I understand the unique challenges and opportunities facing Triangle area businesses. My solutions are designed with local business needs in mind:
+From smart factories to lean operations, I develop AI systems that help manufacturers optimize processes, minimize downtime, and ensure consistent product quality.
 
-- Compliance with North Carolina business regulations
+### Manufacturing AI Use Cases
 
-- Integration with popular Triangle area business tools
+- **Automotive Manufacturing:** Assembly optimization, predictive maintenance, and supplier tracking  
+- **Electronics Manufacturing:** Component testing, quality inspection, and downtime reduction  
+- **Pharmaceuticals:** Regulatory compliance, quality tracking, and batch analysis  
+- **Food & Beverage:** Real-time production tracking, safety enforcement, and waste reduction  
+- **Textiles:** Fabric inspection, color accuracy, and supply chain visibility  
+- **Heavy Industry:** Equipment usage tracking, hazard detection, and energy efficiency  
 
-- Understanding of local market dynamics and customer expectations
+### Benefits for Manufacturers
 
-- Personal, hands-on support and consultation
+- 30% increase in equipment uptime  
+- 50% defect reduction from automated inspections  
+- 40% boost in supply chain performance  
+- 25% increase in overall production output  
+- 60% stronger safety enforcement with hazard detection  
+- 35% reduction in operational costs  
+- 20% improvement in energy efficiency  
 
-Whether you're in Wake Forest, Raleigh, Durham, or Cary, I provide the same high-quality AI development services with local expertise.
+### How It Works
+
+1. **Assessment:** Identify key opportunities across your operations for AI automation  
+2. **Development:** Build custom predictive maintenance, supply chain, or QC tools  
+3. **Integration:** Connect AI with ERP systems, sensors, databases, or MES software  
+4. **Deployment:** Launch solutions with full team training and performance monitoring  
+
+### Manufacturing AI Pricing
+
+Custom pricing based on facility size and AI implementation complexity:
+
+- **Small Manufacturers:** $25K–60K  
+- **Mid-Sized Facilities:** $60K–150K  
+- **Large Manufacturing Sites:** $150K–400K+  
+- **Multi-Site Operations:** $300K–800K+  
+- **Specialized Use Cases:** $20K–50K  
+
+### Industrial Security & Compliance
+
+All AI systems are built with secure data pipelines, audit logging, and industrial-grade privacy protections.
+
+### See Manufacturing AI in Action
+
+Try the live demo to see how predictive maintenance and automated quality control reduce downtime and improve production flow.
+
+### Ready to Optimize Your Plant?
+
+Let’s talk about how AI can streamline your manufacturing operations.
+
+**Proudly serving manufacturing companies across Raleigh, Durham, Cary, Wake Forest, and the entire Triangle region.**

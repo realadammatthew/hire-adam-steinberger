@@ -1,48 +1,81 @@
 ---
-title: "AI Automation"
-subtitle: "AI Automation"
-description: "AI-powered workflow automation"
-category: "Technical Services"
-heroTitle: "AI Automation"
-heroSubtitle: "AI Automation"
-whyChoose: "Why Choose a Local Wake Forest AI Developer?"
-choice1Icon: "fa-map-marker-alt"
-choice1Title: "Local Presence"
-choice1Description: "Based in Wake Forest, NC with deep understanding of Triangle area business needs and regulations"
-choice2Icon: "fa-handshake"
-choice2Title: "Personal Service"
-choice2Description: "Face-to-face consultations and ongoing support for Wake Forest and surrounding communities"
-choice3Icon: "fa-shield-alt"
-choice3Title: "Security Focus"
-choice3Description: "Privacy-first AI solutions built with enterprise-grade security for sensitive business data"
-featuresOffered: "AI Development Services in Wake Forest"
-feature1Icon: "fa-robot"
-feature1Title: "Custom AI Chatbots"
-feature1Description: "Branded chatbots trained on your business data, customer interactions, and brand voice. Perfect for 24/7 customer support and lead qualification."
-feature2Icon: "fa-brain"
-feature2Title: "LLM Integration"
-feature2Description: "Custom implementations using ChatGPT, Claude, Gemini, and Mistral. Secure, scalable solutions tailored to your specific use cases."
-feature3Icon: "fa-cogs"
-feature3Title: "AI Automation"
-feature3Description: "Workflow automation and AI-powered business processes. Integrate with your existing tools and systems for maximum efficiency."
-feature4Icon: "fa-graduation-cap"
-feature4Title: "Training & Support"
-feature4Description: "Comprehensive training for your team and ongoing support to ensure successful AI implementation and adoption."
-contentTitle: "Serving Wake Forest & Triangle Area"
+title: "Intelligent AI Automation"
+subtitle: "Streamline Your Business Processes with AI-Powered Automation"
+description: "Transform repetitive tasks into intelligent workflows. I help Triangle area businesses reduce costs, improve efficiency, and focus on what matters most through AI-powered automation solutions."
+category: "AI Business Automation"
+heroTitle: "Intelligent AI Automation"
+heroSubtitle: "Streamline Your Business Processes with AI-Powered Automation"
+whyChoose: "Why Choose AI Automation for Your Business?"
+choice1Icon: "fa-bolt"
+choice1Title: "Increased Efficiency"
+choice1Description: "Automate repetitive tasks and save valuable time across operations"
+choice2Icon: "fa-chart-line"
+choice2Title: "Proven ROI"
+choice2Description: "Most automation solutions pay for themselves in under 6 months"
+choice3Icon: "fa-sync-alt"
+choice3Title: "Seamless Integration"
+choice3Description: "Built to work with your current systems and processes"
+featuresOffered: "AI Automation Services"
+feature1Icon: "fa-network-wired"
+feature1Title: "Workflow Automation"
+feature1Description: "Automate business processes, data entry, and repetitive tasks with intelligent decision-making"
+feature2Icon: "fa-pencil-alt"
+feature2Title: "Content Generation"
+feature2Description: "Automated creation of emails, reports, marketing materials, and documentation"
+feature3Icon: "fa-headset"
+feature3Title: "Customer Service"
+feature3Description: "AI-powered customer support automation, ticket routing, and response generation"
+feature4Icon: "fa-envelope"
+feature4Title: "Email Automation"
+feature4Description: "Automatically generate and personalize emails and responses based on business rules"
+feature5Icon: "fa-file-alt"
+feature5Title: "Document Processing"
+feature5Description: "Form filling, report generation, and data extraction from various sources"
+feature6Icon: "fa-database"
+feature6Title: "Data Processing"
+feature6Description: "Automate data validation, cleaning, and entry to reduce manual work and errors"
+feature7Icon: "fa-chart-bar"
+feature7Title: "Reporting & Analytics"
+feature7Description: "Automated dashboards, reports, and analytics from your business data"
+contentTitle: "Transform Your Business with AI Automation"
 ---
 
-# Serving Wake Forest & Triangle Area
+# Transform Your Business with AI Automation
 
-## Local Expertise You Can Trust
+## Smart Automation That Delivers Real Results
 
-As a Wake Forest-based AI developer, I understand the unique challenges and opportunities facing Triangle area businesses. My solutions are designed with local business needs in mind:
+My AI automation services are tailored for Triangle area businesses ready to boost productivity and eliminate manual inefficiencies.
 
-- Compliance with North Carolina business regulations
+### Benefits of AI Automation
 
-- Integration with popular Triangle area business tools
+- **Cost Reduction:** Cut operational costs by 60–80% on automated tasks  
+- **Time Savings:** Free up your team for high-impact work  
+- **Error Reduction:** Eliminate human mistakes in routine operations  
+- **Scalability:** Handle more work without adding headcount  
+- **Consistency:** Maintain uniform quality and compliance  
+- **24/7 Operation:** Keep your processes running around the clock  
 
-- Understanding of local market dynamics and customer expectations
+### Automation Technologies
 
-- Personal, hands-on support and consultation
+- **n8n Workflows:** Low-code/no-code automation platform for connecting apps, APIs, and services  
+- **LLM Integration:** Use ChatGPT, Claude, and other models to power intelligent decisions and content  
+- **Custom APIs:** Build API-driven automations to sync your data and systems in real time  
 
-Whether you're in Wake Forest, Raleigh, Durham, or Cary, I provide the same high-quality AI development services with local expertise.
+### Example Use Cases
+
+- **Email Automation:** Personalized follow-ups and client responses  
+- **Document Processing:** Forms, reports, and contracts generation  
+- **Customer Support:** Automated ticket routing and reply generation  
+- **Data Entry & Validation:** Eliminate human input errors  
+- **Reporting:** Auto-generate weekly/monthly reports  
+
+### AI Automation Investment
+
+Scalable pricing for every business:
+
+- **Small Automation:** $3K–8K for a single-process solution  
+- **Workflow Automation:** $8K–15K for multi-process systems  
+- **Enterprise Automation:** $15K+ for complete platforms  
+- **Ongoing Support:** Monthly optimization available  
+
+Let’s discuss your automation goals and design a custom AI solution to improve your bottom line.

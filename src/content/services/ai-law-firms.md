@@ -1,48 +1,92 @@
 ---
-title: "Law Firm AI"
-subtitle: "Law Firm AI"
-description: "AI solutions for legal practices and law firms"
-category: "Industry-Specific Solutions"
-heroTitle: "Law Firm AI"
-heroSubtitle: "Law Firm AI"
-whyChoose: "Why Choose a Local Wake Forest AI Developer?"
-choice1Icon: "fa-map-marker-alt"
-choice1Title: "Local Presence"
-choice1Description: "Based in Wake Forest, NC with deep understanding of Triangle area business needs and regulations"
-choice2Icon: "fa-handshake"
-choice2Title: "Personal Service"
-choice2Description: "Face-to-face consultations and ongoing support for Wake Forest and surrounding communities"
-choice3Icon: "fa-shield-alt"
-choice3Title: "Security Focus"
-choice3Description: "Privacy-first AI solutions built with enterprise-grade security for sensitive business data"
-featuresOffered: "AI Development Services in Wake Forest"
-feature1Icon: "fa-robot"
-feature1Title: "Custom AI Chatbots"
-feature1Description: "Branded chatbots trained on your business data, customer interactions, and brand voice. Perfect for 24/7 customer support and lead qualification."
-feature2Icon: "fa-brain"
-feature2Title: "LLM Integration"
-feature2Description: "Custom implementations using ChatGPT, Claude, Gemini, and Mistral. Secure, scalable solutions tailored to your specific use cases."
-feature3Icon: "fa-cogs"
-feature3Title: "AI Automation"
-feature3Description: "Workflow automation and AI-powered business processes. Integrate with your existing tools and systems for maximum efficiency."
-feature4Icon: "fa-graduation-cap"
-feature4Title: "Training & Support"
-feature4Description: "Comprehensive training for your team and ongoing support to ensure successful AI implementation and adoption."
-contentTitle: "Serving Wake Forest & Triangle Area"
+title: "AI Solutions for Law Firms"
+subtitle: "Legal Automation & Client Service"
+description: "Specialized AI solutions for law firms in the Triangle area. From document automation and case management to client intake and compliance. Built for legal practices and attorneys."
+category: "Legal AI Solutions"
+heroTitle: "AI Solutions for Law Firms"
+heroSubtitle: "Legal Automation & Client Service for Attorneys and Legal Practices"
+whyChoose: "Why Choose Legal AI?"
+choice1Icon: "fa-file-contract"
+choice1Title: "Contract & Document Automation"
+choice1Description: "Accelerate legal review and reduce human error in legal documents with AI-powered analysis"
+choice2Icon: "fa-user-clock"
+choice2Title: "24/7 Client Service"
+choice2Description: "Automated client intake chatbots ensure responsiveness—even outside of business hours"
+choice3Icon: "fa-gavel"
+choice3Title: "Regulatory Compliance"
+choice3Description: "Real-time tracking of regulatory changes and compliance requirements for your legal practice"
+featuresOffered: "Legal AI Services"
+feature1Icon: "fa-file-signature"
+feature1Title: "Contract Analysis AI"
+feature1Description: "Automated contract review, clause extraction, and legal risk identification"
+feature2Icon: "fa-balance-scale"
+feature2Title: "Legal Research Automation"
+feature2Description: "Case law research, precedent identification, and citation generation"
+feature3Icon: "fa-comments"
+feature3Title: "Client Intake Chatbots"
+feature3Description: "AI chatbots for new case intake, scheduling, and pre-screening"
+feature4Icon: "fa-shield-alt"
+feature4Title: "Compliance Automation"
+feature4Description: "Regulatory tracking and legal compliance automation"
+feature5Icon: "fa-folder-open"
+feature5Title: "Case Management AI"
+feature5Description: "Workflow automation, deadline tracking, and legal document organization"
+feature6Icon: "fa-graduation-cap"
+feature6Title: "Legal Training AI"
+feature6Description: "AI-powered legal staff training and education systems"
+contentTitle: "Modern AI Solutions for Law Firms in the Triangle Area"
 ---
 
-# Serving Wake Forest & Triangle Area
+# Modern AI Solutions for Law Firms in the Triangle Area
 
-## Local Expertise You Can Trust
+## Designed for Legal Efficiency, Compliance & Client Satisfaction
 
-As a Wake Forest-based AI developer, I understand the unique challenges and opportunities facing Triangle area businesses. My solutions are designed with local business needs in mind:
+From real estate and family law to corporate and criminal defense, I develop AI systems for law firms that simplify research, improve accuracy, and enhance client experiences.
 
-- Compliance with North Carolina business regulations
+### Legal AI Use Cases
 
-- Integration with popular Triangle area business tools
+- **Corporate Law:** M&A due diligence, governance automation, and contract analysis  
+- **Real Estate Law:** Title search, property document review, and closing automation  
+- **Family Law:** Intake automation, custody tracking, and case document handling  
+- **Criminal Law:** Case timeline tracking, precedent research, and discovery management  
+- **Healthcare Law:** HIPAA compliance tracking and malpractice documentation  
+- **Employment Law:** Contract review, workplace policy monitoring, and dispute support  
 
-- Understanding of local market dynamics and customer expectations
+### Legal AI Benefits
 
-- Personal, hands-on support and consultation
+- 80% time savings on document review  
+- 90% research accuracy in precedent detection  
+- 60% admin overhead reduction  
+- 100% compliance tracking coverage  
+- 24/7 automated intake and client communication  
 
-Whether you're in Wake Forest, Raleigh, Durham, or Cary, I provide the same high-quality AI development services with local expertise.
+### How It Works
+
+1. **Discovery:** Assess your current case management and client service needs  
+2. **Development:** Build secure AI systems for your use case—intake, research, compliance, and more  
+3. **Integration:** Connect AI tools with your legal CRM, document system, or case management software  
+4. **Deployment:** Train your team and launch your custom AI-powered legal tools  
+
+### Legal AI Pricing
+
+Flexible pricing based on firm size and solution complexity:
+
+- **Small Practice (1–5 attorneys):** $15K–35K  
+- **Medium Practice (6–20 attorneys):** $35K–75K  
+- **Large Firm (20+ attorneys):** $75K–150K+  
+- **Specialized Solutions:** $25K–50K for focused legal automation  
+- **Ongoing Support:** Monthly optimization, updates, and compliance checks available  
+
+### Built for Legal Security & Compliance
+
+All legal AI tools include encryption, role-based access, and compliance with ABA and HIPAA standards where applicable.
+
+### See Legal AI in Action
+
+Try the live demo to experience contract analysis and legal research automation firsthand.
+
+### Ready to Transform Your Practice?
+
+Let’s discuss your legal AI needs and explore how automation can improve your law firm’s performance.
+
+**Proudly serving law firms across Raleigh, Durham, Cary, Wake Forest, and the entire Triangle area.**

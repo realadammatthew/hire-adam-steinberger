@@ -101,6 +101,54 @@ export default async function ServicePage({ params }: ServicePageProps) {
               <p className={styles.cardText}>{serviceContent.feature4Description}</p>
             </div>
           </div>
+          {serviceContent.feature5Title && serviceContent.feature5Description && (
+            <div className="col-md-6">
+              <div className={styles.card + ' card solution-card'}>
+                <h5 className={styles.cardTitle}><i className={`fas ${serviceContent.feature5Icon}`}></i> {serviceContent.feature5Title}</h5>
+                <p className={styles.cardText}>{serviceContent.feature5Description}</p>
+              </div>
+            </div>
+          )}
+          {serviceContent.feature6Title && serviceContent.feature6Description && (
+            <div className="col-md-6">
+              <div className={styles.card + ' card solution-card'}>
+                <h5 className={styles.cardTitle}><i className={`fas ${serviceContent.feature6Icon}`}></i> {serviceContent.feature6Title}</h5>
+                <p className={styles.cardText}>{serviceContent.feature6Description}</p>
+              </div>
+            </div>
+          )}
+          {serviceContent.feature7Title && serviceContent.feature7Description && (
+            <div className="col-md-6">
+              <div className={styles.card + ' card solution-card'}>
+                <h5 className={styles.cardTitle}><i className={`fas ${serviceContent.feature7Icon}`}></i> {serviceContent.feature7Title}</h5>
+                <p className={styles.cardText}>{serviceContent.feature7Description}</p>
+              </div>
+            </div>
+          )}
+          {serviceContent.feature8Title && serviceContent.feature8Description && (
+            <div className="col-md-6">
+              <div className={styles.card + ' card solution-card'}>
+                <h5 className={styles.cardTitle}><i className={`fas ${serviceContent.feature8Icon}`}></i> {serviceContent.feature8Title}</h5>
+                <p className={styles.cardText}>{serviceContent.feature8Description}</p>
+              </div>
+            </div>
+          )}
+          {serviceContent.feature9Title && serviceContent.feature9Description && (
+            <div className="col-md-6">
+              <div className={styles.card + ' card solution-card'}>
+                <h5 className={styles.cardTitle}><i className={`fas ${serviceContent.feature9Icon}`}></i> {serviceContent.feature9Title}</h5>
+                <p className={styles.cardText}>{serviceContent.feature9Description}</p>
+              </div>
+            </div>
+          )}
+          {serviceContent.feature10Title && serviceContent.feature10Description && (
+            <div className="col-md-6">
+              <div className={styles.card + ' card solution-card'}>
+                <h5 className={styles.cardTitle}><i className={`fas ${serviceContent.feature10Icon}`}></i> {serviceContent.feature10Title}</h5>
+                <p className={styles.cardText}>{serviceContent.feature10Description}</p>
+              </div>
+            </div>
+          )}
         </div>
       </section>
 

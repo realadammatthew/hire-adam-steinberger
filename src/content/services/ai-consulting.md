@@ -1,48 +1,81 @@
 ---
-title: "AI Consulting"
-subtitle: "AI Consulting"
-description: "AI strategy consulting and advisory services"
-category: "Technical Services"
-heroTitle: "AI Consulting"
-heroSubtitle: "AI Consulting"
-whyChoose: "Why Choose a Local Wake Forest AI Developer?"
-choice1Icon: "fa-map-marker-alt"
-choice1Title: "Local Presence"
-choice1Description: "Based in Wake Forest, NC with deep understanding of Triangle area business needs and regulations"
-choice2Icon: "fa-handshake"
-choice2Title: "Personal Service"
-choice2Description: "Face-to-face consultations and ongoing support for Wake Forest and surrounding communities"
-choice3Icon: "fa-shield-alt"
-choice3Title: "Security Focus"
-choice3Description: "Privacy-first AI solutions built with enterprise-grade security for sensitive business data"
-featuresOffered: "AI Development Services in Wake Forest"
-feature1Icon: "fa-robot"
-feature1Title: "Custom AI Chatbots"
-feature1Description: "Branded chatbots trained on your business data, customer interactions, and brand voice. Perfect for 24/7 customer support and lead qualification."
-feature2Icon: "fa-brain"
-feature2Title: "LLM Integration"
-feature2Description: "Custom implementations using ChatGPT, Claude, Gemini, and Mistral. Secure, scalable solutions tailored to your specific use cases."
-feature3Icon: "fa-cogs"
-feature3Title: "AI Automation"
-feature3Description: "Workflow automation and AI-powered business processes. Integrate with your existing tools and systems for maximum efficiency."
-feature4Icon: "fa-graduation-cap"
-feature4Title: "Training & Support"
-feature4Description: "Comprehensive training for your team and ongoing support to ensure successful AI implementation and adoption."
-contentTitle: "Serving Wake Forest & Triangle Area"
+title: "Expert AI Consulting"
+subtitle: "Comprehensive AI Consulting for Triangle Area Businesses"
+description: "Transform your business with expert AI consulting services. I provide comprehensive AI consulting including strategy development, implementation guidance, and optimization services to help Triangle area businesses successfully adopt and leverage AI technology."
+category: "AI Strategy & Consulting"
+heroTitle: "Expert AI Consulting"
+heroSubtitle: "Comprehensive AI Consulting for Triangle Area Businesses"
+whyChoose: "Why Choose Expert AI Consulting?"
+choice1Icon: "fa-lightbulb"
+choice1Title: "Strategic Expertise"
+choice1Description: "Tailored AI strategies built on business goals, resources, and industry needs"
+choice2Icon: "fa-tools"
+choice2Title: "Implementation Guidance"
+choice2Description: "Technical consulting and integration planning for successful AI execution"
+choice3Icon: "fa-sync"
+choice3Title: "Ongoing Optimization"
+choice3Description: "Continuous performance improvement and ROI-driven enhancement"
+featuresOffered: "AI Consulting Services"
+feature1Icon: "fa-map"
+feature1Title: "AI Strategy Consulting"
+feature1Description: "Opportunity assessment, roadmap planning, and strategic guidance"
+feature2Icon: "fa-cogs"
+feature2Title: "AI Implementation Consulting"
+feature2Description: "Technical architecture design, technology selection, and vendor support"
+feature3Icon: "fa-chart-line"
+feature3Title: "AI Optimization Consulting"
+feature3Description: "System performance tuning and ongoing enhancement strategies"
+feature4Icon: "fa-users"
+feature4Title: "Change Management"
+feature4Description: "Support for team enablement, training, and smooth AI adoption"
+contentTitle: "AI Strategy & Support for Triangle Area Businesses"
 ---
 
-# Serving Wake Forest & Triangle Area
+# AI Strategy & Support for Triangle Area Businesses
 
-## Local Expertise You Can Trust
+## Transform Your Business with Expert AI Consulting
 
-As a Wake Forest-based AI developer, I understand the unique challenges and opportunities facing Triangle area businesses. My solutions are designed with local business needs in mind:
+My consulting services help Triangle area businesses confidently adopt AI—from planning through execution and ongoing performance optimization.
 
-- Compliance with North Carolina business regulations
+### AI Consulting Areas
 
-- Integration with popular Triangle area business tools
+- **AI Opportunity Assessment:** Identify key opportunities and ROI  
+- **Strategy Development:** Build a roadmap tailored to your needs  
+- **Technology Selection:** Evaluate platforms and vendors strategically  
+- **Integration Planning:** Align AI with your existing systems  
+- **Change Management:** Train your team and manage adoption  
+- **Performance Optimization:** Tune systems for efficiency and scale  
 
-- Understanding of local market dynamics and customer expectations
+### AI Consulting Benefits
 
-- Personal, hands-on support and consultation
+- **Risk Reduction:** Avoid costly missteps with expert guidance  
+- **Cost Optimization:** Choose the right tools and avoid overspending  
+- **Faster Implementation:** Reduce time-to-value with expert execution  
+- **Higher ROI:** Strategic alignment maximizes impact  
+- **Team Buy-In:** Facilitate adoption with thoughtful change management  
+- **Long-Term Value:** Get continued support to scale and refine  
 
-Whether you're in Wake Forest, Raleigh, Durham, or Cary, I provide the same high-quality AI development services with local expertise.
+### My AI Consulting Process
+
+- **Discovery & Analysis:** Deep dive into your operations, systems, and data  
+- **Strategy Development:** Roadmap creation with clear timelines and outcomes  
+- **Implementation Support:** In-project guidance to ensure successful AI deployment  
+
+### AI Consulting Investment
+
+Transparent pricing based on your project scope:
+
+- **AI Strategy Assessment:** $2K–5K  
+- **Strategy Development:** $5K–15K  
+- **Implementation Support:** $8K–25K  
+- **Ongoing Support:** $150–300/hr for ongoing consulting  
+
+Most clients experience a **3–5x ROI** through efficiency gains and improved competitive positioning.
+
+### See It in Action
+
+Try the live demo to explore strategic AI applications and how expert consulting accelerates results.
+
+Let’s discuss how we can build your custom AI strategy and set your business on a smarter path forward.
+
+**Proudly serving Raleigh, Durham, Cary, Wake Forest, and the entire Triangle area with expert AI consulting services.**

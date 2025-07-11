@@ -817,13 +817,13 @@ export const services: Service[] = [
   },
   {
     slug: 'vllm-api-development',
-    title: 'VLLM API Development',
-    description: 'VLLM API development and integration',
+    title: 'vLLM API Development',
+    description: 'vLLM API development and integration',
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 39,
-    heroTitle: "VLLM API Development",
-    heroSubtitle: "VLLM API Development & Integration",
+    heroTitle: "vLLM API Development",
+    heroSubtitle: "vLLM API Development & Integration",
     features: [
       'API Development',
       'Performance Optimization',

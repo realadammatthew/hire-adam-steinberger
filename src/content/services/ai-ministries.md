@@ -1,48 +1,88 @@
 ---
-title: "Ministries AI"
-subtitle: "Ministries AI"
-description: "AI tools for ministry organizations and religious groups"
-category: "Industry-Specific Solutions"
-heroTitle: "Ministries AI"
-heroSubtitle: "Ministries AI"
-whyChoose: "Why Choose a Local Wake Forest AI Developer?"
-choice1Icon: "fa-map-marker-alt"
-choice1Title: "Local Presence"
-choice1Description: "Based in Wake Forest, NC with deep understanding of Triangle area business needs and regulations"
-choice2Icon: "fa-handshake"
-choice2Title: "Personal Service"
-choice2Description: "Face-to-face consultations and ongoing support for Wake Forest and surrounding communities"
-choice3Icon: "fa-shield-alt"
-choice3Title: "Security Focus"
-choice3Description: "Privacy-first AI solutions built with enterprise-grade security for sensitive business data"
-featuresOffered: "AI Development Services in Wake Forest"
-feature1Icon: "fa-robot"
-feature1Title: "Custom AI Chatbots"
-feature1Description: "Branded chatbots trained on your business data, customer interactions, and brand voice. Perfect for 24/7 customer support and lead qualification."
-feature2Icon: "fa-brain"
-feature2Title: "LLM Integration"
-feature2Description: "Custom implementations using ChatGPT, Claude, Gemini, and Mistral. Secure, scalable solutions tailored to your specific use cases."
-feature3Icon: "fa-cogs"
-feature3Title: "AI Automation"
-feature3Description: "Workflow automation and AI-powered business processes. Integrate with your existing tools and systems for maximum efficiency."
-feature4Icon: "fa-graduation-cap"
-feature4Title: "Training & Support"
-feature4Description: "Comprehensive training for your team and ongoing support to ensure successful AI implementation and adoption."
-contentTitle: "Serving Wake Forest & Triangle Area"
+title: "AI Solutions for Ministries"
+subtitle: "Ministry Automation & Community Engagement"
+description: "Specialized AI solutions for ministries in the Triangle area. From member engagement and event management to prayer request tracking and ministry automation. Built for ministry growth and community building."
+category: "Ministry AI Solutions"
+heroTitle: "AI for Ministries"
+heroSubtitle: "Automate Outreach, Engage Communities & Grow Your Mission"
+whyChoose: "Why Choose AI for Ministry?"
+choice1Icon: "fa-handshake"
+choice1Title: "Outreach Automation"
+choice1Description: "Coordinate community impact and outreach efforts with AI-powered workflows"
+choice2Icon: "fa-donate"
+choice2Title: "Donor Engagement"
+choice2Description: "Improve donor retention and fundraising with intelligent communication"
+choice3Icon: "fa-users"
+choice3Title: "Volunteer Coordination"
+choice3Description: "Match volunteers to ministry needs and streamline task management"
+featuresOffered: "AI Ministry Applications"
+feature1Icon: "fa-bullhorn"
+feature1Title: "Outreach Automation"
+feature1Description: "AI-coordinated community outreach with impact tracking and resource optimization"
+feature2Icon: "fa-hands-helping"
+feature2Title: "Donor Management"
+feature2Description: "Personalized donor communication, fundraising coordination, and reporting"
+feature3Icon: "fa-user-friends"
+feature3Title: "Volunteer Coordination"
+feature3Description: "AI-powered volunteer scheduling, role matching, and communication"
+feature4Icon: "fa-chart-bar"
+feature4Title: "Impact Measurement"
+feature4Description: "Track and analyze ministry outcomes with AI-powered data insights"
+feature5Icon: "fa-comments"
+feature5Title: "Ministry Communication"
+feature5Description: "Social media management, announcements, and storytelling automation"
+feature6Icon: "fa-cogs"
+feature6Title: "Operations Automation"
+feature6Description: "Automate admin tasks, scheduling, and ministry workflows"
+contentTitle: "Mission-Driven Automation with AI"
 ---
 
-# Serving Wake Forest & Triangle Area
+# Mission-Driven Automation with AI
 
-## Local Expertise You Can Trust
+## Faithful Technology for Community Impact
 
-As a Wake Forest-based AI developer, I understand the unique challenges and opportunities facing Triangle area businesses. My solutions are designed with local business needs in mind:
+AI solutions built for ministries in the Triangle area—designed to amplify your outreach, improve communication, and free your team from repetitive admin tasks.
 
-- Compliance with North Carolina business regulations
+### Use Cases for Ministry AI
 
-- Integration with popular Triangle area business tools
+- **Outreach Ministries:** Food banks, shelters, crisis response, and missions  
+- **Counseling & Care:** Crisis scheduling, intake forms, resource connection  
+- **Volunteer Coordination:** Skills matching, shift scheduling, and reminders  
+- **Donor Management:** Relationship tracking, personalized messaging, donor insights  
+- **Internal Operations:** Event scheduling, email responses, data entry automation  
+- **Community Engagement:** Targeted updates, social media, and storytelling tools  
 
-- Understanding of local market dynamics and customer expectations
+### Ministry Transformation Benefits
 
-- Personal, hands-on support and consultation
+- 60% increase in outreach effectiveness  
+- 50% less time spent on volunteer coordination  
+- 45% improvement in donor engagement  
+- 30% fewer hours spent on admin work  
+- 40% stronger community connection through better communication  
+- Real-time impact measurement and mission insights  
 
-Whether you're in Wake Forest, Raleigh, Durham, or Cary, I provide the same high-quality AI development services with local expertise.
+### How It Works
+
+1. **Discovery & Design:** Review current ministry operations and goals  
+2. **Solution Development:** Build custom AI automations aligned with your mission  
+3. **Deployment & Integration:** Seamless integration with your existing tools  
+4. **Training & Optimization:** Ensure your team is supported and AI is fully utilized  
+
+### Ministry-Friendly Pricing
+
+Pricing is flexible to meet your ministry’s size and budget:
+
+- **Small Ministries (1–10 staff):** $5K–15K  
+- **Medium Ministries (11–50 staff):** $15K–35K  
+- **Large Ministries (50+ staff):** $35K–75K  
+- **Multi-Site Ministries:** $50K–150K+  
+- **Specialized Tools:** $8K–25K for focused AI automation  
+- **Ongoing Support:** Monthly ministry-aligned support and optimization  
+
+Most ministries see meaningful results in 60–90 days through improved coordination, outreach, and impact measurement.
+
+### Ready to Amplify Your Mission?
+
+Let’s talk about how ministry-focused AI solutions can help you reach more people, operate more efficiently, and better fulfill your calling.
+
+**Serving churches, nonprofits, and ministries across Raleigh, Durham, Cary, Wake Forest, and the entire Triangle area.**

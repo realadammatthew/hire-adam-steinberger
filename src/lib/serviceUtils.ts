@@ -33,6 +33,24 @@ export interface ServiceContent {
   feature4Icon: string;
   feature4Title: string;
   feature4Description: string;
+  feature5Icon: string;
+  feature5Title: string;
+  feature5Description: string;
+  feature6Icon: string;
+  feature6Title: string;
+  feature6Description: string;
+  feature7Icon: string;
+  feature7Title: string;
+  feature7Description: string;
+  feature8Icon: string;
+  feature8Title: string;
+  feature8Description: string;
+  feature9Icon: string;
+  feature9Title: string;
+  feature9Description: string;
+  feature10Icon: string;
+  feature10Title: string;
+  feature10Description: string;
   contentTitle: string;
   content: string;
 }
@@ -80,6 +98,24 @@ export function getServiceBySlug(slug: string): ServiceContent | null {
       feature4Icon: data.feature4Icon,
       feature4Title: data.feature4Title,
       feature4Description: data.feature4Description,
+      feature5Icon: data.feature5Icon,
+      feature5Title: data.feature5Title,
+      feature5Description: data.feature5Description,
+      feature6Icon: data.feature6Icon,
+      feature6Title: data.feature6Title,
+      feature6Description: data.feature6Description,
+      feature7Icon: data.feature7Icon,
+      feature7Title: data.feature7Title,
+      feature7Description: data.feature7Description,
+      feature8Icon: data.feature8Icon,
+      feature8Title: data.feature8Title,
+      feature8Description: data.feature8Description,
+      feature9Icon: data.feature9Icon,
+      feature9Title: data.feature9Title,
+      feature9Description: data.feature9Description,
+      feature10Icon: data.feature10Icon,
+      feature10Title: data.feature10Title,
+      feature10Description: data.feature10Description,
       contentTitle: data.contentTitle,
       content
     };

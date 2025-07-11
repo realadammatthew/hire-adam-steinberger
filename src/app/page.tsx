@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import MultipleCTAs from '@/components/MultipleCTAs';
 
 export default function Home() {

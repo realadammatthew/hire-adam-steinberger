@@ -1,48 +1,83 @@
 ---
-title: "AI Expert"
-subtitle: "AI Expert"
-description: "Expert AI development and consulting"
-category: "Technical Services"
-heroTitle: "AI Expert"
-heroSubtitle: "AI Expert"
-whyChoose: "Why Choose a Local Wake Forest AI Developer?"
-choice1Icon: "fa-map-marker-alt"
-choice1Title: "Local Presence"
-choice1Description: "Based in Wake Forest, NC with deep understanding of Triangle area business needs and regulations"
-choice2Icon: "fa-handshake"
-choice2Title: "Personal Service"
-choice2Description: "Face-to-face consultations and ongoing support for Wake Forest and surrounding communities"
+title: "Adam Matthew Steinberger - Senior Software Engineering Consultant"
+subtitle: "Backend, Cloud & AI Software Architecture and Development"
+description: "With 12+ years of software engineering experience, I provide expert AI consulting, development, and integration services for Triangle area businesses. Specialized in backend, cloud, and AI software architecture."
+category: "Expert AI Consulting"
+heroTitle: "Leading AI Expert"
+heroSubtitle: "Expert AI Consulting & Development for Triangle Area Businesses"
+whyChoose: "Why Choose an AI Expert?"
+choice1Icon: "fa-brain"
+choice1Title: "Deep Technical Knowledge"
+choice1Description: "12+ years in software engineering with specialized experience in AI systems and architectures"
+choice2Icon: "fa-lightbulb"
+choice2Title: "Strategic Guidance"
+choice2Description: "Expert advice on AI planning, implementation, and ROI optimization"
 choice3Icon: "fa-shield-alt"
-choice3Title: "Security Focus"
-choice3Description: "Privacy-first AI solutions built with enterprise-grade security for sensitive business data"
-featuresOffered: "AI Development Services in Wake Forest"
-feature1Icon: "fa-robot"
-feature1Title: "Custom AI Chatbots"
-feature1Description: "Branded chatbots trained on your business data, customer interactions, and brand voice. Perfect for 24/7 customer support and lead qualification."
-feature2Icon: "fa-brain"
-feature2Title: "LLM Integration"
-feature2Description: "Custom implementations using ChatGPT, Claude, Gemini, and Mistral. Secure, scalable solutions tailored to your specific use cases."
-feature3Icon: "fa-cogs"
-feature3Title: "AI Automation"
-feature3Description: "Workflow automation and AI-powered business processes. Integrate with your existing tools and systems for maximum efficiency."
-feature4Icon: "fa-graduation-cap"
-feature4Title: "Training & Support"
-feature4Description: "Comprehensive training for your team and ongoing support to ensure successful AI implementation and adoption."
-contentTitle: "Serving Wake Forest & Triangle Area"
+choice3Title: "Risk Mitigation"
+choice3Description: "Avoid costly mistakes with secure, scalable, and properly designed AI systems"
+choice4Icon: "fa-map-marker-alt"
+choice4Title: "Local Expertise"
+choice4Description: "Serving Raleigh, Durham, Cary, Wake Forest, and Triangle area businesses with hands-on support"
+featuresOffered: "Expert AI Services"
+feature1Icon: "fa-map"
+feature1Title: "AI Strategy Development"
+feature1Description: "Comprehensive assessment, roadmap planning, and implementation strategy for your AI goals"
+feature2Icon: "fa-cogs"
+feature2Title: "Custom AI Development"
+feature2Description: "Custom-built AI chatbots, ML systems, and intelligent tools for your specific business needs"
+feature3Icon: "fa-plug"
+feature3Title: "AI System Integration"
+feature3Description: "Seamless integration with your existing tools, systems, and infrastructure"
+feature4Icon: "fa-chalkboard-teacher"
+feature4Title: "AI Training & Education"
+feature4Description: "Tailored team training programs to upskill your staff on AI technologies and applications"
+contentTitle: "Expert AI Consulting & Development"
 ---
 
-# Serving Wake Forest & Triangle Area
+# Expert AI Consulting & Development
 
-## Local Expertise You Can Trust
+## Meet Adam Matthew Steinberger
 
-As a Wake Forest-based AI developer, I understand the unique challenges and opportunities facing Triangle area businesses. My solutions are designed with local business needs in mind:
+I’m a Senior Software Engineering Consultant with over 12 years of experience specializing in backend, cloud, and AI software systems. My mission is to help Triangle area businesses succeed with powerful, practical AI solutions that drive efficiency and growth.
 
-- Compliance with North Carolina business regulations
+### My AI Consulting Expertise
 
-- Integration with popular Triangle area business tools
+- **AI Strategy & Consulting:** Clear roadmaps, opportunity assessments, and outcome-driven planning  
+- **AI Development:** Custom systems, chatbots, ML models, and advanced automation  
+- **AI Integration:** Secure, reliable integration with existing business tools  
+- **AI Training:** Equip your team with real-world AI knowledge and confidence  
 
-- Understanding of local market dynamics and customer expectations
+### Why Work with an Expert?
 
-- Personal, hands-on support and consultation
+- **Technical Depth:** Software engineering + AI specialization  
+- **Proven Results:** Success across industries and business models  
+- **Strategic Focus:** Business-driven AI planning and execution  
+- **Security First:** AI built for scale, privacy, and compliance  
+- **Local Partner:** Triangle-based with hands-on consultation  
 
-Whether you're in Wake Forest, Raleigh, Durham, or Cary, I provide the same high-quality AI development services with local expertise.
+### My Process
+
+- **Expert Assessment:** Deep dive into systems, challenges, and AI opportunities  
+- **Strategic Planning:** AI strategy, tech selection, and implementation roadmap  
+- **Expert Implementation:** Professional deployment and ongoing optimization  
+
+### AI Investment & Pricing
+
+Transparent pricing for expert-level services:
+
+- **AI Strategy Consulting:** $150–300/hr  
+- **Custom AI Development:** $15K–50K+  
+- **AI Integration Services:** $8K–25K  
+- **Training Programs:** $2K–15K  
+
+These services are designed to maximize ROI through proper implementation and strategic guidance.
+
+### See It in Action
+
+Try a live demo to experience professional AI solutions in action—developed with expert architecture and business alignment.
+
+### Ready to Work with an AI Expert?
+
+Let’s explore how AI can transform your operations, improve efficiency, and give you a strategic advantage.
+
+**Serving Raleigh, Durham, Cary, Wake Forest, and the entire Triangle area with expert AI consulting and development services.**

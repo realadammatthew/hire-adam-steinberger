@@ -1,48 +1,74 @@
 ---
-title: "AI Developer Near Me"
-subtitle: "AI Developer Near Me"
-description: "Local AI development services"
+title: "Local AI Developer Near You"
+subtitle: "Serving Triangle Area Businesses with Custom AI Solutions"
+description: "Looking for an AI developer near you? I'm based in Wake Forest and serve the entire Triangle area—Raleigh, Durham, Cary, and beyond. Get local expertise with personal service and trusted results."
 category: "Location-Based Services"
-heroTitle: "AI Developer Near Me"
-heroSubtitle: "AI Developer Near Me"
-whyChoose: "Why Choose a Local Wake Forest AI Developer?"
-choice1Icon: "fa-map-marker-alt"
-choice1Title: "Local Presence"
-choice1Description: "Based in Wake Forest, NC with deep understanding of Triangle area business needs and regulations"
-choice2Icon: "fa-handshake"
-choice2Title: "Personal Service"
-choice2Description: "Face-to-face consultations and ongoing support for Wake Forest and surrounding communities"
-choice3Icon: "fa-shield-alt"
-choice3Title: "Security Focus"
-choice3Description: "Privacy-first AI solutions built with enterprise-grade security for sensitive business data"
-featuresOffered: "AI Development Services in Wake Forest"
+heroTitle: "Local AI Developer Near You"
+heroSubtitle: "Serving Triangle Area Businesses with Custom AI Solutions"
+whyChoose: "Why Choose a Local AI Developer?"
+choice1Icon: "fa-handshake"
+choice1Title: "Personal Service"
+choice1Description: "Face-to-face consultations, direct communication, and local accountability—no outsourcing"
+choice2Icon: "fa-map"
+choice2Title: "Local Knowledge"
+choice2Description: "Understanding of Triangle area business needs, regulations, and market dynamics"
+choice3Icon: "fa-clock"
+choice3Title: "Quick Response"
+choice3Description: "Same-timezone support and fast turnaround for urgent needs"
+choice4Icon: "fa-shield-alt"
+choice4Title: "Trust & Security"
+choice4Description: "Local security standards to protect your data and AI systems"
+featuresOffered: "Local AI Development Services"
 feature1Icon: "fa-robot"
 feature1Title: "Custom AI Chatbots"
-feature1Description: "Branded chatbots trained on your business data, customer interactions, and brand voice. Perfect for 24/7 customer support and lead qualification."
+feature1Description: "Branded chatbots trained on your business data and voice for customer support and lead generation"
 feature2Icon: "fa-brain"
 feature2Title: "LLM Integration"
-feature2Description: "Custom implementations using ChatGPT, Claude, Gemini, and Mistral. Secure, scalable solutions tailored to your specific use cases."
+feature2Description: "Custom implementations using ChatGPT, Claude, Gemini, and Mistral"
 feature3Icon: "fa-cogs"
 feature3Title: "AI Automation"
-feature3Description: "Workflow automation and AI-powered business processes. Integrate with your existing tools and systems for maximum efficiency."
-feature4Icon: "fa-graduation-cap"
-feature4Title: "Training & Support"
-feature4Description: "Comprehensive training for your team and ongoing support to ensure successful AI implementation and adoption."
-contentTitle: "Serving Wake Forest & Triangle Area"
+feature3Description: "Workflow automation and intelligent business process integration"
+feature4Icon: "fa-lock"
+feature4Title: "Security & Compliance"
+feature4Description: "Built with compliance to North Carolina regulations and industry best practices"
+feature5Icon: "fa-graduation-cap"
+feature5Title: "Training & Support"
+feature5Description: "Local team training and ongoing support for successful AI adoption"
+contentTitle: "Your Local AI Developer in the Triangle Area"
 ---
 
-# Serving Wake Forest & Triangle Area
+# Your Local AI Developer in the Triangle Area
 
-## Local Expertise You Can Trust
+## Based in Wake Forest. Serving Raleigh, Durham, Cary & Beyond.
 
-As a Wake Forest-based AI developer, I understand the unique challenges and opportunities facing Triangle area businesses. My solutions are designed with local business needs in mind:
+Looking for a trusted AI partner near you? I provide custom, secure AI development services with deep local insight and personalized support.
 
-- Compliance with North Carolina business regulations
+### Serving Your Area
 
-- Integration with popular Triangle area business tools
+- **Wake Forest:** Local presence and understanding of small business needs  
+- **Raleigh:** Supporting the capital’s tech ecosystem with advanced AI solutions  
+- **Durham:** Helping innovative businesses automate with AI  
+- **Cary:** Providing scalable, secure AI for growing companies  
 
-- Understanding of local market dynamics and customer expectations
+### Local AI, Real Results
 
-- Personal, hands-on support and consultation
+- **Real Estate Platform:** Reduced support tickets by 40% and tripled lead generation with a custom chatbot  
+- **Nonprofit Organization:** Saved 30+ staff hours/month by automating email responses and streamlining grants  
 
-Whether you're in Wake Forest, Raleigh, Durham, or Cary, I provide the same high-quality AI development services with local expertise.
+### What You Get
+
+- Custom AI chatbots  
+- LLM-powered tools (ChatGPT, Claude, Gemini, Mistral)  
+- Workflow automation  
+- Security compliance  
+- Local training and support  
+
+### See It In Action
+
+Try the live demo to see how Triangle area businesses are leveraging custom AI solutions.
+
+### Ready to Work Together?
+
+Let’s talk about your business needs and how local AI expertise can give you an edge. Schedule a free consultation today.
+
+**Proudly serving Wake Forest, Raleigh, Durham, Cary, and the entire Triangle area.**

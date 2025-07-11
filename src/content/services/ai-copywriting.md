@@ -1,48 +1,84 @@
 ---
-title: "Copywriting AI"
-subtitle: "Copywriting AI"
-description: "AI tools for copywriters and content creators"
-category: "Industry-Specific Solutions"
-heroTitle: "Copywriting AI"
-heroSubtitle: "Copywriting AI"
-whyChoose: "Why Choose a Local Wake Forest AI Developer?"
-choice1Icon: "fa-map-marker-alt"
-choice1Title: "Local Presence"
-choice1Description: "Based in Wake Forest, NC with deep understanding of Triangle area business needs and regulations"
-choice2Icon: "fa-handshake"
-choice2Title: "Personal Service"
-choice2Description: "Face-to-face consultations and ongoing support for Wake Forest and surrounding communities"
-choice3Icon: "fa-shield-alt"
-choice3Title: "Security Focus"
-choice3Description: "Privacy-first AI solutions built with enterprise-grade security for sensitive business data"
-featuresOffered: "AI Development Services in Wake Forest"
-feature1Icon: "fa-robot"
-feature1Title: "Custom AI Chatbots"
-feature1Description: "Branded chatbots trained on your business data, customer interactions, and brand voice. Perfect for 24/7 customer support and lead qualification."
-feature2Icon: "fa-brain"
-feature2Title: "LLM Integration"
-feature2Description: "Custom implementations using ChatGPT, Claude, Gemini, and Mistral. Secure, scalable solutions tailored to your specific use cases."
-feature3Icon: "fa-cogs"
-feature3Title: "AI Automation"
-feature3Description: "Workflow automation and AI-powered business processes. Integrate with your existing tools and systems for maximum efficiency."
-feature4Icon: "fa-graduation-cap"
-feature4Title: "Training & Support"
-feature4Description: "Comprehensive training for your team and ongoing support to ensure successful AI implementation and adoption."
-contentTitle: "Serving Wake Forest & Triangle Area"
+title: "AI Solutions for Copywriters"
+subtitle: "Content Creation & Writing Enhancement Automation"
+description: "Specialized AI solutions for copywriters and content creators in the Triangle area. From content generation and copywriting automation to brand voice consistency and writing enhancement—built for creative efficiency and content quality."
+category: "Creative AI Solutions"
+heroTitle: "AI Solutions for Copywriters"
+heroSubtitle: "Content Creation & Writing Enhancement Automation"
+whyChoose: "Why Choose AI for Copywriting?"
+choice1Icon: "fa-keyboard"
+choice1Title: "Faster Content Creation"
+choice1Description: "Generate high-quality content quickly with AI-assisted writing tools"
+choice2Icon: "fa-pen-nib"
+choice2Title: "Brand Voice Consistency"
+choice2Description: "Maintain tone and messaging with style guide automation and intelligent prompts"
+choice3Icon: "fa-lightbulb"
+choice3Title: "Creative Optimization"
+choice3Description: "Enhance writing quality and eliminate writer’s block with real-time AI support"
+featuresOffered: "Copywriting AI Services"
+feature1Icon: "fa-edit"
+feature1Title: "Content Generation"
+feature1Description: "Automated content generation with copywriting assistance for blogs, websites, and more"
+feature2Icon: "fa-volume-up"
+feature2Title: "Brand Voice Consistency"
+feature2Description: "Maintain tone and style with AI-driven consistency and rule enforcement"
+feature3Icon: "fa-magic"
+feature3Title: "Writing Enhancement"
+feature3Description: "Improve clarity, tone, grammar, and engagement with real-time feedback"
+feature4Icon: "fa-search"
+feature4Title: "SEO Copywriting"
+feature4Description: "Generate SEO-optimized content with keyword integration and search targeting"
+feature5Icon: "fa-bullhorn"
+feature5Title: "Ad Copy Creation"
+feature5Description: "Create ad headlines and body copy optimized for conversions and testing"
+feature6Icon: "fa-envelope"
+feature6Title: "Email Copywriting"
+feature6Description: "Craft high-converting, personalized email sequences and newsletters"
+contentTitle: "AI-Enhanced Copywriting for Creative Professionals"
 ---
 
-# Serving Wake Forest & Triangle Area
+# AI-Enhanced Copywriting for Creative Professionals
 
-## Local Expertise You Can Trust
+## Supercharge Content Creation with Intelligent AI Tools
 
-As a Wake Forest-based AI developer, I understand the unique challenges and opportunities facing Triangle area businesses. My solutions are designed with local business needs in mind:
+I provide AI solutions built specifically for copywriters and content creators across the Triangle area—enabling faster writing, brand consistency, and creative excellence.
 
-- Compliance with North Carolina business regulations
+### AI Benefits for Copywriting
 
-- Integration with popular Triangle area business tools
+- **Content Creation:** 80% faster content production  
+- **Brand Consistency:** 90% improvement in voice alignment  
+- **Writing Quality:** 60% better clarity and readability  
+- **SEO Performance:** 50% higher search rankings with optimized content  
+- **Conversion Rates:** 40% boost in campaign results  
+- **Creative Efficiency:** 70% reduction in writer’s block  
+- **Client Satisfaction:** 45% better feedback on final deliverables  
+- **Scalability:** Solutions that grow with your business or agency  
 
-- Understanding of local market dynamics and customer expectations
+### AI Use Cases for Content Creators
 
-- Personal, hands-on support and consultation
+- **Website Copy:** Pages, product descriptions, and landing content  
+- **Ad Copy:** Headlines, campaigns, and creative hooks  
+- **Email Marketing:** Sequences, newsletters, and engagement automation  
+- **Blog Content:** Articles, posts, and thought leadership  
+- **Social Media:** Posts, captions, and engagement content  
+- **Technical Writing:** Manuals, help content, and complex documentation  
 
-Whether you're in Wake Forest, Raleigh, Durham, or Cary, I provide the same high-quality AI development services with local expertise.
+### Copywriting AI Investment
+
+Flexible pricing for solo writers, agencies, and creative teams:
+
+- **Individual Copywriters:** $3K–8K  
+- **Small Agencies (2–5 writers):** $8K–20K  
+- **Medium Agencies (6–15 writers):** $20K–50K  
+- **Large Agencies (15+ writers):** $50K–150K+  
+- **Specialized Automations:** $5K–15K  
+
+All packages include onboarding, training, and support tailored to your creative workflow.
+
+### See It in Action
+
+Try the live demo to explore how AI can transform content generation and writing enhancement.
+
+Let’s talk about how AI can elevate your copywriting business.
+
+**Proudly serving copywriters and content teams across Raleigh, Durham, Cary, Wake Forest, and the greater Triangle area.**

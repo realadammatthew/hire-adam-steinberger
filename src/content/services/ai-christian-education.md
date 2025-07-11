@@ -1,48 +1,83 @@
 ---
-title: "Christian Education"
-subtitle: "Christian Education"
-description: "AI tools for Christian schools and educational institutions"
-category: "Industry-Specific Solutions"
-heroTitle: "Christian Education"
-heroSubtitle: "Christian Education"
-whyChoose: "Why Choose a Local Wake Forest AI Developer?"
-choice1Icon: "fa-map-marker-alt"
-choice1Title: "Local Presence"
-choice1Description: "Based in Wake Forest, NC with deep understanding of Triangle area business needs and regulations"
-choice2Icon: "fa-handshake"
-choice2Title: "Personal Service"
-choice2Description: "Face-to-face consultations and ongoing support for Wake Forest and surrounding communities"
-choice3Icon: "fa-shield-alt"
-choice3Title: "Security Focus"
-choice3Description: "Privacy-first AI solutions built with enterprise-grade security for sensitive business data"
-featuresOffered: "AI Development Services in Wake Forest"
-feature1Icon: "fa-robot"
-feature1Title: "Custom AI Chatbots"
-feature1Description: "Branded chatbots trained on your business data, customer interactions, and brand voice. Perfect for 24/7 customer support and lead qualification."
-feature2Icon: "fa-brain"
-feature2Title: "LLM Integration"
-feature2Description: "Custom implementations using ChatGPT, Claude, Gemini, and Mistral. Secure, scalable solutions tailored to your specific use cases."
-feature3Icon: "fa-cogs"
-feature3Title: "AI Automation"
-feature3Description: "Workflow automation and AI-powered business processes. Integrate with your existing tools and systems for maximum efficiency."
-feature4Icon: "fa-graduation-cap"
-feature4Title: "Training & Support"
-feature4Description: "Comprehensive training for your team and ongoing support to ensure successful AI implementation and adoption."
-contentTitle: "Serving Wake Forest & Triangle Area"
+title: "AI Solutions for Christian Education"
+subtitle: "Personalized Learning & Student Success"
+description: "Specialized AI solutions for Christian education organizations in the Triangle area. From personalized learning and curriculum automation to student engagement and assessment—designed for faith-based schools and educational ministries."
+category: "Faith-Based Education Technology"
+heroTitle: "AI Solutions for Christian Education"
+heroSubtitle: "Personalized Learning & Student Success"
+whyChoose: "Why Choose AI for Christian Education?"
+choice1Icon: "fa-graduation-cap"
+choice1Title: "Built for Faith-Based Schools"
+choice1Description: "AI solutions designed to support Christian values, academic success, and spiritual formation"
+choice2Icon: "fa-child"
+choice2Title: "Student-Centered Outcomes"
+choice2Description: "Enhance learning and track progress with real-time academic analytics and AI insights"
+choice3Icon: "fa-hands-helping"
+choice3Title: "Parent & Teacher Support"
+choice3Description: "Tools for family engagement, teacher efficiency, and classroom success"
+featuresOffered: "Christian Education AI Services"
+feature1Icon: "fa-users"
+feature1Title: "Student Management AI"
+feature1Description: "AI-powered academic tracking, performance monitoring, and student data management"
+feature2Icon: "fa-book-open"
+feature2Title: "Curriculum Development"
+feature2Description: "Intelligent curriculum creation, lesson planning, and educational content support"
+feature3Icon: "fa-comments"
+feature3Title: "Parent Communication"
+feature3Description: "Automated family communication, progress reporting, and parent engagement tools"
+feature4Icon: "fa-chalkboard-teacher"
+feature4Title: "Teaching Support"
+feature4Description: "Automation tools for grading, feedback, and instructional planning"
+feature5Icon: "fa-chart-pie"
+feature5Title: "Academic Analytics"
+feature5Description: "AI-powered performance tracking and educational insights for student growth"
+feature6Icon: "fa-dove"
+feature6Title: "Spiritual Integration"
+feature6Description: "Faith-based content integration and character education support with AI"
+contentTitle: "Transforming Christian Education in the Triangle Area"
 ---
 
-# Serving Wake Forest & Triangle Area
+# Transforming Christian Education in the Triangle Area
 
-## Local Expertise You Can Trust
+## Faith-Based AI Designed for Student Success
 
-As a Wake Forest-based AI developer, I understand the unique challenges and opportunities facing Triangle area businesses. My solutions are designed with local business needs in mind:
+I provide AI solutions that help Christian schools and educational ministries improve learning outcomes, streamline operations, and enhance spiritual formation through personalized, intelligent tools.
 
-- Compliance with North Carolina business regulations
+### Key Benefits for Christian Education
 
-- Integration with popular Triangle area business tools
+- **Student Success:** 40% improvement in academic performance  
+- **Curriculum Quality:** 50% enhancement through intelligent planning  
+- **Parent Engagement:** 60% increase in family communication  
+- **Teaching Efficiency:** 35% fewer administrative burdens for teachers  
+- **Academic Analytics:** Real-time performance insights  
+- **Spiritual Integration:** 45% boost in faith-aligned curriculum delivery  
+- **Resource Optimization:** Better allocation of educational tools and time  
+- **Community Building:** Stronger school connection and communication  
 
-- Understanding of local market dynamics and customer expectations
+### AI Use Cases in Christian Education
 
-- Personal, hands-on support and consultation
+- **K–12 Schools:** Student tracking, curriculum support, and teacher tools  
+- **Christian Universities:** Academic coordination, research insights, and program management  
+- **Bible Colleges:** Theology-based curriculum automation and ministry training  
+- **Preschool Programs:** Early learning support and developmental progress tracking  
+- **Homeschool Support:** Parent tools, learning plans, and educational guidance  
+- **Online Education:** Virtual classroom support and remote learning systems  
 
-Whether you're in Wake Forest, Raleigh, Durham, or Cary, I provide the same high-quality AI development services with local expertise.
+### Christian Education AI Investment
+
+Flexible pricing based on school size and system complexity:
+
+- **Small Schools (50–200 students):** $10K–25K  
+- **Medium Schools (200–500 students):** $25K–60K  
+- **Large Schools (500+ students):** $60K–150K+  
+- **Universities & Colleges:** $100K–300K+  
+- **Specialized Solutions:** $15K–40K for modular systems  
+- **Ongoing Support:** Education-focused maintenance and optimization  
+
+### See It In Action
+
+Try a live demo to explore how student management and curriculum automation can uplift your school’s mission.
+
+Let’s discuss how AI can support your academic goals and spiritual mission.
+
+**Serving Christian education institutions across Raleigh, Durham, Cary, Wake Forest, and the greater Triangle area.**

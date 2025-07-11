@@ -1,48 +1,88 @@
 ---
-title: "Restaurant AI Solutions"
-subtitle: "Restaurant AI Solutions"
-description: "AI automation for restaurants and food service"
-category: "Industry-Specific Solutions"
-heroTitle: "Restaurant AI Solutions"
-heroSubtitle: "Restaurant AI Solutions"
-whyChoose: "Why Choose a Local Wake Forest AI Developer?"
-choice1Icon: "fa-map-marker-alt"
-choice1Title: "Local Presence"
-choice1Description: "Based in Wake Forest, NC with deep understanding of Triangle area business needs and regulations"
-choice2Icon: "fa-handshake"
-choice2Title: "Personal Service"
-choice2Description: "Face-to-face consultations and ongoing support for Wake Forest and surrounding communities"
-choice3Icon: "fa-shield-alt"
-choice3Title: "Security Focus"
-choice3Description: "Privacy-first AI solutions built with enterprise-grade security for sensitive business data"
-featuresOffered: "AI Development Services in Wake Forest"
-feature1Icon: "fa-robot"
-feature1Title: "Custom AI Chatbots"
-feature1Description: "Branded chatbots trained on your business data, customer interactions, and brand voice. Perfect for 24/7 customer support and lead qualification."
-feature2Icon: "fa-brain"
-feature2Title: "LLM Integration"
-feature2Description: "Custom implementations using ChatGPT, Claude, Gemini, and Mistral. Secure, scalable solutions tailored to your specific use cases."
-feature3Icon: "fa-cogs"
-feature3Title: "AI Automation"
-feature3Description: "Workflow automation and AI-powered business processes. Integrate with your existing tools and systems for maximum efficiency."
-feature4Icon: "fa-graduation-cap"
-feature4Title: "Training & Support"
-feature4Description: "Comprehensive training for your team and ongoing support to ensure successful AI implementation and adoption."
-contentTitle: "Serving Wake Forest & Triangle Area"
+title: "AI Solutions for Restaurants"
+subtitle: "Restaurant Automation & Guest Experience"
+description: "Specialized AI solutions for restaurants in the Triangle area. From guest management and order automation to loyalty programs and personalized marketing. Built for restaurants, cafes, and hospitality businesses."
+category: "Industry AI Solutions"
+heroTitle: "AI for Restaurants & Hospitality"
+heroSubtitle: "Optimize Orders, Enhance Service, and Streamline Operations with AI"
+whyChoose: "Why AI for Restaurants?"
+choice1Icon: "fa-concierge-bell"
+choice1Title: "Faster Service"
+choice1Description: "Accelerate order processing, reservations, and kitchen coordination with AI automation"
+choice2Icon: "fa-smile"
+choice2Title: "Better Guest Experience"
+choice2Description: "24/7 AI support for reservations, menu questions, and personalized responses"
+choice3Icon: "fa-utensils"
+choice3Title: "Smarter Operations"
+choice3Description: "Optimize menus, staffing, and delivery with AI-driven insights"
+featuresOffered: "Restaurant AI Services"
+feature1Icon: "fa-receipt"
+feature1Title: "Order Management AI"
+feature1Description: "Streamline order intake, kitchen coordination, and delivery workflows"
+feature2Icon: "fa-comments"
+feature2Title: "Customer Service Chatbots"
+feature2Description: "24/7 guest support for reservations, menus, and FAQs"
+feature3Icon: "fa-clipboard-list"
+feature3Title: "Menu Optimization"
+feature3Description: "AI-driven menu pricing, ingredient usage, and performance analysis"
+feature4Icon: "fa-chart-bar"
+feature4Title: "Sales Analytics"
+feature4Description: "Track sales trends and customer behavior with AI insights"
+feature5Icon: "fa-user-clock"
+feature5Title: "Staff Management"
+feature5Description: "AI-powered scheduling, training, and performance tracking"
+feature6Icon: "fa-truck"
+feature6Title: "Delivery Optimization"
+feature6Description: "Route planning and delivery time prediction for faster, more efficient delivery"
+contentTitle: "Restaurant Business Transformation"
 ---
 
-# Serving Wake Forest & Triangle Area
+# Restaurant Business Transformation
 
-## Local Expertise You Can Trust
+## AI-Powered Hospitality Built for Triangle Area Restaurants
 
-As a Wake Forest-based AI developer, I understand the unique challenges and opportunities facing Triangle area businesses. My solutions are designed with local business needs in mind:
+Custom AI systems to improve guest experiences, kitchen efficiency, and staff productivity.
 
-- Compliance with North Carolina business regulations
+### Restaurant Benefits
 
-- Integration with popular Triangle area business tools
+- **40% faster** order processing  
+- **35% improvement** in kitchen coordination and accuracy  
+- **45% increase** in customer loyalty with personalized service  
+- **30% reduction** in admin tasks with staff scheduling AI  
+- **25% higher** menu profitability through AI optimization  
+- **15% lower** operational costs with AI automation  
 
-- Understanding of local market dynamics and customer expectations
+### Restaurant AI Use Cases
 
-- Personal, hands-on support and consultation
+- **Fast Casual:** Self-service ordering and real-time queue updates  
+- **Fine Dining:** Reservation management and curated guest experiences  
+- **Cafes & Coffee Shops:** Custom drink suggestions and loyalty program automation  
+- **Food Delivery:** Route optimization and real-time ETA predictions  
+- **Bars & Pubs:** Smart inventory and drink pairing recommendations  
+- **Bakeries:** Custom order tracking and ingredient forecasting  
 
-Whether you're in Wake Forest, Raleigh, Durham, or Cary, I provide the same high-quality AI development services with local expertise.
+---
+
+## See Restaurant AI in Action
+
+Try a **live demo** and experience how AI can enhance order flow, improve customer service, and streamline operations.
+
+---
+
+## Restaurant AI Investment
+
+**Transparent pricing based on size and needs:**
+
+- **Small Restaurants (1–20 seats):** $5K–15K  
+- **Medium Restaurants (21–100 seats):** $15K–35K  
+- **Large Restaurants (100+ seats):** $35K–75K  
+- **Restaurant Chains:** $50K–150K+ for multi-location AI systems  
+- **Specialized Solutions:** $8K–25K for specific automation tools (e.g., chatbot, delivery AI)
+
+_All implementations include training, onboarding, and ongoing support._
+
+---
+
+## Ready to Transform Your Restaurant?
+
+Let’s talk about how AI can streamline your operations and delight your guests across the Triangle area.

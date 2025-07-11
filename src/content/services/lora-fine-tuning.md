@@ -1,48 +1,101 @@
 ---
-title: "LoRA Fine-Tuning"
-subtitle: "LoRA Fine-Tuning"
-description: "LoRA fine-tuning for custom AI models"
-category: "Technical Services"
-heroTitle: "LoRA Fine-Tuning"
-heroSubtitle: "LoRA Fine-Tuning"
-whyChoose: "Why Choose a Local Wake Forest AI Developer?"
-choice1Icon: "fa-map-marker-alt"
-choice1Title: "Local Presence"
-choice1Description: "Based in Wake Forest, NC with deep understanding of Triangle area business needs and regulations"
-choice2Icon: "fa-handshake"
-choice2Title: "Personal Service"
-choice2Description: "Face-to-face consultations and ongoing support for Wake Forest and surrounding communities"
-choice3Icon: "fa-shield-alt"
-choice3Title: "Security Focus"
-choice3Description: "Privacy-first AI solutions built with enterprise-grade security for sensitive business data"
-featuresOffered: "AI Development Services in Wake Forest"
-feature1Icon: "fa-robot"
-feature1Title: "Custom AI Chatbots"
-feature1Description: "Branded chatbots trained on your business data, customer interactions, and brand voice. Perfect for 24/7 customer support and lead qualification."
-feature2Icon: "fa-brain"
-feature2Title: "LLM Integration"
-feature2Description: "Custom implementations using ChatGPT, Claude, Gemini, and Mistral. Secure, scalable solutions tailored to your specific use cases."
-feature3Icon: "fa-cogs"
-feature3Title: "AI Automation"
-feature3Description: "Workflow automation and AI-powered business processes. Integrate with your existing tools and systems for maximum efficiency."
-feature4Icon: "fa-graduation-cap"
-feature4Title: "Training & Support"
-feature4Description: "Comprehensive training for your team and ongoing support to ensure successful AI implementation and adoption."
-contentTitle: "Serving Wake Forest & Triangle Area"
+title: "Expert LoRA Fine-Tuning"
+subtitle: "Advanced Parameter-Efficient Model Adaptation"
+description: "Specialized LoRA fine-tuning for scalable model adaptation. I build efficient training pipelines and production-grade systems using PEFT, Transformers, and LoRA variants."
+category: "AI Infrastructure"
+heroTitle: "Adapt Models with Efficiency"
+heroSubtitle: "LoRA fine-tuning for domain-specific performance and cost savings."
+whyChoose: "Why LoRA Fine-Tuning?"
+choice1Icon: "fa-compress-arrows-alt"
+choice1Title: "Parameter Efficiency"
+choice1Description: "Customize models with minimal training overhead and memory usage."
+choice2Icon: "fa-sliders-h"
+choice2Title: "Domain Adaptation"
+choice2Description: "Fine-tune models on your data for highly relevant outputs and performance."
+choice3Icon: "fa-rocket"
+choice3Title: "Production Ready"
+choice3Description: "Deploy optimized LoRA models with low-latency inference and scalable infrastructure."
+featuresOffered: "LoRA Fine-Tuning Services"
+feature1Icon: "fa-cog"
+feature1Title: "LoRA Configuration"
+feature1Description: "Custom rank, alpha, and dropout configurations tailored to your model and task."
+feature2Icon: "fa-project-diagram"
+feature2Title: "Training Pipeline"
+feature2Description: "Full training workflow with preprocessing, optimization, and checkpointing."
+feature3Icon: "fa-tachometer-alt"
+feature3Title: "Performance Optimization"
+feature3Description: "Gradient checkpointing, mixed precision, and memory-efficient fine-tuning."
+feature4Icon: "fa-layer-group"
+feature4Title: "Model Merging"
+feature4Description: "Compose adapters or merge weights for multi-task model adaptation."
+feature5Icon: "fa-upload"
+feature5Title: "Production Deployment"
+feature5Description: "Deploy LoRA models with serving infrastructure, monitoring, and quantization."
+feature6Icon: "fa-wrench"
+feature6Title: "Custom Adapters"
+feature6Description: "Develop LoRA adapters for domain-specific language, tasks, or applications."
 ---
 
-# Serving Wake Forest & Triangle Area
+## LoRA Fine-Tuning Expertise
 
-## Local Expertise You Can Trust
+Efficient model adaptation using parameter-efficient methods:
 
-As a Wake Forest-based AI developer, I understand the unique challenges and opportunities facing Triangle area businesses. My solutions are designed with local business needs in mind:
+* **PEFT Frameworks:** Hugging Face PEFT with LoRA, QLoRA, and AdaLoRA
+* **Configuration Tuning:** Alpha scaling, dropout setting, rank control, and module targeting
+* **Training Optimization:** Mixed precision, gradient checkpointing, and multi-GPU DDP
+* **Adapter Composition:** Multi-task systems using adapter merging and task routing
+* **Quantized Inference:** Efficient model deployment with QLoRA and quantization support
+* **Monitoring Tools:** LoRA inference performance metrics, latency analysis, model versioning
 
-- Compliance with North Carolina business regulations
+---
 
-- Integration with popular Triangle area business tools
+## Implementation Examples
 
-- Understanding of local market dynamics and customer expectations
+* **QLoRA Integration:** Fine-tune LLMs on commodity GPUs using quantized training flows
+* **Multi-Task Model:** Compose multiple LoRA adapters for cross-domain applications
+* **Inference Optimization:** Use quantized adapters for fast, low-memory API serving
+* **Adapter Merging:** Combine domain-specific adapters into a single production model
+* **Custom DSL Adapter:** LoRA fine-tuning for internal documentation and structured data
 
-- Personal, hands-on support and consultation
+---
 
-Whether you're in Wake Forest, Raleigh, Durham, or Cary, I provide the same high-quality AI development services with local expertise.
+## Fine-Tuning Process
+
+1. **Model Analysis**
+   Identify target modules, available compute, and desired adaptation outcomes
+
+2. **Training Pipeline**
+   Build training loop, apply LoRA configuration, and run optimized training
+
+3. **Deployment & Optimization**
+   Merge adapters, quantize, and deploy to production with latency monitoring
+
+---
+
+## Investment & Pricing
+
+* **Basic LoRA Training:** \$15K–30K
+  Single adapter training for a narrow task or domain
+
+* **Advanced LoRA Platform:** \$30K–60K
+  Multi-adapter or QLoRA system with optimized inference
+
+* **Enterprise Deployment:** \$60K–120K+
+  Production platform with adapter management, monitoring, and scaling
+
+* **R\&D / Custom Work:** \$150–250/hr
+  LoRA research, custom adapter strategies, or novel model compression pipelines
+
+* **Ongoing Support:** Monthly retainer for tuning, evaluation, and adapter lifecycle management
+
+---
+
+## See LoRA in Action
+
+Explore live demos of LoRA-powered assistants, multi-adapter models, and high-efficiency inference on constrained hardware.
+
+---
+
+## Ready to Adapt with LoRA?
+
+Let’s discuss your language model goals and fine-tuning needs. I help Triangle area teams build smarter, more efficient AI through LoRA-based development.

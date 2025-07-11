@@ -1,48 +1,101 @@
 ---
-title: "AI Services"
-subtitle: "AI Services"
-description: "Complete AI development services"
-category: "Technical Services"
-heroTitle: "AI Services"
-heroSubtitle: "AI Services"
-whyChoose: "Why Choose a Local Wake Forest AI Developer?"
-choice1Icon: "fa-map-marker-alt"
-choice1Title: "Local Presence"
-choice1Description: "Based in Wake Forest, NC with deep understanding of Triangle area business needs and regulations"
-choice2Icon: "fa-handshake"
-choice2Title: "Personal Service"
-choice2Description: "Face-to-face consultations and ongoing support for Wake Forest and surrounding communities"
-choice3Icon: "fa-shield-alt"
-choice3Title: "Security Focus"
-choice3Description: "Privacy-first AI solutions built with enterprise-grade security for sensitive business data"
-featuresOffered: "AI Development Services in Wake Forest"
+title: "Comprehensive AI Services"
+subtitle: "Complete AI Services for Triangle Area Businesses"
+description: "From development to consulting, integration to training, I provide comprehensive AI services that help Triangle area businesses leverage artificial intelligence for growth, efficiency, and competitive advantage."
+category: "Core AI Services"
+heroTitle: "Full-Service AI for Your Business"
+heroSubtitle: "From Chatbots to Custom AI Systems – I Handle the Full Stack"
+whyChoose: "Why Choose Comprehensive AI Services?"
+choice1Icon: "fa-code"
+choice1Title: "End-to-End Development"
+choice1Description: "From concept to deployment, get custom-built AI tailored to your needs"
+choice2Icon: "fa-plug"
+choice2Title: "Seamless Integration"
+choice2Description: "Connect AI with your existing tools, workflows, and platforms"
+choice3Icon: "fa-chalkboard-teacher"
+choice3Title: "Training & Consulting"
+choice3Description: "Empower your team with AI knowledge and strategic implementation guidance"
+featuresOffered: "Complete AI Services Portfolio"
 feature1Icon: "fa-robot"
-feature1Title: "Custom AI Chatbots"
-feature1Description: "Branded chatbots trained on your business data, customer interactions, and brand voice. Perfect for 24/7 customer support and lead qualification."
-feature2Icon: "fa-brain"
-feature2Title: "LLM Integration"
-feature2Description: "Custom implementations using ChatGPT, Claude, Gemini, and Mistral. Secure, scalable solutions tailored to your specific use cases."
-feature3Icon: "fa-cogs"
-feature3Title: "AI Automation"
-feature3Description: "Workflow automation and AI-powered business processes. Integrate with your existing tools and systems for maximum efficiency."
+feature1Title: "AI Development"
+feature1Description: "Custom AI chatbot development, machine learning, and intelligent application creation"
+feature2Icon: "fa-lightbulb"
+feature2Title: "AI Consulting"
+feature2Description: "Strategic consulting, implementation planning, and expert technical guidance"
+feature3Icon: "fa-network-wired"
+feature3Title: "AI Integration"
+feature3Description: "Connect AI systems with your existing software, CRMs, APIs, and databases"
 feature4Icon: "fa-graduation-cap"
-feature4Title: "Training & Support"
-feature4Description: "Comprehensive training for your team and ongoing support to ensure successful AI implementation and adoption."
-contentTitle: "Serving Wake Forest & Triangle Area"
+feature4Title: "AI Training"
+feature4Description: "Comprehensive training to equip your team with AI knowledge and usage skills"
+feature5Icon: "fa-cogs"
+feature5Title: "AI Automation"
+feature5Description: "Intelligent workflow automation and business process optimization"
+feature6Icon: "fa-language"
+feature6Title: "LLM Development"
+feature6Description: "Custom large language model integration for advanced NLP and AI reasoning tasks"
+contentTitle: "AI Service Transformation"
 ---
 
-# Serving Wake Forest & Triangle Area
+# AI Service Transformation
 
-## Local Expertise You Can Trust
+## All-in-One AI Solutions for Triangle Area Businesses
 
-As a Wake Forest-based AI developer, I understand the unique challenges and opportunities facing Triangle area businesses. My solutions are designed with local business needs in mind:
+With development, strategy, and support under one roof, I help you make AI work for your business.
 
-- Compliance with North Carolina business regulations
+### Benefits of Comprehensive AI Services
 
-- Integration with popular Triangle area business tools
+- **30–60% reduction** in operational costs through automation  
+- **Higher productivity** with intelligent workflows and round-the-clock performance  
+- **Stronger decisions** with AI-powered business analytics  
+- **Competitive advantage** with custom AI solutions tailored to your market  
+- **Scalable growth** through adaptable, future-proof AI systems  
 
-- Understanding of local market dynamics and customer expectations
+### AI Service Categories
 
-- Personal, hands-on support and consultation
+- **AI Development:** Chatbots, ML systems, custom AI apps  
+- **AI Consulting:** Strategy, implementation roadmaps, expert guidance  
+- **AI Integration:** REST APIs, workflow connections, secure data sync  
+- **AI Training:** Team education, workshops, technical onboarding  
+- **AI Automation:** Automated workflows, task optimization  
+- **LLM Development:** ChatGPT, Claude, Gemini, and Mistral integration  
 
-Whether you're in Wake Forest, Raleigh, Durham, or Cary, I provide the same high-quality AI development services with local expertise.
+---
+
+## How It Works
+
+**1. Discovery & Analysis**  
+We assess your current systems, goals, and potential AI opportunities.
+
+**2. Custom Service Design**  
+Tailored service planning based on your business workflows and technical environment.
+
+**3. Implementation & Support**  
+Ongoing implementation with training, maintenance, and optimization included.
+
+---
+
+## See AI Services in Action
+
+Explore the **live demo** and see real-world AI development, integration, and automation in practice.
+
+---
+
+## AI Service Investment
+
+**Transparent pricing for all AI service types:**
+
+- **AI Development:** $8K–35K+ for full-scale builds and chatbot solutions  
+- **AI Consulting:** $150–300/hr for strategic guidance and planning  
+- **AI Integration:** $5K–25K for API, tool, and database integrations  
+- **AI Training:** $2K–15K for in-person or remote team training programs  
+- **AI Automation:** $8K–25K for business process automation projects  
+
+_Most projects deliver measurable ROI in 6–12 months._
+
+---
+
+## Ready to Unlock AI for Your Business?
+
+Let’s explore how my full-service AI offering can drive your business growth.  
+Proudly serving Raleigh, Durham, Cary, and the greater Triangle area.

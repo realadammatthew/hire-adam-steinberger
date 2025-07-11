@@ -1,48 +1,105 @@
 ---
-title: "RAG Development"
-subtitle: "RAG Development"
-description: "Retrieval-Augmented Generation development"
-category: "Technical Services"
-heroTitle: "RAG Development"
-heroSubtitle: "RAG Development"
-whyChoose: "Why Choose a Local Wake Forest AI Developer?"
-choice1Icon: "fa-map-marker-alt"
-choice1Title: "Local Presence"
-choice1Description: "Based in Wake Forest, NC with deep understanding of Triangle area business needs and regulations"
-choice2Icon: "fa-handshake"
-choice2Title: "Personal Service"
-choice2Description: "Face-to-face consultations and ongoing support for Wake Forest and surrounding communities"
-choice3Icon: "fa-shield-alt"
-choice3Title: "Security Focus"
-choice3Description: "Privacy-first AI solutions built with enterprise-grade security for sensitive business data"
-featuresOffered: "AI Development Services in Wake Forest"
-feature1Icon: "fa-robot"
-feature1Title: "Custom AI Chatbots"
-feature1Description: "Branded chatbots trained on your business data, customer interactions, and brand voice. Perfect for 24/7 customer support and lead qualification."
-feature2Icon: "fa-brain"
-feature2Title: "LLM Integration"
-feature2Description: "Custom implementations using ChatGPT, Claude, Gemini, and Mistral. Secure, scalable solutions tailored to your specific use cases."
-feature3Icon: "fa-cogs"
-feature3Title: "AI Automation"
-feature3Description: "Workflow automation and AI-powered business processes. Integrate with your existing tools and systems for maximum efficiency."
-feature4Icon: "fa-graduation-cap"
-feature4Title: "Training & Support"
-feature4Description: "Comprehensive training for your team and ongoing support to ensure successful AI implementation and adoption."
-contentTitle: "Serving Wake Forest & Triangle Area"
+title: "Expert RAG Development"
+subtitle: "Advanced Retrieval-Augmented Generation Systems"
+description: "Production-grade RAG systems with vector search, context engineering, and semantic retrieval. I build fast, scalable RAG architectures using Pinecone, Weaviate, Chroma, and more."
+category: "AI Infrastructure"
+heroTitle: "Build Smarter with Retrieval-Augmented Generation"
+heroSubtitle: "Custom RAG pipelines for context-aware AI and knowledge-driven applications."
+whyChoose: "Why RAG Development?"
+choice1Icon: "fa-database"
+choice1Title: "Vector-Driven Recall"
+choice1Description: "Connect your LLMs to real-time knowledge with Pinecone, Weaviate, or Chroma."
+choice2Icon: "fa-search"
+choice2Title: "Semantic Search"
+choice2Description: "Precise query matching using dense embeddings and re-ranking."
+choice3Icon: "fa-network-wired"
+choice3Title: "Optimized Pipelines"
+choice3Description: "Fast, context-aware retrieval pipelines for low-latency generation."
+featuresOffered: "RAG Development Services"
+feature1Icon: "fa-database"
+feature1Title: "Vector Database Setup"
+feature1Description: "Scalable vector database implementations using Pinecone, Weaviate, or Chroma."
+feature2Icon: "fa-search"
+feature2Title: "Semantic Search Engine"
+feature2Description: "Embedding-based search pipelines with hybrid retrieval and scoring."
+feature3Icon: "fa-project-diagram"
+feature3Title: "RAG Pipeline Development"
+feature3Description: "Chunking, indexing, and context retrieval pipelines built for speed and accuracy."
+feature4Icon: "fa-window-restore"
+feature4Title: "Context Engineering"
+feature4Description: "Context window management, prompt design, and memory-aware injection."
+feature5Icon: "fa-cogs"
+feature5Title: "Retrieval Optimization"
+feature5Description: "Hybrid search, query expansion, and re-ranking for higher relevance."
+feature6Icon: "fa-server"
+feature6Title: "Production Deployment"
+feature6Description: "Fast, scalable RAG APIs with monitoring, caching, and performance tuning."
 ---
 
-# Serving Wake Forest & Triangle Area
+## RAG Expertise
 
-## Local Expertise You Can Trust
+Scalable, secure retrieval systems that connect LLMs to your real-world data:
 
-As a Wake Forest-based AI developer, I understand the unique challenges and opportunities facing Triangle area businesses. My solutions are designed with local business needs in mind:
+* **Vector Databases:** Pinecone, Weaviate, Chroma, Qdrant, Milvus, or custom solutions
+* **Semantic Retrieval:** Dense and hybrid search, OpenAI or sentence-transformer embeddings
+* **RAG Pipelines:** LangChain, LlamaIndex, or custom frameworks with advanced context control
+* **Context Engineering:** Prompt injection, summarization, relevance weighting, chunk fusion
+* **Latency Optimization:** Caching, async batching, low-latency embedding + retrieval workflows
+* **Production Systems:** API endpoints, usage monitoring, logging, error handling, scale tuning
 
-- Compliance with North Carolina business regulations
+---
 
-- Integration with popular Triangle area business tools
+## Implementation Examples
 
-- Understanding of local market dynamics and customer expectations
+* **Hybrid RAG Search:** Dense + sparse retrieval using BM25, embedding, and re-ranking
+* **Conversational RAG:** Multi-turn chat with memory-aware retrieval
+* **Query Expansion:** Synonym and keyword expansion for more intelligent recall
+* **Real-Time RAG:** Dynamic document updates with live indexing
+* **Chunk Optimization:** Structured chunking with scoring and semantic context
+* **RAG on PDFs:** Structured processing of PDF, DOCX, and HTML files with embeddings
 
-- Personal, hands-on support and consultation
+---
 
-Whether you're in Wake Forest, Raleigh, Durham, or Cary, I provide the same high-quality AI development services with local expertise.
+## RAG Development Process
+
+1. **Document Processing**
+   Prepare and chunk documents, generate embeddings, and populate your vector DB
+
+2. **Retrieval Pipeline Design**
+   Implement fast, relevant search with hybrid logic, filtering, and scoring
+
+3. **Context Injection & Generation**
+   Combine top results with optimized prompts and context window strategies
+
+4. **Deployment & Optimization**
+   API-based access, latency tuning, monitoring, and scaling strategy
+
+---
+
+## Investment & Pricing
+
+* **Basic RAG System:** \$20K–40K
+  Simple vector DB, dense search, and prompt injection
+
+* **Advanced RAG Pipeline:** \$40K–80K
+  Hybrid retrieval, chunk tuning, query expansion, and context optimization
+
+* **Production RAG Platform:** \$80K–150K+
+  End-to-end platform with monitoring, real-time updates, and scale
+
+* **R\&D & Custom Retrieval:** \$150–250/hr
+  Advanced research, re-ranking models, or custom retrievers
+
+* **Ongoing Support:** Monthly support for updates, optimization, and scaling
+
+---
+
+## See RAG in Action
+
+Try a live demo of hybrid semantic search and optimized generation pipelines. See how a smart RAG system can turn static content into dynamic, searchable knowledge.
+
+---
+
+## Ready to Build Your RAG System?
+
+Let’s architect your retrieval pipeline, embed your knowledge, and build smarter AI. I help Triangle area companies turn documents into production-ready context with RAG.

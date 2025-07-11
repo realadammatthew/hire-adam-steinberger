@@ -1,48 +1,84 @@
 ---
-title: "Nonprofit AI"
-subtitle: "Nonprofit AI"
-description: "AI solutions for nonprofit organizations"
-category: "Industry-Specific Solutions"
-heroTitle: "Nonprofit AI"
-heroSubtitle: "Nonprofit AI"
-whyChoose: "Why Choose a Local Wake Forest AI Developer?"
-choice1Icon: "fa-map-marker-alt"
-choice1Title: "Local Presence"
-choice1Description: "Based in Wake Forest, NC with deep understanding of Triangle area business needs and regulations"
-choice2Icon: "fa-handshake"
-choice2Title: "Personal Service"
-choice2Description: "Face-to-face consultations and ongoing support for Wake Forest and surrounding communities"
-choice3Icon: "fa-shield-alt"
-choice3Title: "Security Focus"
-choice3Description: "Privacy-first AI solutions built with enterprise-grade security for sensitive business data"
-featuresOffered: "AI Development Services in Wake Forest"
-feature1Icon: "fa-robot"
-feature1Title: "Custom AI Chatbots"
-feature1Description: "Branded chatbots trained on your business data, customer interactions, and brand voice. Perfect for 24/7 customer support and lead qualification."
-feature2Icon: "fa-brain"
-feature2Title: "LLM Integration"
-feature2Description: "Custom implementations using ChatGPT, Claude, Gemini, and Mistral. Secure, scalable solutions tailored to your specific use cases."
-feature3Icon: "fa-cogs"
-feature3Title: "AI Automation"
-feature3Description: "Workflow automation and AI-powered business processes. Integrate with your existing tools and systems for maximum efficiency."
-feature4Icon: "fa-graduation-cap"
-feature4Title: "Training & Support"
-feature4Description: "Comprehensive training for your team and ongoing support to ensure successful AI implementation and adoption."
-contentTitle: "Serving Wake Forest & Triangle Area"
+title: "AI Solutions for Nonprofits"
+subtitle: "Nonprofit Automation & Donor Engagement"
+description: "Specialized AI solutions for nonprofits in the Triangle area. From donor management and fundraising automation to volunteer coordination and impact reporting. Built for nonprofit growth and mission success."
+category: "Nonprofit AI Solutions"
+heroTitle: "Mission-Driven AI for Nonprofits"
+heroSubtitle: "Automate, Engage, and Amplify Your Impact with AI Solutions"
+whyChoose: "Why Choose AI for Your Nonprofit?"
+choice1Icon: "fa-hand-holding-heart"
+choice1Title: "Donor Engagement"
+choice1Description: "Strengthen relationships and automate fundraising with intelligent communication"
+choice2Icon: "fa-users-cog"
+choice2Title: "Volunteer Coordination"
+choice2Description: "Simplify scheduling and improve engagement with AI-powered volunteer tools"
+choice3Icon: "fa-file-alt"
+choice3Title: "Grant Writing Support"
+choice3Description: "Speed up grant writing and improve success rates with AI-generated proposals"
+featuresOffered: "Nonprofit AI Applications"
+feature1Icon: "fa-donate"
+feature1Title: "Donor Management"
+feature1Description: "Personalized donor communication, fundraising automation, and CRM integration"
+feature2Icon: "fa-hands-helping"
+feature2Title: "Volunteer Coordination"
+feature2Description: "Skill-based volunteer matching, scheduling, and communication automation"
+feature3Icon: "fa-pen-fancy"
+feature3Title: "Grant Writing"
+feature3Description: "AI-assisted grant proposal drafting, opportunity matching, and editing tools"
+feature4Icon: "fa-chart-bar"
+feature4Title: "Impact Reporting"
+feature4Description: "Real-time program performance tracking and outcome reporting for donors"
+feature5Icon: "fa-bullhorn"
+feature5Title: "Communication AI"
+feature5Description: "AI-powered storytelling, email, and social media outreach automation"
+feature6Icon: "fa-cogs"
+feature6Title: "Operations Automation"
+feature6Description: "Automate internal tasks, workflows, and admin processes to save time"
+contentTitle: "Automate Your Impact with AI"
 ---
 
-# Serving Wake Forest & Triangle Area
+# Automate Your Impact with AI
 
-## Local Expertise You Can Trust
+## Nonprofit Efficiency Meets Smart Technology
 
-As a Wake Forest-based AI developer, I understand the unique challenges and opportunities facing Triangle area businesses. My solutions are designed with local business needs in mind:
+From small community organizations to multi-million-dollar missions, AI helps nonprofits stretch every dollar and hour further.
 
-- Compliance with North Carolina business regulations
+### Nonprofit AI Use Cases
 
-- Integration with popular Triangle area business tools
+- **Health & Human Services:** Case management, service delivery, and outcome reporting  
+- **Education Nonprofits:** Student support, program evaluation, and grant tracking  
+- **Environmental Orgs:** Data analysis, campaign coordination, and public engagement  
+- **Housing & Homelessness:** Intake management, housing support, and coordination  
+- **Food Security:** Logistics automation, volunteer matching, and reporting  
+- **Animal Welfare:** Adoption workflows, animal care scheduling, and donor communication  
 
-- Understanding of local market dynamics and customer expectations
+### Measurable Nonprofit Benefits
 
-- Personal, hands-on support and consultation
+- 40% increase in donor retention through AI-powered personalization  
+- 60% reduction in volunteer coordination workload  
+- 35% boost in grant application success rates with AI-generated drafts  
+- 50% reduction in administrative overhead  
+- Real-time impact measurement and transparent reporting for funders  
+- AI-powered communication across email, social media, and newsletters  
 
-Whether you're in Wake Forest, Raleigh, Durham, or Cary, I provide the same high-quality AI development services with local expertise.
+### Nonprofit-Friendly Pricing
+
+Pricing based on nonprofit budget and organizational size:
+
+- **Small Nonprofits (<$500K Budget):** $5K–15K for foundational automation  
+- **Medium Nonprofits ($500K–$2M):** $15K–35K for comprehensive AI systems  
+- **Large Nonprofits (>$2M):** $35K–75K+ for enterprise-grade AI tools  
+- **Pro Bono Options:** Available for qualifying organizations  
+- **Flexible Payment:** Monthly plans and grant-funded project options  
+
+All solutions include training, mission alignment, and nonprofit-specific support.
+
+### See Nonprofit AI in Action
+
+Try a live demo of donor automation or impact reporting and experience how AI can drive your mission.
+
+### Ready to Amplify Your Mission?
+
+Let’s talk about how AI can help your nonprofit do more with less.
+
+**Serving Triangle area nonprofits with affordable, mission-aligned AI automation.**
