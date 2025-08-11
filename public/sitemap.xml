@@ -23,37 +23,55 @@
     </url>
     <!-- Service pages: both new and old links -->
     <url>
-        <loc>https://hire.adam.matthewsteinberger.com/services/ai-wake-forest/</loc>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-spartanburg/</loc>
         <lastmod>2025-07-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://hire.adam.matthewsteinberger.com/ai-wake-forest.html</loc>
+        <loc>https://hire.adam.matthewsteinberger.com/ai-spartanburg.html</loc>
         <lastmod>2025-07-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://hire.adam.matthewsteinberger.com/ai-wake-forest</loc>
+        <loc>https://hire.adam.matthewsteinberger.com/ai-spartanburg</loc>
         <lastmod>2025-07-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://hire.adam.matthewsteinberger.com/services/ai-raleigh/</loc>
+        <loc>https://hire.adam.matthewsteinberger.com/services/upstate-ai-developer/</loc>
         <lastmod>2025-07-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://hire.adam.matthewsteinberger.com/ai-raleigh.html</loc>
+        <loc>https://hire.adam.matthewsteinberger.com/upstate-ai-developer.html</loc>
         <lastmod>2025-07-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://hire.adam.matthewsteinberger.com/ai-raleigh</loc>
+        <loc>https://hire.adam.matthewsteinberger.com/upstate-ai-developer</loc>
+        <lastmod>2025-07-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-simpsonville/</loc>
+        <lastmod>2025-07-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/ai-simpsonville.html</loc>
+        <lastmod>2025-07-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/ai-simpsonville</loc>
         <lastmod>2025-07-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -113,19 +131,19 @@
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://hire.adam.matthewsteinberger.com/services/ai-cary/</loc>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-greenville/</loc>
         <lastmod>2025-07-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://hire.adam.matthewsteinberger.com/ai-cary.html</loc>
+        <loc>https://hire.adam.matthewsteinberger.com/ai-greenville.html</loc>
         <lastmod>2025-07-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://hire.adam.matthewsteinberger.com/ai-cary</loc>
+        <loc>https://hire.adam.matthewsteinberger.com/ai-greenville</loc>
         <lastmod>2025-07-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -185,37 +203,19 @@
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://hire.adam.matthewsteinberger.com/services/ai-durham/</loc>
+        <loc>https://hire.adam.matthewsteinberger.com/services/ai-greer/</loc>
         <lastmod>2025-07-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://hire.adam.matthewsteinberger.com/ai-durham.html</loc>
+        <loc>https://hire.adam.matthewsteinberger.com/ai-greer.html</loc>
         <lastmod>2025-07-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://hire.adam.matthewsteinberger.com/ai-durham</loc>
-        <lastmod>2025-07-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://hire.adam.matthewsteinberger.com/services/triangle-ai-developer/</loc>
-        <lastmod>2025-07-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://hire.adam.matthewsteinberger.com/triangle-ai-developer.html</loc>
-        <lastmod>2025-07-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://hire.adam.matthewsteinberger.com/triangle-ai-developer</loc>
+        <loc>https://hire.adam.matthewsteinberger.com/ai-greer</loc>
         <lastmod>2025-07-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>

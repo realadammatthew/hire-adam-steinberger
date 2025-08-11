@@ -14,130 +14,112 @@ export interface Service {
 export const services: Service[] = [
   // Location-Based Services
   {
-    slug: 'ai-raleigh',
-    title: 'Raleigh AI Developer',
-    description: 'Custom chatbots and LLM solutions for Raleigh businesses',
+    slug: 'ai-greenville',
+    title: 'Greenville AI Developer',
+    description: 'Custom chatbots and LLM solutions for Greenville businesses',
     category: 'Location-Based Services',
-    categoryDescription: 'AI development services tailored for specific Triangle area locations',
+    categoryDescription:
+      'AI development services tailored for specific Upstate South Carolina locations',
     order: 1,
-    heroTitle: "Raleigh's Premier AI Developer",
-    heroSubtitle: "Custom Chatbots & AI Solutions for Triangle Area Businesses",
+    heroTitle: "Greenville's Premier AI Developer",
+    heroSubtitle: 'Custom Chatbots & AI Solutions for Upstate SC Businesses',
     features: [
       'Custom AI Chatbots',
       'LLM Integration',
       'AI Automation',
-      'Training & Support'
+      'Training & Support',
     ],
-    benefits: [
-      'Triangle Area Expert',
-      'Personal Service',
-      'Security Focus'
-    ]
+    benefits: ['Upstate SC Expert', 'Personal Service', 'Security Focus'],
   },
   {
-    slug: 'ai-durham',
-    title: 'Durham AI Developer',
-    description: 'AI development services for Durham companies',
+    slug: 'ai-greer',
+    title: 'Greer AI Developer',
+    description: 'AI development services for Greer companies',
     category: 'Location-Based Services',
-    categoryDescription: 'AI development services tailored for specific Triangle area locations',
+    categoryDescription:
+      'AI development services tailored for specific Upstate South Carolina locations',
     order: 2,
-    heroTitle: "Durham's Premier AI Developer",
-    heroSubtitle: "Custom Chatbots & AI Solutions for Durham Businesses",
+    heroTitle: "Greer's Premier AI Developer",
+    heroSubtitle: 'Custom Chatbots & AI Solutions for Greer Businesses',
     features: [
       'Custom AI Chatbots',
       'LLM Integration',
       'AI Automation',
-      'Training & Support'
+      'Training & Support',
     ],
-    benefits: [
-      'Triangle Area Expert',
-      'Personal Service',
-      'Security Focus'
-    ]
+    benefits: ['Upstate SC Expert', 'Personal Service', 'Security Focus'],
   },
   {
-    slug: 'ai-cary',
-    title: 'Cary AI Developer',
-    description: 'Custom AI solutions for Cary businesses',
+    slug: 'ai-simpsonville',
+    title: 'Simpsonville AI Developer',
+    description: 'Custom AI solutions for Simpsonville businesses',
     category: 'Location-Based Services',
-    categoryDescription: 'AI development services tailored for specific Triangle area locations',
+    categoryDescription:
+      'AI development services tailored for specific Upstate South Carolina locations',
     order: 3,
-    heroTitle: "Cary's Premier AI Developer",
-    heroSubtitle: "Custom Chatbots & AI Solutions for Cary Businesses",
+    heroTitle: "Simpsonville's Premier AI Developer",
+    heroSubtitle: 'Custom Chatbots & AI Solutions for Simpsonville Businesses',
     features: [
       'Custom AI Chatbots',
       'LLM Integration',
       'AI Automation',
-      'Training & Support'
+      'Training & Support',
     ],
-    benefits: [
-      'Triangle Area Expert',
-      'Personal Service',
-      'Security Focus'
-    ]
+    benefits: ['Upstate SC Expert', 'Personal Service', 'Security Focus'],
   },
   {
-    slug: 'ai-wake-forest',
-    title: 'Wake Forest AI Developer',
-    description: 'AI development services for Wake Forest companies',
+    slug: 'ai-spartanburg',
+    title: 'Spartanburg AI Developer',
+    description: 'AI development services for Spartanburg companies',
     category: 'Location-Based Services',
-    categoryDescription: 'AI development services tailored for specific Triangle area locations',
+    categoryDescription:
+      'AI development services tailored for specific Upstate South Carolina locations',
     order: 4,
-    heroTitle: "Wake Forest's Premier AI Developer",
-    heroSubtitle: "Custom Chatbots & AI Solutions for Wake Forest Businesses",
+    heroTitle: "Spartanburg's Premier AI Developer",
+    heroSubtitle: 'Custom Chatbots & AI Solutions for Spartanburg Businesses',
     features: [
       'Custom AI Chatbots',
       'LLM Integration',
       'AI Automation',
-      'Training & Support'
+      'Training & Support',
     ],
-    benefits: [
-      'Triangle Area Expert',
-      'Personal Service',
-      'Security Focus'
-    ]
+    benefits: ['Upstate SC Expert', 'Personal Service', 'Security Focus'],
   },
   {
-    slug: 'triangle-ai-developer',
-    title: 'Triangle AI Developer',
-    description: 'Triangle area AI development services',
+    slug: 'upstate-ai-developer',
+    title: 'Upstate SC AI Developer',
+    description: 'Upstate South Carolina AI development services',
     category: 'Location-Based Services',
-    categoryDescription: 'AI development services tailored for specific Triangle area locations',
+    categoryDescription:
+      'AI development services tailored for specific Upstate South Carolina locations',
     order: 5,
-    heroTitle: "Triangle Area's Premier AI Developer",
-    heroSubtitle: "Custom Chatbots & AI Solutions for Triangle Businesses",
+    heroTitle: "Upstate SC's Premier AI Developer",
+    heroSubtitle: 'Custom Chatbots & AI Solutions for Upstate SC Businesses',
     features: [
       'Custom AI Chatbots',
       'LLM Integration',
       'AI Automation',
-      'Training & Support'
+      'Training & Support',
     ],
-    benefits: [
-      'Triangle Area Expert',
-      'Personal Service',
-      'Security Focus'
-    ]
+    benefits: ['Upstate SC Expert', 'Personal Service', 'Security Focus'],
   },
   {
     slug: 'ai-developer-near-me',
     title: 'AI Developer Near Me',
     description: 'Local AI development services',
     category: 'Location-Based Services',
-    categoryDescription: 'AI development services tailored for specific Triangle area locations',
+    categoryDescription:
+      'AI development services tailored for specific Upstate South Carolina locations',
     order: 6,
-    heroTitle: "Local AI Development Services",
-    heroSubtitle: "Custom Chatbots & AI Solutions Near You",
+    heroTitle: 'Local AI Development Services',
+    heroSubtitle: 'Custom Chatbots & AI Solutions Near You',
     features: [
       'Custom AI Chatbots',
       'LLM Integration',
       'AI Automation',
-      'Training & Support'
+      'Training & Support',
     ],
-    benefits: [
-      'Local Expertise',
-      'Personal Service',
-      'Security Focus'
-    ]
+    benefits: ['Local Expertise', 'Personal Service', 'Security Focus'],
   },
 
   // Industry-Specific Solutions
@@ -146,462 +128,452 @@ export const services: Service[] = [
     title: 'Healthcare AI Solutions',
     description: 'AI solutions for healthcare providers and medical practices',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 7,
-    heroTitle: "Healthcare AI Solutions",
-    heroSubtitle: "Custom AI for Healthcare Providers & Medical Practices",
+    heroTitle: 'Healthcare AI Solutions',
+    heroSubtitle: 'Custom AI for Healthcare Providers & Medical Practices',
     features: [
       'Patient Data Analysis',
       'Appointment Scheduling',
       'Medical Documentation',
-      'Compliance & Security'
+      'Compliance & Security',
     ],
-    benefits: [
-      'HIPAA Compliant',
-      'Improved Efficiency',
-      'Better Patient Care'
-    ]
+    benefits: ['HIPAA Compliant', 'Improved Efficiency', 'Better Patient Care'],
   },
   {
     slug: 'ai-financial-services',
     title: 'Financial Services AI',
     description: 'AI automation for financial institutions and advisors',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 8,
-    heroTitle: "Financial Services AI",
-    heroSubtitle: "AI Automation for Financial Institutions & Advisors",
+    heroTitle: 'Financial Services AI',
+    heroSubtitle: 'AI Automation for Financial Institutions & Advisors',
     features: [
       'Risk Assessment',
       'Customer Service',
       'Document Processing',
-      'Compliance Monitoring'
+      'Compliance Monitoring',
     ],
-    benefits: [
-      'Regulatory Compliance',
-      'Cost Reduction',
-      'Enhanced Security'
-    ]
+    benefits: ['Regulatory Compliance', 'Cost Reduction', 'Enhanced Security'],
   },
   {
     slug: 'ai-real-estate',
     title: 'Real Estate AI',
     description: 'AI tools for real estate professionals and agencies',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 9,
-    heroTitle: "Real Estate AI",
-    heroSubtitle: "AI Tools for Real Estate Professionals & Agencies",
+    heroTitle: 'Real Estate AI',
+    heroSubtitle: 'AI Tools for Real Estate Professionals & Agencies',
     features: [
       'Property Analysis',
       'Lead Qualification',
       'Market Research',
-      'Client Communication'
+      'Client Communication',
     ],
     benefits: [
       'Faster Deal Closure',
       'Better Market Insights',
-      'Improved Client Experience'
-    ]
+      'Improved Client Experience',
+    ],
   },
   {
     slug: 'ai-restaurants',
     title: 'Restaurant AI Solutions',
     description: 'AI automation for restaurants and food service',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 10,
-    heroTitle: "Restaurant AI Solutions",
-    heroSubtitle: "AI Automation for Restaurants & Food Service",
+    heroTitle: 'Restaurant AI Solutions',
+    heroSubtitle: 'AI Automation for Restaurants & Food Service',
     features: [
       'Order Management',
       'Customer Service',
       'Inventory Optimization',
-      'Marketing Automation'
+      'Marketing Automation',
     ],
     benefits: [
       'Reduced Wait Times',
       'Increased Orders',
-      'Better Customer Experience'
-    ]
+      'Better Customer Experience',
+    ],
   },
   {
     slug: 'ai-law-firms',
     title: 'Law Firm AI',
     description: 'AI solutions for legal practices and law firms',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 11,
-    heroTitle: "Law Firm AI",
-    heroSubtitle: "AI Solutions for Legal Practices & Law Firms",
+    heroTitle: 'Law Firm AI',
+    heroSubtitle: 'AI Solutions for Legal Practices & Law Firms',
     features: [
       'Document Review',
       'Legal Research',
       'Client Communication',
-      'Case Management'
+      'Case Management',
     ],
-    benefits: [
-      'Faster Research',
-      'Reduced Costs',
-      'Better Client Service'
-    ]
+    benefits: ['Faster Research', 'Reduced Costs', 'Better Client Service'],
   },
   {
     slug: 'ai-manufacturing',
     title: 'Manufacturing AI',
     description: 'AI automation for manufacturing and industrial companies',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 12,
-    heroTitle: "Manufacturing AI",
-    heroSubtitle: "AI Automation for Manufacturing & Industrial Companies",
+    heroTitle: 'Manufacturing AI',
+    heroSubtitle: 'AI Automation for Manufacturing & Industrial Companies',
     features: [
       'Predictive Maintenance',
       'Quality Control',
       'Supply Chain Optimization',
-      'Production Planning'
+      'Production Planning',
     ],
-    benefits: [
-      'Reduced Downtime',
-      'Improved Quality',
-      'Cost Savings'
-    ]
+    benefits: ['Reduced Downtime', 'Improved Quality', 'Cost Savings'],
   },
   {
     slug: 'ai-marketing-agencies',
     title: 'Marketing Agency AI',
     description: 'AI tools for marketing agencies and professionals',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 13,
-    heroTitle: "Marketing Agency AI",
-    heroSubtitle: "AI Tools for Marketing Agencies & Professionals",
+    heroTitle: 'Marketing Agency AI',
+    heroSubtitle: 'AI Tools for Marketing Agencies & Professionals',
     features: [
       'Content Creation',
       'Campaign Optimization',
       'Lead Generation',
-      'Analytics & Reporting'
+      'Analytics & Reporting',
     ],
-    benefits: [
-      'Faster Content Creation',
-      'Better ROI',
-      'Improved Targeting'
-    ]
+    benefits: ['Faster Content Creation', 'Better ROI', 'Improved Targeting'],
   },
   {
     slug: 'ai-sales-teams',
     title: 'Sales Team AI',
     description: 'AI automation for sales teams and professionals',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 14,
-    heroTitle: "Sales Team AI",
-    heroSubtitle: "AI Automation for Sales Teams & Professionals",
+    heroTitle: 'Sales Team AI',
+    heroSubtitle: 'AI Automation for Sales Teams & Professionals',
     features: [
       'Lead Qualification',
       'Follow-up Automation',
       'Sales Forecasting',
-      'Customer Insights'
+      'Customer Insights',
     ],
     benefits: [
       'Increased Conversions',
       'Time Savings',
-      'Better Pipeline Management'
-    ]
+      'Better Pipeline Management',
+    ],
   },
   {
     slug: 'ai-nonprofits',
     title: 'Nonprofit AI',
     description: 'AI solutions for nonprofit organizations',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 15,
-    heroTitle: "Nonprofit AI",
-    heroSubtitle: "AI Solutions for Nonprofit Organizations",
+    heroTitle: 'Nonprofit AI',
+    heroSubtitle: 'AI Solutions for Nonprofit Organizations',
     features: [
       'Donor Management',
       'Volunteer Coordination',
       'Grant Writing',
-      'Impact Measurement'
+      'Impact Measurement',
     ],
     benefits: [
       'Increased Donations',
       'Better Resource Allocation',
-      'Enhanced Impact'
-    ]
+      'Enhanced Impact',
+    ],
   },
   {
     slug: 'ai-startups',
     title: 'Startup AI',
     description: 'AI development for startups and emerging companies',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 16,
-    heroTitle: "Startup AI",
-    heroSubtitle: "AI Development for Startups & Emerging Companies",
+    heroTitle: 'Startup AI',
+    heroSubtitle: 'AI Development for Startups & Emerging Companies',
     features: [
       'MVP Development',
       'Customer Acquisition',
       'Product Optimization',
-      'Scaling Solutions'
+      'Scaling Solutions',
     ],
     benefits: [
       'Faster Time to Market',
       'Cost-Effective Solutions',
-      'Competitive Advantage'
-    ]
+      'Competitive Advantage',
+    ],
   },
   {
     slug: 'ai-enterprise',
     title: 'Enterprise AI',
     description: 'Enterprise-grade AI solutions for large organizations',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 17,
-    heroTitle: "Enterprise AI",
-    heroSubtitle: "Enterprise-Grade AI Solutions for Large Organizations",
+    heroTitle: 'Enterprise AI',
+    heroSubtitle: 'Enterprise-Grade AI Solutions for Large Organizations',
     features: [
       'Scalable Architecture',
       'Security & Compliance',
       'Integration Services',
-      'Custom Development'
+      'Custom Development',
     ],
-    benefits: [
-      'Enterprise Security',
-      'Scalable Solutions',
-      'ROI Focused'
-    ]
+    benefits: ['Enterprise Security', 'Scalable Solutions', 'ROI Focused'],
   },
   {
     slug: 'ai-churches',
     title: 'Christian Organizations',
     description: 'AI solutions for churches and Christian organizations',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 18,
-    heroTitle: "Christian Organizations AI",
-    heroSubtitle: "AI Solutions for Churches & Christian Organizations",
+    heroTitle: 'Christian Organizations AI',
+    heroSubtitle: 'AI Solutions for Churches & Christian Organizations',
     features: [
       'Member Communication',
       'Event Management',
       'Content Creation',
-      'Community Engagement'
+      'Community Engagement',
     ],
     benefits: [
       'Enhanced Communication',
       'Better Engagement',
-      'Resource Optimization'
-    ]
+      'Resource Optimization',
+    ],
   },
   {
     slug: 'ai-christian-education',
     title: 'Christian Education',
     description: 'AI tools for Christian schools and educational institutions',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 19,
-    heroTitle: "Christian Education AI",
-    heroSubtitle: "AI Tools for Christian Schools & Educational Institutions",
+    heroTitle: 'Christian Education AI',
+    heroSubtitle: 'AI Tools for Christian Schools & Educational Institutions',
     features: [
       'Student Support',
       'Administrative Tasks',
       'Content Creation',
-      'Parent Communication'
+      'Parent Communication',
     ],
     benefits: [
       'Improved Learning',
       'Administrative Efficiency',
-      'Better Communication'
-    ]
+      'Better Communication',
+    ],
   },
   {
     slug: 'ai-christian-counseling',
     title: 'Christian Counseling',
     description: 'AI solutions for Christian counseling practices',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 20,
-    heroTitle: "Christian Counseling AI",
-    heroSubtitle: "AI Solutions for Christian Counseling Practices",
+    heroTitle: 'Christian Counseling AI',
+    heroSubtitle: 'AI Solutions for Christian Counseling Practices',
     features: [
       'Appointment Scheduling',
       'Resource Management',
       'Client Communication',
-      'Administrative Support'
+      'Administrative Support',
     ],
     benefits: [
       'Better Client Care',
       'Reduced Administrative Burden',
-      'Enhanced Privacy'
-    ]
+      'Enhanced Privacy',
+    ],
   },
   {
     slug: 'ai-ministries',
     title: 'Ministries AI',
     description: 'AI tools for ministry organizations and religious groups',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 21,
-    heroTitle: "Ministries AI",
-    heroSubtitle: "AI Tools for Ministry Organizations & Religious Groups",
+    heroTitle: 'Ministries AI',
+    heroSubtitle: 'AI Tools for Ministry Organizations & Religious Groups',
     features: [
       'Outreach Management',
       'Content Creation',
       'Volunteer Coordination',
-      'Resource Management'
+      'Resource Management',
     ],
-    benefits: [
-      'Expanded Reach',
-      'Better Resource Use',
-      'Enhanced Impact'
-    ]
+    benefits: ['Expanded Reach', 'Better Resource Use', 'Enhanced Impact'],
   },
   {
     slug: 'ai-missionaries',
     title: 'Missionaries AI',
     description: 'AI solutions for missionary organizations and workers',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 22,
-    heroTitle: "Missionaries AI",
-    heroSubtitle: "AI Solutions for Missionary Organizations & Workers",
+    heroTitle: 'Missionaries AI',
+    heroSubtitle: 'AI Solutions for Missionary Organizations & Workers',
     features: [
       'Communication Tools',
       'Resource Management',
       'Cultural Adaptation',
-      'Support Coordination'
+      'Support Coordination',
     ],
     benefits: [
       'Better Communication',
       'Resource Optimization',
-      'Enhanced Effectiveness'
-    ]
+      'Enhanced Effectiveness',
+    ],
   },
   {
     slug: 'ai-boutiques',
     title: 'Boutiques AI',
     description: 'AI automation for boutique retail businesses',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 23,
-    heroTitle: "Boutiques AI",
-    heroSubtitle: "AI Automation for Boutique Retail Businesses",
+    heroTitle: 'Boutiques AI',
+    heroSubtitle: 'AI Automation for Boutique Retail Businesses',
     features: [
       'Inventory Management',
       'Customer Service',
       'Marketing Automation',
-      'Sales Optimization'
+      'Sales Optimization',
     ],
     benefits: [
       'Reduced Overhead',
       'Better Customer Experience',
-      'Increased Sales'
-    ]
+      'Increased Sales',
+    ],
   },
   {
     slug: 'ai-privacy-tech',
     title: 'Privacy Tech AI',
     description: 'Privacy-focused AI solutions for tech companies',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 24,
-    heroTitle: "Privacy Tech AI",
-    heroSubtitle: "Privacy-Focused AI Solutions for Tech Companies",
+    heroTitle: 'Privacy Tech AI',
+    heroSubtitle: 'Privacy-Focused AI Solutions for Tech Companies',
     features: [
       'Privacy-Preserving AI',
       'Data Protection',
       'Compliance Tools',
-      'Secure Development'
+      'Secure Development',
     ],
-    benefits: [
-      'Enhanced Privacy',
-      'Regulatory Compliance',
-      'Customer Trust'
-    ]
+    benefits: ['Enhanced Privacy', 'Regulatory Compliance', 'Customer Trust'],
   },
   {
     slug: 'ai-helpdesk',
     title: 'Helpdesk AI',
     description: 'AI-powered helpdesk and customer support solutions',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 25,
-    heroTitle: "Helpdesk AI",
-    heroSubtitle: "AI-Powered Helpdesk & Customer Support Solutions",
+    heroTitle: 'Helpdesk AI',
+    heroSubtitle: 'AI-Powered Helpdesk & Customer Support Solutions',
     features: [
       '24/7 Support',
       'Ticket Management',
       'Knowledge Base',
-      'Escalation Handling'
+      'Escalation Handling',
     ],
     benefits: [
       'Faster Resolution',
       'Reduced Costs',
-      'Better Customer Satisfaction'
-    ]
+      'Better Customer Satisfaction',
+    ],
   },
   {
     slug: 'ai-copywriting',
     title: 'Copywriting AI',
     description: 'AI tools for copywriters and content creators',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 26,
-    heroTitle: "Copywriting AI",
-    heroSubtitle: "AI Tools for Copywriters & Content Creators",
+    heroTitle: 'Copywriting AI',
+    heroSubtitle: 'AI Tools for Copywriters & Content Creators',
     features: [
       'Content Generation',
       'SEO Optimization',
       'Brand Voice Consistency',
-      'Performance Analytics'
+      'Performance Analytics',
     ],
     benefits: [
       'Faster Content Creation',
       'Better SEO Performance',
-      'Consistent Brand Voice'
-    ]
+      'Consistent Brand Voice',
+    ],
   },
   {
     slug: 'ai-tutoring',
     title: 'Tutoring AI',
     description: 'AI solutions for tutoring services and educational support',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 27,
-    heroTitle: "Tutoring AI",
-    heroSubtitle: "AI Solutions for Tutoring Services & Educational Support",
+    heroTitle: 'Tutoring AI',
+    heroSubtitle: 'AI Solutions for Tutoring Services & Educational Support',
     features: [
       'Personalized Learning',
       'Progress Tracking',
       'Resource Management',
-      'Student Communication'
+      'Student Communication',
     ],
     benefits: [
       'Improved Learning Outcomes',
       'Better Student Engagement',
-      'Administrative Efficiency'
-    ]
+      'Administrative Efficiency',
+    ],
   },
   {
     slug: 'ai-vibe-coding',
     title: 'Vibe Coding AI',
     description: 'AI development with a focus on creative coding solutions',
     category: 'Industry-Specific Solutions',
-    categoryDescription: 'AI solutions tailored for specific industries and business types',
+    categoryDescription:
+      'AI solutions tailored for specific industries and business types',
     order: 28,
-    heroTitle: "Vibe Coding AI",
-    heroSubtitle: "AI Development with Creative Coding Solutions",
+    heroTitle: 'Vibe Coding AI',
+    heroSubtitle: 'AI Development with Creative Coding Solutions',
     features: [
       'Creative AI Solutions',
       'Custom Development',
       'Innovation Focus',
-      'Technical Excellence'
+      'Technical Excellence',
     ],
     benefits: [
       'Unique Solutions',
       'Technical Innovation',
-      'Creative Problem Solving'
-    ]
+      'Creative Problem Solving',
+    ],
   },
 
   // Technical Services
@@ -612,19 +584,15 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 29,
-    heroTitle: "Custom Chatbots",
-    heroSubtitle: "Custom AI Chatbot Development & Implementation",
+    heroTitle: 'Custom Chatbots',
+    heroSubtitle: 'Custom AI Chatbot Development & Implementation',
     features: [
       'Branded Chatbots',
       'Custom Training',
       'Integration Services',
-      'Ongoing Support'
+      'Ongoing Support',
     ],
-    benefits: [
-      '24/7 Availability',
-      'Consistent Service',
-      'Cost Reduction'
-    ]
+    benefits: ['24/7 Availability', 'Consistent Service', 'Cost Reduction'],
   },
   {
     slug: 'chatgpt-developer',
@@ -633,19 +601,19 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 30,
-    heroTitle: "ChatGPT Development",
-    heroSubtitle: "Custom ChatGPT Integration & Development",
+    heroTitle: 'ChatGPT Development',
+    heroSubtitle: 'Custom ChatGPT Integration & Development',
     features: [
       'Custom Integrations',
       'API Development',
       'Prompt Engineering',
-      'Security Implementation'
+      'Security Implementation',
     ],
     benefits: [
       'Advanced AI Capabilities',
       'Custom Solutions',
-      'Scalable Architecture'
-    ]
+      'Scalable Architecture',
+    ],
   },
   {
     slug: 'claude-ai',
@@ -654,19 +622,15 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 31,
-    heroTitle: "Claude AI Development",
-    heroSubtitle: "Anthropic Claude AI Integration & Custom Solutions",
+    heroTitle: 'Claude AI Development',
+    heroSubtitle: 'Anthropic Claude AI Integration & Custom Solutions',
     features: [
       'Claude Integration',
       'Custom Applications',
       'Safety Implementation',
-      'Performance Optimization'
+      'Performance Optimization',
     ],
-    benefits: [
-      'Advanced Safety',
-      'High Performance',
-      'Custom Solutions'
-    ]
+    benefits: ['Advanced Safety', 'High Performance', 'Custom Solutions'],
   },
   {
     slug: 'gemini-ai',
@@ -675,19 +639,19 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 32,
-    heroTitle: "Gemini AI Development",
-    heroSubtitle: "Google Gemini AI Integration & Development",
+    heroTitle: 'Gemini AI Development',
+    heroSubtitle: 'Google Gemini AI Integration & Development',
     features: [
       'Gemini Integration',
       'Multimodal Solutions',
       'Custom Applications',
-      'Performance Optimization'
+      'Performance Optimization',
     ],
     benefits: [
       'Multimodal Capabilities',
       'Google Integration',
-      'Advanced AI Features'
-    ]
+      'Advanced AI Features',
+    ],
   },
   {
     slug: 'llm-development',
@@ -696,19 +660,19 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 33,
-    heroTitle: "LLM Development",
-    heroSubtitle: "Large Language Model Development & Integration",
+    heroTitle: 'LLM Development',
+    heroSubtitle: 'Large Language Model Development & Integration',
     features: [
       'Custom LLM Training',
       'Model Integration',
       'Performance Optimization',
-      'Scalable Architecture'
+      'Scalable Architecture',
     ],
     benefits: [
       'Custom AI Models',
       'Optimized Performance',
-      'Scalable Solutions'
-    ]
+      'Scalable Solutions',
+    ],
   },
   {
     slug: 'rag-development',
@@ -717,19 +681,19 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 34,
-    heroTitle: "RAG Development",
-    heroSubtitle: "Retrieval-Augmented Generation Development",
+    heroTitle: 'RAG Development',
+    heroSubtitle: 'Retrieval-Augmented Generation Development',
     features: [
       'Vector Database Setup',
       'Embedding Generation',
       'Retrieval Systems',
-      'Custom Training'
+      'Custom Training',
     ],
     benefits: [
       'Accurate Information',
       'Custom Knowledge Base',
-      'Real-time Updates'
-    ]
+      'Real-time Updates',
+    ],
   },
   {
     slug: 'chat-engine-development',
@@ -738,19 +702,15 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 35,
-    heroTitle: "Chat Engine Development",
-    heroSubtitle: "Custom Chat Engine Development",
+    heroTitle: 'Chat Engine Development',
+    heroSubtitle: 'Custom Chat Engine Development',
     features: [
       'Custom Architecture',
       'Real-time Processing',
       'Scalable Design',
-      'Integration Services'
+      'Integration Services',
     ],
-    benefits: [
-      'Custom Solutions',
-      'High Performance',
-      'Scalable Architecture'
-    ]
+    benefits: ['Custom Solutions', 'High Performance', 'Scalable Architecture'],
   },
   {
     slug: 'context-engineering',
@@ -759,19 +719,19 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 36,
-    heroTitle: "Context Engineering",
-    heroSubtitle: "AI Context Engineering & Optimization",
+    heroTitle: 'Context Engineering',
+    heroSubtitle: 'AI Context Engineering & Optimization',
     features: [
       'Context Optimization',
       'Prompt Engineering',
       'Performance Tuning',
-      'Custom Solutions'
+      'Custom Solutions',
     ],
     benefits: [
       'Better AI Responses',
       'Improved Accuracy',
-      'Custom Optimization'
-    ]
+      'Custom Optimization',
+    ],
   },
   {
     slug: 'prompt-engineering',
@@ -780,19 +740,19 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 37,
-    heroTitle: "Prompt Engineering",
-    heroSubtitle: "AI Prompt Engineering & Optimization",
+    heroTitle: 'Prompt Engineering',
+    heroSubtitle: 'AI Prompt Engineering & Optimization',
     features: [
       'Prompt Design',
       'Optimization Testing',
       'Performance Analysis',
-      'Custom Solutions'
+      'Custom Solutions',
     ],
     benefits: [
       'Better AI Performance',
       'Improved Accuracy',
-      'Cost Optimization'
-    ]
+      'Cost Optimization',
+    ],
   },
   {
     slug: 'lora-fine-tuning',
@@ -801,19 +761,19 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 38,
-    heroTitle: "LoRA Fine-Tuning",
-    heroSubtitle: "LoRA Fine-Tuning for Custom AI Models",
+    heroTitle: 'LoRA Fine-Tuning',
+    heroSubtitle: 'LoRA Fine-Tuning for Custom AI Models',
     features: [
       'Model Fine-tuning',
       'Custom Training',
       'Performance Optimization',
-      'Deployment Services'
+      'Deployment Services',
     ],
     benefits: [
       'Custom AI Models',
       'Improved Performance',
-      'Cost-Effective Training'
-    ]
+      'Cost-Effective Training',
+    ],
   },
   {
     slug: 'vllm-api-development',
@@ -822,19 +782,15 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 39,
-    heroTitle: "vLLM API Development",
-    heroSubtitle: "vLLM API Development & Integration",
+    heroTitle: 'vLLM API Development',
+    heroSubtitle: 'vLLM API Development & Integration',
     features: [
       'API Development',
       'Performance Optimization',
       'Scalable Architecture',
-      'Integration Services'
+      'Integration Services',
     ],
-    benefits: [
-      'High Performance',
-      'Scalable Solutions',
-      'Custom APIs'
-    ]
+    benefits: ['High Performance', 'Scalable Solutions', 'Custom APIs'],
   },
   {
     slug: 'ai-agents',
@@ -843,19 +799,19 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 40,
-    heroTitle: "AI Agents",
-    heroSubtitle: "Autonomous AI Agent Development",
+    heroTitle: 'AI Agents',
+    heroSubtitle: 'Autonomous AI Agent Development',
     features: [
       'Autonomous Agents',
       'Task Automation',
       'Decision Making',
-      'Custom Development'
+      'Custom Development',
     ],
     benefits: [
       'Automated Processes',
       'Improved Efficiency',
-      'Custom Solutions'
-    ]
+      'Custom Solutions',
+    ],
   },
   {
     slug: 'ai-automation',
@@ -864,19 +820,15 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 41,
-    heroTitle: "AI Automation",
-    heroSubtitle: "AI-Powered Workflow Automation",
+    heroTitle: 'AI Automation',
+    heroSubtitle: 'AI-Powered Workflow Automation',
     features: [
       'Workflow Automation',
       'Process Optimization',
       'Integration Services',
-      'Custom Development'
+      'Custom Development',
     ],
-    benefits: [
-      'Increased Efficiency',
-      'Cost Reduction',
-      'Error Reduction'
-    ]
+    benefits: ['Increased Efficiency', 'Cost Reduction', 'Error Reduction'],
   },
   {
     slug: 'ai-business',
@@ -885,19 +837,15 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 42,
-    heroTitle: "AI Business Solutions",
-    heroSubtitle: "Comprehensive AI Business Solutions",
+    heroTitle: 'AI Business Solutions',
+    heroSubtitle: 'Comprehensive AI Business Solutions',
     features: [
       'Strategic Planning',
       'Implementation Services',
       'Training & Support',
-      'Ongoing Optimization'
+      'Ongoing Optimization',
     ],
-    benefits: [
-      'Strategic Advantage',
-      'ROI Focused',
-      'Comprehensive Support'
-    ]
+    benefits: ['Strategic Advantage', 'ROI Focused', 'Comprehensive Support'],
   },
   {
     slug: 'ai-consulting',
@@ -906,19 +854,15 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 43,
-    heroTitle: "AI Consulting",
-    heroSubtitle: "AI Strategy Consulting & Advisory Services",
+    heroTitle: 'AI Consulting',
+    heroSubtitle: 'AI Strategy Consulting & Advisory Services',
     features: [
       'Strategic Assessment',
       'Technology Selection',
       'Implementation Planning',
-      'ROI Analysis'
+      'ROI Analysis',
     ],
-    benefits: [
-      'Strategic Guidance',
-      'Risk Mitigation',
-      'Cost Optimization'
-    ]
+    benefits: ['Strategic Guidance', 'Risk Mitigation', 'Cost Optimization'],
   },
   {
     slug: 'ai-consultant',
@@ -927,19 +871,15 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 44,
-    heroTitle: "AI Consultant",
-    heroSubtitle: "Expert AI Consulting Services",
+    heroTitle: 'AI Consultant',
+    heroSubtitle: 'Expert AI Consulting Services',
     features: [
       'Expert Guidance',
       'Technology Assessment',
       'Implementation Support',
-      'Ongoing Advisory'
+      'Ongoing Advisory',
     ],
-    benefits: [
-      'Expert Knowledge',
-      'Strategic Planning',
-      'Risk Management'
-    ]
+    benefits: ['Expert Knowledge', 'Strategic Planning', 'Risk Management'],
   },
   {
     slug: 'ai-expert',
@@ -948,19 +888,15 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 45,
-    heroTitle: "AI Expert",
-    heroSubtitle: "Expert AI Development & Consulting",
+    heroTitle: 'AI Expert',
+    heroSubtitle: 'Expert AI Development & Consulting',
     features: [
       'Expert Development',
       'Strategic Consulting',
       'Implementation Services',
-      'Ongoing Support'
+      'Ongoing Support',
     ],
-    benefits: [
-      'Expert Knowledge',
-      'Custom Solutions',
-      'Strategic Guidance'
-    ]
+    benefits: ['Expert Knowledge', 'Custom Solutions', 'Strategic Guidance'],
   },
   {
     slug: 'ai-implementation',
@@ -969,19 +905,15 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 46,
-    heroTitle: "AI Implementation",
-    heroSubtitle: "AI Implementation & Deployment Services",
+    heroTitle: 'AI Implementation',
+    heroSubtitle: 'AI Implementation & Deployment Services',
     features: [
       'Implementation Planning',
       'Deployment Services',
       'Training & Support',
-      'Ongoing Maintenance'
+      'Ongoing Maintenance',
     ],
-    benefits: [
-      'Successful Deployment',
-      'Reduced Risk',
-      'Ongoing Support'
-    ]
+    benefits: ['Successful Deployment', 'Reduced Risk', 'Ongoing Support'],
   },
   {
     slug: 'ai-integration',
@@ -990,19 +922,19 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 47,
-    heroTitle: "AI Integration",
-    heroSubtitle: "AI System Integration Services",
+    heroTitle: 'AI Integration',
+    heroSubtitle: 'AI System Integration Services',
     features: [
       'System Integration',
       'API Development',
       'Data Synchronization',
-      'Custom Connectors'
+      'Custom Connectors',
     ],
     benefits: [
       'Seamless Integration',
       'Reduced Complexity',
-      'Improved Efficiency'
-    ]
+      'Improved Efficiency',
+    ],
   },
   {
     slug: 'ai-marketing',
@@ -1011,19 +943,15 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 48,
-    heroTitle: "AI Marketing",
-    heroSubtitle: "AI-Powered Marketing Solutions",
+    heroTitle: 'AI Marketing',
+    heroSubtitle: 'AI-Powered Marketing Solutions',
     features: [
       'Content Creation',
       'Campaign Optimization',
       'Lead Generation',
-      'Analytics & Insights'
+      'Analytics & Insights',
     ],
-    benefits: [
-      'Improved ROI',
-      'Better Targeting',
-      'Automated Processes'
-    ]
+    benefits: ['Improved ROI', 'Better Targeting', 'Automated Processes'],
   },
   {
     slug: 'ai-solutions',
@@ -1032,19 +960,19 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 49,
-    heroTitle: "AI Solutions",
-    heroSubtitle: "Comprehensive AI Solutions for Businesses",
+    heroTitle: 'AI Solutions',
+    heroSubtitle: 'Comprehensive AI Solutions for Businesses',
     features: [
       'Custom Development',
       'Strategic Planning',
       'Implementation Services',
-      'Ongoing Support'
+      'Ongoing Support',
     ],
     benefits: [
       'Custom Solutions',
       'Strategic Advantage',
-      'Comprehensive Support'
-    ]
+      'Comprehensive Support',
+    ],
   },
   {
     slug: 'ai-strategy',
@@ -1053,19 +981,15 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 50,
-    heroTitle: "AI Strategy",
-    heroSubtitle: "AI Strategy Development & Planning",
+    heroTitle: 'AI Strategy',
+    heroSubtitle: 'AI Strategy Development & Planning',
     features: [
       'Strategic Assessment',
       'Technology Roadmap',
       'Implementation Planning',
-      'ROI Analysis'
+      'ROI Analysis',
     ],
-    benefits: [
-      'Strategic Clarity',
-      'Risk Mitigation',
-      'Cost Optimization'
-    ]
+    benefits: ['Strategic Clarity', 'Risk Mitigation', 'Cost Optimization'],
   },
   {
     slug: 'ai-training',
@@ -1074,19 +998,15 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 51,
-    heroTitle: "AI Training",
-    heroSubtitle: "AI Training & Education Services",
+    heroTitle: 'AI Training',
+    heroSubtitle: 'AI Training & Education Services',
     features: [
       'Custom Training Programs',
       'Workshop Development',
       'Ongoing Education',
-      'Certification Support'
+      'Certification Support',
     ],
-    benefits: [
-      'Skill Development',
-      'Knowledge Transfer',
-      'Improved Adoption'
-    ]
+    benefits: ['Skill Development', 'Knowledge Transfer', 'Improved Adoption'],
   },
   {
     slug: 'ai-services',
@@ -1095,36 +1015,44 @@ export const services: Service[] = [
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 52,
-    heroTitle: "AI Services",
-    heroSubtitle: "Complete AI Development Services",
+    heroTitle: 'AI Services',
+    heroSubtitle: 'Complete AI Development Services',
     features: [
       'Full-Service Development',
       'Strategic Consulting',
       'Implementation Services',
-      'Ongoing Support'
+      'Ongoing Support',
     ],
     benefits: [
       'One-Stop Solution',
       'Expert Knowledge',
-      'Comprehensive Support'
-    ]
-  }
+      'Comprehensive Support',
+    ],
+  },
 ];
 
 export const serviceCategories = [
   {
     title: 'Location-Based Services',
-    description: 'AI development services tailored for specific Triangle area locations',
-    services: services.filter(service => service.category === 'Location-Based Services')
+    description:
+      'AI development services tailored for specific Greenville locations',
+    services: services.filter(
+      (service) => service.category === 'Location-Based Services'
+    ),
   },
   {
     title: 'Industry-Specific Solutions',
-    description: 'AI solutions tailored for specific industries and business types',
-    services: services.filter(service => service.category === 'Industry-Specific Solutions')
+    description:
+      'AI solutions tailored for specific industries and business types',
+    services: services.filter(
+      (service) => service.category === 'Industry-Specific Solutions'
+    ),
   },
   {
     title: 'Technical Services',
     description: 'Specialized AI development and technical services',
-    services: services.filter(service => service.category === 'Technical Services')
-  }
-]; 
+    services: services.filter(
+      (service) => service.category === 'Technical Services'
+    ),
+  },
+];

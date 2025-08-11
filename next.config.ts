@@ -1,46 +1,46 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        source: '/ai-raleigh.html',
-        destination: '/services/ai-raleigh',
+        source: '/ai-greer.html',
+        destination: '/services/ai-greer',
         permanent: true,
       },
       {
-        source: '/ai-raleigh',
-        destination: '/services/ai-raleigh',
+        source: '/ai-greer',
+        destination: '/services/ai-greer',
         permanent: true,
       },
       {
-        source: '/ai-durham.html',
-        destination: '/services/ai-durham',
+        source: '/ai-simpsonville.html',
+        destination: '/services/ai-simpsonville',
         permanent: true,
       },
       {
-        source: '/ai-durham',
-        destination: '/services/ai-durham',
+        source: '/ai-simpsonville',
+        destination: '/services/ai-simpsonville',
         permanent: true,
       },
       {
-        source: '/ai-cary.html',
-        destination: '/services/ai-cary',
+        source: '/ai-greenville.html',
+        destination: '/services/ai-greenville',
         permanent: true,
       },
       {
-        source: '/ai-cary',
-        destination: '/services/ai-cary',
+        source: '/ai-greenville',
+        destination: '/services/ai-greenville',
         permanent: true,
       },
       {
-        source: '/ai-wake-forest.html',
-        destination: '/services/ai-wake-forest',
+        source: '/ai-spartanburg.html',
+        destination: '/services/ai-spartanburg',
         permanent: true,
       },
       {
-        source: '/ai-wake-forest',
-        destination: '/services/ai-wake-forest',
+        source: '/ai-spartanburg',
+        destination: '/services/ai-spartanburg',
         permanent: true,
       },
       {
@@ -504,13 +504,13 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: '/triangle-ai-developer.html',
-        destination: '/services/triangle-ai-developer',
+        source: '/upstate-ai-developer.html',
+        destination: '/services/upstate-ai-developer',
         permanent: true,
       },
       {
-        source: '/triangle-ai-developer',
-        destination: '/services/triangle-ai-developer',
+        source: '/upstate-ai-developer',
+        destination: '/services/upstate-ai-developer',
         permanent: true,
       },
       {
@@ -539,13 +539,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/what-are-the-different-types-of-ai-systems.html',
-        destination: '/novice-to-navigator/what-are-the-different-types-of-ai-systems',
+        source:
+          '/novice-to-navigator/what-are-the-different-types-of-ai-systems.html',
+        destination:
+          '/novice-to-navigator/what-are-the-different-types-of-ai-systems',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/whats-the-difference-between-ai-machine-learning-and-deep-learning.html',
-        destination: '/novice-to-navigator/whats-the-difference-between-ai-machine-learning-and-deep-learning',
+        source:
+          '/novice-to-navigator/whats-the-difference-between-ai-machine-learning-and-deep-learning.html',
+        destination:
+          '/novice-to-navigator/whats-the-difference-between-ai-machine-learning-and-deep-learning',
         permanent: true,
       },
       {
@@ -554,38 +558,52 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/what-is-prompt-engineering-and-why-is-it-important.html',
-        destination: '/novice-to-navigator/what-is-prompt-engineering-and-why-is-it-important',
+        source:
+          '/novice-to-navigator/what-is-prompt-engineering-and-why-is-it-important.html',
+        destination:
+          '/novice-to-navigator/what-is-prompt-engineering-and-why-is-it-important',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/what-is-a-chatbot-and-how-does-it-work.html',
-        destination: '/novice-to-navigator/what-is-a-chatbot-and-how-does-it-work',
+        source:
+          '/novice-to-navigator/what-is-a-chatbot-and-how-does-it-work.html',
+        destination:
+          '/novice-to-navigator/what-is-a-chatbot-and-how-does-it-work',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/how-do-chatbots-understand-human-language.html',
-        destination: '/novice-to-navigator/how-do-chatbots-understand-human-language',
+        source:
+          '/novice-to-navigator/how-do-chatbots-understand-human-language.html',
+        destination:
+          '/novice-to-navigator/how-do-chatbots-understand-human-language',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/why-do-some-chatbots-perform-better-than-others.html',
-        destination: '/novice-to-navigator/why-do-some-chatbots-perform-better-than-others',
+        source:
+          '/novice-to-navigator/why-do-some-chatbots-perform-better-than-others.html',
+        destination:
+          '/novice-to-navigator/why-do-some-chatbots-perform-better-than-others',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/what-makes-a-chatbot-valuable-for-businesses.html',
-        destination: '/novice-to-navigator/what-makes-a-chatbot-valuable-for-businesses',
+        source:
+          '/novice-to-navigator/what-makes-a-chatbot-valuable-for-businesses.html',
+        destination:
+          '/novice-to-navigator/what-makes-a-chatbot-valuable-for-businesses',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/can-chatbots-replace-human-roles-in-certain-tasks.html',
-        destination: '/novice-to-navigator/can-chatbots-replace-human-roles-in-certain-tasks',
+        source:
+          '/novice-to-navigator/can-chatbots-replace-human-roles-in-certain-tasks.html',
+        destination:
+          '/novice-to-navigator/can-chatbots-replace-human-roles-in-certain-tasks',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/what-is-retrieval-augmented-generation-rag.html',
-        destination: '/novice-to-navigator/what-is-retrieval-augmented-generation-rag',
+        source:
+          '/novice-to-navigator/what-is-retrieval-augmented-generation-rag.html',
+        destination:
+          '/novice-to-navigator/what-is-retrieval-augmented-generation-rag',
         permanent: true,
       },
       {
@@ -594,108 +612,150 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/how-does-a-rag-chatbot-use-my-specific-data.html',
-        destination: '/novice-to-navigator/how-does-a-rag-chatbot-use-my-specific-data',
+        source:
+          '/novice-to-navigator/how-does-a-rag-chatbot-use-my-specific-data.html',
+        destination:
+          '/novice-to-navigator/how-does-a-rag-chatbot-use-my-specific-data',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/what-is-a-vector-database-and-why-is-it-used-in-rag.html',
-        destination: '/novice-to-navigator/what-is-a-vector-database-and-why-is-it-used-in-rag',
+        source:
+          '/novice-to-navigator/what-is-a-vector-database-and-why-is-it-used-in-rag.html',
+        destination:
+          '/novice-to-navigator/what-is-a-vector-database-and-why-is-it-used-in-rag',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/what-are-embeddings-and-how-do-they-help-chatbots.html',
-        destination: '/novice-to-navigator/what-are-embeddings-and-how-do-they-help-chatbots',
+        source:
+          '/novice-to-navigator/what-are-embeddings-and-how-do-they-help-chatbots.html',
+        destination:
+          '/novice-to-navigator/what-are-embeddings-and-how-do-they-help-chatbots',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/how-do-you-start-building-a-custom-ai-chatbot.html',
-        destination: '/novice-to-navigator/how-do-you-start-building-a-custom-ai-chatbot',
+        source:
+          '/novice-to-navigator/how-do-you-start-building-a-custom-ai-chatbot.html',
+        destination:
+          '/novice-to-navigator/how-do-you-start-building-a-custom-ai-chatbot',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/what-technologies-power-a-rag-chatbot.html',
-        destination: '/novice-to-navigator/what-technologies-power-a-rag-chatbot',
+        source:
+          '/novice-to-navigator/what-technologies-power-a-rag-chatbot.html',
+        destination:
+          '/novice-to-navigator/what-technologies-power-a-rag-chatbot',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/how-do-you-ensure-a-chatbot-gives-accurate-and-relevant-answers.html',
-        destination: '/novice-to-navigator/how-do-you-ensure-a-chatbot-gives-accurate-and-relevant-answers',
+        source:
+          '/novice-to-navigator/how-do-you-ensure-a-chatbot-gives-accurate-and-relevant-answers.html',
+        destination:
+          '/novice-to-navigator/how-do-you-ensure-a-chatbot-gives-accurate-and-relevant-answers',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/can-a-chatbot-integrate-with-my-existing-systems.html',
-        destination: '/novice-to-navigator/can-a-chatbot-integrate-with-my-existing-systems',
+        source:
+          '/novice-to-navigator/can-a-chatbot-integrate-with-my-existing-systems.html',
+        destination:
+          '/novice-to-navigator/can-a-chatbot-integrate-with-my-existing-systems',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/is-building-a-custom-chatbot-expensive-or-time-intensive.html',
-        destination: '/novice-to-navigator/is-building-a-custom-chatbot-expensive-or-time-intensive',
+        source:
+          '/novice-to-navigator/is-building-a-custom-chatbot-expensive-or-time-intensive.html',
+        destination:
+          '/novice-to-navigator/is-building-a-custom-chatbot-expensive-or-time-intensive',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/can-ai-chatbots-give-incorrect-or-made-up-answers.html',
-        destination: '/novice-to-navigator/can-ai-chatbots-give-incorrect-or-made-up-answers',
+        source:
+          '/novice-to-navigator/can-ai-chatbots-give-incorrect-or-made-up-answers.html',
+        destination:
+          '/novice-to-navigator/can-ai-chatbots-give-incorrect-or-made-up-answers',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/how-do-you-prevent-a-chatbot-from-giving-harmful-or-off-brand-responses.html',
-        destination: '/novice-to-navigator/how-do-you-prevent-a-chatbot-from-giving-harmful-or-off-brand-responses',
+        source:
+          '/novice-to-navigator/how-do-you-prevent-a-chatbot-from-giving-harmful-or-off-brand-responses.html',
+        destination:
+          '/novice-to-navigator/how-do-you-prevent-a-chatbot-from-giving-harmful-or-off-brand-responses',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/is-my-business-data-safe-when-using-a-chatbot.html',
-        destination: '/novice-to-navigator/is-my-business-data-safe-when-using-a-chatbot',
+        source:
+          '/novice-to-navigator/is-my-business-data-safe-when-using-a-chatbot.html',
+        destination:
+          '/novice-to-navigator/is-my-business-data-safe-when-using-a-chatbot',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/can-competitors-exploit-my-chatbots-knowledge-base.html',
-        destination: '/novice-to-navigator/can-competitors-exploit-my-chatbots-knowledge-base',
+        source:
+          '/novice-to-navigator/can-competitors-exploit-my-chatbots-knowledge-base.html',
+        destination:
+          '/novice-to-navigator/can-competitors-exploit-my-chatbots-knowledge-base',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/how-do-you-evaluate-a-chatbots-performance.html',
-        destination: '/novice-to-navigator/how-do-you-evaluate-a-chatbots-performance',
+        source:
+          '/novice-to-navigator/how-do-you-evaluate-a-chatbots-performance.html',
+        destination:
+          '/novice-to-navigator/how-do-you-evaluate-a-chatbots-performance',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/what-industries-are-using-ai-chatbots-effectively.html',
-        destination: '/novice-to-navigator/what-industries-are-using-ai-chatbots-effectively',
+        source:
+          '/novice-to-navigator/what-industries-are-using-ai-chatbots-effectively.html',
+        destination:
+          '/novice-to-navigator/what-industries-are-using-ai-chatbots-effectively',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/how-can-a-chatbot-increase-revenue-or-reduce-costs.html',
-        destination: '/novice-to-navigator/how-can-a-chatbot-increase-revenue-or-reduce-costs',
+        source:
+          '/novice-to-navigator/how-can-a-chatbot-increase-revenue-or-reduce-costs.html',
+        destination:
+          '/novice-to-navigator/how-can-a-chatbot-increase-revenue-or-reduce-costs',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/can-chatbots-streamline-lead-generation-or-customer-onboarding.html',
-        destination: '/novice-to-navigator/can-chatbots-streamline-lead-generation-or-customer-onboarding',
+        source:
+          '/novice-to-navigator/can-chatbots-streamline-lead-generation-or-customer-onboarding.html',
+        destination:
+          '/novice-to-navigator/can-chatbots-streamline-lead-generation-or-customer-onboarding',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/is-my-business-ready-for-an-ai-chatbot.html',
-        destination: '/novice-to-navigator/is-my-business-ready-for-an-ai-chatbot',
+        source:
+          '/novice-to-navigator/is-my-business-ready-for-an-ai-chatbot.html',
+        destination:
+          '/novice-to-navigator/is-my-business-ready-for-an-ai-chatbot',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/what-if-my-business-has-limited-content-or-data.html',
-        destination: '/novice-to-navigator/what-if-my-business-has-limited-content-or-data',
+        source:
+          '/novice-to-navigator/what-if-my-business-has-limited-content-or-data.html',
+        destination:
+          '/novice-to-navigator/what-if-my-business-has-limited-content-or-data',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/what-should-i-consider-before-investing-in-a-custom-chatbot.html',
-        destination: '/novice-to-navigator/what-should-i-consider-before-investing-in-a-custom-chatbot',
+        source:
+          '/novice-to-navigator/what-should-i-consider-before-investing-in-a-custom-chatbot.html',
+        destination:
+          '/novice-to-navigator/what-should-i-consider-before-investing-in-a-custom-chatbot',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/whats-involved-in-working-with-an-expert-to-build-a-chatbot.html',
-        destination: '/novice-to-navigator/whats-involved-in-working-with-an-expert-to-build-a-chatbot',
+        source:
+          '/novice-to-navigator/whats-involved-in-working-with-an-expert-to-build-a-chatbot.html',
+        destination:
+          '/novice-to-navigator/whats-involved-in-working-with-an-expert-to-build-a-chatbot',
         permanent: true,
       },
       {
-        source: '/novice-to-navigator/how-do-i-get-my-own-custom-ai-chatbot.html',
-        destination: '/novice-to-navigator/how-do-i-get-my-own-custom-ai-chatbot',
+        source:
+          '/novice-to-navigator/how-do-i-get-my-own-custom-ai-chatbot.html',
+        destination:
+          '/novice-to-navigator/how-do-i-get-my-own-custom-ai-chatbot',
         permanent: true,
       },
     ];
