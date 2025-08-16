@@ -13,7 +13,7 @@ export default function Header() {
                   <Link href='/'>
                     <Image
                       src='/profile-picture.jpg'
-                      alt='Adam Matthew Steinberger - Senior Software Engineering Consultant specializing in AI and Cloud Development'
+                      alt='Adam Matthew Steinberger - Staff Software Engineer and AI Solutions Architect'
                       width={120}
                       height={120}
                       className='profile shadow'
@@ -27,11 +27,10 @@ export default function Header() {
                       Adam Matthew Steinberger
                     </h1>
                     <h2 className='h5 mb-1'>
-                      Senior Software Engineering Consultant
+                      Staff Software Engineer
                     </h2>
                     <h3 className='h6 mb-3'>
-                      Backend, Cloud &amp; AI Software Architecture and
-                      Development
+                      AI Solutions Architect
                     </h3>
                     <div className='header-contact-block'>
                       <div className='d-flex flex-wrap gap-2'>
@@ -109,7 +108,7 @@ export default function Header() {
       <Image
         id='img-banner-bg'
         src='/banner.png'
-        alt='Professional software development and AI consulting services banner'
+        alt='Adam Matthew Steinberger: Staff Software Engineer and AI Solutions Architect'
         className='banner'
         fill
         priority
