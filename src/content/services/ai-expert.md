@@ -1,10 +1,10 @@
 ---
-title: 'Adam Matthew Steinberger - Senior Software Engineering Consultant'
+title: 'Adam Matthew Steinberger - Staff Software Engineer and AI Solutions Architect'
 subtitle: 'Backend, Cloud & AI Software Architecture and Development'
-description: 'With 12+ years of software engineering experience, I provide expert AI consulting, development, and integration services for Greenville businesses. Specialized in backend, cloud, and AI software architecture.'
-category: 'Expert AI Consulting'
+description: 'With 12+ years of software engineering experience, I provide expert AI engineering, development, and integration services for Greenville businesses. Specialized in backend, cloud, and AI software architecture.'
+category: 'Expert AI Engineering'
 heroTitle: 'Leading AI Expert'
-heroSubtitle: 'Expert AI Consulting & Development for Greenville Businesses'
+heroSubtitle: 'Expert AI Engineering & Development for Greenville Businesses'
 whyChoose: 'Why Choose an AI Expert?'
 choice1Icon: 'fa-brain'
 choice1Title: 'Deep Technical Knowledge'
@@ -30,19 +30,19 @@ feature3Title: 'AI System Integration'
 feature3Description: 'Seamless integration with your existing tools, systems, and infrastructure'
 feature4Icon: 'fa-chalkboard-teacher'
 feature4Title: 'AI Training & Education'
-feature4Description: 'Tailored team training programs to upskill your staff on AI technologies and applications'
-contentTitle: 'Expert AI Consulting & Development'
+feature4Description: 'Tailored team training programs to upskill your company on AI technologies and applications'
+contentTitle: 'Expert AI Architecture & Development'
 ---
 
-# Expert AI Consulting & Development
+# Expert AI Architecture & Development
 
 ## Meet Adam Matthew Steinberger
 
-I’m a Senior Software Engineering Consultant with over 12 years of experience specializing in backend, cloud, and AI software systems. My mission is to help Greenville businesses succeed with powerful, practical AI solutions that drive efficiency and growth.
+I’m a Staff Software Engineer and AI Solutions Architect with over 12 years of experience specializing in backend, cloud, and AI software systems. My mission is to help Greenville businesses succeed with powerful, practical AI solutions that drive efficiency and growth.
 
-### My AI Consulting Expertise
+### My AI Engineering Expertise
 
-- **AI Strategy & Consulting:** Clear roadmaps, opportunity assessments, and outcome-driven planning
+- **AI Strategy & Architecture:** Clear roadmaps, opportunity assessments, and outcome-driven planning
 - **AI Development:** Custom systems, chatbots, ML models, and advanced automation
 - **AI Integration:** Secure, reliable integration with existing business tools
 - **AI Training:** Equip your team with real-world AI knowledge and confidence
@@ -65,7 +65,7 @@ I’m a Senior Software Engineering Consultant with over 12 years of experience 
 
 Transparent pricing for expert-level services:
 
-- **AI Strategy Consulting:** $150–300/hr
+- **AI Strategy & Architecture:** $150–300/hr
 - **Custom AI Development:** $15K–50K+
 - **AI Integration Services:** $8K–25K
 - **Training Programs:** $2K–15K
@@ -80,4 +80,4 @@ Try a live demo to experience professional AI solutions in action—developed wi
 
 Let’s explore how AI can transform your operations, improve efficiency, and give you a strategic advantage.
 
-**Serving Greenville and the entire Upstate Region with expert AI consulting and development services.**
+**Serving Greenville and the entire Upstate Region with expert AI architecture and development services.**

@@ -1,7 +1,7 @@
 ---
 title: 'Expert AI Strategy'
 subtitle: 'Strategic AI Planning for Upstate Region Business Transformation'
-description: 'Transform your business with expert AI strategy consulting. I develop comprehensive AI strategies that align with your business goals, optimize operations, and drive competitive advantage for Upstate region companies.'
+description: 'Transform your business with expert AI strategy architecture. I develop comprehensive AI strategies that align with your business goals, optimize operations, and drive competitive advantage for Upstate region companies.'
 category: 'Services'
 heroTitle: 'Expert AI Strategy for Greenville Businesses'
 heroSubtitle: 'Roadmaps, ROI, and readiness for AI transformation'
@@ -78,7 +78,7 @@ Try a live demo and see how AI strategy guides digital transformation — from w
 - **AI Strategy Assessment:** $2K–5K
 - **Strategy Development:** $5K–15K
 - **Implementation Support:** $8K–25K
-- **Ongoing Consulting:** $150–300/hr
+- **Ongoing Retainer:** $150–300/hr
 
 _Expect 3–5x ROI from most AI strategy projects via efficiency and growth gains._
 
@@ -87,4 +87,4 @@ _Expect 3–5x ROI from most AI strategy projects via efficiency and growth gain
 ## Ready to Plan Smarter?
 
 Let’s define your AI path and accelerate your results.  
-Serving Greenville and the entire Upstate region with expert AI strategy consulting and support.
+Serving Greenville and the entire Upstate region with expert AI strategy architecture and support.

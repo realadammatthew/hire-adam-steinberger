@@ -35,7 +35,7 @@ contentTitle: 'Build AI Skills That Drive Business Results'
 
 ### Give your team the tools to work faster, automate smarter, and innovate with confidence.
 
-My training programs turn curious teams into capable AI practitioners — from frontline staff to senior leadership.
+My training programs turn curious teams into capable AI practitioners — from frontline staff to executive leadership.
 
 ---
 

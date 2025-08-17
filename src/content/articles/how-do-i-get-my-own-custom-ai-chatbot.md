@@ -12,7 +12,7 @@ Off-the-shelf bots might say "Hi, how can I help?" But they're not trained on yo
 
 That's why people turn to me.
 
-I'm Adam Matthew Steinberger, a senior software engineering consultant with 12+ years of backend, AI, and infrastructure experience. I build GPT-powered chatbots that are trained on your data, speak in your voice, and integrate with the systems you already use.
+I'm Adam Matthew Steinberger, a Staff Software Engineer and AI Solutions Architect with 12+ years of backend, AI, and infrastructure experience. I build GPT-powered chatbots that are trained on your data, speak in your voice, and integrate with the systems you already use.
 
 No fluff. No lock-in. Just fast, reliable, tailored AI—ready to go.
 
@@ -84,9 +84,9 @@ You could try a dev shop. Or some prompt hacker from Reddit.
 
 But if you want:
 
-- A senior engineer who gets enterprise architecture
+- A staff software engineer who gets enterprise architecture
 - A privacy advocate who respects your data boundaries
-- A consultant who listens first and ships fast
+- A contributor who listens first and ships fast
 - A systems thinker who designs for scale, not show
 
 Then I'm your guy.

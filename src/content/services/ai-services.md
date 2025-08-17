@@ -1,7 +1,7 @@
 ---
 title: 'Comprehensive AI Services'
 subtitle: 'Complete AI Services for Upstate Region Businesses'
-description: 'From development to consulting, integration to training, I provide comprehensive AI services that help Upstate Region businesses leverage artificial intelligence for growth, efficiency, and competitive advantage.'
+description: 'From development to architecture, integration to training, I provide comprehensive AI services that help Upstate Region businesses leverage artificial intelligence for growth, efficiency, and competitive advantage.'
 category: 'Core AI Services'
 heroTitle: 'Full-Service AI for Your Business'
 heroSubtitle: 'From Chatbots to Custom AI Systems – I Handle the Full Stack'
@@ -13,15 +13,15 @@ choice2Icon: 'fa-plug'
 choice2Title: 'Seamless Integration'
 choice2Description: 'Connect AI with your existing tools, workflows, and platforms'
 choice3Icon: 'fa-chalkboard-teacher'
-choice3Title: 'Training & Consulting'
+choice3Title: 'Training & Empowering'
 choice3Description: 'Empower your team with AI knowledge and strategic implementation guidance'
 featuresOffered: 'Complete AI Services Portfolio'
 feature1Icon: 'fa-robot'
 feature1Title: 'AI Development'
 feature1Description: 'Custom AI chatbot development, machine learning, and intelligent application creation'
 feature2Icon: 'fa-lightbulb'
-feature2Title: 'AI Consulting'
-feature2Description: 'Strategic consulting, implementation planning, and expert technical guidance'
+feature2Title: 'AI Architecture'
+feature2Description: 'Strategic architecture, implementation planning, and expert technical guidance'
 feature3Icon: 'fa-network-wired'
 feature3Title: 'AI Integration'
 feature3Description: 'Connect AI systems with your existing software, CRMs, APIs, and databases'
@@ -54,7 +54,7 @@ With development, strategy, and support under one roof, I help you make AI work 
 ### AI Service Categories
 
 - **AI Development:** Chatbots, ML systems, custom AI apps
-- **AI Consulting:** Strategy, implementation roadmaps, expert guidance
+- **AI Architecture:** Strategy, implementation roadmaps, expert guidance
 - **AI Integration:** REST APIs, workflow connections, secure data sync
 - **AI Training:** Team education, workshops, technical onboarding
 - **AI Automation:** Automated workflows, task optimization
@@ -86,7 +86,7 @@ Explore the **live demo** and see real-world AI development, integration, and au
 **Transparent pricing for all AI service types:**
 
 - **AI Development:** $8K–35K+ for full-scale builds and chatbot solutions
-- **AI Consulting:** $150–300/hr for strategic guidance and planning
+- **AI Architecture:** $150–300/hr for strategic guidance and planning
 - **AI Integration:** $5K–25K for API, tool, and database integrations
 - **AI Training:** $2K–15K for in-person or remote team training programs
 - **AI Automation:** $8K–25K for business process automation projects

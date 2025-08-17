@@ -884,15 +884,15 @@ export const services: Service[] = [
   {
     slug: 'ai-expert',
     title: 'AI Expert',
-    description: 'Expert AI development and consulting',
+    description: 'Expert AI development and architecture',
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
     order: 45,
     heroTitle: 'AI Expert',
-    heroSubtitle: 'Expert AI Development & Consulting',
+    heroSubtitle: 'Expert AI Development & Architecture',
     features: [
       'Expert Development',
-      'Strategic Consulting',
+      'Strategic Architeccture',
       'Implementation Services',
       'Ongoing Support',
     ],
@@ -1019,7 +1019,7 @@ export const services: Service[] = [
     heroSubtitle: 'Complete AI Development Services',
     features: [
       'Full-Service Development',
-      'Strategic Consulting',
+      'Strategic Architecture',
       'Implementation Services',
       'Ongoing Support',
     ],

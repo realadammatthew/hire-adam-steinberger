@@ -12,9 +12,7 @@ export default function Home() {
           className='fw-bold headline-gradient'
           style={{ fontSize: '2.7rem' }}
         >
-          The AI Implementation Crisis:
-          <br />
-          Why 73% of Businesses Fail
+          The AI Crisis
         </h2>
         <br />
         <h3
@@ -540,14 +538,13 @@ export default function Home() {
       {/* For Employers Section */}
       <section className='container my-5'>
         <h4 className='fw-bold mb-4 section-headline-purple text-center'>
-          For Employers: Senior AI Developer Available
+          For Employers: Staff Software Engineer and AI Solutions Architect Available
         </h4>
         <div className='row justify-content-center'>
           <div className='col-md-8'>
             <div className='card purple-box employer-card mb-4'>
               <h5 className='mb-3'>
-                <i className='fas fa-briefcase'></i> Senior AI Development
-                Expertise
+                <i className='fas fa-briefcase'></i> Staff Software Engineering and AI Solutions Architecting
               </h5>
               <p>
                 <strong>Available for:</strong> Full-time positions, contract

@@ -27,11 +27,9 @@ export default function Header() {
                       Adam Matthew Steinberger
                     </h1>
                     <h2 className='h5 mb-1'>
-                      Staff Software Engineer
+                      Staff Software Engineer and AI Solutions Architect
                     </h2>
-                    <h3 className='h6 mb-3'>
-                      AI Solutions Architect
-                    </h3>
+                    <br />
                     <div className='header-contact-block'>
                       <div className='d-flex flex-wrap gap-2'>
                         <a
