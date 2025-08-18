@@ -58,7 +58,7 @@ Whether it's a $5K starter package or a $100K+ enterprise rollout, I build bots 
 
 From $5K starter packages to $100K+ enterprise rollouts, I build bots that deliver measurable results—40% ticket reduction, 3x lead capture, 30+ hours saved monthly.
 
-## 💡 Why Not Just Use ChatGPT or Tidio?
+## 💡 Why Not Just Use ChatGPT?
 
 Because you're not trying to play with AI—you're trying to win with it.
 
@@ -91,9 +91,9 @@ But if you want:
 
 Then I'm your guy.
 
-And I won't just tell you what I can do. I'll show you, live, anytime:
+And I won't just tell you what I can do. I'll show you online, anytime:
 
-That's a bot I built to represent me. It's trained on my site, my docs, my tone. You're talking to me—just in AI form. Imagine what that kind of tool could do for you.
+Try out the bot I built to represent me. It's trained on my site, my docs, my tone. You're talking to me—just in AI form. Imagine what that kind of tool could do for you.
 
 ## 🧠 TL;DR
 
