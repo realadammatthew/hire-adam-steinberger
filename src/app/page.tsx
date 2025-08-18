@@ -24,7 +24,7 @@ export default function Home() {
         <div className="mb-4">
           <div className="ratio ratio-16x9" style={{maxWidth: '800px', margin: '0 auto'}}>
             <iframe 
-              src="https://www.youtube.com/embed/OC00AgAdeFk" 
+              src="https://www.youtube.com/embed/2O8Qg4uFnl0" 
               title="The AI Crisis - How I'm Solving It for Greenville South Carolina Businesses" 
               allowFullScreen
             ></iframe>
