@@ -21,11 +21,15 @@ export default function Home() {
         >
           And How I&apos;m Solving It for Greenville South Carolina Businesses
         </h3>
-        <br />
-        <video controls>
-          <source src='/video/welcome-to-my-homepage.mp4' type='video/mp4' />
-          Your browser does not support the video element.
-        </video>
+        <div className="mb-4">
+          <div className="ratio ratio-16x9" style={{maxWidth: '800px', margin: '0 auto'}}>
+            <iframe 
+              src="https://www.youtube.com/embed/OC00AgAdeFk" 
+              title="The AI Crisis - How I'm Solving It for Greenville South Carolina Businesses" 
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
         <div className='mx-auto mb-4' style={{ maxWidth: '800px' }}>
           <div className='alert custom-alert p-4 mb-4 shadow-lg'>
             <strong>Reality Check:</strong> Most businesses are losing money on

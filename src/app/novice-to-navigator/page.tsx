@@ -12,12 +12,15 @@ export default function NoviceToNavigator() {
         <h3 className="fw-semibold mb-3 headline-gradient" style={{fontSize: '1.35rem'}}>
           Master AI Chatbot Knowledge to Make Confident Business Decisions
         </h3>
-        <p className="mb-4">
-          <video controls>
-            <source src="/video/novice-to-navigator.mp4" type="video/mp4" />
-            Your browser does not support the video element.
-          </video>
-        </p>
+        <div className="mb-4">
+          <div className="ratio ratio-16x9" style={{maxWidth: '800px', margin: '0 auto'}}>
+            <iframe 
+              src="https://www.youtube.com/embed/fhiWkaK_pt8" 
+              title="Novice to Navigator" 
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
         <div className="mx-auto mb-4" style={{maxWidth: '700px'}}>
           <div className="alert custom-alert p-4 mb-4 shadow-lg">
             A comprehensive 33-article series designed to take you from complete beginner to confident decision-maker. Learn what AI chatbots are, how they work, and what to look for when hiring an expert to build your custom solution. No technical background required.
