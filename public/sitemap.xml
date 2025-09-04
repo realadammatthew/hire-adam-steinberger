@@ -562,7 +562,19 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-agriculture</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/ai-chips-and-npus-beyond-hbm3e</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-climate-sustainability</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -580,7 +592,25 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-creative-writing</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/ai-creativity-tools</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-customer-experience</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-cybersecurity</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -592,7 +622,49 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-education-admin</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/ai-education-training</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-energy</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-ethics-governance</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-finance</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-future-of-work</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-government-public-sector</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-hardware-beyond-gpus</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -604,7 +676,55 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-healthcare-operations</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-human-resources</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-insurance</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-journalism</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-knowledge-agents</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/ai-knowledge-work-automation</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-legal-tech</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-manufacturing</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-marketing-personalization</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -617,6 +737,12 @@
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/ai-music-audio</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-nonprofits-socialgood</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -646,7 +772,25 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-privacy</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-retail-ecommerce</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/ai-safety-alignment</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-sales-enable</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -659,6 +803,30 @@
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/ai-security</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-small-business</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-supply-chain</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-transport-logistics</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-visual-arts</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -718,7 +886,19 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/digital-twins-ai</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/enterprise-rag-stacks</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/federated-learning</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
