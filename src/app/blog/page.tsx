@@ -143,7 +143,7 @@ export default async function BlogPage() {
               <Link href="/services/ai-consulting" className="btn-custom btn btn-lg fw-bold shadow-lg px-5 py-3 demo-btn">
                 <i className="fas fa-comments"></i> Schedule a Consultation
               </Link>
-              <p className="mt-3 text-secondary">Let's discuss your AI development needs</p>
+              <p className="mt-3 text-secondary">Let&apos;s discuss your AI development needs</p>
             </div>
           </div>
         </div>

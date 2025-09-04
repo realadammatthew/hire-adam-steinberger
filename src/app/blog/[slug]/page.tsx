@@ -102,10 +102,10 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 </div>
                 <div className="d-flex align-items-center">
                   <i className="fas fa-calendar-alt me-2 text-primary"></i>
-                  <span>{new Date(post.publishedDate).toLocaleDateString(&apos;en-US&apos;, {
-                    year: &apos;numeric&apos;,
-                    month: &apos;long&apos;,
-                    day: &apos;numeric&apos;
+                  <span>{new Date(post.publishedDate).toLocaleDateString("en-US", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric"
                   })}</span>
                 </div>
                 <div className="d-flex align-items-center">
