@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { getBlogPostBySlug, getRelatedPosts, getAllBlogSlugs } from '@/lib/blogUtils';
+import { getBlogPostBySlug, getAllBlogSlugs } from '@/lib/blogUtils';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';

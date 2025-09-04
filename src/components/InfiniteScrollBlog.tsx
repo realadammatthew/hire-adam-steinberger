@@ -104,7 +104,7 @@ export default function InfiniteScrollBlog({ allPosts, postsPerPage = 6 }: Infin
 
       {!hasMore && displayedPosts.length > 0 && (
         <div className="text-center my-4">
-          <p className="text-muted">You've reached the end of our articles!</p>
+          <p className="text-muted">You&apos;ve reached the end of our articles!</p>
         </div>
       )}
 
