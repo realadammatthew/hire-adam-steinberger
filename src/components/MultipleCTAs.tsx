@@ -24,19 +24,27 @@ export default function MultipleCTAs() {
             </div>
           </div>
           <div className="row mt-4">
-            <div className="col-md-4 mb-3">
+            <div className="col-md-6 mb-3">
               <a href="https://chat.adam.matthewsteinberger.com" target="_blank" className="btn btn-outline-primary btn-lg w-100">
                 <i className="fas fa-play"></i> Try the Demo
               </a>
               <p className="mt-2 text-secondary">Experience the technology</p>
             </div>
-            <div className="col-md-4 mb-3">
+            <div className="col-md-6 mb-3">
               <Link href="/novice-to-navigator" className="btn btn-outline-success btn-lg w-100">
                 <i className="fas fa-graduation-cap"></i> Learn about AI
               </Link>
               <p className="mt-2 text-secondary">33-article education series</p>
             </div>
-            <div className="col-md-4 mb-3">
+          </div>
+          <div className="row">
+            <div className="col-md-6 mb-3">
+              <Link href="/blog" className="btn btn-outline-success btn-lg w-100">
+                <i className="fas fa-newspaper"></i> Read the Blog
+              </Link>
+              <p className="mt-2 text-secondary">AI insights & case studies</p>
+            </div>
+            <div className="col-md-6 mb-3">
               <Link href="/services" className="btn btn-outline-info btn-lg w-100">
                 <i className="fas fa-tools"></i> My Services
               </Link>

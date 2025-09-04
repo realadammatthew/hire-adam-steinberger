@@ -94,6 +94,50 @@ export default function Header() {
                         >
                           <i className='fab fa-x-twitter'></i>
                         </a>
+                        <a
+                          href='https://instagram.com/realadammatthew/'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          className='btn btn-outline-light'
+                          data-bs-toggle='tooltip'
+                          data-bs-placement='bottom'
+                          data-bs-title='Instagram'
+                        >
+                          <i className='fab fa-instagram'></i>
+                        </a>
+                        <a
+                          href='https://facebook.com/adammatthewsteinberger'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          className='btn btn-outline-light'
+                          data-bs-toggle='tooltip'
+                          data-bs-placement='bottom'
+                          data-bs-title='Facebook'
+                        >
+                          <i className='fab fa-facebook'></i>
+                        </a>
+                        <a
+                          href='https://www.youtube.com/@AdamMatthewSteinberger'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          className='btn btn-outline-light'
+                          data-bs-toggle='tooltip'
+                          data-bs-placement='bottom'
+                          data-bs-title='YouTube'
+                        >
+                          <i className='fab fa-youtube'></i>
+                        </a>
+                        <a
+                          href='https://github.com/realadammatthew/resume/raw/main/adam-steinberger-resume.pdf'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          className='btn btn-light'
+                          data-bs-toggle='tooltip'
+                          data-bs-placement='bottom'
+                          data-bs-title='Download Resume'
+                        >
+                          <i className='fas fa-file-alt'></i>
+                        </a>
                       </div>
                     </div>
                   </div>

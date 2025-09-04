@@ -28,6 +28,8 @@ export default function Footer() {
             &nbsp;|&nbsp;
             <Link href="/novice-to-navigator" className="fw-bold">Learn about AI</Link>
             &nbsp;|&nbsp;
+            <Link href="/blog" className="fw-bold">Read the Blog</Link>
+            &nbsp;|&nbsp;
             <a href="http://eepurl.com/jiYXCQ" className="fw-bold">Get the Newsletter</a>
             &nbsp;|&nbsp;
             <Link href="/services" className="fw-bold">My Services</Link>
@@ -40,6 +42,12 @@ export default function Footer() {
             <a href="https://github.com/realadammatthew" className="fw-bold">GitHub</a>
             &nbsp;|&nbsp;
             <a href="https://x.com/realadammatthew" className="fw-bold">X/Twitter</a>
+            &nbsp;|&nbsp;
+            <a href="https://instagram.com/realadammatthew/" className="fw-bold">Instagram</a>
+            &nbsp;|&nbsp;
+            <a href="https://facebook.com/adammatthewsteinberger" className="fw-bold">Facebook</a>
+            &nbsp;|&nbsp;
+            <a href="https://www.youtube.com/@AdamMatthewSteinberger" className="fw-bold">YouTube</a>
             &nbsp;|&nbsp;
             <a href="https://coff.ee/realadammatthew" className="fw-bold">Buy me a Coffee</a>
           </div>
