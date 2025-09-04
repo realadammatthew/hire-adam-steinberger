@@ -556,6 +556,12 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/aws-bedrock-agentcore</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/calculating-real-roi-of-ai-chatbots-beyond-the-hype</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
@@ -580,6 +586,24 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/creative-suites-and-ai-video</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/databricks-and-mcp</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/deepseek-v3-and-r1</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/google-veo3-from-creative-toy-to-enterprise-tool</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
@@ -593,6 +617,24 @@
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/hbm3e-and-the-new-ai-hardware-bottleneck</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/langgraph-open-source-agent-framework</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/meta-llama-31-32-and-the-next-llama</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/microsoft-autogen</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -622,7 +664,25 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/small-language-models-slms</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/text-to-video-models-sora-luma-runway-kling</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/why-mcp-is-becoming-the-backbone-of-ai-agents</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/xai-grok-3-and-4</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
