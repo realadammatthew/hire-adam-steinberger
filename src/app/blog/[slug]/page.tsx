@@ -60,8 +60,6 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     notFound();
   }
 
-  const relatedPosts = getRelatedPosts(slug, post.category, 3);
-
   return (
     <main>
       {/* Hero Section */}
@@ -147,57 +145,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         </div>
       </section>
 
-      {/* Related Posts */}
-      {relatedPosts.length > 0 && (
-        <section className="container my-5">
-          <div className="row justify-content-center">
-            <div className="col-lg-10">
-              <h3 className="fw-bold mb-4 section-headline-blue text-center">Related Articles</h3>
-              <div className="row g-4">
-                {relatedPosts.map((relatedPost) => (
-                  <div key={relatedPost.slug} className="col-md-4">
-                    <div className="card golden-box solution-card h-100">
-                      <div className="card-body d-flex flex-column">
-                        <div className="mb-2">
-                          <span className="badge bg-secondary me-2">{relatedPost.category}</span>
-                          <small className="text-muted">{relatedPost.readTime}</small>
-                        </div>
-                        <h5 className="fw-bold mb-3">{relatedPost.title}</h5>
-                        <p className="flex-grow-1">{relatedPost.description}</p>
-                        <div className="mt-auto">
-                          <div className="d-flex justify-content-between align-items-center mb-3">
-                            <small className="text-muted">By {relatedPost.author}</small>
-                            <small className="text-muted">{new Date(relatedPost.publishedDate).toLocaleDateString()}</small>
-                          </div>
-                          <Link href={`/blog/${relatedPost.slug}`} className="btn btn-outline-primary w-100">
-                            Read Article
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Call to Action */}
-      <section className="container my-5">
-        <div className="row justify-content-center">
-          <div className="col-md-8">
-            <div className="card purple-box text-center p-4">
-              <h4 className="fw-bold mb-3">Ready to Implement These Ideas?</h4>
-              <p className="mb-4">Get personalized guidance for your AI development project based on the insights from this article.</p>
-              <Link href="/services/ai-consulting" className="btn-custom btn btn-lg fw-bold shadow-lg px-5 py-3 demo-btn">
-                <i className="fas fa-comments"></i> Schedule a Consultation
-              </Link>
-              <p className="mt-3 text-secondary">Let&apos;s discuss your specific needs</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Multiple CTAs */}
+      <MultipleCTAs />
 
       {/* Back to Blog */}
       <section className="container my-5">
@@ -208,9 +157,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           </Link>
         </div>
       </section>
-
-      {/* Multiple CTAs */}
-      <MultipleCTAs />
+      
     </main>
   );
 }

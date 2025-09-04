@@ -6,7 +6,7 @@ author: "Adam Matthew Steinberger"
 publishedDate: "2025-09-04"
 readTime: "8 min read"
 tags: ["AI Chatbots", "Implementation", "Business Strategy", "Common Mistakes"]
-featured: true
+featured: false
 ---
 
 After helping dozens of businesses implement AI chatbots across various industries, I've seen the same mistakes happen repeatedly. These aren't just minor hiccups—they're project-killing errors that waste time, money, and create frustration for everyone involved.

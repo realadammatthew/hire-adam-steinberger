@@ -544,6 +544,12 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/agentic-coding-the-rise-of-code-agents</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/ai-security-risks-every-business-owner-should-know-2025</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
@@ -562,7 +568,61 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/claude-3-7-and-extended-thinking</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/copilot-plus-pcs-the-new-standard</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/google-veo3-from-creative-toy-to-enterprise-tool</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/gpt-5-and-gpt-oss-what-they-mean-for-business-ai</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/hbm3e-and-the-new-ai-hardware-bottleneck</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/on-device-ai-why-local-matters-again</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/rag-2-0-why-retrieval-got-an-upgrade</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/rag-vs-fine-tuning-which-approach-is-right-for-your-business</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/realtime-voice-the-end-of-phone-trees</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/why-mcp-is-becoming-the-backbone-of-ai-agents</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>

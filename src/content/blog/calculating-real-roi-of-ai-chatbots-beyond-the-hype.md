@@ -6,7 +6,7 @@ author: "Adam Matthew Steinberger"
 publishedDate: "2025-09-04"
 readTime: "12 min read"
 tags: ["ROI", "Business Value", "AI Investment", "Performance Metrics"]
-featured: true
+featured: false
 ---
 
 "Our AI chatbot will pay for itself in 6 months."
