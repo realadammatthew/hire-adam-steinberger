@@ -6,7 +6,7 @@ author: "Adam Matthew Steinberger"
 publishedDate: "2025-09-04"
 readTime: "12 min read"
 tags: ["MCP", "Model Context Protocol", "AI Agents", "Enterprise AI", "LLM Tools"]
-featured: true
+featured: false
 ---
 
 ## TL;DR

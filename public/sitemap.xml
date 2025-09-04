@@ -544,7 +544,43 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/agent-benchmarks</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/agentic-coding-the-rise-of-code-agents</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-agents-in-production</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-chips-and-npus-beyond-hbm3e</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-compliance-regulation</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-edge-computing</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-knowledge-work-automation</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -604,6 +640,12 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/enterprise-rag-stacks</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/google-veo3-from-creative-toy-to-enterprise-tool</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
@@ -628,6 +670,12 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/memory-and-context-windows</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/meta-llama-31-32-and-the-next-llama</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
@@ -635,6 +683,12 @@
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/microsoft-autogen</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/multimodal-workflows</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -665,6 +719,12 @@
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/small-language-models-slms</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/synthetic-data-training</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
