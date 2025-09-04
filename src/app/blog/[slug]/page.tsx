@@ -72,7 +72,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             <nav className="mb-4">
               <div className="d-flex justify-content-center">
                 <Link href="/blog" className="text-decoration-none text-primary me-2">Blog</Link>
-                <span className="text-muted">{'>'}</span>
+                <span className="text-muted">&gt;</span>
                 <span className="text-muted ms-2">{post.title}</span>
               </div>
             </nav>
@@ -102,10 +102,10 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 </div>
                 <div className="d-flex align-items-center">
                   <i className="fas fa-calendar-alt me-2 text-primary"></i>
-                  <span>{new Date(post.publishedDate).toLocaleDateString('en-US', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric'
+                  <span>{new Date(post.publishedDate).toLocaleDateString(&apos;en-US&apos;, {
+                    year: &apos;numeric&apos;,
+                    month: &apos;long&apos;,
+                    day: &apos;numeric&apos;
                   })}</span>
                 </div>
                 <div className="d-flex align-items-center">
@@ -193,7 +193,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               <Link href="/services/ai-consulting" className="btn-custom btn btn-lg fw-bold shadow-lg px-5 py-3 demo-btn">
                 <i className="fas fa-comments"></i> Schedule a Consultation
               </Link>
-              <p className="mt-3 text-secondary">Let's discuss your specific needs</p>
+              <p className="mt-3 text-secondary">Let&apos;s discuss your specific needs</p>
             </div>
           </div>
         </div>

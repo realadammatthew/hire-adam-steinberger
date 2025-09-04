@@ -102,7 +102,7 @@ export default async function BlogPage() {
             <div className="col-md-8">
               <div className="card purple-box text-center p-4">
                 <h4 className="mb-3">Blog Coming Soon</h4>
-                <p className="mb-3">I'm working on creating valuable content about AI development, chatbot implementation, and business technology insights.</p>
+                <p className="mb-3">I&apos;m working on creating valuable content about AI development, chatbot implementation, and business technology insights.</p>
                 <p className="text-muted">Check back soon for the latest articles and industry insights!</p>
               </div>
             </div>
