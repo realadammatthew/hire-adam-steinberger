@@ -586,7 +586,43 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-middleware</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-operating-systems</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-powered-simulation</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-safety-alignment</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/ai-security-risks-every-business-owner-should-know-2025</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/ai-security</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/autonomous-robotics-ai</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -688,6 +724,12 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/multimodal-search</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/multimodal-workflows</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
@@ -695,6 +737,18 @@
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/on-device-ai-why-local-matters-again</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/open-weight-models-enterprise</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/personal-ai-assistants</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -719,6 +773,12 @@
     </url>
     <url>
         <loc>https://hire.adam.matthewsteinberger.com/blog/small-language-models-slms</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://hire.adam.matthewsteinberger.com/blog/synthetic-agents</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
