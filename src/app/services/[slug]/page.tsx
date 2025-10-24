@@ -31,7 +31,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
   return (
     <div className={styles.servicePageBg}>
       {/* Hero Section */}
-      <section className="container text-center my-5">
+      <section className="container text-center" style={{marginTop: '6rem', marginBottom: '3rem'}}>
         <h1 className={styles.headline}>
           {serviceContent.heroTitle}
         </h1>
