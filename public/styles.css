@@ -18,32 +18,61 @@ h1, h2, h3, h4, h5, h6 {
 a, .btn-link {
   color: #60a5fa !important;
 }
-.btn, .btn-primary {
-  background: linear-gradient(90deg, #2563eb 0%, #1e293b 100%) !important;
-  color: #fff !important;
+
+/* Unified Professional Button System */
+.btn {
+  border-radius: 0.5rem !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
   border: none !important;
-  box-shadow: 0 0 20px 4px rgba(37, 99, 235, 0.3) !important;
+  padding: 0.75rem 1.5rem !important;
+  font-size: 0.875rem !important;
 }
+
+.btn-primary {
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%) !important;
+  color: #fff !important;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3) !important;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4) !important;
+}
+
 .btn-outline-primary {
   background: rgba(37, 99, 235, 0.1) !important;
   color: #60a5fa !important;
-  border-color: #60a5fa !important;
+  border: 2px solid #60a5fa !important;
 }
 
 .btn-outline-primary:hover {
   background: #2563eb !important;
   color: #fff !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.3) !important;
 }
+
 .btn-dark {
-  background: #1f2937 !important;
+  background: linear-gradient(135deg, #1f2937 0%, #111827 100%) !important;
   color: #e2e8f0 !important;
-  border-color: #374151 !important;
+  box-shadow: 0 4px 12px rgba(31, 41, 55, 0.3) !important;
+}
+
+.btn-dark:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 16px rgba(31, 41, 55, 0.4) !important;
 }
 
 .btn-info {
-  background: #0ea5e9 !important;
+  background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%) !important;
   color: #fff !important;
-  border-color: #0ea5e9 !important;
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.3) !important;
+}
+
+.btn-info:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 16px rgba(14, 165, 233, 0.4) !important;
 }
 hr {
   border-top: 1px solid #374151 !important;
@@ -370,13 +399,23 @@ footer {
 }
 
 .contact-info .btn {
-  border-radius: 20px;
-  font-size: 0.875rem;
+  border-radius: 0.75rem !important;
+  font-size: 0.8rem !important;
+  padding: 0.5rem 1rem !important;
+  font-weight: 500 !important;
 }
 
 .social-links .btn {
-  border-radius: 20px;
-  font-size: 0.875rem;
+  border-radius: 0.75rem !important;
+  font-size: 0.8rem !important;
+  padding: 0.5rem 1rem !important;
+  font-weight: 500 !important;
+}
+
+.btn-sm {
+  padding: 0.5rem 1rem !important;
+  font-size: 0.8rem !important;
+  border-radius: 0.375rem !important;
 }
 
 /* Desktop Dropdown Menu */
@@ -604,15 +643,16 @@ body {
   background: linear-gradient(135deg, #2563eb 0%, #9333EA 100%) !important;
   color: white !important;
   border: none !important;
-  padding: 0.8rem 2rem !important;
+  padding: 0.75rem 1.5rem !important;
   border-radius: 0.5rem !important;
   transition: all 0.3s ease !important;
-  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.2) !important;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3) !important;
+  font-weight: 600 !important;
 }
 
 .btn-custom:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4) !important;
 }
 
 /* Section transitions */
@@ -882,33 +922,50 @@ section {
   text-shadow: 0 2px 10px rgba(147, 51, 234, 0.2) !important;
 }
 
-/* Button Variations */
+/* Specialized Button Variations */
 .consultation-btn {
   background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
-  box-shadow: 0 4px 15px rgba(5, 150, 105, 0.2) !important;
+  color: #fff !important;
+  box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3) !important;
+  border-radius: 0.5rem !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+  padding: 0.75rem 1.5rem !important;
 }
 
 .consultation-btn:hover {
-  box-shadow: 0 8px 25px rgba(5, 150, 105, 0.3) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 16px rgba(5, 150, 105, 0.4) !important;
 }
 
 .employer-btn {
   background: linear-gradient(135deg, #9333EA 0%, #6B46C1 100%) !important;
-  box-shadow: 0 4px 15px rgba(147, 51, 234, 0.2) !important;
+  color: #fff !important;
+  box-shadow: 0 4px 12px rgba(147, 51, 234, 0.3) !important;
+  border-radius: 0.5rem !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+  padding: 0.75rem 1.5rem !important;
 }
 
 .employer-btn:hover {
-  box-shadow: 0 8px 25px rgba(147, 51, 234, 0.3) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 16px rgba(147, 51, 234, 0.4) !important;
 }
 
 .demo-btn {
   background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%) !important;
-  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.2) !important;
   color: #1F2937 !important;
+  box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3) !important;
+  border-radius: 0.5rem !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+  padding: 0.75rem 1.5rem !important;
 }
 
 .demo-btn:hover {
-  box-shadow: 0 8px 25px rgba(255, 215, 0, 0.3) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 16px rgba(255, 215, 0, 0.4) !important;
 }
 
 /* Glowing text effect for headings */
