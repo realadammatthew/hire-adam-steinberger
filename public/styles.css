@@ -35,8 +35,14 @@ h1, h2, h3, h4, h5, h6 {
 [class*="gradient"] {
   display: inline-block !important;
 }
+
+/* Fix centering for section headlines */
+h4[class*="section-headline"] {
+  text-align: center !important;
+  width: 100% !important;
+}
 a, .btn-link {
-  color: #60a5fa !important;
+  color: #bfdbfe !important;
 }
 
 /* Unified Professional Button System */
@@ -50,27 +56,27 @@ a, .btn-link {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%) !important;
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%) !important;
   color: #fff !important;
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3) !important;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3) !important;
 }
 
 .btn-primary:hover {
   transform: translateY(-2px) !important;
-  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4) !important;
+  box-shadow: 0 6px 16px rgba(59, 130, 246, 0.4) !important;
 }
 
 .btn-outline-primary {
-  background: rgba(37, 99, 235, 0.1) !important;
-  color: #60a5fa !important;
-  border: 2px solid #60a5fa !important;
+  background: rgba(59, 130, 246, 0.1) !important;
+  color: #bfdbfe !important;
+  border: 2px solid #bfdbfe !important;
 }
 
 .btn-outline-primary:hover {
-  background: #2563eb !important;
+  background: #3b82f6 !important;
   color: #fff !important;
   transform: translateY(-2px) !important;
-  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.3) !important;
+  box-shadow: 0 6px 16px rgba(59, 130, 246, 0.3) !important;
 }
 
 .btn-dark {
@@ -437,7 +443,7 @@ footer {
 }
 
 .profile-large {
-  border: 4px solid #60a5fa;
+  border: 4px solid #bfdbfe;
   box-shadow: 0 8px 24px rgba(251, 191, 36, 0.2);
 }
 
@@ -675,8 +681,8 @@ body {
   border-radius: 1rem;
   padding: 2rem;
   margin-bottom: 2rem;
-  box-shadow: 0 8px 32px rgba(255, 215, 0, 0.2);
-  animation: glowGold 3s infinite alternate;
+  box-shadow: 0 8px 32px rgba(5, 150, 105, 0.2);
+  animation: glowGreen 3s infinite alternate;
 }
 
 /* Purple Box Animation */
@@ -685,8 +691,8 @@ body {
   border-radius: 1rem;
   padding: 2rem;
   margin-bottom: 2rem;
-  box-shadow: 0 8px 32px rgba(147, 51, 234, 0.2);
-  animation: glowPurple 3s infinite alternate;
+  box-shadow: 0 8px 32px rgba(5, 150, 105, 0.2);
+  animation: glowGreen 3s infinite alternate;
 }
 
 @keyframes glowGold {
@@ -753,8 +759,8 @@ section {
   border-radius: 1rem;
   padding: 2rem;
   margin-bottom: 2rem;
-  box-shadow: 0 8px 32px rgba(220, 38, 38, 0.2);
-  animation: glowRed 3s infinite alternate;
+  box-shadow: 0 8px 32px rgba(5, 150, 105, 0.2);
+  animation: glowGreen 3s infinite alternate;
 }
 
 .green-box {
@@ -767,12 +773,12 @@ section {
 }
 
 .blue-box {
-  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  background: linear-gradient(135deg, #ffe066 0%, #ffd700 100%);
   border-radius: 1rem;
   padding: 2rem;
   margin-bottom: 2rem;
-  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.2);
-  animation: glowBlue 3s infinite alternate;
+  box-shadow: 0 8px 32px rgba(5, 150, 105, 0.2);
+  animation: glowGreen 3s infinite alternate;
 }
 
 @keyframes glowRed {
@@ -804,12 +810,12 @@ section {
 
 /* Problem Cards */
 .problem-card {
-  border-left: 4px solid #2563EB;
-  background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(29, 78, 216, 0.1)) !important;
+  border-left: 4px solid #ffd700;
+  background: linear-gradient(135deg, rgba(255, 224, 102, 0.1), rgba(255, 215, 0, 0.1)) !important;
 }
 
 .problem-card i {
-  color: #2563EB;
+  color: #ffd700;
 }
 
 /* Solution Framework Cards */
@@ -971,24 +977,36 @@ section {
   background: linear-gradient(135deg, #059669, #047857);
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent !important;
-  text-shadow: 0 2px 10px rgba(5, 150, 105, 0.2) !important;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 .section-headline-blue {
-  background: linear-gradient(135deg, #2563EB, #1D4ED8);
+  background: linear-gradient(45deg, #60a5fa, #b9fbc0);
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent !important;
-  text-shadow: 0 2px 10px rgba(37, 99, 235, 0.2) !important;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 .section-headline-purple {
   background: linear-gradient(135deg, #9333EA, #6B46C1);
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent !important;
-  text-shadow: 0 2px 10px rgba(147, 51, 234, 0.2) !important;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  text-shadow: none !important;
+}
+
+.section-headline-gold {
+  background: linear-gradient(90deg, #ffe066 0%, #ffd700 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 /* Specialized Button Variations */
@@ -1111,7 +1129,7 @@ h1, h2, h3 {
 }
 
 .section-heading i {
-  color: #60a5fa;
+  color: #bfdbfe;
 }
 
 .about-section p {
@@ -1139,7 +1157,7 @@ h1, h2, h3 {
 }
 
 .highlight-item h5 {
-  color: #60a5fa !important;
+  color: #bfdbfe !important;
   margin-bottom: 0.5rem;
 }
 
