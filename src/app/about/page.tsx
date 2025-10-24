@@ -35,7 +35,7 @@ export default function AboutPage() {
                 <div className="col-md-8">
                   <h1 className="display-4 fw-bold mb-4">About Me</h1>
                   <p className="about-intro">
-                    Hello! I'm Adam Matthew Steinberger, a dedicated Staff Software Engineer and AI Solutions Architect based in
+                    Hello! I&apos;m Adam Matthew Steinberger, a dedicated Staff Software Engineer and AI Solutions Architect based in
                     <strong> Greenville, South Carolina</strong>. With over <strong>12 years of experience</strong> in building
                     scalable, secure AI platforms, I specialize in delivering innovative technology solutions tailored to business needs.
                   </p>
@@ -73,8 +73,8 @@ export default function AboutPage() {
                     Career Goals
                   </h3>
                   <p>
-                    While consulting through <strong>Adam Matthew Steinberger LLC</strong> has been fulfilling, I'm now seeking
-                    a stable, full-time W-2 position in the IT or AI space. I'm eager to join a neurodivergent-friendly workplace
+                    While consulting through <strong>Adam Matthew Steinberger LLC</strong> has been fulfilling, I&apos;m now seeking
+                    a stable, full-time W-2 position in the IT or AI space. I&apos;m eager to join a neurodivergent-friendly workplace
                     in Greenville, SC, where I can apply my Certified ScrumMaster skills, expertise in LLMs, RAG systems,
                     LoRA fine-tuning, and cloud infrastructure (AWS, Azure, GCP) to collaborative teams.
                   </p>
@@ -110,10 +110,10 @@ export default function AboutPage() {
                 <div className="about-section">
                   <h3 className="section-heading mb-3">
                     <i className="fas fa-handshake me-2"></i>
-                    Let's Connect
+                    Let&apos;s Connect
                   </h3>
                   <p className="mb-4">
-                    I'm ready to bring reliable, innovative solutions to your organization. Let's explore how we can work together
+                    I&apos;m ready to bring reliable, innovative solutions to your organization. Let&apos;s explore how we can work together
                     to achieve your technology goals.
                   </p>
                   <div className="d-flex gap-3 flex-wrap">
