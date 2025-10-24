@@ -5,9 +5,9 @@ import { getProjectBySlug, getAllProjectSlugs } from '@/lib/projectUtils';
 import { projects } from '@/data/projects';
 
 interface ProjectPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export async function generateStaticParams() {
@@ -18,8 +18,9 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: ProjectPageProps): Promise<Metadata> {
-  const project = getProjectBySlug(params.slug);
-  const projectData = projects.find(p => p.slug === params.slug);
+  const { slug } = await params;
+  const project = getProjectBySlug(slug);
+  const projectData = projects.find(p => p.slug === slug);
 
   if (!project || !projectData) {
     return {
@@ -34,14 +35,15 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
     openGraph: {
       title: `${project.title} | Adam Matthew Steinberger Projects`,
       description: project.description,
-      url: `https://hire.adam.matthewsteinberger.com/projects/${params.slug}`,
+      url: `https://hire.adam.matthewsteinberger.com/projects/${slug}`,
     },
   };
 }
 
-export default function ProjectPage({ params }: ProjectPageProps) {
-  const project = getProjectBySlug(params.slug);
-  const projectData = projects.find(p => p.slug === params.slug);
+export default async function ProjectPage({ params }: ProjectPageProps) {
+  const { slug } = await params;
+  const project = getProjectBySlug(slug);
+  const projectData = projects.find(p => p.slug === slug);
 
   if (!project || !projectData) {
     return (
@@ -57,7 +59,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
   }
 
   const relatedProjects = projects
-    .filter(p => p.category === projectData.category && p.slug !== params.slug)
+    .filter(p => p.category === projectData.category && p.slug !== slug)
     .slice(0, 2);
 
   return (
@@ -159,19 +161,21 @@ export default function ProjectPage({ params }: ProjectPageProps) {
           <div className="row">
             <div className="col-lg-8">
               <div className="project-content">
-                <ReactMarkdown
-                  className="markdown-content"
-                  components={{
+                <div className="markdown-content">
+                  <ReactMarkdown
+                    components={{
                     h1: ({children}) => <h2 className="section-headline-blue mb-4">{children}</h2>,
                     h2: ({children}) => <h3 className="h4 fw-bold mb-3 mt-4">{children}</h3>,
                     h3: ({children}) => <h4 className="h5 fw-bold mb-3 mt-3">{children}</h4>,
                     p: ({children}) => <p className="mb-3">{children}</p>,
                     ul: ({children}) => <ul className="mb-3">{children}</ul>,
                     ol: ({children}) => <ol className="mb-3">{children}</ol>,
-                    code: ({inline, children}) =>
-                      inline
+                    code: ({children, ...props}) => {
+                      const isInline = !props.className;
+                      return isInline
                         ? <code className="bg-light px-1 rounded">{children}</code>
-                        : <pre className="bg-light p-3 rounded overflow-auto"><code>{children}</code></pre>,
+                        : <pre className="bg-light p-3 rounded overflow-auto"><code>{children}</code></pre>;
+                    },
                     blockquote: ({children}) => (
                       <blockquote className="blockquote border-start border-primary border-3 ps-3 my-3">
                         {children}
@@ -181,6 +185,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                 >
                   {project.content}
                 </ReactMarkdown>
+                </div>
               </div>
             </div>
             <div className="col-lg-4">
