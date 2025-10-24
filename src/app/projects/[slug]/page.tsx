@@ -164,9 +164,9 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
                 <div className="markdown-content">
                   <ReactMarkdown
                     components={{
-                    h1: ({children}) => <h2 className="section-headline-blue mb-4">{children}</h2>,
-                    h2: ({children}) => <h3 className="h4 fw-bold mb-3 mt-4">{children}</h3>,
-                    h3: ({children}) => <h4 className="h5 fw-bold mb-3 mt-3">{children}</h4>,
+                    h1: ({children}) => <h2 className="section-headline-blue mb-4 d-block">{children}</h2>,
+                    h2: ({children}) => <h3 className="h4 fw-bold mb-3 mt-4 d-block">{children}</h3>,
+                    h3: ({children}) => <h4 className="h5 fw-bold mb-3 mt-3 d-block">{children}</h4>,
                     p: ({children}) => <p className="mb-3">{children}</p>,
                     ul: ({children}) => <ul className="mb-3">{children}</ul>,
                     ol: ({children}) => <ol className="mb-3">{children}</ol>,

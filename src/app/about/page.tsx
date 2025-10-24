@@ -87,22 +87,28 @@ export default function AboutPage() {
                   </h3>
                   <div className="project-highlights">
                     <div className="highlight-item mb-3">
-                      <h5 className="fw-bold text-primary">Enterprise AI Payroll Processor</h5>
-                      <p className="mb-2">
-                        Led a 45-day project to redesign an AI payroll processor for an enterprise client using Azure microservices
-                      </p>
+                      <Link href="/projects/enterprise-ai-payroll-processor" className="text-decoration-none">
+                        <h5 className="fw-bold text-primary">Enterprise AI Payroll Processor</h5>
+                        <p className="mb-2">
+                          Led a 45-day project to redesign an AI payroll processor for an enterprise client using Azure microservices
+                        </p>
+                      </Link>
                     </div>
                     <div className="highlight-item mb-3">
-                      <h5 className="fw-bold text-primary">Privacy-First RAG Chatbot</h5>
-                      <p className="mb-2">
-                        Built a privacy-first RAG chatbot for a non-profit with self-hosted Mistral-7B
-                      </p>
+                      <Link href="/projects/self-hosted-rag-chatbot" className="text-decoration-none">
+                        <h5 className="fw-bold text-primary">Privacy-First RAG Chatbot</h5>
+                        <p className="mb-2">
+                          Built a privacy-first RAG chatbot for a non-profit with self-hosted Mistral-7B
+                        </p>
+                      </Link>
                     </div>
                     <div className="highlight-item mb-3">
-                      <h5 className="fw-bold text-primary">Custom Cloud-Based RAG Chatbot</h5>
-                      <p className="mb-2">
-                        Created a custom cloud-based RAG chatbot for a sales agency with a responsive web interface
-                      </p>
+                      <Link href="/projects/cloud-rag-chatbot-gemini" className="text-decoration-none">
+                        <h5 className="fw-bold text-primary">Custom Cloud-Based RAG Chatbot</h5>
+                        <p className="mb-2">
+                          Created a custom cloud-based RAG chatbot for a sales agency with a responsive web interface
+                        </p>
+                      </Link>
                     </div>
                   </div>
                 </div>

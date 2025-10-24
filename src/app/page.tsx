@@ -267,75 +267,64 @@ export default function Home() {
           <div className='col-md-6 mb-4'>
             <div className='card golden-box case-study-card'>
               <h5>
-                <i className='fas fa-hospital'></i> Healthcare Nonprofit
+                <i className='fas fa-building'></i> Enterprise AI Payroll Processor
               </h5>
               <p>
-                <strong>Challenge:</strong> Manual patient intake process taking
-                45 minutes per client
+                <strong>Challenge:</strong> Complex payroll processing system redesign with Azure microservices architecture
               </p>
               <p>
-                <strong>Solution:</strong> HIPAA-compliant AI chatbot with RAG
-                knowledge base
+                <strong>Solution:</strong> Complete architectural design and implementation package using GPT-5 and RAG systems
               </p>
               <p>
-                <strong>Result:</strong> 80% reduction in intake time, 95%
-                client satisfaction
+                <strong>Result:</strong> 45-day delivery enabling junior developer implementation with comprehensive handoff
               </p>
             </div>
           </div>
           <div className='col-md-6 mb-4'>
             <div className='card purple-box case-study-card'>
               <h5>
-                <i className='fas fa-store'></i> Local Restaurant Chain
+                <i className='fas fa-shield-alt'></i> Privacy-First RAG Chatbot
               </h5>
               <p>
-                <strong>Challenge:</strong> Inconsistent customer service across
-                3 locations
+                <strong>Challenge:</strong> Non-profit needed secure, self-hosted AI solution protecting sensitive data
               </p>
               <p>
-                <strong>Solution:</strong> Branded AI chatbot trained on menu
-                and policies
+                <strong>Solution:</strong> Custom RAG chatbot with self-hosted Mistral-7B ensuring complete privacy control
               </p>
               <p>
-                <strong>Result:</strong> 40% increase in online orders, 60%
-                fewer support calls
+                <strong>Result:</strong> 100% data privacy with powerful AI capabilities and seamless user experience
               </p>
             </div>
           </div>
           <div className='col-md-6 mb-4'>
             <div className='card blue-box case-study-card'>
               <h5>
-                <i className='fas fa-church'></i> Greenville Church
+                <i className='fas fa-cloud'></i> Cloud RAG Sales Assistant
               </h5>
               <p>
-                <strong>Challenge:</strong> Overwhelmed staff handling member
-                questions
+                <strong>Challenge:</strong> Sales agency needed intelligent customer engagement with Gemini integration
               </p>
               <p>
-                <strong>Solution:</strong> Internal knowledge chatbot with event
-                management
+                <strong>Solution:</strong> Custom cloud-based RAG chatbot with responsive web interface and sales optimization
               </p>
               <p>
-                <strong>Result:</strong> 70% reduction in repetitive questions,
-                improved engagement
+                <strong>Result:</strong> Enhanced customer interactions with intelligent lead qualification and conversion
               </p>
             </div>
           </div>
           <div className='col-md-6 mb-4'>
             <div className='card green-box case-study-card'>
               <h5>
-                <i className='fas fa-building'></i> Manufacturing Company
+                <i className='fas fa-snowflake'></i> Snow Portal Job Scheduler
               </h5>
               <p>
-                <strong>Challenge:</strong> Complex technical support
-                overwhelming engineers
+                <strong>Challenge:</strong> Lima One Capital needed Alteryx replacement for Snowflake workflow automation
               </p>
               <p>
-                <strong>Solution:</strong> Technical documentation RAG system
+                <strong>Solution:</strong> Custom job scheduling system with comprehensive workflow management and monitoring
               </p>
               <p>
-                <strong>Result:</strong> 50% faster issue resolution, 30% cost
-                savings
+                <strong>Result:</strong> 60% cost reduction while improving performance and enabling self-service analytics
               </p>
             </div>
           </div>
