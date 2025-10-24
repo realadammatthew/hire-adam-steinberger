@@ -47,6 +47,24 @@ export default function SitemapPage() {
             </div>
           </div>
         </div>
+        <div className="row justify-content-center">
+          <div className="col-md-6 mb-4">
+            <div className="card purple-box credential-card">
+              <i className="fas fa-newspaper fa-2x mb-3"></i>
+              <h5>Blog</h5>
+              <p>Insights, case studies, and the latest trends in AI technology.</p>
+              <Link href="/blog" className="btn btn-outline-light mt-3">Read the Blog</Link>
+            </div>
+          </div>
+          <div className="col-md-6 mb-4">
+            <div className="card purple-box credential-card">
+              <i className="fas fa-envelope-open-text fa-2x mb-3"></i>
+              <h5>Newsletter</h5>
+              <p>Stay updated with the latest AI trends and insights.</p>
+              <a href="http://eepurl.com/jiYXCQ" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light mt-3">Subscribe Now</a>
+            </div>
+          </div>
+        </div>
       </section>
 
       <MultipleCTAs />
