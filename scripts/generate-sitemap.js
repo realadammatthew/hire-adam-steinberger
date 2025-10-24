@@ -12,6 +12,12 @@ const staticPages = [
     priority: '1.0'
   },
   {
+    url: '/about/',
+    lastmod: new Date().toISOString().split('T')[0],
+    changefreq: 'monthly',
+    priority: '0.9'
+  },
+  {
     url: '/services/',
     lastmod: new Date().toISOString().split('T')[0],
     changefreq: 'monthly',

@@ -22,6 +22,14 @@ export default function SitemapPage() {
           </div>
           <div className="col-md-6 mb-4">
             <div className="card purple-box credential-card">
+              <i className="fas fa-user fa-2x mb-3"></i>
+              <h5>About Me</h5>
+              <p>Learn about my background, experience, and neurodivergent strengths.</p>
+              <Link href="/about" className="btn btn-outline-light mt-3">About Me</Link>
+            </div>
+          </div>
+          <div className="col-md-6 mb-4">
+            <div className="card purple-box credential-card">
               <i className="fas fa-envelope fa-2x mb-3"></i>
               <h5>Contact Me</h5>
               <p>Schedule a free consultation to explore your options.</p>

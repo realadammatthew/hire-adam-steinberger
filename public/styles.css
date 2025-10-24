@@ -12,8 +12,28 @@ body, html {
   color: #e2e8f0 !important;
 }
 h1, h2, h3, h4, h5, h6 {
-  color: #fbbf24 !important;
+  background: linear-gradient(45deg, #60a5fa, #b9fbc0) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
   text-shadow: none !important;
+  display: inline-block !important;
+}
+
+/* Exception for card titles - use regular text color */
+.card-title {
+  background: none !important;
+  -webkit-background-clip: initial !important;
+  background-clip: initial !important;
+  -webkit-text-fill-color: initial !important;
+  color: #e2e8f0 !important;
+  display: block !important;
+}
+
+/* Ensure all gradient text elements have proper display */
+[style*="-webkit-background-clip: text"],
+[class*="gradient"] {
+  display: inline-block !important;
 }
 a, .btn-link {
   color: #60a5fa !important;
@@ -109,11 +129,19 @@ footer {
 
 .navbar-brand {
   font-weight: 600;
-  color: #fbbf24 !important;
+  background: linear-gradient(45deg, #60a5fa, #b9fbc0) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  display: inline-block !important;
 }
 
 .brand-text {
-  color: #fbbf24;
+  background: linear-gradient(45deg, #60a5fa, #b9fbc0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
   font-weight: 600;
   margin-left: 0.5rem;
 }
@@ -153,7 +181,10 @@ footer {
 }
 
 .nav-link-desktop:hover {
-  color: #fbbf24 !important;
+  background: linear-gradient(45deg, #60a5fa, #b9fbc0) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
 }
 
 /* Custom Dropdown */
@@ -207,7 +238,10 @@ footer {
 
 .dropdown-item-custom:hover {
   background: #374151;
-  color: #fbbf24 !important;
+  background: linear-gradient(45deg, #60a5fa, #b9fbc0) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
 }
 
 .dropdown-divider-custom {
@@ -235,7 +269,7 @@ footer {
 }
 
 .bm-burger-bars:hover {
-  background: #fbbf24 !important;
+  background: linear-gradient(45deg, #60a5fa, #b9fbc0) !important;
 }
 
 /* Clean mobile burger button styling */
@@ -262,7 +296,7 @@ footer {
   }
 
   .bm-burger-button:hover .bm-burger-bars {
-    background: #fbbf24 !important;
+    background: linear-gradient(45deg, #60a5fa, #b9fbc0) !important;
   }
 }
 
@@ -311,7 +345,10 @@ footer {
 }
 
 .menu-item:hover {
-  color: #fbbf24 !important;
+  background: linear-gradient(45deg, #60a5fa, #b9fbc0) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
   padding-left: 0.5rem;
 }
 
@@ -324,7 +361,10 @@ footer {
 }
 
 .menu-section-title {
-  color: #fbbf24;
+  background: linear-gradient(45deg, #60a5fa, #b9fbc0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 0.9rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
@@ -383,7 +423,10 @@ footer {
 
 .dropdown-item:hover {
   background-color: #374151 !important;
-  color: #fbbf24 !important;
+  background: linear-gradient(45deg, #60a5fa, #b9fbc0) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
 }
 
 .resume-header {
@@ -394,7 +437,7 @@ footer {
 }
 
 .profile-large {
-  border: 4px solid #fbbf24;
+  border: 4px solid #60a5fa;
   box-shadow: 0 8px 24px rgba(251, 191, 36, 0.2);
 }
 
@@ -525,6 +568,18 @@ section:nth-child(6) { animation-delay: 1.2s; }
   background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
+}
+
+/* Fix homepage title spacing issues */
+.container.text-center.my-5 {
+  padding-top: 2rem !important;
+  margin-top: 1rem !important;
+}
+
+/* Ensure consistent spacing for headline gradients */
+.headline-gradient {
+  margin-top: 0 !important;
+  margin-bottom: 1rem !important;
 }
 
 /* Fix for expertise cards to maintain equal height */
@@ -1012,4 +1067,98 @@ h1, h2, h3 {
   pointer-events: auto !important;
   z-index: 2;
   position: relative;
+}
+
+/* About Page Styles */
+.about-page {
+  background: var(--dark-bg);
+  color: var(--text-light);
+  min-height: 100vh;
+}
+
+.about-content-card {
+  background: #202127;
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+}
+
+.about-intro {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #e6e6e6;
+  margin-bottom: 0;
+}
+
+.about-section {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #374151;
+}
+
+.about-section:last-child {
+  border-bottom: none;
+}
+
+.section-heading {
+  background: linear-gradient(45deg, #60a5fa, #b9fbc0) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.section-heading i {
+  color: #60a5fa;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #e6e6e6;
+  margin-bottom: 1rem;
+}
+
+.project-highlights {
+  background: #1a1b21;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+
+.highlight-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid #374151;
+}
+
+.highlight-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.highlight-item h5 {
+  color: #60a5fa !important;
+  margin-bottom: 0.5rem;
+}
+
+.highlight-item p {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+@media (max-width: 767.98px) {
+  .about-content-card {
+    padding: 2rem 1rem;
+    margin: 1rem 0;
+  }
+
+  .about-intro {
+    font-size: 1.1rem;
+  }
+
+  .section-heading {
+    font-size: 1.2rem;
+  }
 }

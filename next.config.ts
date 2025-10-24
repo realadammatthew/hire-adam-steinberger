@@ -154,56 +154,6 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: '/ai-churches.html',
-        destination: '/services/ai-churches',
-        permanent: true,
-      },
-      {
-        source: '/ai-churches',
-        destination: '/services/ai-churches',
-        permanent: true,
-      },
-      {
-        source: '/ai-christian-education.html',
-        destination: '/services/ai-christian-education',
-        permanent: true,
-      },
-      {
-        source: '/ai-christian-education',
-        destination: '/services/ai-christian-education',
-        permanent: true,
-      },
-      {
-        source: '/ai-christian-counseling.html',
-        destination: '/services/ai-christian-counseling',
-        permanent: true,
-      },
-      {
-        source: '/ai-christian-counseling',
-        destination: '/services/ai-christian-counseling',
-        permanent: true,
-      },
-      {
-        source: '/ai-ministries.html',
-        destination: '/services/ai-ministries',
-        permanent: true,
-      },
-      {
-        source: '/ai-ministries',
-        destination: '/services/ai-ministries',
-        permanent: true,
-      },
-      {
-        source: '/ai-missionaries.html',
-        destination: '/services/ai-missionaries',
-        permanent: true,
-      },
-      {
-        source: '/ai-missionaries',
-        destination: '/services/ai-missionaries',
-        permanent: true,
-      },
-      {
         source: '/ai-boutiques.html',
         destination: '/services/ai-boutiques',
         permanent: true,
@@ -241,26 +191,6 @@ const nextConfig: NextConfig = {
       {
         source: '/ai-copywriting',
         destination: '/services/ai-copywriting',
-        permanent: true,
-      },
-      {
-        source: '/ai-tutoring.html',
-        destination: '/services/ai-tutoring',
-        permanent: true,
-      },
-      {
-        source: '/ai-tutoring',
-        destination: '/services/ai-tutoring',
-        permanent: true,
-      },
-      {
-        source: '/ai-vibe-coding.html',
-        destination: '/services/ai-vibe-coding',
-        permanent: true,
-      },
-      {
-        source: '/ai-vibe-coding',
-        destination: '/services/ai-vibe-coding',
         permanent: true,
       },
       {

@@ -81,6 +81,11 @@ export default function Header() {
           </Link>
         </div>
 
+        <Link href='/about' className='menu-item' onClick={closeMenu}>
+          <i className='fas fa-user me-2'></i>
+          About Me
+        </Link>
+
         <Link href='/novice-to-navigator' className='menu-item' onClick={closeMenu}>
           <i className='fas fa-graduation-cap me-2'></i>
           Learn AI
@@ -155,6 +160,11 @@ export default function Header() {
                   </div>
                 )}
               </div>
+
+              <Link href='/about' className='nav-link-desktop'>
+                <i className='fas fa-user me-1'></i>
+                About Me
+              </Link>
 
               <Link href='/novice-to-navigator' className='nav-link-desktop'>
                 <i className='fas fa-graduation-cap me-1'></i>
