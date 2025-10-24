@@ -439,6 +439,10 @@ footer {
     padding: 1.5rem 0;
   }
 
+  .resume-header .col-md-9 {
+    text-align: center !important;
+  }
+
   .profile-large {
     width: 150px !important;
     height: 150px !important;
@@ -455,6 +459,16 @@ footer {
 
   .social-links {
     justify-content: center;
+  }
+}
+
+/* Make the main action buttons look like social links on desktop */
+@media (min-width: 768px) {
+  .resume-header .btn-lg {
+    padding: 0.5rem 1rem !important;
+    font-size: 0.875rem !important;
+    border-radius: 0.75rem !important;
+    font-weight: 500 !important;
   }
 }
 

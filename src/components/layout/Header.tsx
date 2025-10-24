@@ -2,18 +2,18 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState, useEffect } from 'react';
-import { slide as Menu } from 'react-burger-menu';
+import { useState } from 'react';
+import dynamic from 'next/dynamic';
+
+const Menu = dynamic(
+  () => import('react-burger-menu').then((mod) => mod.slide),
+  { ssr: false }
+);
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
-  const [isClient, setIsClient] = useState(false);
   const [servicesTimeout, setServicesTimeout] = useState<NodeJS.Timeout | null>(null);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
 
   const handleStateChange = (state: { isOpen: boolean }) => {
     setIsMenuOpen(state.isOpen);
@@ -49,7 +49,6 @@ export default function Header() {
   return (
     <>
       {/* Burger Menu */}
-      {isClient && (
         <Menu
           isOpen={isMenuOpen}
           onStateChange={handleStateChange}
@@ -97,7 +96,6 @@ export default function Header() {
           Contact
         </Link>
         </Menu>
-      )}
 
       {/* Main Navigation Bar */}
       <nav className='navbar fixed-top main-navbar'>
@@ -192,34 +190,12 @@ export default function Header() {
             </div>
             <div className='col-md-9'>
               <h1 className='display-4 fw-bold mb-2'>Adam Matthew Steinberger</h1>
-              <h2 className='h4 text-muted mb-3'>Staff Software Engineer & AI Solutions Architect</h2>
-              <p className='lead mb-4'>Transforming businesses with cutting-edge AI solutions and custom chatbot development in Greenville, SC and the Upstate region.</p>
-
-              <div className='contact-info d-flex flex-wrap gap-3 mb-4'>
-                <a
-                  href='https://www.openstreetmap.org/relation/193989'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='btn btn-outline-primary btn-sm'
-                >
-                  <i className='fas fa-map-marker-alt me-1'></i>
-                  Greenville, SC
-                </a>
-                <a
-                  href='tel:+18645174117'
-                  className='btn btn-outline-primary btn-sm'
-                >
-                  <i className='fas fa-phone me-1'></i>
-                  (864) 517-4117
-                </a>
-                <a
-                  href='mailto:adam@matthewsteinberger.com'
-                  className='btn btn-outline-primary btn-sm'
-                >
-                  <i className='fas fa-envelope me-1'></i>
-                  Email
-                </a>
-              </div>
+              <h2 className='h4 text-muted mb-3'>Staff Software Engineer &amp; AI Solutions Architect</h2>
+              <p className='lead mb-4'>
+                Transforming businesses with cutting-edge AI solutions and custom chatbot development in 
+                <br />
+                📍 Greenville, South Carolina.
+              </p>
 
               <div className='social-links d-flex gap-2'>
                 <a
@@ -235,7 +211,7 @@ export default function Header() {
                   href='https://github.com/realadammatthew'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='btn btn-dark btn-sm'
+                  className='btn btn-primary btn-sm'
                 >
                   <i className='fab fa-github me-1'></i>
                   GitHub
@@ -244,10 +220,55 @@ export default function Header() {
                   href='https://x.com/realadammatthew'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='btn btn-info btn-sm'
+                  className='btn btn-primary btn-sm'
                 >
                   <i className='fab fa-x-twitter me-1'></i>
                   Twitter
+                </a>
+              </div>
+              <div className='social-links d-flex gap-2 mt-2'>
+                <a
+                  href='https://www.instagram.com/realadammatthew/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='btn btn-primary btn-sm'
+                >
+                  <i className='fab fa-instagram me-1'></i>
+                  Instagram
+                </a>
+                <a
+                  href='https://facebook.com/adammatthewsteinberger'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='btn btn-primary btn-sm'
+                >
+                  <i className='fab fa-facebook me-1'></i>
+                  Facebook
+                </a>
+                <a
+                  href='https://www.youtube.com/@AdamMatthewSteinberger'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='btn btn-primary btn-sm'
+                >
+                  <i className='fab fa-youtube me-1'></i>
+                  YouTube
+                </a>
+              </div>
+
+              <div className='social-links d-flex gap-2 mt-2'>
+                <Link href='/contact' className='btn btn-primary btn-sm'>
+                  <i className='fas fa-envelope me-1'></i>
+                  Contact Me
+                </Link>
+                <a
+                  href="https://github.com/realadammatthew/resume/raw/main/adam-steinberger-resume.pdf"
+                  className='btn btn-primary btn-sm'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <i className='fas fa-download me-1'></i>
+                  Download Resume
                 </a>
               </div>
             </div>
