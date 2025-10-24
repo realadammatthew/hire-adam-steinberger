@@ -5,8 +5,7 @@ export default function Home() {
     <main>
       {/* Hero Section - Problem Statement */}
       <section
-        className='container text-center my-5'
-        style={{ marginTop: '0 !important', paddingTop: '0 !important' }}
+        className='container text-center my-5 hero-section'
       >
         <h2
           className='fw-bold headline-gradient'

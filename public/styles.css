@@ -571,7 +571,7 @@ section:nth-child(6) { animation-delay: 1.2s; }
 }
 
 /* Fix homepage title spacing issues */
-.container.text-center.my-5 {
+.hero-section {
   padding-top: 2rem !important;
   margin-top: 1rem !important;
 }
