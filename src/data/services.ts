@@ -342,119 +342,13 @@ export const services: Service[] = [
     benefits: ['Enterprise Security', 'Scalable Solutions', 'ROI Focused'],
   },
   {
-    slug: 'ai-churches',
-    title: 'Christian Organizations',
-    description: 'AI solutions for churches and Christian organizations',
-    category: 'Industry-Specific Solutions',
-    categoryDescription:
-      'AI solutions tailored for specific industries and business types',
-    order: 18,
-    heroTitle: 'Christian Organizations AI',
-    heroSubtitle: 'AI Solutions for Churches & Christian Organizations',
-    features: [
-      'Member Communication',
-      'Event Management',
-      'Content Creation',
-      'Community Engagement',
-    ],
-    benefits: [
-      'Enhanced Communication',
-      'Better Engagement',
-      'Resource Optimization',
-    ],
-  },
-  {
-    slug: 'ai-christian-education',
-    title: 'Christian Education',
-    description: 'AI tools for Christian schools and educational institutions',
-    category: 'Industry-Specific Solutions',
-    categoryDescription:
-      'AI solutions tailored for specific industries and business types',
-    order: 19,
-    heroTitle: 'Christian Education AI',
-    heroSubtitle: 'AI Tools for Christian Schools & Educational Institutions',
-    features: [
-      'Student Support',
-      'Administrative Tasks',
-      'Content Creation',
-      'Parent Communication',
-    ],
-    benefits: [
-      'Improved Learning',
-      'Administrative Efficiency',
-      'Better Communication',
-    ],
-  },
-  {
-    slug: 'ai-christian-counseling',
-    title: 'Christian Counseling',
-    description: 'AI solutions for Christian counseling practices',
-    category: 'Industry-Specific Solutions',
-    categoryDescription:
-      'AI solutions tailored for specific industries and business types',
-    order: 20,
-    heroTitle: 'Christian Counseling AI',
-    heroSubtitle: 'AI Solutions for Christian Counseling Practices',
-    features: [
-      'Appointment Scheduling',
-      'Resource Management',
-      'Client Communication',
-      'Administrative Support',
-    ],
-    benefits: [
-      'Better Client Care',
-      'Reduced Administrative Burden',
-      'Enhanced Privacy',
-    ],
-  },
-  {
-    slug: 'ai-ministries',
-    title: 'Ministries AI',
-    description: 'AI tools for ministry organizations and religious groups',
-    category: 'Industry-Specific Solutions',
-    categoryDescription:
-      'AI solutions tailored for specific industries and business types',
-    order: 21,
-    heroTitle: 'Ministries AI',
-    heroSubtitle: 'AI Tools for Ministry Organizations & Religious Groups',
-    features: [
-      'Outreach Management',
-      'Content Creation',
-      'Volunteer Coordination',
-      'Resource Management',
-    ],
-    benefits: ['Expanded Reach', 'Better Resource Use', 'Enhanced Impact'],
-  },
-  {
-    slug: 'ai-missionaries',
-    title: 'Missionaries AI',
-    description: 'AI solutions for missionary organizations and workers',
-    category: 'Industry-Specific Solutions',
-    categoryDescription:
-      'AI solutions tailored for specific industries and business types',
-    order: 22,
-    heroTitle: 'Missionaries AI',
-    heroSubtitle: 'AI Solutions for Missionary Organizations & Workers',
-    features: [
-      'Communication Tools',
-      'Resource Management',
-      'Cultural Adaptation',
-      'Support Coordination',
-    ],
-    benefits: [
-      'Better Communication',
-      'Resource Optimization',
-      'Enhanced Effectiveness',
-    ],
-  },
-  {
     slug: 'ai-boutiques',
     title: 'Boutiques AI',
     description: 'AI automation for boutique retail businesses',
     category: 'Industry-Specific Solutions',
     categoryDescription:
       'AI solutions tailored for specific industries and business types',
-    order: 23,
+    order: 18,
     heroTitle: 'Boutiques AI',
     heroSubtitle: 'AI Automation for Boutique Retail Businesses',
     features: [
@@ -476,7 +370,7 @@ export const services: Service[] = [
     category: 'Industry-Specific Solutions',
     categoryDescription:
       'AI solutions tailored for specific industries and business types',
-    order: 24,
+    order: 19,
     heroTitle: 'Privacy Tech AI',
     heroSubtitle: 'Privacy-Focused AI Solutions for Tech Companies',
     features: [
@@ -494,7 +388,7 @@ export const services: Service[] = [
     category: 'Industry-Specific Solutions',
     categoryDescription:
       'AI solutions tailored for specific industries and business types',
-    order: 25,
+    order: 20,
     heroTitle: 'Helpdesk AI',
     heroSubtitle: 'AI-Powered Helpdesk & Customer Support Solutions',
     features: [
@@ -516,7 +410,7 @@ export const services: Service[] = [
     category: 'Industry-Specific Solutions',
     categoryDescription:
       'AI solutions tailored for specific industries and business types',
-    order: 26,
+    order: 21,
     heroTitle: 'Copywriting AI',
     heroSubtitle: 'AI Tools for Copywriters & Content Creators',
     features: [
@@ -531,50 +425,6 @@ export const services: Service[] = [
       'Consistent Brand Voice',
     ],
   },
-  {
-    slug: 'ai-tutoring',
-    title: 'Tutoring AI',
-    description: 'AI solutions for tutoring services and educational support',
-    category: 'Industry-Specific Solutions',
-    categoryDescription:
-      'AI solutions tailored for specific industries and business types',
-    order: 27,
-    heroTitle: 'Tutoring AI',
-    heroSubtitle: 'AI Solutions for Tutoring Services & Educational Support',
-    features: [
-      'Personalized Learning',
-      'Progress Tracking',
-      'Resource Management',
-      'Student Communication',
-    ],
-    benefits: [
-      'Improved Learning Outcomes',
-      'Better Student Engagement',
-      'Administrative Efficiency',
-    ],
-  },
-  {
-    slug: 'ai-vibe-coding',
-    title: 'Vibe Coding AI',
-    description: 'AI development with a focus on creative coding solutions',
-    category: 'Industry-Specific Solutions',
-    categoryDescription:
-      'AI solutions tailored for specific industries and business types',
-    order: 28,
-    heroTitle: 'Vibe Coding AI',
-    heroSubtitle: 'AI Development with Creative Coding Solutions',
-    features: [
-      'Creative AI Solutions',
-      'Custom Development',
-      'Innovation Focus',
-      'Technical Excellence',
-    ],
-    benefits: [
-      'Unique Solutions',
-      'Technical Innovation',
-      'Creative Problem Solving',
-    ],
-  },
 
   // Technical Services
   {
@@ -583,7 +433,7 @@ export const services: Service[] = [
     description: 'Custom AI chatbot development and implementation',
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
-    order: 29,
+    order: 24,
     heroTitle: 'Custom Chatbots',
     heroSubtitle: 'Custom AI Chatbot Development & Implementation',
     features: [
@@ -600,7 +450,7 @@ export const services: Service[] = [
     description: 'Custom ChatGPT integration and development',
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
-    order: 30,
+    order: 25,
     heroTitle: 'ChatGPT Development',
     heroSubtitle: 'Custom ChatGPT Integration & Development',
     features: [
@@ -621,7 +471,7 @@ export const services: Service[] = [
     description: 'Anthropic Claude AI integration and custom solutions',
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
-    order: 31,
+    order: 26,
     heroTitle: 'Claude AI Development',
     heroSubtitle: 'Anthropic Claude AI Integration & Custom Solutions',
     features: [
@@ -638,7 +488,7 @@ export const services: Service[] = [
     description: 'Google Gemini AI integration and development',
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
-    order: 32,
+    order: 27,
     heroTitle: 'Gemini AI Development',
     heroSubtitle: 'Google Gemini AI Integration & Development',
     features: [
@@ -659,7 +509,7 @@ export const services: Service[] = [
     description: 'Large Language Model development and integration',
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
-    order: 33,
+    order: 28,
     heroTitle: 'LLM Development',
     heroSubtitle: 'Large Language Model Development & Integration',
     features: [
@@ -680,7 +530,7 @@ export const services: Service[] = [
     description: 'Retrieval-Augmented Generation development',
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
-    order: 34,
+    order: 29,
     heroTitle: 'RAG Development',
     heroSubtitle: 'Retrieval-Augmented Generation Development',
     features: [
@@ -701,7 +551,7 @@ export const services: Service[] = [
     description: 'Custom chat engine development',
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
-    order: 35,
+    order: 30,
     heroTitle: 'Chat Engine Development',
     heroSubtitle: 'Custom Chat Engine Development',
     features: [
@@ -718,7 +568,7 @@ export const services: Service[] = [
     description: 'AI context engineering and optimization',
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
-    order: 36,
+    order: 31,
     heroTitle: 'Context Engineering',
     heroSubtitle: 'AI Context Engineering & Optimization',
     features: [
@@ -739,7 +589,7 @@ export const services: Service[] = [
     description: 'AI prompt engineering and optimization',
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
-    order: 37,
+    order: 32,
     heroTitle: 'Prompt Engineering',
     heroSubtitle: 'AI Prompt Engineering & Optimization',
     features: [
@@ -760,7 +610,7 @@ export const services: Service[] = [
     description: 'LoRA fine-tuning for custom AI models',
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
-    order: 38,
+    order: 33,
     heroTitle: 'LoRA Fine-Tuning',
     heroSubtitle: 'LoRA Fine-Tuning for Custom AI Models',
     features: [
@@ -781,7 +631,7 @@ export const services: Service[] = [
     description: 'vLLM API development and integration',
     category: 'Technical Services',
     categoryDescription: 'Specialized AI development and technical services',
-    order: 39,
+    order: 34,
     heroTitle: 'vLLM API Development',
     heroSubtitle: 'vLLM API Development & Integration',
     features: [
