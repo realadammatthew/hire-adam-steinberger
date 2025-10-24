@@ -86,6 +86,11 @@ export default function Header() {
           About Me
         </Link>
 
+        <Link href='/projects' className='menu-item' onClick={closeMenu}>
+          <i className='fas fa-briefcase me-2'></i>
+          Projects
+        </Link>
+
         <Link href='/novice-to-navigator' className='menu-item' onClick={closeMenu}>
           <i className='fas fa-graduation-cap me-2'></i>
           Learn AI
@@ -100,6 +105,11 @@ export default function Header() {
           <i className='fas fa-envelope me-2'></i>
           Contact
         </Link>
+
+        <a href='https://llm-adam-steinberger.vercel.app/' className='menu-item' onClick={closeMenu} target='_blank' rel='noopener noreferrer'>
+          <i className='fas fa-play me-2'></i>
+          Demo
+        </a>
         </Menu>
 
       {/* Main Navigation Bar */}
@@ -166,6 +176,11 @@ export default function Header() {
                 About Me
               </Link>
 
+              <Link href='/projects' className='nav-link-desktop'>
+                <i className='fas fa-briefcase me-1'></i>
+                Projects
+              </Link>
+
               <Link href='/novice-to-navigator' className='nav-link-desktop'>
                 <i className='fas fa-graduation-cap me-1'></i>
                 Learn AI
@@ -175,6 +190,11 @@ export default function Header() {
                 <i className='fas fa-blog me-1'></i>
                 Blog
               </Link>
+
+              <a href='https://chat.adam.matthewsteinberger.com/' className='nav-link-desktop' target='_blank' rel='noopener noreferrer'>
+                <i className='fas fa-play me-1'></i>
+                Demo
+              </a>
 
               <Link href='/contact' className='nav-link-desktop'>
                 <i className='fas fa-envelope me-1'></i>

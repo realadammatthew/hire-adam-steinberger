@@ -34,6 +34,12 @@ const staticPages = [
     lastmod: new Date().toISOString().split('T')[0],
     changefreq: 'weekly',
     priority: '0.8'
+  },
+  {
+    url: '/projects/',
+    lastmod: new Date().toISOString().split('T')[0],
+    changefreq: 'monthly',
+    priority: '0.9'
   }
 ];
 
@@ -81,28 +87,50 @@ function getArticlePages() {
   }
 }
 
+// Get project pages from the projects data file
+function getProjectPages() {
+  try {
+    const projectsPath = path.join(process.cwd(), 'src/data/projects.ts');
+    const projectsContent = fs.readFileSync(projectsPath, 'utf8');
+
+    // Extract project slugs from the projects array
+    const slugMatches = projectsContent.match(/slug:\s*['"`]([^'"`]+)['"`]/g) || [];
+    const slugs = slugMatches.map(match => match.match(/['"`]([^'"`]+)['"`]/)[1]);
+
+    return slugs.map(slug => ({
+      url: `/projects/${slug}/`,
+      lastmod: new Date().toISOString().split('T')[0],
+      changefreq: 'monthly',
+      priority: '0.8'
+    }));
+  } catch (error) {
+    console.error('Error reading projects data:', error);
+    return [];
+  }
+}
+
 // Get blog pages from the blog content directory
 function getBlogPages() {
   try {
     const blogDir = path.join(process.cwd(), 'src/content/blog');
-    
+
     if (!fs.existsSync(blogDir)) {
       return [];
     }
-    
+
     const files = fs.readdirSync(blogDir);
     const blogPages = [];
-    
+
     files.forEach(file => {
       if (file.endsWith('.md')) {
         const slug = file.replace('.md', '');
         const filePath = path.join(blogDir, file);
         const content = fs.readFileSync(filePath, 'utf8');
-        
+
         // Extract published date from frontmatter
         const publishedMatch = content.match(/publishedDate:\s*['"`]([^'"`]+)['"`]/);
         const publishedDate = publishedMatch ? publishedMatch[1] : new Date().toISOString().split('T')[0];
-        
+
         blogPages.push({
           url: `/blog/${slug}`,
           lastmod: publishedDate,
@@ -111,7 +139,7 @@ function getBlogPages() {
         });
       }
     });
-    
+
     return blogPages;
   } catch (error) {
     console.error('Error reading blog content:', error);
@@ -125,6 +153,7 @@ function generateSitemap() {
     ...staticPages,
     ...getServicePages(),
     ...getArticlePages(),
+    ...getProjectPages(),
     ...getBlogPages()
   ];
   

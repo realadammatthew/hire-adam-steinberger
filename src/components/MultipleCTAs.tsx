@@ -31,7 +31,7 @@ export default function MultipleCTAs() {
               <p className="mt-2 text-secondary">Experience the technology</p>
             </div>
             <div className="col-md-6 mb-3">
-              <Link href="/novice-to-navigator" className="btn btn-outline-success btn-lg w-100">
+              <Link href="/novice-to-navigator" className="btn btn-outline-primary btn-lg w-100" style={{border: '2px solid #bfdbfe'}}>
                 <i className="fas fa-graduation-cap"></i> Learn about AI
               </Link>
               <p className="mt-2 text-secondary">33-article education series</p>
@@ -39,13 +39,13 @@ export default function MultipleCTAs() {
           </div>
           <div className="row">
             <div className="col-md-6 mb-3">
-              <Link href="/blog" className="btn btn-outline-success btn-lg w-100">
+              <Link href="/blog" className="btn btn-outline-primary btn-lg w-100" style={{border: '2px solid #bfdbfe'}}>
                 <i className="fas fa-newspaper"></i> Read the Blog
               </Link>
               <p className="mt-2 text-secondary">AI insights & case studies</p>
             </div>
             <div className="col-md-6 mb-3">
-              <Link href="/services" className="btn btn-outline-info btn-lg w-100">
+              <Link href="/services" className="btn btn-outline-primary btn-lg w-100" style={{border: '2px solid #bfdbfe'}}>
                 <i className="fas fa-tools"></i> My Services
               </Link>
               <p className="mt-2 text-secondary">Browse all of my services</p>

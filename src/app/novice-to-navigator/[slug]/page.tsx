@@ -38,10 +38,11 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
       <div className="row">
         <div className="col-12">
           <div className="article-content">
-            <Link href="/novice-to-navigator" className="fw-bold">Novice to Navigator</Link>
-            
-            <h1 className="article-title">{articleContent.title}</h1>
-            <br />
+            <div className="mb-3">
+              <Link href="/novice-to-navigator" className="fw-bold">Novice to Navigator</Link>
+            </div>
+
+            <h1 className="article-title mb-4" style={{display: 'block'}}>{articleContent.title}</h1>
             <div className="article-meta mb-4">
               <span className="badge bg-primary me-2">{articleContent.meta.section}</span>
               <span className="text-muted">{articleContent.meta.date}</span>
@@ -72,12 +73,12 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             <div className="d-flex justify-content-between border-top pt-4 mt-5">
               {prevArticle ? (
                 <Link href={`/novice-to-navigator/${prevArticle.slug}`} className="btn btn-outline-primary">
-                  ← {prevArticle.title}
+                  ← Previous
                 </Link>
               ) : <span />}
               {nextArticle ? (
                 <Link href={`/novice-to-navigator/${nextArticle.slug}`} className="btn btn-outline-primary ms-auto">
-                  {nextArticle.title} →
+                  Next →
                 </Link>
               ) : <span />}
             </div>
