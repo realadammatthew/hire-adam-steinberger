@@ -9,6 +9,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
   const [isClient, setIsClient] = useState(false);
+  const [servicesTimeout, setServicesTimeout] = useState<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     setIsClient(true);
@@ -28,6 +29,21 @@ export default function Header() {
 
   const closeServices = () => {
     setIsServicesOpen(false);
+  };
+
+  const handleServicesMouseEnter = () => {
+    if (servicesTimeout) {
+      clearTimeout(servicesTimeout);
+      setServicesTimeout(null);
+    }
+    setIsServicesOpen(true);
+  };
+
+  const handleServicesMouseLeave = () => {
+    const timeout = setTimeout(() => {
+      setIsServicesOpen(false);
+    }, 500);
+    setServicesTimeout(timeout);
   };
 
   return (
@@ -98,7 +114,11 @@ export default function Header() {
             <div className='nav-list'>
               <Link href='/' className='nav-link-desktop'>Home</Link>
 
-              <div className='dropdown-wrapper' onMouseLeave={closeServices}>
+              <div
+                className='dropdown-wrapper'
+                onMouseEnter={handleServicesMouseEnter}
+                onMouseLeave={handleServicesMouseLeave}
+              >
                 <button
                   className='nav-link-desktop dropdown-btn'
                   onClick={toggleServices}
