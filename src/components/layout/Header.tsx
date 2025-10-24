@@ -87,6 +87,11 @@ export default function Header() {
           Learn AI
         </Link>
 
+        <Link href='/blog' className='menu-item' onClick={closeMenu}>
+          <i className='fas fa-blog me-2'></i>
+          Blog
+        </Link>
+
         <Link href='/contact' className='menu-item' onClick={closeMenu}>
           <i className='fas fa-envelope me-2'></i>
           Contact
@@ -112,7 +117,10 @@ export default function Header() {
           {/* Desktop Navigation */}
           <div className='desktop-nav d-none d-lg-flex'>
             <div className='nav-list'>
-              <Link href='/' className='nav-link-desktop'>Home</Link>
+              <Link href='/' className='nav-link-desktop'>
+                <i className='fas fa-home me-1'></i>
+                Home
+              </Link>
 
               <div
                 className='dropdown-wrapper'
@@ -123,22 +131,47 @@ export default function Header() {
                   className='nav-link-desktop dropdown-btn'
                   onClick={toggleServices}
                 >
+                  <i className='fas fa-cogs me-1'></i>
                   Services
                   <i className={`fas fa-chevron-down ms-1 ${isServicesOpen ? 'rotate' : ''}`}></i>
                 </button>
                 {isServicesOpen && (
                   <div className='dropdown-menu-custom'>
-                    <Link href='/services/custom-chatbots' className='dropdown-item-custom' onClick={closeServices}>Custom Chatbots</Link>
-                    <Link href='/services/llm-development' className='dropdown-item-custom' onClick={closeServices}>LLM Development</Link>
-                    <Link href='/services/rag-development' className='dropdown-item-custom' onClick={closeServices}>RAG Systems</Link>
+                    <Link href='/services/custom-chatbots' className='dropdown-item-custom' onClick={closeServices}>
+                      <i className='fas fa-robot me-2'></i>
+                      Custom Chatbots
+                    </Link>
+                    <Link href='/services/llm-development' className='dropdown-item-custom' onClick={closeServices}>
+                      <i className='fas fa-brain me-2'></i>
+                      LLM Development
+                    </Link>
+                    <Link href='/services/rag-development' className='dropdown-item-custom' onClick={closeServices}>
+                      <i className='fas fa-search me-2'></i>
+                      RAG Systems
+                    </Link>
                     <div className='dropdown-divider-custom'></div>
-                    <Link href='/services' className='dropdown-item-custom' onClick={closeServices}>All Services</Link>
+                    <Link href='/services' className='dropdown-item-custom' onClick={closeServices}>
+                      <i className='fas fa-list me-2'></i>
+                      All Services
+                    </Link>
                   </div>
                 )}
               </div>
 
-              <Link href='/novice-to-navigator' className='nav-link-desktop'>Learn AI</Link>
-              <Link href='/contact' className='nav-link-desktop'>Contact</Link>
+              <Link href='/novice-to-navigator' className='nav-link-desktop'>
+                <i className='fas fa-graduation-cap me-1'></i>
+                Learn AI
+              </Link>
+
+              <Link href='/blog' className='nav-link-desktop'>
+                <i className='fas fa-blog me-1'></i>
+                Blog
+              </Link>
+
+              <Link href='/contact' className='nav-link-desktop'>
+                <i className='fas fa-envelope me-1'></i>
+                Contact
+              </Link>
             </div>
           </div>
         </div>
