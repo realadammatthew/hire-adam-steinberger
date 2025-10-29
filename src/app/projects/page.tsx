@@ -160,6 +160,53 @@ export default function ProjectsPage() {
           </div>
         </div>
       </section>
+
+      {/* Side Projects */}
+      <section className="side-projects py-4">
+        <div className="container">
+          <h3 className="text-center mb-4 text-white-50" style={{ fontSize: '1.1rem' }}>Side Projects</h3>
+          <div className="row justify-content-center">
+            <div className="col-lg-5 col-md-6 mb-3">
+              <div className="card bg-dark border-secondary shadow-sm">
+                <div className="card-body p-3">
+                  <h5 className="card-title mb-2" style={{ fontSize: '1rem' }}>
+                    <a
+                      href="https://humbleberger.org"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-decoration-none text-white"
+                    >
+                      Humbleberger Ministries <i className="fas fa-external-link-alt fa-xs ms-1"></i>
+                    </a>
+                  </h5>
+                  <p className="card-text small text-white-50 mb-0">
+                    Messianic ministry and outreach organization
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-5 col-md-6 mb-3">
+              <div className="card bg-dark border-secondary shadow-sm">
+                <div className="card-body p-3">
+                  <h5 className="card-title mb-2" style={{ fontSize: '1rem' }}>
+                    <a
+                      href="https://messiahfirst.org"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-decoration-none text-white"
+                    >
+                      Messiah First for America PAC <i className="fas fa-external-link-alt fa-xs ms-1"></i>
+                    </a>
+                  </h5>
+                  <p className="card-text small text-white-50 mb-0">
+                    Political action committee
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
