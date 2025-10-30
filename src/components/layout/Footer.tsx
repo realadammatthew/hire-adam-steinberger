@@ -52,6 +52,17 @@ export default function Footer() {
             <a href="https://coff.ee/realadammatthew" className="fw-bold">Buy me a Coffee</a>
           </div>
         </div>
+        <div className="row justify-content-center">
+          <div className="col-auto">
+            <a href="https://humbleberger.org" className="fw-bold">Ministry</a>
+            &nbsp;|&nbsp;
+            <a href="https://messiahfirst.org" className="fw-bold">Policy</a>
+            &nbsp;|&nbsp;
+            <a href="https://chat.adam.matthewsteinberger.com" className="fw-bold">Chat</a>
+            &nbsp;|&nbsp;
+            <a href="https://theautisticapologist.com/" className="fw-bold">Blog</a>
+          </div>
+        </div>
         <div className="mt-3">
           © Copyright {new Date().getFullYear()} <Link href="/">Adam Matthew Steinberger LLC</Link>. All Rights Reserved.
         </div>

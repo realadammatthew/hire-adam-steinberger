@@ -166,7 +166,7 @@ export default function ProjectsPage() {
         <div className="container">
           <h3 className="text-center mb-4 text-white-50" style={{ fontSize: '1.1rem' }}>Side Projects</h3>
           <div className="row justify-content-center">
-            <div className="col-lg-5 col-md-6 mb-3">
+            <div className="col-lg-4 col-md-6 mb-3">
               <div className="card bg-dark border-secondary shadow-sm">
                 <div className="card-body p-3">
                   <h5 className="card-title mb-2" style={{ fontSize: '1rem' }}>
@@ -185,7 +185,7 @@ export default function ProjectsPage() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-5 col-md-6 mb-3">
+            <div className="col-lg-4 col-md-6 mb-3">
               <div className="card bg-dark border-secondary shadow-sm">
                 <div className="card-body p-3">
                   <h5 className="card-title mb-2" style={{ fontSize: '1rem' }}>
@@ -200,6 +200,25 @@ export default function ProjectsPage() {
                   </h5>
                   <p className="card-text small text-white-50 mb-0">
                     Political action committee
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 mb-3">
+              <div className="card bg-dark border-secondary shadow-sm">
+                <div className="card-body p-3">
+                  <h5 className="card-title mb-2" style={{ fontSize: '1rem' }}>
+                    <a
+                      href="https://theautisticapologist.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-decoration-none text-white"
+                    >
+                      The Autistic Apologist <i className="fas fa-external-link-alt fa-xs ms-1"></i>
+                    </a>
+                  </h5>
+                  <p className="card-text small text-white-50 mb-0">
+                    Messianic apologetics, philosophy and science
                   </p>
                 </div>
               </div>
